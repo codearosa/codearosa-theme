@@ -1,0 +1,53 @@
+/*font family*/
+/*Colors*/
+/*border-style*/
+/*enable*/
+/*--------------------------------------------------------------
+## Login
+--------------------------------------------------------------*/
+body.login div#login h1 a {
+  background-image: url(https://codearosa.de/wp-content/uploads/2018/12/Favicon-Codearosa.png);
+  padding-bottom: 30px;
+}
+
+body.login {
+  background-color: #C8689A;
+}
+
+p#backtoblog {
+  display: none;
+}
+
+.login form {
+  border-radius: 10px;
+}
+
+.login #backtoblog a, .login #nav a {
+  color: #ffff;
+}
+
+/* Submit  input button*/
+.wp-core-ui .button-primary,
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:active {
+  box-shadow: none;
+  width: 100%;
+  margin: 1em auto;
+  text-align: center;
+  background: #C8689A !important;
+  border: none;
+  text-shadow: none;
+}
+
+form, input {
+  /*force yellow background in chrome*/
+  -webkit-box-shadow: 0 0 0 100px rgba(250, 250, 250, 0) inset !important;
+  border: 1px solid #C8689A;
+  background-image: none !important;
+  color: black !important;
+}
+
+input:focus, textarea, button:focus {
+  border: none !important;
+}
