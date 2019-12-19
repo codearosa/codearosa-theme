@@ -15,7 +15,7 @@ function theme_enqueue_styles() {
 
 	// Get the theme data
 	$the_theme = wp_get_theme();
-    wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/styles/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
+    wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/sass/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
     wp_enqueue_script( 'jquery');
 	wp_enqueue_script( 'popper-scripts', get_stylesheet_directory_uri() . '/js/popper.min.js', array(), false);
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
@@ -100,7 +100,7 @@ add_filter( 'login_headerurl', 'custom_login_logo_url' );
 
 function codearosa_login()
 {
-echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/styles/css/stylemylogin.min.css" />';
+echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/sass/css/stylemylogin.min.css" />';
 }
 add_action('login_head', 'codearosa_login');
 
@@ -119,7 +119,7 @@ add_filter( 'pre_option_link_manager_enabled', '__return_true' );
  * Enqueue editor styles for Gutenberg
  */
 function codearosa_editor_styles() {
-	wp_enqueue_style( 'codearosa-editor-style', get_stylesheet_directory_uri() . '/styles/css/custom-editor-style.min.css' );
+	wp_enqueue_style( 'codearosa-editor-style', get_stylesheet_directory_uri() . '/sass/css/custom-editor-style.min.css' );
 
 }
 add_action( 'enqueue_block_editor_assets', 'codearosa_editor_styles' );
