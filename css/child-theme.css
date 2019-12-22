@@ -23642,3 +23642,27 @@ figure.woocommerce-product-gallery__wrapper {
   display: block; }
 
 /**/
+/*mobile header*/
+.collapsing {
+  display: none; }
+
+.collapse.show {
+  height: 100vh !important;
+  -webkit-animation-name: fade;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 4s; }
+
+.collapse.show ui {
+  width: 100% !important; }
+
+.collapse.show li {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  font-size: 34px;
+  -webkit-transition: ease;
+  transition: ease;
+  border-radius: 20px; }
