@@ -56,7 +56,7 @@
 							 <a class="navbar-brand w-50 m-0" <?php the_custom_logo(); ?></a>
 						<?php } ?><!-- end custom logo -->
 
-									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fas fa-search" aria-hidden="true"></i> </a>
+									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>
 
 
 									<?php wp_nav_menu(
@@ -72,7 +72,7 @@
 										)
 									); ?>
 
-									<a href="#" class="nav-link d-none d-lg-block" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fas fa-search" aria-hidden="true"></i> </a>
+									<a href="#" class="nav-link d-none d-lg-block" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>
 
 
 				</nav>
