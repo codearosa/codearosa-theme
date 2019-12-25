@@ -23,8 +23,10 @@
 
 	<?php wp_head(); ?>
 </head>
+<div class="preloader"></div>
 
 <body <?php body_class(); ?>>
+	
 <div id="page" class="site">
 
 
