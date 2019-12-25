@@ -23,10 +23,11 @@
 
 	<?php wp_head(); ?>
 </head>
-<div class="preloader"></div>
+
+<?php get_template_part( 'template-particles/preloader', 'none' ); ?>
 
 <body <?php body_class(); ?>>
-	
+
 <div id="page" class="site">
 
 
