@@ -24,8 +24,6 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php get_template_part( 'template-particles/preloader', 'none' ); ?>
-
 <body <?php body_class(); ?>>
 
 <div id="page" class="site">
