@@ -11985,8 +11985,8 @@ a.skip-link {
 .primary-neumorph:hover {
   border-color: #d386ae !important;
   background: linear-gradient(145deg, #d386ae, #bd4a86) !important;
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
+  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
 
 .white-neumorph-hover,
 .white-neumorph,
@@ -11994,21 +11994,21 @@ a.skip-link {
 .white-neumorph:hover {
   border-color: white !important;
   background: linear-gradient(145deg, white, #dce1df) !important;
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
+  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
 
 .grey-neumorph,
 .grey-neumorph:focus,
 .grey-neumorph:hover {
   border-color: #c8c9cd !important;
   background: linear-gradient(145deg, #c8c9cd, #9c9fa7) !important;
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
+  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
 
 .success-neumorph,
 .success-neumorph:focus,
 .success-neumorph:hover {
   border-color: #3e435a !important;
   background: linear-gradient(145deg, #3e435a, #1c1f2a) !important;
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
+  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
