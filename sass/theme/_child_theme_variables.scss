@@ -11,14 +11,18 @@
 $font-family-base: Raleway;
 
 /*Colors*/
+$white:     #F2F4F3;
 $primary:   #C8689A;
-$secondary: #ffffff;
-$success:   #60B7C1;
-$info:      #C8689A;
-$warning:   #7B3459;
-$danger:    #7B3459;
+$secondary: #F2F4F3;
+$success:   #2D3142;
+$info:      #B2B4BA;
+$warning:   #2D3142;
+$danger:    #2D3142;
 $light:     rgba(250,250,250,0.7);
-$dark:      #000000;
+$dark:      #0A090C;
+
+$body-bg:          $secondary;
+$body-color:       $dark;
 
 /*border-style*/
 $borderradius: 10px;
