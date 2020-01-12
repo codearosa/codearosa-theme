@@ -214,30 +214,35 @@
 .primary-neumorph,
 .primary-neumorph:focus,
 .primary-neumorph:hover {
-  background-color: #C8689A;
-  border-color: #d386ae;
-  background: linear-gradient(145deg, #d386ae, #bd4a86);
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24);
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24); }
+  border-color: #d386ae !important;
+  background: linear-gradient(145deg, #d386ae, #bd4a86) !important;
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
 
 .white-neumorph-hover,
 .white-neumorph,
 .white-neumorph:focus,
 .white-neumorph:hover {
-  background-color: #F2F4F3;
-  border-color: white;
-  background: linear-gradient(145deg, white, #dce1df);
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24);
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24); }
+  border-color: white !important;
+  background: linear-gradient(145deg, white, #dce1df) !important;
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
 
-.info-neumorph,
-.info-neumorph:focus,
-.info-neumorph:hover {
-  background-color: #B2B4BA;
-  border-color: #c8c9cd;
-  background: linear-gradient(145deg, #c8c9cd, #9c9fa7);
-  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24);
-          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24); }
+.grey-neumorph,
+.grey-neumorph:focus,
+.grey-neumorph:hover {
+  border-color: #c8c9cd !important;
+  background: linear-gradient(145deg, #c8c9cd, #9c9fa7) !important;
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
+
+.success-neumorph,
+.success-neumorph:focus,
+.success-neumorph:hover {
+  border-color: #3e435a !important;
+  background: linear-gradient(145deg, #3e435a, #1c1f2a) !important;
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important;
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612) !important, -10px 7px rgba(255, 255, 255, 0.24) !important; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

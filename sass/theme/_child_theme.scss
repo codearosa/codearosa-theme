@@ -43,34 +43,43 @@ $secondary-darken: darken( $secondary, $neumorphism-darken-lighten);
 $info-lighten: lighten( $info, $neumorphism-darken-lighten);
 $info-darken: darken( $info, $neumorphism-darken-lighten);
 
+$success-lighten: lighten( $success, $neumorphism-darken-lighten);
+$success-darken: darken( $success, $neumorphism-darken-lighten);
+
 
 .primary-neumorph,
 .primary-neumorph:focus,
 .primary-neumorph:hover {
-  background-color: $primary;
-  border-color:  $primary-lighten;
-  background: linear-gradient(145deg, $primary-lighten, $primary-darken);
-  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark,
-            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light;
+  border-color:  $primary-lighten !important;
+  background: linear-gradient(145deg, $primary-lighten, $primary-darken)!important;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark !important,
+            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light!important;
 }
 
 .white-neumorph-hover,
 .white-neumorph,
 .white-neumorph:focus,
 .white-neumorph:hover {
-  background-color: $secondary;
-  border-color: $secondary-lighten;
-  background: linear-gradient(145deg, $secondary-lighten, $secondary-darken);
-  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark,
-            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light;
+  border-color: $secondary-lighten !important;
+  background: linear-gradient(145deg, $secondary-lighten, $secondary-darken) !important;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark !important,
+            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light !important;
 }
 
-.info-neumorph,
-.info-neumorph:focus,
-.info-neumorph:hover {
-  background-color: $info;
-  border-color:  $info-lighten;
-  background: linear-gradient(145deg, $info-lighten, $info-darken);
-  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark,
-            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light;
+.grey-neumorph,
+.grey-neumorph:focus,
+.grey-neumorph:hover {
+  border-color:  $info-lighten !important;
+  background: linear-gradient(145deg, $info-lighten, $info-darken)!important;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark !important,
+            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light !important;
+}
+
+.success-neumorph,
+.success-neumorph:focus,
+.success-neumorph:hover {
+  border-color:  $success-lighten !important;
+  background: linear-gradient(145deg, $success-lighten, $success-darken)!important;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $box-shadow-dark !important,
+            -$neumorphism-distance -$neumorphism-distance $neumorphism-blur $box-shadow-light !important;
 }
