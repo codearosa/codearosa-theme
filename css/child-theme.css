@@ -184,6 +184,61 @@
 /*Colors*/
 /*border-style*/
 /*enable*/
+/**/
+/*mobile header*/
+.collapsing {
+  display: none; }
+
+.collapse.show {
+  height: 100vh !important;
+  -webkit-animation-name: fade;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 4s; }
+
+.collapse.show ui {
+  width: 100% !important; }
+
+.collapse.show li {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  font-size: 34px;
+  -webkit-transition: ease;
+  transition: ease;
+  border-radius: 20px; }
+
+/*neumorphism*/
+.primary-neumorph,
+.primary-neumorph:focus,
+.primary-neumorph:hover {
+  background-color: #C8689A;
+  border-color: #d386ae;
+  background: linear-gradient(145deg, #d386ae, #bd4a86);
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24);
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24); }
+
+.white-neumorph-hover,
+.white-neumorph,
+.white-neumorph:focus,
+.white-neumorph:hover {
+  background-color: #F2F4F3;
+  border-color: white;
+  background: linear-gradient(145deg, white, #dce1df);
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24);
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24); }
+
+.info-neumorph,
+.info-neumorph:focus,
+.info-neumorph:hover {
+  background-color: #B2B4BA;
+  border-color: #c8c9cd;
+  background: linear-gradient(145deg, #c8c9cd, #9c9fa7);
+  -webkit-box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24);
+          box-shadow: 5px 5px 7px rgba(217, 210, 200, 0.612), -10px 7px rgba(255, 255, 255, 0.24); }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -23640,29 +23695,3 @@ figure.woocommerce-product-gallery__wrapper {
 
 .gallery-caption {
   display: block; }
-
-/**/
-/*mobile header*/
-.collapsing {
-  display: none; }
-
-.collapse.show {
-  height: 100vh !important;
-  -webkit-animation-name: fade;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: fade;
-  animation-duration: 4s; }
-
-.collapse.show ui {
-  width: 100% !important; }
-
-.collapse.show li {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 1em;
-  font-size: 34px;
-  -webkit-transition: ease;
-  transition: ease;
-  border-radius: 20px; }
