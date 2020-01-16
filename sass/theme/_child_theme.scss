@@ -35,7 +35,6 @@
 .primary-neumorph:hover,
 .primary-neumorph:visited,
 .primary-neumorph:focus {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: transparent;
   outline: 0 none;
@@ -46,7 +45,6 @@
 }
 
 .primary-neumorph:active {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: $primary;
   background: $primary;
@@ -54,12 +52,11 @@
             inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $primary-box-shadow-light;
 }
 
-//secondary button
+//grey button
 .secondary-neumorph,
 .secondary-neumorph:hover,
 .secondary-neumorph:visited,
 .secondary-neumorph:focus {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: transparent;
   outline: 0 none;
@@ -70,7 +67,6 @@
 }
 
 .secondary-neumorph:active {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: $secondary;
   background: $secondary;
@@ -83,7 +79,6 @@
 .info-neumorph:hover,
 .info-neumorph:visited,
 .info-neumorph:focus {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: transparent;
   outline: 0 none;
@@ -94,7 +89,6 @@
 }
 
 .info-neumorph:active {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: $info;
   background: $info;
@@ -107,7 +101,6 @@
 .success-neumorph:hover,
 .success-neumorph:visited,
 .success-neumorph:focus {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: transparent;
   outline: 0 none;
@@ -118,7 +111,6 @@
 }
 
 .success-neumorph:active {
-  padding: $button-size;
   border-radius: $borderradius;
   border-color: $success;
   background: $success;

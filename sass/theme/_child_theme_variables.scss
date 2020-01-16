@@ -12,10 +12,10 @@ $font-family-base: Raleway;
 
 /*Colors*/
 $white:     #F2F4F3;
-$primary:   #C8689A;
-$secondary: #F2F4F3;
-$success:   #2D3142;
-$info:      #B2B4BA;
+$primary:   #C8689A;  //rosa
+$secondary: #F2F4F3;  //white
+$success:   #2D3142;  //blue
+$info:      #B2B4BA;  //grey
 $warning:   #2D3142;
 $danger:    #2D3142;
 $light:     rgba(250,250,250,0.7);
@@ -35,11 +35,9 @@ $enable-shadows: true;
 /*
 *
 *Neumorphism Buttons*/
-$borderradius: 10px;
-$button-size: 20px;
 
 //Neumorphism variables
-$neumorphism-darken-lighten: 10%;   //intensitiy coloring
+$neumorphism-darken-lighten: 20%;   //intensitiy coloring
 $primary-lighten: lighten( $primary, $neumorphism-darken-lighten);
 $primary-darken: darken( $primary, $neumorphism-darken-lighten);
 $secondary-lighten: lighten( $secondary, $neumorphism-darken-lighten);

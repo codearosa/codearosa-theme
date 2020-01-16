@@ -220,7 +220,6 @@
 .primary-neumorph:hover,
 .primary-neumorph:visited,
 .primary-neumorph:focus {
-  padding: 20px;
   border-radius: 10px;
   border-color: transparent;
   outline: 0 none;
@@ -229,7 +228,6 @@
           box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
 
 .primary-neumorph:active {
-  padding: 20px;
   border-radius: 10px;
   border-color: #C8689A;
   background: #C8689A;
@@ -240,7 +238,6 @@
 .secondary-neumorph:hover,
 .secondary-neumorph:visited,
 .secondary-neumorph:focus {
-  padding: 20px;
   border-radius: 10px;
   border-color: transparent;
   outline: 0 none;
@@ -249,7 +246,6 @@
           box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white; }
 
 .secondary-neumorph:active {
-  padding: 20px;
   border-radius: 10px;
   border-color: #F2F4F3;
   background: #F2F4F3;
@@ -260,7 +256,6 @@
 .info-neumorph:hover,
 .info-neumorph:visited,
 .info-neumorph:focus {
-  padding: 20px;
   border-radius: 10px;
   border-color: transparent;
   outline: 0 none;
@@ -269,7 +264,6 @@
           box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
 
 .info-neumorph:active {
-  padding: 20px;
   border-radius: 10px;
   border-color: #B2B4BA;
   background: #B2B4BA;
@@ -280,7 +274,6 @@
 .success-neumorph:hover,
 .success-neumorph:visited,
 .success-neumorph:focus {
-  padding: 20px;
   border-radius: 10px;
   border-color: transparent;
   outline: 0 none;
@@ -289,7 +282,6 @@
           box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
 
 .success-neumorph:active {
-  padding: 20px;
   border-radius: 10px;
   border-color: #2D3142;
   background: #2D3142;
