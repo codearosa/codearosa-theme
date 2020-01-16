@@ -220,7 +220,7 @@
 .primary-neumorph:hover,
 .primary-neumorph:visited,
 .primary-neumorph:focus {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: transparent;
   outline: 0 none;
   background: #C8689A;
@@ -228,7 +228,7 @@
           box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
 
 .primary-neumorph:active {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: #C8689A;
   background: #C8689A;
   -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
@@ -238,7 +238,7 @@
 .secondary-neumorph:hover,
 .secondary-neumorph:visited,
 .secondary-neumorph:focus {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: transparent;
   outline: 0 none;
   background: #F2F4F3;
@@ -246,7 +246,7 @@
           box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white; }
 
 .secondary-neumorph:active {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: #F2F4F3;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
@@ -256,7 +256,7 @@
 .info-neumorph:hover,
 .info-neumorph:visited,
 .info-neumorph:focus {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: transparent;
   outline: 0 none;
   background: #B2B4BA;
@@ -264,7 +264,7 @@
           box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
 
 .info-neumorph:active {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: #B2B4BA;
   background: #B2B4BA;
   -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
@@ -274,7 +274,7 @@
 .success-neumorph:hover,
 .success-neumorph:visited,
 .success-neumorph:focus {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: transparent;
   outline: 0 none;
   background: #2D3142;
@@ -282,7 +282,7 @@
           box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
 
 .success-neumorph:active {
-  border-radius: 10px;
+  border-radius: 10px !important;
   border-color: #2D3142;
   background: #2D3142;
   -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;

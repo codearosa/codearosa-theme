@@ -35,7 +35,7 @@
 .primary-neumorph:hover,
 .primary-neumorph:visited,
 .primary-neumorph:focus {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: transparent;
   outline: 0 none;
   background: $primary;
@@ -45,7 +45,7 @@
 }
 
 .primary-neumorph:active {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: $primary;
   background: $primary;
   box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $primary-box-shadow-dark,
@@ -57,7 +57,7 @@
 .secondary-neumorph:hover,
 .secondary-neumorph:visited,
 .secondary-neumorph:focus {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: transparent;
   outline: 0 none;
   background: $secondary;
@@ -67,7 +67,7 @@
 }
 
 .secondary-neumorph:active {
-  border-radius: $borderradius;
+  border-radius: $borderradius!important;
   border-color: $secondary;
   background: $secondary;
   box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
@@ -79,7 +79,7 @@
 .info-neumorph:hover,
 .info-neumorph:visited,
 .info-neumorph:focus {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: transparent;
   outline: 0 none;
   background: $info;
@@ -89,7 +89,7 @@
 }
 
 .info-neumorph:active {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: $info;
   background: $info;
   box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $info-box-shadow-dark,
@@ -101,7 +101,7 @@
 .success-neumorph:hover,
 .success-neumorph:visited,
 .success-neumorph:focus {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: transparent;
   outline: 0 none;
   background: $success;
@@ -111,7 +111,7 @@
 }
 
 .success-neumorph:active {
-  border-radius: $borderradius;
+  border-radius: $borderradius !important;
   border-color: $success;
   background: $success;
   box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $success-box-shadow-dark,
