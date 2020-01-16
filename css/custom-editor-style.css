@@ -184,6 +184,9 @@
 /*Colors*/
 /*border-style*/
 /*enable*/
+/*
+*
+*Neumorphism Buttons*/
 .wp-block {
   max-width: 100%; }
 
@@ -11979,36 +11982,85 @@ a.skip-link {
   transition: ease;
   border-radius: 20px; }
 
-/*neumorphism*/
+/*
+*
+*Neumorphism Buttons*/
 .primary-neumorph,
-.primary-neumorph:focus,
-.primary-neumorph:hover {
-  border-color: #d386ae !important;
-  background: linear-gradient(145deg, #d386ae, #bd4a86) !important;
-  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
+.primary-neumorph:hover,
+.primary-neumorph:visited,
+.primary-neumorph:focus {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: transparent;
+  outline: 0 none;
+  background: #C8689A;
+  -webkit-box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3;
+          box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
 
-.white-neumorph-hover,
-.white-neumorph,
-.white-neumorph:focus,
-.white-neumorph:hover {
-  border-color: white !important;
-  background: linear-gradient(145deg, white, #dce1df) !important;
-  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
+.primary-neumorph:active {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #C8689A;
+  background: #C8689A;
+  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
+          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
 
-.grey-neumorph,
-.grey-neumorph:focus,
-.grey-neumorph:hover {
-  border-color: #c8c9cd !important;
-  background: linear-gradient(145deg, #c8c9cd, #9c9fa7) !important;
-  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
+.secondary-neumorph,
+.secondary-neumorph:hover,
+.secondary-neumorph:visited,
+.secondary-neumorph:focus {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: transparent;
+  outline: 0 none;
+  background: #F2F4F3;
+  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white;
+          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white; }
+
+.secondary-neumorph:active {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #F2F4F3;
+  background: #F2F4F3;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white; }
+
+.info-neumorph,
+.info-neumorph:hover,
+.info-neumorph:visited,
+.info-neumorph:focus {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: transparent;
+  outline: 0 none;
+  background: #B2B4BA;
+  -webkit-box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2;
+          box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
+
+.info-neumorph:active {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #B2B4BA;
+  background: #B2B4BA;
+  -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
+          box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2; }
 
 .success-neumorph,
-.success-neumorph:focus,
-.success-neumorph:hover {
-  border-color: #3e435a !important;
-  background: linear-gradient(145deg, #3e435a, #1c1f2a) !important;
-  -webkit-box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important;
-          box-shadow: 19px 19px 7px rgba(217, 210, 200, 0.612) !important, -38px 7px rgba(255, 255, 255, 0.24) !important; }
+.success-neumorph:hover,
+.success-neumorph:visited,
+.success-neumorph:focus {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: transparent;
+  outline: 0 none;
+  background: #2D3142;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+
+.success-neumorph:active {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #2D3142;
+  background: #2D3142;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860; }

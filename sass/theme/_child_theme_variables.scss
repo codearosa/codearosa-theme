@@ -31,3 +31,35 @@ $borderradius: 10px;
 $enable-gradients: true;
 $enable-transitions: true;
 $enable-shadows: true;
+
+/*
+*
+*Neumorphism Buttons*/
+$borderradius: 10px;
+$button-size: 20px;
+
+//Neumorphism variables
+$neumorphism-darken-lighten: 10%;   //intensitiy coloring
+$primary-lighten: lighten( $primary, $neumorphism-darken-lighten);
+$primary-darken: darken( $primary, $neumorphism-darken-lighten);
+$secondary-lighten: lighten( $secondary, $neumorphism-darken-lighten);
+$secondary-darken: darken( $secondary, $neumorphism-darken-lighten);
+$info-lighten: lighten( $info, $neumorphism-darken-lighten);
+$info-darken: darken( $info, $neumorphism-darken-lighten);
+$success-lighten: lighten( $success, $neumorphism-darken-lighten);
+$success-darken: darken( $success, $neumorphism-darken-lighten);
+
+$neumorphism-blur: 12px;    //12 blur intensitiy ideal
+$neumorphism-distance: 5px; //distance
+$neumorphism-insensity: 0.8;  //max 1
+
+//box shadow
+$box-shadow-intensity: 10%;
+$primary-box-shadow-light: lighten( $primary, $box-shadow-intensity);
+$primary-box-shadow-dark:  darken( $primary, $box-shadow-intensity);
+$secondary-box-shadow-light: lighten( $secondary, $box-shadow-intensity);
+$secondary-box-shadow-dark:  darken( $secondary, $box-shadow-intensity);
+$info-box-shadow-light: lighten( $info, $box-shadow-intensity);
+$info-box-shadow-dark:  darken( $info, $box-shadow-intensity);
+$success-box-shadow-light: lighten( $success, $box-shadow-intensity);
+$success-box-shadow-dark:  darken( $success, $box-shadow-intensity);
