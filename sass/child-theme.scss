@@ -4,8 +4,8 @@
 @import "theme/child_theme";  // <--------- Add your styles into this file
 @import "assets/bootstrap4";// <--------- Loads Bootstrap3 or Bootstrap4. Change from /bootstrap3 to /bootstrap4 Watch out! just for testing in the moment!
 @import "../../understrap/sass/theme"; // <------- Load understrap parent theme sass files
-@import "../src/sass/understrap/theme/contact-form7";// <-------- Loads some basic styling for contact form 7 plugin
+@import "../src/sass/understrap/theme/contact-form7"; // <-------- Loads some basic styling for contact form 7 plugin
 
 //Optional files - If you don´t use the corresponding scripts/fonts comment em out
-@import "assets/font-awesome"; // <------- Font Awesome Icon font
+@import "assets/font-awesome";   // <------- Font Awesome Icon font
 @import "assets/underscores"; // <------- Underscores media styles

@@ -19,7 +19,7 @@ p#backtoblog {
   display: none; }
 
 .login form {
-  border-radius: 10px; }
+  border-radius: 0.8rem; }
 
 .login #backtoblog a, .login #nav a {
   color: #ffff; }
@@ -47,3 +47,5 @@ form, input {
 
 input:focus, textarea, button:focus {
   border: none !important; }
+
+/*# sourceMappingURL=stylemylogin.css.map */
