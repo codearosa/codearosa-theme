@@ -1,0 +1,20 @@
+/*Beschriftung einzelner Felder ausblenden*/
+.nf-form-fields-required,
+.nf-field-label {
+    display:  none;
+}
+
+// Absenden Button Styles
+#nf-field-4 {
+  all: unset;
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .p-2;
+}
+
+input#nf-field-1,
+input#nf-field-2,
+input#nf-field-20,
+.ninja-forms-field.nf-element {
+  @include secondary-neumorph-active;
+}
