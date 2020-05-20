@@ -12120,6 +12120,9 @@ input#nf-field-20,
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
           box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white; }
 
+.card {
+  border: none !important; }
+
 /*mobile header*/
 .collapsing {
   display: none; }
