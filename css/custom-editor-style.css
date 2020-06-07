@@ -12255,7 +12255,7 @@ input#nf-field-23,
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px; }
+  width: 15px; }
 
 /* Track */
 ::-webkit-scrollbar-track {
