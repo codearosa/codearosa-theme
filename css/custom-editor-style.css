@@ -12272,6 +12272,17 @@ input#nf-field-23,
 ::-webkit-scrollbar-thumb:hover {
   background: #C8689A; }
 
+.wp-block-column.my-auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 /*mobile header*/
 .collapsing {
   display: none; }
