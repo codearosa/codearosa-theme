@@ -1,9 +1,11 @@
 /*Imports*/
-@import "child_theme_variables";               // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
-@import "custom/child_theme_white_neumorph";  // <--------- Add neumorph here
-@import "custom/ninja-form";                  // <--------- Add Ninja Form Styles here
-@import "custom/portfolio-card";                  // <--------- Add Ninja Form Styles here
-@import "custom/child_theme_typing_text";          // <--------- Typing Text animation
+@import "child_theme_variables";                  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "custom/child_theme_white_neumorph";     // <--------- Add neumorph here
+@import "custom/ninja-form";                     // <--------- Add Ninja Form Styles here
+@import "custom/portfolio-card";                 // <--------- Add Ninja Form Styles here
+@import "custom/child_theme_typing_text";        // <--------- Typing Text animation
+@import "custom/child_theme_custom_scrollbar";   // <--------- Custom Scrollbar
+
 
 /*mobile header*/
 .collapsing {
