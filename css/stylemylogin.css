@@ -116,11 +116,21 @@ p#backtoblog {
   font-size: large; }
 
 /*inputstyles*/
-input {
+.login input {
   border-color: #F2F4F3;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+  background-color: #F2F4F3 !important; }
+
+/*dashicons color*/
+.dashicons {
+  color: #C8689A !important; }
+
+/*login error color*/
+.login #login_error {
+  border-left-color: #C8689A !important;
+  border-left: 4px solid #C8689A !important; }
 
 form, input {
   /*force yellow background in chrome*/

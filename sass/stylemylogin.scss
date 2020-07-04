@@ -36,8 +36,19 @@ p#backtoblog {
 }
 
 /*inputstyles*/
-input {
+.login input {
 	@include secondary-neumorph-active;
+	background-color: $secondary !important;
+}
+
+/*dashicons color*/
+.dashicons {
+	color: $primary !important;
+}
+/*login error color*/
+.login #login_error {
+    border-left-color: $primary !important;
+		border-left: 4px solid $primary !important;
 }
 
 form, input {
