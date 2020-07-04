@@ -5,6 +5,86 @@
 /*
 *
 *Neumorphism Buttons*/
+/*
+*
+*Neumorphism Buttons*/
+.primary-neumorph,
+.primary-neumorph:hover,
+.primary-neumorph:visited,
+.primary-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #C8689A;
+  -webkit-box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3;
+          box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
+
+.primary-neumorph:active {
+  border-color: #C8689A;
+  background: #C8689A;
+  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
+          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
+
+.secondary-neumorph, #loginform, .wp-core-ui .button-primary,
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:active,
+.secondary-neumorph:hover,
+#loginform:hover,
+.wp-core-ui .button-primary:hover,
+.secondary-neumorph:visited,
+#loginform:visited,
+.wp-core-ui .button-primary:visited,
+.secondary-neumorph:focus,
+#loginform:focus,
+.wp-core-ui .button-primary:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #F2F4F3;
+  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
+          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
+
+.secondary-neumorph:active, #loginform:active,
+.wp-core-ui .button-primary:active {
+  border-color: #F2F4F3;
+  background: #F2F4F3;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
+
+.info-neumorph,
+.info-neumorph:hover,
+.info-neumorph:visited,
+.info-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #B2B4BA;
+  -webkit-box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2;
+          box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
+
+.info-neumorph:active {
+  border-color: #B2B4BA;
+  background: #B2B4BA;
+  -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
+          box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2; }
+
+.success-neumorph,
+.success-neumorph:hover:visited:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #2D3142;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+
+.success-neumorph:active {
+  border-color: #2D3142;
+  background: #2D3142;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860; }
+
+.success-neumorph a,
+.success-neumorph a:hover:visited:focus:active {
+  color: #F2F4F3 !important;
+  text-decoration: none !important; }
+
 /*--------------------------------------------------------------
 ## Login
 --------------------------------------------------------------*/
@@ -13,30 +93,34 @@ body.login div#login h1 a {
   padding-bottom: 30px; }
 
 body.login {
-  background-color: #C8689A; }
+  background-color: #F2F4F3; }
 
 p#backtoblog {
   display: none; }
 
-.login form {
+#loginform {
   border-radius: 0.8rem; }
 
 .login #backtoblog a, .login #nav a {
-  color: #ffff; }
+  color: #F2F4F3; }
 
 /* Submit  input button*/
 .wp-core-ui .button-primary,
 .wp-core-ui .button-primary:hover,
 .wp-core-ui .button-primary:focus,
 .wp-core-ui .button-primary:active {
-  -webkit-box-shadow: none;
-          box-shadow: none;
   width: 100%;
-  margin: 1em auto;
-  text-align: center;
-  background: #C8689A !important;
-  border: none;
-  text-shadow: none; }
+  color: #C8689A !important;
+  text-transform: uppercase !important;
+  margin-top: 1em;
+  font-size: large; }
+
+/*inputstyles*/
+input {
+  border-color: #F2F4F3;
+  background: #F2F4F3;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
 
 form, input {
   /*force yellow background in chrome*/

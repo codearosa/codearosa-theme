@@ -33,14 +33,14 @@
   background: $secondary;
   //transition: box-shadow 0.3s ease-in-out;
   box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
-            (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light;
+            (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light !important;
 }
 
 @mixin secondary-neumorph-active {
   border-color: $secondary;
   background: $secondary;
   box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
-            inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light;
+            inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light !important;
 }
 .secondary-neumorph:active {
   @include secondary-neumorph-active;

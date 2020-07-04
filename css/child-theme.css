@@ -221,14 +221,14 @@
   border-color: transparent;
   outline: 0 none;
   background: #F2F4F3;
-  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white;
-          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white; }
+  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
+          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
 
 .secondary-neumorph:active {
   border-color: #F2F4F3;
   background: #F2F4F3;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white; }
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
 
 .info-neumorph,
 .info-neumorph:hover,
@@ -283,8 +283,8 @@ input#nf-field-23,
 .ninja-forms-field.nf-element {
   border-color: #F2F4F3;
   background: #F2F4F3;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white; }
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
 
 .card {
   border: none !important; }

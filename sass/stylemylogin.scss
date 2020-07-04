@@ -1,8 +1,5 @@
-@import "theme/child_theme_variables";
-
-$enable-gradients: true;
-$enable-transitions: true;
-$enable-shadows: true;
+@import "theme/child_theme_variables";                  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "theme/custom/child_theme_white_neumorph";     // <--------- Add neumorph here
 
 /*--------------------------------------------------------------
 ## Login
@@ -12,16 +9,17 @@ body.login div#login h1 a {
 	padding-bottom: 30px;
 }
 body.login {
-	background-color: $primary;
+	background-color: $secondary;
 }
 p#backtoblog {
 	display: none;
 }
-.login form {
+#loginform {
+	@extend .secondary-neumorph;
   border-radius: $border-radius;
 }
 .login #backtoblog a, .login #nav a {
-  color: #ffff;
+  color: $secondary;
 }
 
 /* Submit  input button*/
@@ -29,13 +27,17 @@ p#backtoblog {
 .wp-core-ui .button-primary:hover,
 .wp-core-ui .button-primary:focus,
 .wp-core-ui .button-primary:active {
-		box-shadow: none;
-		width: 100%;
-    margin: 1em auto;
-    text-align: center;
-    background: $primary !important;
-    border: none;
-    text-shadow: none;
+	@extend .secondary-neumorph;
+	width: 100%;
+	color: $primary !important;
+	text-transform: uppercase !important;
+	margin-top: 1em;
+	font-size: large;
+}
+
+/*inputstyles*/
+input {
+	@include secondary-neumorph-active;
 }
 
 form, input {
