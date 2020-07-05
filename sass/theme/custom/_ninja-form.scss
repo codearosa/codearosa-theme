@@ -12,13 +12,15 @@
   @extend .btn-primary;
   @extend .p-2;
 }
-
-input#nf-field-1,
-input#nf-field-2,
-input#nf-field-20,
-input#nf-field-21,
-input#nf-field-22,
-input#nf-field-23,
-.ninja-forms-field.nf-element {
+/*add this class to input fields to style*/
+.nf_neumorph {
   @include secondary-neumorph-active;
+  border-radius: $border-radius !important;
+  @extend .p-2;
+  @extend .m-1;
+}
+
+/*eroor styles*/
+.nf-error .ninja-forms-field {
+  border-color: $primary !important;
 }

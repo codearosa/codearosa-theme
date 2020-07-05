@@ -40,12 +40,13 @@
   border-color: transparent;
   outline: 0 none;
   background: #F2F4F3;
+  border-radius: 0.8rem;
   -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
           box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
 
 .secondary-neumorph:active, #loginform:active,
 .wp-core-ui .button-primary:active {
-  border-color: #F2F4F3;
+  border-color: transparent !important;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
           box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
@@ -117,7 +118,7 @@ p#backtoblog {
 
 /*inputstyles*/
 .login input {
-  border-color: #F2F4F3;
+  border-color: transparent !important;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
           box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;

@@ -8119,7 +8119,7 @@ button.bg-dark:focus {
 .mx-0 {
   margin-left: 0 !important; }
 
-.m-1 {
+.m-1, .nf_neumorph {
   margin: 0.25rem !important; }
 
 .mt-1,
@@ -8253,7 +8253,7 @@ button.bg-dark:focus {
   padding-left: 0.25rem !important; }
 
 .p-2, #nf-field-4,
-#nf-field-25 {
+#nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
 .pt-2,
@@ -12176,11 +12176,12 @@ a.skip-link {
   border-color: transparent;
   outline: 0 none;
   background: #F2F4F3;
+  border-radius: 0.8rem;
   -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
           box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
 
 .secondary-neumorph:active {
-  border-color: #F2F4F3;
+  border-color: transparent !important;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
           box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
@@ -12229,17 +12230,17 @@ a.skip-link {
 #nf-field-25 {
   all: unset; }
 
-input#nf-field-1,
-input#nf-field-2,
-input#nf-field-20,
-input#nf-field-21,
-input#nf-field-22,
-input#nf-field-23,
-.ninja-forms-field.nf-element {
-  border-color: #F2F4F3;
+/*add this class to input fields to style*/
+.nf_neumorph {
+  border-color: transparent !important;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+  border-radius: 0.8rem !important; }
+
+/*eroor styles*/
+.nf-error .ninja-forms-field {
+  border-color: #C8689A !important; }
 
 .card {
   border: none !important; }
