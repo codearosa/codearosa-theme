@@ -1,0 +1,7 @@
+/*linkinbio add the class to style the link in bio button*/
+
+.linkinbio {
+  @extend .secondary-neumorph;
+  @extend .my-4;
+  @extend .p-5;
+}
