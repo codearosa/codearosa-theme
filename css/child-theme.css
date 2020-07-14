@@ -214,10 +214,13 @@
   -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
           box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
 
-.secondary-neumorph,
+.secondary-neumorph, .linkinbio,
 .secondary-neumorph:hover,
+.linkinbio:hover,
 .secondary-neumorph:visited,
-.secondary-neumorph:focus {
+.linkinbio:visited,
+.secondary-neumorph:focus,
+.linkinbio:focus {
   border-color: transparent;
   outline: 0 none;
   background: #F2F4F3;
@@ -225,7 +228,7 @@
   -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
           box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
 
-.secondary-neumorph:active {
+.secondary-neumorph:active, .linkinbio:active {
   border-color: transparent !important;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
@@ -359,6 +362,7 @@
       -ms-flex-align: center;
           align-items: center; }
 
+/*linkinbio add the class to style the link in bio button*/
 /*mobile header*/
 .collapsing {
   display: none; }
@@ -8371,7 +8375,8 @@ button.bg-dark:focus {
   margin: 1.5rem !important; }
 
 .mt-4,
-.my-4 {
+.my-4,
+.linkinbio {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -8379,7 +8384,8 @@ button.bg-dark:focus {
   margin-right: 1.5rem !important; }
 
 .mb-4,
-.my-4 {
+.my-4,
+.linkinbio {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -8501,7 +8507,7 @@ button.bg-dark:focus {
 .px-4 {
   padding-left: 1.5rem !important; }
 
-.p-5 {
+.p-5, .linkinbio {
   padding: 3rem !important; }
 
 .pt-5,
@@ -17827,7 +17833,8 @@ button.bg-dark:focus {
   margin: 1.5rem !important; }
 
 .mt-4,
-.my-4 {
+.my-4,
+.linkinbio {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -17835,7 +17842,8 @@ button.bg-dark:focus {
   margin-right: 1.5rem !important; }
 
 .mb-4,
-.my-4 {
+.my-4,
+.linkinbio {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -17957,7 +17965,7 @@ button.bg-dark:focus {
 .px-4 {
   padding-left: 1.5rem !important; }
 
-.p-5 {
+.p-5, .linkinbio {
   padding: 3rem !important; }
 
 .pt-5,
