@@ -1,185 +1,4 @@
 @charset "UTF-8";
-/*Fonts IMPORT*/
-/* raleway-100 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: url("../sass/localfont/raleway-v12-latin-100.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Thin"), local("Raleway-Thin"), url("../sass/localfont/raleway-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-100.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-100.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-100.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-100.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-100italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 100;
-  src: url("../sass/localfont/raleway-v12-latin-100italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Thin Italic"), local("Raleway-ThinItalic"), url("../sass/localfont/raleway-v12-latin-100italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-100italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-100italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-100italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-100italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-200 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 200;
-  src: url("../sass/localfont/raleway-v12-latin-200.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url("../sass/localfont/raleway-v12-latin-200.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-200.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-200.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-200.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-200.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-200italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 200;
-  src: url("../sass/localfont/raleway-v12-latin-200italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway ExtraLight Italic"), local("Raleway-ExtraLightItalic"), url("../sass/localfont/raleway-v12-latin-200italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-200italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-200italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-200italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-200italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-300 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../sass/localfont/raleway-v12-latin-300.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Light"), local("Raleway-Light"), url("../sass/localfont/raleway-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-300.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-300.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-300.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-300.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-300italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 300;
-  src: url("../sass/localfont/raleway-v12-latin-300italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Light Italic"), local("Raleway-LightItalic"), url("../sass/localfont/raleway-v12-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-300italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-300italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-300italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-300italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-regular - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../sass/localfont/raleway-v12-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway"), local("Raleway-Regular"), url("../sass/localfont/raleway-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-regular.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-regular.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-regular.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-regular.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../sass/localfont/raleway-v12-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Italic"), local("Raleway-Italic"), url("../sass/localfont/raleway-v12-latin-italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-500 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: url("../sass/localfont/raleway-v12-latin-500.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Medium"), local("Raleway-Medium"), url("../sass/localfont/raleway-v12-latin-500.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-500.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-500.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-500.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-500.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-500italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 500;
-  src: url("../sass/localfont/raleway-v12-latin-500italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Medium Italic"), local("Raleway-MediumItalic"), url("../sass/localfont/raleway-v12-latin-500italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-500italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-500italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-500italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-500italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-600 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: url("../sass/localfont/raleway-v12-latin-600.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url("../sass/localfont/raleway-v12-latin-600.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-600.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-600.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-600.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-600.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-600italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 600;
-  src: url("../sass/localfont/raleway-v12-latin-600italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway SemiBold Italic"), local("Raleway-SemiBoldItalic"), url("../sass/localfont/raleway-v12-latin-600italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-600italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-600italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-600italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-600italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-700 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../sass/localfont/raleway-v12-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Bold"), local("Raleway-Bold"), url("../sass/localfont/raleway-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-700.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-700.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-700.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-700.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-700italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../sass/localfont/raleway-v12-latin-700italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Bold Italic"), local("Raleway-BoldItalic"), url("../sass/localfont/raleway-v12-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-700italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-700italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-700italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-700italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-800 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  src: url("../sass/localfont/raleway-v12-latin-800.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url("../sass/localfont/raleway-v12-latin-800.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-800.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-800.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-800.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-800.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-800italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 800;
-  src: url("../sass/localfont/raleway-v12-latin-800italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway ExtraBold Italic"), local("Raleway-ExtraBoldItalic"), url("../sass/localfont/raleway-v12-latin-800italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-800italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-800italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-800italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-800italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-900 - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 900;
-  src: url("../sass/localfont/raleway-v12-latin-900.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Black"), local("Raleway-Black"), url("../sass/localfont/raleway-v12-latin-900.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-900.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-900.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-900.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-900.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
-/* raleway-900italic - latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: italic;
-  font-weight: 900;
-  src: url("../sass/localfont/raleway-v12-latin-900italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Raleway Black Italic"), local("Raleway-BlackItalic"), url("../sass/localfont/raleway-v12-latin-900italic.eot?#iefix") format("embedded-opentype"), url("../sass/localfont/raleway-v12-latin-900italic.woff2") format("woff2"), url("../sass/localfont/raleway-v12-latin-900italic.woff") format("woff"), url("../sass/localfont/raleway-v12-latin-900italic.ttf") format("truetype"), url("../sass/localfont/raleway-v12-latin-900italic.svg#Raleway") format("svg");
-  /* Legacy iOS */ }
-
 /*font family*/
 /*Colors*/
 /*border-style*/
@@ -187,6 +6,135 @@
 /*
 *
 *Neumorphism Buttons*/
+/*
+*
+*Neumorphism Buttons*/
+.primary-neumorph,
+.primary-neumorph:hover,
+.primary-neumorph:visited,
+.primary-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #C8689A;
+  -webkit-box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3;
+          box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
+
+.primary-neumorph:active {
+  border-color: #C8689A;
+  background: #C8689A;
+  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
+          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
+
+.secondary-neumorph, .linkinbio,
+.secondary-neumorph:hover,
+.linkinbio:hover,
+.secondary-neumorph:visited,
+.linkinbio:visited,
+.secondary-neumorph:focus,
+.linkinbio:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #F2F4F3;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
+          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
+
+.secondary-neumorph:active, .linkinbio:active {
+  border-color: transparent !important;
+  background: #F2F4F3;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
+
+.info-neumorph,
+.info-neumorph:hover,
+.info-neumorph:visited,
+.info-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #B2B4BA;
+  -webkit-box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2;
+          box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
+
+.info-neumorph:active {
+  border-color: #B2B4BA;
+  background: #B2B4BA;
+  -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
+          box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2; }
+
+.success-neumorph,
+.success-neumorph:hover:visited:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: #2D3142;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+
+.success-neumorph:active {
+  border-color: #2D3142;
+  background: #2D3142;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860; }
+
+.success-neumorph a,
+.success-neumorph a:hover:visited:focus:active {
+  color: #F2F4F3 !important;
+  text-decoration: none !important; }
+
+/*Beschriftung einzelner Felder ausblenden*/
+.nf-form-fields-required,
+.nf-field-label {
+  display: none; }
+
+#nf-field-4,
+#nf-field-25 {
+  all: unset; }
+
+/*add this class to input fields to style*/
+.nf_neumorph {
+  border-color: transparent !important;
+  background: #F2F4F3;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+  border-radius: 0.8rem !important; }
+
+/*eroor styles*/
+.nf-error .ninja-forms-field {
+  border-color: #C8689A !important; }
+
+.card {
+  border: none !important; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C8689A;
+  border-radius: 10px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #C8689A; }
+
+.wp-block-column.my-auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/*linkinbio add the class to style the link in bio button*/
 .wp-block {
   max-width: 100%; }
 
@@ -2701,9 +2649,9 @@ textarea.form-control,
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-.btn,
-.wpcf7 input[type=submit], #nf-field-4,
-#nf-field-25 {
+.btn, #nf-field-4,
+#nf-field-25,
+.wpcf7 input[type=submit] {
   display: inline-block;
   font-weight: 400;
   color: #0A090C;
@@ -2725,37 +2673,37 @@ textarea.form-control,
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
-    .btn,
-    .wpcf7 input[type=submit], #nf-field-4,
-    #nf-field-25 {
+    .btn, #nf-field-4,
+    #nf-field-25,
+    .wpcf7 input[type=submit] {
       -webkit-transition: none;
       transition: none; } }
-  .btn:hover, .wpcf7 input:hover[type=submit], #nf-field-4:hover,
-  #nf-field-25:hover {
+  .btn:hover, #nf-field-4:hover,
+  #nf-field-25:hover, .wpcf7 input:hover[type=submit] {
     color: #0A090C;
     text-decoration: none; }
-  .btn:focus,
-  .wpcf7 input:focus[type=submit], #nf-field-4:focus,
-  #nf-field-25:focus, .btn.focus, .wpcf7 input.focus[type=submit], .focus#nf-field-4,
-  .focus#nf-field-25 {
+  .btn:focus, #nf-field-4:focus,
+  #nf-field-25:focus,
+  .wpcf7 input:focus[type=submit], .btn.focus, .focus#nf-field-4,
+  .focus#nf-field-25, .wpcf7 input.focus[type=submit] {
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(200, 104, 154, 0.25);
             box-shadow: 0 0 0 0.2rem rgba(200, 104, 154, 0.25); }
-  .btn.disabled, .wpcf7 input.disabled[type=submit], .disabled#nf-field-4,
-  .disabled#nf-field-25, .btn:disabled,
-  .wpcf7 input:disabled[type=submit], #nf-field-4:disabled,
-  #nf-field-25:disabled {
+  .btn.disabled, .disabled#nf-field-4,
+  .disabled#nf-field-25, .wpcf7 input.disabled[type=submit], .btn:disabled, #nf-field-4:disabled,
+  #nf-field-25:disabled,
+  .wpcf7 input:disabled[type=submit] {
     opacity: 0.65;
     -webkit-box-shadow: none;
             box-shadow: none; }
-  .btn:not(:disabled):not(.disabled):active, .wpcf7 input:not(:disabled):not(.disabled):active[type=submit], #nf-field-4:not(:disabled):not(.disabled):active,
-  #nf-field-25:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .wpcf7 input:not(:disabled):not(.disabled).active[type=submit], #nf-field-4:not(:disabled):not(.disabled).active,
-  #nf-field-25:not(:disabled):not(.disabled).active {
+  .btn:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
+  #nf-field-25:not(:disabled):not(.disabled):active, .wpcf7 input:not(:disabled):not(.disabled):active[type=submit], .btn:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  #nf-field-25:not(:disabled):not(.disabled).active, .wpcf7 input:not(:disabled):not(.disabled).active[type=submit] {
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
             box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-    .btn:not(:disabled):not(.disabled):active:focus, .wpcf7 input:not(:disabled):not(.disabled):active:focus[type=submit], #nf-field-4:not(:disabled):not(.disabled):active:focus,
-    #nf-field-25:not(:disabled):not(.disabled):active:focus, .btn:not(:disabled):not(.disabled).active:focus, .wpcf7 input:not(:disabled):not(.disabled).active:focus[type=submit], #nf-field-4:not(:disabled):not(.disabled).active:focus,
-    #nf-field-25:not(:disabled):not(.disabled).active:focus {
+    .btn:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
+    #nf-field-25:not(:disabled):not(.disabled):active:focus, .wpcf7 input:not(:disabled):not(.disabled):active:focus[type=submit], .btn:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    #nf-field-25:not(:disabled):not(.disabled).active:focus, .wpcf7 input:not(:disabled):not(.disabled).active:focus[type=submit] {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(200, 104, 154, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);
               box-shadow: 0 0 0 0.2rem rgba(200, 104, 154, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 
@@ -3264,17 +3212,17 @@ fieldset:disabled a#nf-field-25 {
     color: #6c757d;
     pointer-events: none; }
 
-.btn-lg, .btn-group-lg > .btn,
-.wpcf7 .btn-group-lg > input[type=submit], .btn-group-lg > #nf-field-4,
-.btn-group-lg > #nf-field-25 {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > #nf-field-4,
+.btn-group-lg > #nf-field-25,
+.wpcf7 .btn-group-lg > input[type=submit] {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn,
-.wpcf7 .btn-group-sm > input[type=submit], .btn-group-sm > #nf-field-4,
-.btn-group-sm > #nf-field-25 {
+.btn-sm, .btn-group-sm > .btn, .btn-group-sm > #nf-field-4,
+.btn-group-sm > #nf-field-25,
+.wpcf7 .btn-group-sm > input[type=submit] {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -3529,41 +3477,41 @@ input[type="button"].btn-block {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn,
-  .wpcf7 .btn-group > input[type=submit], .btn-group > #nf-field-4,
+  .btn-group > .btn, .btn-group > #nf-field-4,
   .btn-group > #nf-field-25,
+  .wpcf7 .btn-group > input[type=submit],
   .btn-group-vertical > .btn,
-  .wpcf7 .btn-group-vertical > input[type=submit],
   .btn-group-vertical > #nf-field-4,
-  .btn-group-vertical > #nf-field-25 {
+  .btn-group-vertical > #nf-field-25,
+  .wpcf7 .btn-group-vertical > input[type=submit] {
     position: relative;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto; }
-    .btn-group > .btn:hover, .wpcf7 .btn-group > input:hover[type=submit], .btn-group > #nf-field-4:hover,
-    .btn-group > #nf-field-25:hover,
+    .btn-group > .btn:hover, .btn-group > #nf-field-4:hover,
+    .btn-group > #nf-field-25:hover, .wpcf7 .btn-group > input:hover[type=submit],
     .btn-group-vertical > .btn:hover,
-    .wpcf7 .btn-group-vertical > input:hover[type=submit],
     .btn-group-vertical > #nf-field-4:hover,
-    .btn-group-vertical > #nf-field-25:hover {
+    .btn-group-vertical > #nf-field-25:hover,
+    .wpcf7 .btn-group-vertical > input:hover[type=submit] {
       z-index: 1; }
-    .btn-group > .btn:focus,
-    .wpcf7 .btn-group > input:focus[type=submit], .btn-group > #nf-field-4:focus,
-    .btn-group > #nf-field-25:focus, .btn-group > .btn:active, .wpcf7 .btn-group > input:active[type=submit], .btn-group > #nf-field-4:active,
-    .btn-group > #nf-field-25:active, .btn-group > .btn.active, .wpcf7 .btn-group > input.active[type=submit], .btn-group > .active#nf-field-4,
-    .btn-group > .active#nf-field-25,
+    .btn-group > .btn:focus, .btn-group > #nf-field-4:focus,
+    .btn-group > #nf-field-25:focus,
+    .wpcf7 .btn-group > input:focus[type=submit], .btn-group > .btn:active, .btn-group > #nf-field-4:active,
+    .btn-group > #nf-field-25:active, .wpcf7 .btn-group > input:active[type=submit], .btn-group > .btn.active, .btn-group > .active#nf-field-4,
+    .btn-group > .active#nf-field-25, .wpcf7 .btn-group > input.active[type=submit],
     .btn-group-vertical > .btn:focus,
-    .wpcf7 .btn-group-vertical > input:focus[type=submit],
     .btn-group-vertical > #nf-field-4:focus,
     .btn-group-vertical > #nf-field-25:focus,
+    .wpcf7 .btn-group-vertical > input:focus[type=submit],
     .btn-group-vertical > .btn:active,
-    .wpcf7 .btn-group-vertical > input:active[type=submit],
     .btn-group-vertical > #nf-field-4:active,
     .btn-group-vertical > #nf-field-25:active,
+    .wpcf7 .btn-group-vertical > input:active[type=submit],
     .btn-group-vertical > .btn.active,
-    .wpcf7 .btn-group-vertical > input.active[type=submit],
     .btn-group-vertical > .active#nf-field-4,
-    .btn-group-vertical > .active#nf-field-25 {
+    .btn-group-vertical > .active#nf-field-25,
+    .wpcf7 .btn-group-vertical > input.active[type=submit] {
       z-index: 1; }
 
 .btn-toolbar {
@@ -3578,26 +3526,26 @@ input[type="button"].btn-block {
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input:not(:first-child)[type=submit], .btn-group > #nf-field-4:not(:first-child),
-.btn-group > #nf-field-25:not(:first-child),
+.btn-group > .btn:not(:first-child), .btn-group > #nf-field-4:not(:first-child),
+.btn-group > #nf-field-25:not(:first-child), .wpcf7 .btn-group > input:not(:first-child)[type=submit],
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px; }
 
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group > input:not(:last-child):not(.dropdown-toggle)[type=submit], .btn-group > #nf-field-4:not(:last-child):not(.dropdown-toggle),
-.btn-group > #nf-field-25:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > #nf-field-4:not(:last-child):not(.dropdown-toggle),
+.btn-group > #nf-field-25:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group > input:not(:last-child):not(.dropdown-toggle)[type=submit],
 .btn-group > .btn-group:not(:last-child) > .btn,
-.wpcf7 .btn-group > .btn-group:not(:last-child) > input[type=submit],
 .btn-group > .btn-group:not(:last-child) > #nf-field-4,
-.btn-group > .btn-group:not(:last-child) > #nf-field-25 {
+.btn-group > .btn-group:not(:last-child) > #nf-field-25,
+.wpcf7 .btn-group > .btn-group:not(:last-child) > input[type=submit] {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input:not(:first-child)[type=submit], .btn-group > #nf-field-4:not(:first-child),
-.btn-group > #nf-field-25:not(:first-child),
+.btn-group > .btn:not(:first-child), .btn-group > #nf-field-4:not(:first-child),
+.btn-group > #nf-field-25:not(:first-child), .wpcf7 .btn-group > input:not(:first-child)[type=submit],
 .btn-group > .btn-group:not(:first-child) > .btn,
-.wpcf7 .btn-group > .btn-group:not(:first-child) > input[type=submit],
 .btn-group > .btn-group:not(:first-child) > #nf-field-4,
-.btn-group > .btn-group:not(:first-child) > #nf-field-25 {
+.btn-group > .btn-group:not(:first-child) > #nf-field-25,
+.wpcf7 .btn-group > .btn-group:not(:first-child) > input[type=submit] {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -3611,11 +3559,11 @@ input[type="button"].btn-block {
   .dropleft .dropdown-toggle-split::before {
     margin-right: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-sm > input[type=submit] + .dropdown-toggle-split, .btn-group-sm > #nf-field-4 + .dropdown-toggle-split, .btn-group-sm > #nf-field-25 + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > #nf-field-4 + .dropdown-toggle-split, .btn-group-sm > #nf-field-25 + .dropdown-toggle-split, .wpcf7 .btn-group-sm > input[type=submit] + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-lg > input[type=submit] + .dropdown-toggle-split, .btn-group-lg > #nf-field-4 + .dropdown-toggle-split, .btn-group-lg > #nf-field-25 + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > #nf-field-4 + .dropdown-toggle-split, .btn-group-lg > #nf-field-25 + .dropdown-toggle-split, .wpcf7 .btn-group-lg > input[type=submit] + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -3639,53 +3587,53 @@ input[type="button"].btn-block {
           justify-content: center; }
   
   .btn-group-vertical > .btn,
-  .wpcf7 .btn-group-vertical > input[type=submit],
   .btn-group-vertical > #nf-field-4,
   .btn-group-vertical > #nf-field-25,
+  .wpcf7 .btn-group-vertical > input[type=submit],
   .btn-group-vertical > .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input:not(:first-child)[type=submit], .btn-group-vertical > #nf-field-4:not(:first-child),
-  .btn-group-vertical > #nf-field-25:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > #nf-field-4:not(:first-child),
+  .btn-group-vertical > #nf-field-25:not(:first-child), .wpcf7 .btn-group-vertical > input:not(:first-child)[type=submit],
   .btn-group-vertical > .btn-group:not(:first-child) {
     margin-top: -1px; }
-  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group-vertical > input:not(:last-child):not(.dropdown-toggle)[type=submit], .btn-group-vertical > #nf-field-4:not(:last-child):not(.dropdown-toggle),
-  .btn-group-vertical > #nf-field-25:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > #nf-field-4:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > #nf-field-25:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group-vertical > input:not(:last-child):not(.dropdown-toggle)[type=submit],
   .btn-group-vertical > .btn-group:not(:last-child) > .btn,
-  .wpcf7 .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit],
   .btn-group-vertical > .btn-group:not(:last-child) > #nf-field-4,
-  .btn-group-vertical > .btn-group:not(:last-child) > #nf-field-25 {
+  .btn-group-vertical > .btn-group:not(:last-child) > #nf-field-25,
+  .wpcf7 .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit] {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input:not(:first-child)[type=submit], .btn-group-vertical > #nf-field-4:not(:first-child),
-  .btn-group-vertical > #nf-field-25:not(:first-child),
+  .btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > #nf-field-4:not(:first-child),
+  .btn-group-vertical > #nf-field-25:not(:first-child), .wpcf7 .btn-group-vertical > input:not(:first-child)[type=submit],
   .btn-group-vertical > .btn-group:not(:first-child) > .btn,
-  .wpcf7 .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit],
   .btn-group-vertical > .btn-group:not(:first-child) > #nf-field-4,
-  .btn-group-vertical > .btn-group:not(:first-child) > #nf-field-25 {
+  .btn-group-vertical > .btn-group:not(:first-child) > #nf-field-25,
+  .wpcf7 .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit] {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.btn-group-toggle > .btn,
-.wpcf7 .btn-group-toggle > input[type=submit], .btn-group-toggle > #nf-field-4,
+.btn-group-toggle > .btn, .btn-group-toggle > #nf-field-4,
 .btn-group-toggle > #nf-field-25,
+.wpcf7 .btn-group-toggle > input[type=submit],
 .btn-group-toggle > .btn-group > .btn,
-.wpcf7 .btn-group-toggle > .btn-group > input[type=submit],
 .btn-group-toggle > .btn-group > #nf-field-4,
-.btn-group-toggle > .btn-group > #nf-field-25 {
+.btn-group-toggle > .btn-group > #nf-field-25,
+.wpcf7 .btn-group-toggle > .btn-group > input[type=submit] {
   margin-bottom: 0; }
-  .btn-group-toggle > .btn input[type="radio"], .wpcf7 .btn-group-toggle > input[type=submit] input[type="radio"], .btn-group-toggle > #nf-field-4 input[type="radio"], .btn-group-toggle > #nf-field-25 input[type="radio"],
+  .btn-group-toggle > .btn input[type="radio"], .btn-group-toggle > #nf-field-4 input[type="radio"], .btn-group-toggle > #nf-field-25 input[type="radio"], .wpcf7 .btn-group-toggle > input[type=submit] input[type="radio"],
   .btn-group-toggle > .btn input[type="checkbox"],
-  .wpcf7 .btn-group-toggle > input[type=submit] input[type="checkbox"],
   .btn-group-toggle > #nf-field-4 input[type="checkbox"],
   .btn-group-toggle > #nf-field-25 input[type="checkbox"],
+  .wpcf7 .btn-group-toggle > input[type=submit] input[type="checkbox"],
   .btn-group-toggle > .btn-group > .btn input[type="radio"],
-  .wpcf7 .btn-group-toggle > .btn-group > input[type=submit] input[type="radio"],
   .btn-group-toggle > .btn-group > #nf-field-4 input[type="radio"],
   .btn-group-toggle > .btn-group > #nf-field-25 input[type="radio"],
+  .wpcf7 .btn-group-toggle > .btn-group > input[type=submit] input[type="radio"],
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
-  .wpcf7 .btn-group-toggle > .btn-group > input[type=submit] input[type="checkbox"],
   .btn-group-toggle > .btn-group > #nf-field-4 input[type="checkbox"],
-  .btn-group-toggle > .btn-group > #nf-field-25 input[type="checkbox"] {
+  .btn-group-toggle > .btn-group > #nf-field-25 input[type="checkbox"],
+  .wpcf7 .btn-group-toggle > .btn-group > input[type=submit] input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
@@ -4260,79 +4208,79 @@ input[type="button"].btn-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .input-group-prepend .btn,
-  .input-group-prepend .wpcf7 input[type=submit], .wpcf7 .input-group-prepend input[type=submit], .input-group-prepend #nf-field-4,
+  .input-group-prepend .btn, .input-group-prepend #nf-field-4,
   .input-group-prepend #nf-field-25,
+  .input-group-prepend .wpcf7 input[type=submit], .wpcf7 .input-group-prepend input[type=submit],
   .input-group-append .btn,
-  .input-group-append .wpcf7 input[type=submit],
-  .wpcf7 .input-group-append input[type=submit],
   .input-group-append #nf-field-4,
-  .input-group-append #nf-field-25 {
+  .input-group-append #nf-field-25,
+  .input-group-append .wpcf7 input[type=submit],
+  .wpcf7 .input-group-append input[type=submit] {
     position: relative;
     z-index: 2; }
-    .input-group-prepend .btn:focus,
-    .input-group-prepend .wpcf7 input:focus[type=submit], .wpcf7 .input-group-prepend input:focus[type=submit], .input-group-prepend #nf-field-4:focus,
+    .input-group-prepend .btn:focus, .input-group-prepend #nf-field-4:focus,
     .input-group-prepend #nf-field-25:focus,
+    .input-group-prepend .wpcf7 input:focus[type=submit], .wpcf7 .input-group-prepend input:focus[type=submit],
     .input-group-append .btn:focus,
-    .input-group-append .wpcf7 input:focus[type=submit],
-    .wpcf7 .input-group-append input:focus[type=submit],
     .input-group-append #nf-field-4:focus,
-    .input-group-append #nf-field-25:focus {
+    .input-group-append #nf-field-25:focus,
+    .input-group-append .wpcf7 input:focus[type=submit],
+    .wpcf7 .input-group-append input:focus[type=submit] {
       z-index: 3; }
-  .input-group-prepend .btn + .btn, .input-group-prepend .wpcf7 input[type=submit] + .btn, .wpcf7 .input-group-prepend input[type=submit] + .btn, .input-group-prepend #nf-field-4 + .btn, .input-group-prepend #nf-field-25 + .btn,
-  .input-group-prepend .wpcf7 .btn + input[type=submit], .wpcf7 .input-group-prepend .btn + input[type=submit],
-  .input-group-prepend .wpcf7 input[type=submit] + input[type=submit], .wpcf7 .input-group-prepend input[type=submit] + input[type=submit],
-  .input-group-prepend .wpcf7 #nf-field-4 + input[type=submit], .wpcf7 .input-group-prepend #nf-field-4 + input[type=submit],
-  .input-group-prepend .wpcf7 #nf-field-25 + input[type=submit], .wpcf7 .input-group-prepend #nf-field-25 + input[type=submit], .input-group-prepend .btn + #nf-field-4, .input-group-prepend .wpcf7 input[type=submit] + #nf-field-4, .wpcf7 .input-group-prepend input[type=submit] + #nf-field-4, .input-group-prepend #nf-field-4 + #nf-field-4, .input-group-prepend #nf-field-25 + #nf-field-4,
+  .input-group-prepend .btn + .btn, .input-group-prepend #nf-field-4 + .btn, .input-group-prepend #nf-field-25 + .btn, .input-group-prepend .wpcf7 input[type=submit] + .btn, .wpcf7 .input-group-prepend input[type=submit] + .btn, .input-group-prepend .btn + #nf-field-4, .input-group-prepend #nf-field-4 + #nf-field-4, .input-group-prepend #nf-field-25 + #nf-field-4, .input-group-prepend .wpcf7 input[type=submit] + #nf-field-4, .wpcf7 .input-group-prepend input[type=submit] + #nf-field-4,
   .input-group-prepend .btn + #nf-field-25,
-  .input-group-prepend .wpcf7 input[type=submit] + #nf-field-25, .wpcf7 .input-group-prepend input[type=submit] + #nf-field-25,
   .input-group-prepend #nf-field-4 + #nf-field-25,
   .input-group-prepend #nf-field-25 + #nf-field-25,
+  .input-group-prepend .wpcf7 input[type=submit] + #nf-field-25, .wpcf7 .input-group-prepend input[type=submit] + #nf-field-25,
+  .input-group-prepend .wpcf7 .btn + input[type=submit], .wpcf7 .input-group-prepend .btn + input[type=submit],
+  .input-group-prepend .wpcf7 #nf-field-4 + input[type=submit], .wpcf7 .input-group-prepend #nf-field-4 + input[type=submit],
+  .input-group-prepend .wpcf7 #nf-field-25 + input[type=submit], .wpcf7 .input-group-prepend #nf-field-25 + input[type=submit],
+  .input-group-prepend .wpcf7 input[type=submit] + input[type=submit], .wpcf7 .input-group-prepend input[type=submit] + input[type=submit],
   .input-group-prepend .btn + .input-group-text,
-  .input-group-prepend .wpcf7 input[type=submit] + .input-group-text,
-  .wpcf7 .input-group-prepend input[type=submit] + .input-group-text,
   .input-group-prepend #nf-field-4 + .input-group-text,
   .input-group-prepend #nf-field-25 + .input-group-text,
+  .input-group-prepend .wpcf7 input[type=submit] + .input-group-text,
+  .wpcf7 .input-group-prepend input[type=submit] + .input-group-text,
   .input-group-prepend .input-group-text + .input-group-text,
   .input-group-prepend .input-group-text + .btn,
-  .input-group-prepend .wpcf7 .input-group-text + input[type=submit],
-  .wpcf7 .input-group-prepend .input-group-text + input[type=submit],
   .input-group-prepend .input-group-text + #nf-field-4,
   .input-group-prepend .input-group-text + #nf-field-25,
+  .input-group-prepend .wpcf7 .input-group-text + input[type=submit],
+  .wpcf7 .input-group-prepend .input-group-text + input[type=submit],
   .input-group-append .btn + .btn,
-  .input-group-append .wpcf7 input[type=submit] + .btn,
-  .wpcf7 .input-group-append input[type=submit] + .btn,
   .input-group-append #nf-field-4 + .btn,
   .input-group-append #nf-field-25 + .btn,
+  .input-group-append .wpcf7 input[type=submit] + .btn,
+  .wpcf7 .input-group-append input[type=submit] + .btn,
+  .input-group-append .btn + #nf-field-4,
+  .input-group-append #nf-field-4 + #nf-field-4,
+  .input-group-append #nf-field-25 + #nf-field-4,
+  .input-group-append .wpcf7 input[type=submit] + #nf-field-4,
+  .wpcf7 .input-group-append input[type=submit] + #nf-field-4,
+  .input-group-append .btn + #nf-field-25,
+  .input-group-append #nf-field-4 + #nf-field-25,
+  .input-group-append #nf-field-25 + #nf-field-25,
+  .input-group-append .wpcf7 input[type=submit] + #nf-field-25,
+  .wpcf7 .input-group-append input[type=submit] + #nf-field-25,
   .input-group-append .wpcf7 .btn + input[type=submit],
   .wpcf7 .input-group-append .btn + input[type=submit],
-  .input-group-append .wpcf7 input[type=submit] + input[type=submit],
-  .wpcf7 .input-group-append input[type=submit] + input[type=submit],
   .input-group-append .wpcf7 #nf-field-4 + input[type=submit],
   .wpcf7 .input-group-append #nf-field-4 + input[type=submit],
   .input-group-append .wpcf7 #nf-field-25 + input[type=submit],
   .wpcf7 .input-group-append #nf-field-25 + input[type=submit],
-  .input-group-append .btn + #nf-field-4,
-  .input-group-append .wpcf7 input[type=submit] + #nf-field-4,
-  .wpcf7 .input-group-append input[type=submit] + #nf-field-4,
-  .input-group-append #nf-field-4 + #nf-field-4,
-  .input-group-append #nf-field-25 + #nf-field-4,
-  .input-group-append .btn + #nf-field-25,
-  .input-group-append .wpcf7 input[type=submit] + #nf-field-25,
-  .wpcf7 .input-group-append input[type=submit] + #nf-field-25,
-  .input-group-append #nf-field-4 + #nf-field-25,
-  .input-group-append #nf-field-25 + #nf-field-25,
+  .input-group-append .wpcf7 input[type=submit] + input[type=submit],
+  .wpcf7 .input-group-append input[type=submit] + input[type=submit],
   .input-group-append .btn + .input-group-text,
-  .input-group-append .wpcf7 input[type=submit] + .input-group-text,
-  .wpcf7 .input-group-append input[type=submit] + .input-group-text,
   .input-group-append #nf-field-4 + .input-group-text,
   .input-group-append #nf-field-25 + .input-group-text,
+  .input-group-append .wpcf7 input[type=submit] + .input-group-text,
+  .wpcf7 .input-group-append input[type=submit] + .input-group-text,
   .input-group-append .input-group-text + .input-group-text,
   .input-group-append .input-group-text + .btn,
-  .input-group-append .wpcf7 .input-group-text + input[type=submit],
-  .wpcf7 .input-group-append .input-group-text + input[type=submit],
   .input-group-append .input-group-text + #nf-field-4,
-  .input-group-append .input-group-text + #nf-field-25 {
+  .input-group-append .input-group-text + #nf-field-25,
+  .input-group-append .wpcf7 .input-group-text + input[type=submit],
+  .wpcf7 .input-group-append .input-group-text + input[type=submit] {
     margin-left: -1px; }
 
 .input-group-prepend {
@@ -4406,13 +4354,13 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
-.wpcf7 .input-group-lg > .input-group-prepend > input[type=submit],
 .input-group-lg > .input-group-prepend > #nf-field-4,
 .input-group-lg > .input-group-prepend > #nf-field-25,
+.wpcf7 .input-group-lg > .input-group-prepend > input[type=submit],
 .input-group-lg > .input-group-append > .btn,
-.wpcf7 .input-group-lg > .input-group-append > input[type=submit],
 .input-group-lg > .input-group-append > #nf-field-4,
-.input-group-lg > .input-group-append > #nf-field-25 {
+.input-group-lg > .input-group-append > #nf-field-25,
+.wpcf7 .input-group-lg > .input-group-append > input[type=submit] {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -4461,13 +4409,13 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
-.wpcf7 .input-group-sm > .input-group-prepend > input[type=submit],
 .input-group-sm > .input-group-prepend > #nf-field-4,
 .input-group-sm > .input-group-prepend > #nf-field-25,
+.wpcf7 .input-group-sm > .input-group-prepend > input[type=submit],
 .input-group-sm > .input-group-append > .btn,
-.wpcf7 .input-group-sm > .input-group-append > input[type=submit],
 .input-group-sm > .input-group-append > #nf-field-4,
-.input-group-sm > .input-group-append > #nf-field-25 {
+.input-group-sm > .input-group-append > #nf-field-25,
+.wpcf7 .input-group-sm > .input-group-append > input[type=submit] {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -4477,36 +4425,36 @@ input[type="button"].btn-block {
 .input-group-sm > .custom-select {
   padding-right: 1.75rem; }
 
-.input-group > .input-group-prepend > .btn,
-.wpcf7 .input-group > .input-group-prepend > input[type=submit], .input-group > .input-group-prepend > #nf-field-4,
+.input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > #nf-field-4,
 .input-group > .input-group-prepend > #nf-field-25,
+.wpcf7 .input-group > .input-group-prepend > input[type=submit],
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,
-.wpcf7 .input-group > .input-group-append:not(:last-child) > input[type=submit],
 .input-group > .input-group-append:not(:last-child) > #nf-field-4,
 .input-group > .input-group-append:not(:last-child) > #nf-field-25,
+.wpcf7 .input-group > .input-group-append:not(:last-child) > input[type=submit],
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
-.wpcf7 .input-group > .input-group-append:last-child > input:not(:last-child):not(.dropdown-toggle)[type=submit],
 .input-group > .input-group-append:last-child > #nf-field-4:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > #nf-field-25:not(:last-child):not(.dropdown-toggle),
+.wpcf7 .input-group > .input-group-append:last-child > input:not(:last-child):not(.dropdown-toggle)[type=submit],
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group > .input-group-append > .btn,
-.wpcf7 .input-group > .input-group-append > input[type=submit], .input-group > .input-group-append > #nf-field-4,
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > #nf-field-4,
 .input-group > .input-group-append > #nf-field-25,
+.wpcf7 .input-group > .input-group-append > input[type=submit],
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
-.wpcf7 .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
 .input-group > .input-group-prepend:not(:first-child) > #nf-field-4,
 .input-group > .input-group-prepend:not(:first-child) > #nf-field-25,
+.wpcf7 .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
-.wpcf7 .input-group > .input-group-prepend:first-child > input:not(:first-child)[type=submit],
 .input-group > .input-group-prepend:first-child > #nf-field-4:not(:first-child),
 .input-group > .input-group-prepend:first-child > #nf-field-25:not(:first-child),
+.wpcf7 .input-group > .input-group-prepend:first-child > input:not(:first-child)[type=submit],
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -5624,7 +5572,7 @@ input[type="button"].btn-block {
   .badge:empty {
     display: none; }
 
-.btn .badge, .wpcf7 input[type=submit] .badge, #nf-field-4 .badge, #nf-field-25 .badge {
+.btn .badge, #nf-field-4 .badge, #nf-field-25 .badge, .wpcf7 input[type=submit] .badge {
   position: relative;
   top: -1px; }
 
@@ -12249,45 +12197,6 @@ a.skip-link {
 
 .card {
   border: none !important; }
-
-.typerwriter h2 {
-  overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #C8689A;
-  /* The typwriter cursor */
-  white-space: nowrap;
-  /* Keeps the content on a single line */
-  margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .07em;
-  /* Adjust as needed */
-  -webkit-animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-          animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-  display: initial; }
-
-/* The typing effect */
-@-webkit-keyframes typing {
-  from {
-    width: 0; }
-  to {
-    width: 100%; } }
-@keyframes typing {
-  from {
-    width: 0; }
-  to {
-    width: 100%; } }
-
-/* The typewriter cursor effect */
-@-webkit-keyframes blink-caret {
-  from, to {
-    border-color: transparent; }
-  50% {
-    border-color: #C8689A; } }
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent; }
-  50% {
-    border-color: #C8689A; } }
 
 /* width */
 ::-webkit-scrollbar {
