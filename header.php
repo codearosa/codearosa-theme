@@ -24,7 +24,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php get_template_part( 'template-particles/preloader', 'none' ); ?>
+<?php get_template_part( 'custom/php/template-parts/preloader'); ?>
 
 <body <?php body_class(); ?>>
 
