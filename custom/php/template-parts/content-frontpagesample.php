@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-			<?php get_template_part( 'template-particles/jumbotron-image-banner', 'page' );?>
+			<?php get_template_part( 'custom/php/template-parts/jumbotron-image-banner', 'page' );?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content d-block">

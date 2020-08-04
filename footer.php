@@ -26,20 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<footer class="site-footer text-center" id="colophon">
 
-
-					<?php wp_nav_menu(
-						array(
-							'theme_location'  => 'socialmenu',
-							'container_class' => 'navbar-text socialmenuclass',
-							'container_id'    => 'socialmenuthree',
-							'menu_class'      => 'nav m-0',
-							'fallback_cb'     => '',
-							'menu_id'         => 'socialmenu-three',
-							'depth'           => 2,
-							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-						)
-					); ?>
-
+					<?php get_template_part( 'custom/php/menu/menu-social', 'none' ); ?>
 
 						<div class="site-info text-center">
 

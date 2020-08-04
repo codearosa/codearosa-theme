@@ -10,7 +10,7 @@ register_nav_menus( array(
 
 function socialmenushortcode($atts) {
   ob_start();
-  get_template_part('template-particles/socialmenu');
+  get_template_part('custom/php/template-parts/socialmenu');
   return ob_get_clean();
 }
 add_shortcode('socialmenu', 'socialmenushortcode');

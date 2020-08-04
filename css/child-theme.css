@@ -12152,13 +12152,16 @@ figure.woocommerce-product-gallery__wrapper {
   -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
           box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
 
-.secondary-neumorph, .linkinbio,
+.secondary-neumorph, .linkinbio, .home .card.post,
 .secondary-neumorph:hover,
 .linkinbio:hover,
+.home .card.post:hover,
 .secondary-neumorph:visited,
 .linkinbio:visited,
+.home .card.post:visited,
 .secondary-neumorph:focus,
-.linkinbio:focus {
+.linkinbio:focus,
+.home .card.post:focus {
   border-color: transparent;
   outline: 0 none;
   background: #F2F4F3;
@@ -12166,7 +12169,7 @@ figure.woocommerce-product-gallery__wrapper {
   -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
           box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
 
-.secondary-neumorph:active, .linkinbio:active {
+.secondary-neumorph:active, .linkinbio:active, .home .card.post:active {
   border-color: transparent !important;
   background: #F2F4F3;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
@@ -12262,6 +12265,16 @@ figure.woocommerce-product-gallery__wrapper {
           align-items: center; }
 
 /*linkinbio add the class to style the link in bio button*/
+.home .card.post {
+  padding: 1em !important; }
+
+.home .card.post .card-body {
+  padding: 0;
+  margin-top: 1em; }
+
+.home .card img {
+  border-radius: 0.8rem; }
+
 /*mobile header*/
 .collapsing {
   display: none; }

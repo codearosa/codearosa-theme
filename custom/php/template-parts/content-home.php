@@ -8,7 +8,7 @@
 
 ?>
 
-	<div class="card">
+	<div class="card post">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<?php
@@ -19,12 +19,7 @@
 
 				<div class="card-body">
       			<h5 class="card-title entry-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
-      			<p class="card-text entry-content">
-							<?php the_excerpt(); ?>
-						</p>
-      			<p class="entry-meta card-text"><small class="text-muted entry-meta">
-				<?php understrap_posted_on(); ?>
-			<!-- .entry-meta --></small></p>
+      
     		</div>
 		<?php endif; ?>
 
