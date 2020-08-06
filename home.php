@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 
-<div class="wrapper container home" id="index-wrapper">
+<div class="wrapper container home mt-3" id="index-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -65,9 +65,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- The pagination component -->
 			<?php understrap_pagination(); ?>
 
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-
+				<!-- Do the right sidebar check -->
+				<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
+					
 		</div><!-- .row -->
 
 	</div><!-- #content -->

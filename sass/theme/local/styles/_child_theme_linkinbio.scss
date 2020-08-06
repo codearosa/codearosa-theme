@@ -1,3 +1,6 @@
+/* Import bootstrap-sass so that we have access to all of its selectors */
+@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+
 /*linkinbio add the class to style the link in bio button*/
 
 .linkinbio {

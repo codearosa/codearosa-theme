@@ -1,14 +1,16 @@
 /*add this file to sass imports*/
-@import "local_child_theme_variables";          // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
-@import "child_theme_localfont";                // <--------- Localfont
+@import "local_child_theme_variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "child_theme_localfont"; // <--------- Localfont
 
-@import "styles/child_theme_white_neumorph";    // <--------- Add neumorph here
-@import "styles/ninja-form";                    // <--------- Add Ninja Form Styles here
-@import "styles/portfolio-card";                // <--------- Add Ninja Form Styles here
+@import "styles/child_theme_white_neumorph"; // <--------- Add neumorph here
+@import "styles/ninja-form"; // <--------- Add Ninja Form Styles here
+@import "styles/portfolio-card"; // <--------- Add Ninja Form Styles here
 @import "styles/child_theme_custom_scrollbar"; // <--------- Custom Scrollbar
-@import "styles/child_theme_content_center";    // <--------- Content center //give my-auto to wp-block-column class
-@import "styles/child_theme_linkinbio";         // <--------- add class linkinbio to style this side
-@import "styles/child_theme_home";             // <--------- add class linkinbio to style this side
+@import "styles/child_theme_linkinbio"; // <--------- add class linkinbio to style this side
+@import "styles/child_theme_home"; // <--------- add class linkinbio to style this side
+@import "styles/child_theme_sidebars"; // <--------- add  to style this side
+@import "styles/child_theme_inputs";
+
 
 
 /*mobile header*/

@@ -1,5 +1,9 @@
+/* Import bootstrap-sass so that we have access to all of its selectors */
+@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+
 .home .card.post {
-    padding: 1em !important;
+    @extend .p-2;
+    @extend .m-1;
     @extend .secondary-neumorph;
 }
 
