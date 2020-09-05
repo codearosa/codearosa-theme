@@ -31,7 +31,7 @@
 <div id="page" class="site">
 
 
-	<header id="masthead" class="site-header mt-0 shadow-sm navbar-light bg-white sticky-top">
+	<header id="masthead" class="site-header">
 		<div class="container-fluid mx-auto m-0 p-0"><?php dynamic_sidebar( 'topbar' ); ?></div>
 		<div id="dropdownsearch" class="collapse container mx-auto m-1 px-5 text-center"><?php get_search_form(); ?></div>
 

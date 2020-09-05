@@ -2,7 +2,7 @@
 @import "local_child_theme_variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
 @import "child_theme_localfont"; // <--------- Localfont
 
-@import "styles/child_theme_white_neumorph"; // <--------- Add neumorph here
+@import "styles/child_theme_neumorph"; // <--------- Add neumorph here
 @import "styles/ninja-form"; // <--------- Add Ninja Form Styles here
 @import "styles/portfolio-card"; // <--------- Add Ninja Form Styles here
 @import "styles/child_theme_custom_scrollbar"; // <--------- Custom Scrollbar
@@ -11,34 +11,5 @@
 @import "styles/child_theme_sidebars"; // <--------- add  to style this side
 @import "styles/child_theme_inputs";
 
-
-
-/*mobile header*/
-.collapsing {
-    display: none;
-}
-
-.collapse.show {
-    height: 100vh !important;
-    -webkit-animation-name: fade;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: fade;
-    animation-duration: 4s;
-}
-
-.collapse.show ui {
-    width: 100% !important;
-}
-
-.collapse.show li {
-    text-transform: uppercase;
-    text-align: center;
-    padding: 1em;
-    font-size: 34px;
-    transition: ease;
-    border-radius: 20px;
-}
-
-/**/
+@import "styles/child_theme_main_header";
+@import "styles/child_theme_main_footer";

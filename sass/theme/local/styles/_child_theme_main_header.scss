@@ -1,0 +1,41 @@
+/*HEADER STYLES*/
+
+.site-header {
+  @extend .mt-0;
+  @extend .shadow-sm;
+  @extend .navbar-dark;
+  @extend .bg-success;
+  @extend .sticky-top;
+}
+
+#masthead a {
+  color: $white !important;
+}
+
+/*mobile header*/
+.collapsing {
+  display: none;
+}
+
+.collapse.show {
+  height: 100vh !important;
+  -webkit-animation-name: fade;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+.collapse.show ui {
+  width: 100% !important;
+}
+
+.collapse.show li {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  font-size: 34px;
+  transition: ease;
+  border-radius: 20px;
+}
