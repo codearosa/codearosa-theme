@@ -1,0 +1,44 @@
+//ADD THIS TO YOUR FUNCTIONS.PHP
+
+
+
+/*-------INCLUDES Folder Custom-------*/
+$codearosa_custom_functions_includes = array(
+  //enqueue and enable Styles and functions
+  '/php/functions/0_enable_and_enqueue/0001_enqueue_bootstrap_slider.php',
+  '/php/functions/0_enable_and_enqueue/0002_enable_blogroll.php',
+
+  //Gutenberg Editor
+	'/php/functions/0_gutenberg_editor/0001_enqueue_editor_styles.php',
+  '/php/functions/0_gutenberg_editor/0002_color_palette_enqueue_styles.php',
+  '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
+
+  //Menus
+  '/php/functions/1_menus/0001_social_menu.php',
+
+  //WIDGETS
+  '/php/functions/2_widgets/0001_topbar_widget_area.php',
+
+  //CUSTOM WP Login
+  '/php/functions/3_custom_wp_login/0001_custom_wp_login.php',
+
+  //IMAGES AND THUMBAILS
+  '/php/functions/4_images_and_thumbnails/0001_add_image_sizes.php',
+  '/php/functions/4_images_and_thumbnails/0002_default_featured_thumbnail.php',
+
+  //POSTS AND CATEGORY STYLES
+  '/php/functions/5_posts_and_category_sites/0001_posts_and_excerpt_meta.php',
+  '/php/functions/5_posts_and_category_sites/0002_posted_on.php',
+  '/php/functions/5_posts_and_category_sites/0003_excerpt_length.php',
+
+// SHORTCODES
+  '/php/functions/6_shortcodes/0001_recentpost_shortcode.php',
+);
+
+foreach ( $codearosa_custom_functions_includes as $file ) {
+	$filepath = locate_template( 'custom' . $file );
+	if ( ! $filepath ) {
+		trigger_error( sprintf( 'Error locating /custom%s for inclusion', $file ), E_USER_ERROR );
+	}
+	require_once $filepath;
+}

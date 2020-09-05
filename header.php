@@ -24,7 +24,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php get_template_part( 'template-particles/preloader', 'none' ); ?>
+<?php get_template_part( 'custom/php/template-parts/preloader'); ?>
 
 <body <?php body_class(); ?>>
 
@@ -62,19 +62,9 @@
 
 									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>
 
+									
+										<?php get_template_part( 'custom/php/menu/menu-primary', 'none' ); ?>
 
-									<?php wp_nav_menu(
-										array(
-											'theme_location'  => 'primary',
-											'container_class' => 'collapse navbar-collapse',
-											'container_id'    => 'navbarNavDropdown',
-											'menu_class'      => 'navbar-nav ml-auto',
-											'fallback_cb'     => '',
-											'menu_id'         => 'main-menu',
-											'depth'           => 2,
-											'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-										)
-									); ?>
 
 									<a href="#" class="nav-link d-none d-lg-block" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>
 

@@ -1,0 +1,93 @@
+
+/*
+*
+*Neumorphism Buttons*/
+
+//primary button
+.primary-neumorph,
+.primary-neumorph:hover,
+.primary-neumorph:visited,
+.primary-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: $primary;
+  //transition: box-shadow 0.3s ease-in-out;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $primary-box-shadow-dark,
+            (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $primary-box-shadow-light;
+}
+
+.primary-neumorph:active {
+  border-color: $primary;
+  background: $primary;
+  box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $primary-box-shadow-dark,
+            inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $primary-box-shadow-light;
+}
+
+//grey button
+.secondary-neumorph,
+.secondary-neumorph:hover,
+.secondary-neumorph:visited,
+.secondary-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: $secondary;
+  border-radius: $border-radius;
+  //transition: box-shadow 0.3s ease-in-out;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
+            (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light !important;
+}
+
+@mixin secondary-neumorph-active {
+  border-color: transparent !important;
+  background: $secondary;
+  box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
+            inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light !important;
+}
+.secondary-neumorph:active {
+  @include secondary-neumorph-active;
+}
+
+//info button
+.info-neumorph,
+.info-neumorph:hover,
+.info-neumorph:visited,
+.info-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: $info;
+  //transition: box-shadow 0.3s ease-in-out;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $info-box-shadow-dark,
+            (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $info-box-shadow-light;
+}
+
+.info-neumorph:active {
+  border-color: $info;
+  background: $info;
+  box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $info-box-shadow-dark,
+            inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $info-box-shadow-light;
+}
+
+//success button
+.success-neumorph,
+.success-neumorph:hover:visited:focus
+/*.success-neumorph:visited,
+.success-neumorph:focus*/ {
+  border-color: transparent;
+  outline: 0 none;
+  background: $success;
+  //transition: box-shadow 0.3s ease-in-out;
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $success-box-shadow-dark,
+            (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $success-box-shadow-light;
+}
+.success-neumorph:active {
+  border-color: $success;
+  background: $success;
+  box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $success-box-shadow-dark,
+            inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $success-box-shadow-light;
+}
+//Style Links in Buttons
+.success-neumorph a,
+.success-neumorph a:hover:visited:focus:active {
+  color: $secondary !important;
+  text-decoration: none !important;
+}

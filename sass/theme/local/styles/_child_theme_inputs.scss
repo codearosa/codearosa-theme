@@ -1,0 +1,7 @@
+input[type=text] {
+    @include secondary-neumorph-active;
+}
+
+input[type=button] {
+    @extend .btn-primary;
+}

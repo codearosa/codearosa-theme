@@ -1,0 +1,14 @@
+/* Import bootstrap-sass so that we have access to all of its selectors */
+@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+
+/*linkinbio add the class to style the link in bio button*/
+
+.linkinbio {
+  @extend .secondary-neumorph;
+  @extend .my-4 !optional;
+  @extend .p-5 !optional;
+  @extend .container !optional;
+  @extend .text-center !optional;
+  @extend .w-50 !optional;
+  @extend .text-uppercase !optional;
+}
