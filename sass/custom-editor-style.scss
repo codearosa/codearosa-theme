@@ -1,4 +1,4 @@
-@import "theme/local/local_child_theme_imports"; // <--------- LocalStyles import
+@import "theme/child_theme"; // <------- Add your styles into this file
 
 // Add specific Gutenberg editor styles there
 // add your personal styles here
@@ -27,4 +27,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
