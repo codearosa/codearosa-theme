@@ -2897,7 +2897,7 @@ fieldset:disabled a#nf-field-25 {
   pointer-events: none; }
 
 .btn-primary, #nf-field-4,
-#nf-field-25, input[type=button] {
+#nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input) {
   color: #F2F4F3;
   background: #C8689A -webkit-gradient(linear, left top, left bottom, from(#b1608d), to(#C8689A)) repeat-x;
   background: #C8689A linear-gradient(180deg, #b1608d, #C8689A) repeat-x;
@@ -2905,14 +2905,14 @@ fieldset:disabled a#nf-field-25 {
   -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover, #nf-field-4:hover,
-  #nf-field-25:hover, input:hover[type=button] {
+  #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
     border-color: #b94481; }
   .btn-primary:focus, #nf-field-4:focus,
-  #nf-field-25:focus, input:focus[type=button], .btn-primary.focus, .focus#nf-field-4,
-  .focus#nf-field-25, input.focus[type=button] {
+  #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .btn-primary.focus, .focus#nf-field-4,
+  .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
@@ -2920,30 +2920,30 @@ fieldset:disabled a#nf-field-25 {
     -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
             box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
   .btn-primary.disabled, .disabled#nf-field-4,
-  .disabled#nf-field-25, input.disabled[type=button], .btn-primary:disabled, #nf-field-4:disabled,
-  #nf-field-25:disabled, input:disabled[type=button] {
+  .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .btn-primary:disabled, #nf-field-4:disabled,
+  #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #C8689A;
     border-color: #C8689A;
     background-image: none; }
   .btn-primary:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
-  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button], .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
-  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button],
+  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .show > .btn-primary.dropdown-toggle,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
-  .show > input.dropdown-toggle[type=button] {
+  .show > input.dropdown-toggle[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #b94481;
     background-image: none;
     border-color: #b0407a; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
-    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button], .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
-    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button],
+    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .show > .btn-primary.dropdown-toggle:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
-    .show > input.dropdown-toggle:focus[type=button] {
+    .show > input.dropdown-toggle:focus[type=button]:not(.components-text-control__input) {
       -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
               box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
 
@@ -8283,7 +8283,22 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -8292,7 +8307,22 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -8380,7 +8410,22 @@ button.bg-dark:focus {
   padding: 1rem !important; }
 
 .pt-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-top: 1rem !important; }
 
 .pr-3,
@@ -8388,7 +8433,22 @@ button.bg-dark:focus {
   padding-right: 1rem !important; }
 
 .pb-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-bottom: 1rem !important; }
 
 .pl-3,
@@ -8403,7 +8463,22 @@ button.bg-dark:focus {
   padding-top: 1.5rem !important; }
 
 .pr-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-right: 1.5rem !important; }
 
 .pb-4,
@@ -8411,7 +8486,22 @@ button.bg-dark:focus {
   padding-bottom: 1.5rem !important; }
 
 .pl-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-left: 1.5rem !important; }
 
 .p-5, .linkinbio {
@@ -12367,7 +12457,7 @@ fieldset:disabled a#nf-field-25 {
   pointer-events: none; }
 
 .btn-primary, #nf-field-4,
-#nf-field-25, input[type=button] {
+#nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input) {
   color: #F2F4F3;
   background: #C8689A -webkit-gradient(linear, left top, left bottom, from(#b1608d), to(#C8689A)) repeat-x;
   background: #C8689A linear-gradient(180deg, #b1608d, #C8689A) repeat-x;
@@ -12375,14 +12465,14 @@ fieldset:disabled a#nf-field-25 {
   -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover, #nf-field-4:hover,
-  #nf-field-25:hover, input:hover[type=button] {
+  #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
     border-color: #b94481; }
   .btn-primary:focus, #nf-field-4:focus,
-  #nf-field-25:focus, input:focus[type=button], .btn-primary.focus, .focus#nf-field-4,
-  .focus#nf-field-25, input.focus[type=button] {
+  #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .btn-primary.focus, .focus#nf-field-4,
+  .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
@@ -12390,30 +12480,30 @@ fieldset:disabled a#nf-field-25 {
     -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
             box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
   .btn-primary.disabled, .disabled#nf-field-4,
-  .disabled#nf-field-25, input.disabled[type=button], .btn-primary:disabled, #nf-field-4:disabled,
-  #nf-field-25:disabled, input:disabled[type=button] {
+  .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .btn-primary:disabled, #nf-field-4:disabled,
+  #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #C8689A;
     border-color: #C8689A;
     background-image: none; }
   .btn-primary:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
-  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button], .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
-  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button],
+  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .show > .btn-primary.dropdown-toggle,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
-  .show > input.dropdown-toggle[type=button] {
+  .show > input.dropdown-toggle[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #b94481;
     background-image: none;
     border-color: #b0407a; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
-    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button], .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
-    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button],
+    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .show > .btn-primary.dropdown-toggle:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
-    .show > input.dropdown-toggle:focus[type=button] {
+    .show > input.dropdown-toggle:focus[type=button]:not(.components-text-control__input) {
       -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
               box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
 
@@ -17747,7 +17837,22 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -17756,7 +17861,22 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -17844,7 +17964,22 @@ button.bg-dark:focus {
   padding: 1rem !important; }
 
 .pt-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-top: 1rem !important; }
 
 .pr-3,
@@ -17852,7 +17987,22 @@ button.bg-dark:focus {
   padding-right: 1rem !important; }
 
 .pb-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-bottom: 1rem !important; }
 
 .pl-3,
@@ -17867,7 +18017,22 @@ button.bg-dark:focus {
   padding-top: 1.5rem !important; }
 
 .pr-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-right: 1.5rem !important; }
 
 .pb-4,
@@ -17875,7 +18040,22 @@ button.bg-dark:focus {
   padding-bottom: 1.5rem !important; }
 
 .pl-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-left: 1.5rem !important; }
 
 .p-5, .linkinbio {
@@ -19267,11 +19447,16 @@ a.text-dark:hover, a.text-dark:focus {
 .home .card img {
   border-radius: 0.8rem; }
 
-input[type=text] {
+input[type=text]:not(.components-text-control__input) {
   border-color: transparent !important;
   background: #2D3142;
   -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important; }
+
+.btn.secondary-neumorph, .secondary-neumorph#nf-field-4, #nf-field-4.linkinbio, .home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25, #nf-field-25.linkinbio, .home #nf-field-25.card.post, .btn.linkinbio, .wpcf7 input.linkinbio[type=submit], .home .btn.card.post, .home .wpcf7 input.card.post[type=submit], .wpcf7 .home input.card.post[type=submit], .btn#right-sidebar, .wpcf7 input#right-sidebar[type=submit], .wpcf7 input.secondary-neumorph[type=submit] {
+  font-weight: 700;
+  font-size: larger; }
 
 /*HEADER STYLES*/
 #masthead a {
@@ -19311,6 +19496,16 @@ input[type=text] {
 
 .editor-writing-flow {
   font-family: Raleway; }
+
+input.components-text-control__input {
+  background-color: white;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid black; }
+
+.block-editor-block-list__layout.is-root-container {
+  background-color: #2D3142 !important;
+  color: #F2F4F3 !important; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -21881,7 +22076,7 @@ fieldset:disabled a#nf-field-25 {
   pointer-events: none; }
 
 .btn-primary, #nf-field-4,
-#nf-field-25, input[type=button] {
+#nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input) {
   color: #F2F4F3;
   background: #C8689A -webkit-gradient(linear, left top, left bottom, from(#b1608d), to(#C8689A)) repeat-x;
   background: #C8689A linear-gradient(180deg, #b1608d, #C8689A) repeat-x;
@@ -21889,14 +22084,14 @@ fieldset:disabled a#nf-field-25 {
   -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover, #nf-field-4:hover,
-  #nf-field-25:hover, input:hover[type=button] {
+  #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
     border-color: #b94481; }
   .btn-primary:focus, #nf-field-4:focus,
-  #nf-field-25:focus, input:focus[type=button], .btn-primary.focus, .focus#nf-field-4,
-  .focus#nf-field-25, input.focus[type=button] {
+  #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .btn-primary.focus, .focus#nf-field-4,
+  .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
@@ -21904,30 +22099,30 @@ fieldset:disabled a#nf-field-25 {
     -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
             box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
   .btn-primary.disabled, .disabled#nf-field-4,
-  .disabled#nf-field-25, input.disabled[type=button], .btn-primary:disabled, #nf-field-4:disabled,
-  #nf-field-25:disabled, input:disabled[type=button] {
+  .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .btn-primary:disabled, #nf-field-4:disabled,
+  #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #C8689A;
     border-color: #C8689A;
     background-image: none; }
   .btn-primary:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
-  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button], .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
-  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button],
+  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .show > .btn-primary.dropdown-toggle,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
-  .show > input.dropdown-toggle[type=button] {
+  .show > input.dropdown-toggle[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #b94481;
     background-image: none;
     border-color: #b0407a; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
-    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button], .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
-    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button],
+    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .show > .btn-primary.dropdown-toggle:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
-    .show > input.dropdown-toggle:focus[type=button] {
+    .show > input.dropdown-toggle:focus[type=button]:not(.components-text-control__input) {
       -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
               box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
 
@@ -27273,7 +27468,22 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -27282,7 +27492,22 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -27370,7 +27595,22 @@ button.bg-dark:focus {
   padding: 1rem !important; }
 
 .pt-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-top: 1rem !important; }
 
 .pr-3,
@@ -27378,7 +27618,22 @@ button.bg-dark:focus {
   padding-right: 1rem !important; }
 
 .pb-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-bottom: 1rem !important; }
 
 .pl-3,
@@ -27393,7 +27648,22 @@ button.bg-dark:focus {
   padding-top: 1.5rem !important; }
 
 .pr-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-right: 1.5rem !important; }
 
 .pb-4,
@@ -27401,7 +27671,22 @@ button.bg-dark:focus {
   padding-bottom: 1.5rem !important; }
 
 .pl-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-left: 1.5rem !important; }
 
 .p-5, .linkinbio {
@@ -34134,7 +34419,7 @@ fieldset:disabled a#nf-field-25 {
   pointer-events: none; }
 
 .btn-primary, #nf-field-4,
-#nf-field-25, input[type=button] {
+#nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input) {
   color: #F2F4F3;
   background: #C8689A -webkit-gradient(linear, left top, left bottom, from(#b1608d), to(#C8689A)) repeat-x;
   background: #C8689A linear-gradient(180deg, #b1608d, #C8689A) repeat-x;
@@ -34142,14 +34427,14 @@ fieldset:disabled a#nf-field-25 {
   -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover, #nf-field-4:hover,
-  #nf-field-25:hover, input:hover[type=button] {
+  #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
     border-color: #b94481; }
   .btn-primary:focus, #nf-field-4:focus,
-  #nf-field-25:focus, input:focus[type=button], .btn-primary.focus, .focus#nf-field-4,
-  .focus#nf-field-25, input.focus[type=button] {
+  #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .btn-primary.focus, .focus#nf-field-4,
+  .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
@@ -34157,30 +34442,30 @@ fieldset:disabled a#nf-field-25 {
     -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
             box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
   .btn-primary.disabled, .disabled#nf-field-4,
-  .disabled#nf-field-25, input.disabled[type=button], .btn-primary:disabled, #nf-field-4:disabled,
-  #nf-field-25:disabled, input:disabled[type=button] {
+  .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .btn-primary:disabled, #nf-field-4:disabled,
+  #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #C8689A;
     border-color: #C8689A;
     background-image: none; }
   .btn-primary:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
-  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button], .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
-  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button],
+  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .show > .btn-primary.dropdown-toggle,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
-  .show > input.dropdown-toggle[type=button] {
+  .show > input.dropdown-toggle[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #b94481;
     background-image: none;
     border-color: #b0407a; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
-    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button], .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
-    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button],
+    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .show > .btn-primary.dropdown-toggle:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
-    .show > input.dropdown-toggle:focus[type=button] {
+    .show > input.dropdown-toggle:focus[type=button]:not(.components-text-control__input) {
       -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
               box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
 
@@ -39538,7 +39823,22 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -39547,7 +39847,22 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -39635,7 +39950,22 @@ button.bg-dark:focus {
   padding: 1rem !important; }
 
 .pt-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-top: 1rem !important; }
 
 .pr-3,
@@ -39643,7 +39973,22 @@ button.bg-dark:focus {
   padding-right: 1rem !important; }
 
 .pb-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-bottom: 1rem !important; }
 
 .pl-3,
@@ -39658,7 +40003,22 @@ button.bg-dark:focus {
   padding-top: 1.5rem !important; }
 
 .pr-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-right: 1.5rem !important; }
 
 .pb-4,
@@ -39666,7 +40026,22 @@ button.bg-dark:focus {
   padding-bottom: 1.5rem !important; }
 
 .pl-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-left: 1.5rem !important; }
 
 .p-5, .linkinbio {
@@ -43622,7 +43997,7 @@ fieldset:disabled a#nf-field-25 {
   pointer-events: none; }
 
 .btn-primary, #nf-field-4,
-#nf-field-25, input[type=button] {
+#nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input) {
   color: #F2F4F3;
   background: #C8689A -webkit-gradient(linear, left top, left bottom, from(#b1608d), to(#C8689A)) repeat-x;
   background: #C8689A linear-gradient(180deg, #b1608d, #C8689A) repeat-x;
@@ -43630,14 +44005,14 @@ fieldset:disabled a#nf-field-25 {
   -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover, #nf-field-4:hover,
-  #nf-field-25:hover, input:hover[type=button] {
+  #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
     border-color: #b94481; }
   .btn-primary:focus, #nf-field-4:focus,
-  #nf-field-25:focus, input:focus[type=button], .btn-primary.focus, .focus#nf-field-4,
-  .focus#nf-field-25, input.focus[type=button] {
+  #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .btn-primary.focus, .focus#nf-field-4,
+  .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background: #be4c87 -webkit-gradient(linear, left top, left bottom, from(#a8487d), to(#be4c87)) repeat-x;
     background: #be4c87 linear-gradient(180deg, #a8487d, #be4c87) repeat-x;
@@ -43645,30 +44020,30 @@ fieldset:disabled a#nf-field-25 {
     -webkit-box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
             box-shadow: inset 0 1px 0 rgba(242, 244, 243, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
   .btn-primary.disabled, .disabled#nf-field-4,
-  .disabled#nf-field-25, input.disabled[type=button], .btn-primary:disabled, #nf-field-4:disabled,
-  #nf-field-25:disabled, input:disabled[type=button] {
+  .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .btn-primary:disabled, #nf-field-4:disabled,
+  #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #C8689A;
     border-color: #C8689A;
     background-image: none; }
   .btn-primary:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
-  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button], .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
-  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button],
+  #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .show > .btn-primary.dropdown-toggle,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
-  .show > input.dropdown-toggle[type=button] {
+  .show > input.dropdown-toggle[type=button]:not(.components-text-control__input) {
     color: #F2F4F3;
     background-color: #b94481;
     background-image: none;
     border-color: #b0407a; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
-    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button], .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
-    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button],
+    #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input), .btn-primary:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .show > .btn-primary.dropdown-toggle:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
-    .show > input.dropdown-toggle:focus[type=button] {
+    .show > input.dropdown-toggle:focus[type=button]:not(.components-text-control__input) {
       -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5);
               box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(206, 125, 167, 0.5); }
 
@@ -49038,7 +49413,22 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-top: 1.5rem !important; }
 
 .mr-4,
@@ -49047,7 +49437,22 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4,
-.linkinbio {
+.linkinbio,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -49135,7 +49540,22 @@ button.bg-dark:focus {
   padding: 1rem !important; }
 
 .pt-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-top: 1rem !important; }
 
 .pr-3,
@@ -49143,7 +49563,22 @@ button.bg-dark:focus {
   padding-right: 1rem !important; }
 
 .pb-3,
-.py-3 {
+.py-3,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-bottom: 1rem !important; }
 
 .pl-3,
@@ -49158,7 +49593,22 @@ button.bg-dark:focus {
   padding-top: 1.5rem !important; }
 
 .pr-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-right: 1.5rem !important; }
 
 .pb-4,
@@ -49166,7 +49616,22 @@ button.bg-dark:focus {
   padding-bottom: 1.5rem !important; }
 
 .pl-4,
-.px-4 {
+.px-4,
+.btn.secondary-neumorph,
+.secondary-neumorph#nf-field-4,
+#nf-field-4.linkinbio,
+.home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25,
+#nf-field-25.linkinbio,
+.home #nf-field-25.card.post,
+.btn.linkinbio,
+.wpcf7 input.linkinbio[type=submit],
+.home .btn.card.post,
+.home .wpcf7 input.card.post[type=submit],
+.wpcf7 .home input.card.post[type=submit],
+.btn#right-sidebar,
+.wpcf7 input#right-sidebar[type=submit],
+.wpcf7 input.secondary-neumorph[type=submit] {
   padding-left: 1.5rem !important; }
 
 .p-5, .linkinbio {
@@ -50558,11 +51023,16 @@ a.text-dark:hover, a.text-dark:focus {
 .home .card img {
   border-radius: 0.8rem; }
 
-input[type=text] {
+input[type=text]:not(.components-text-control__input) {
   border-color: transparent !important;
   background: #2D3142;
   -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important; }
+
+.btn.secondary-neumorph, .secondary-neumorph#nf-field-4, #nf-field-4.linkinbio, .home #nf-field-4.card.post,
+.secondary-neumorph#nf-field-25, #nf-field-25.linkinbio, .home #nf-field-25.card.post, .btn.linkinbio, .wpcf7 input.linkinbio[type=submit], .home .btn.card.post, .home .wpcf7 input.card.post[type=submit], .wpcf7 .home input.card.post[type=submit], .btn#right-sidebar, .wpcf7 input#right-sidebar[type=submit], .wpcf7 input.secondary-neumorph[type=submit] {
+  font-weight: 700;
+  font-size: larger; }
 
 /*HEADER STYLES*/
 #masthead a {

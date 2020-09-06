@@ -1,7 +1,7 @@
-input[type=text] {
+input[type=text]:not(.components-text-control__input) {
     @include secondary-neumorph-active;
 }
 
-input[type=button] {
+input[type=button]:not(.components-text-control__input, .browser input) {
     @extend .btn-primary;
 }
