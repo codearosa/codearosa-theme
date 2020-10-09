@@ -207,24 +207,28 @@
   -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
           box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
 
-.secondary-neumorph:active, .linkinbio:active, .home .card.post:active, #right-sidebar:active, #loginform:active, .wp-core-ui .button-primary:active {
+.secondary-neumorph:active, .neumorph-portfolio-card:active, .linkinbio:active, .home .card.post:active, .home .post.neumorph-portfolio-card:active, #right-sidebar:active, #loginform:active, .wp-core-ui .button-primary:active {
   border-color: transparent !important;
   background: #2D3142;
   -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important; }
 
-.secondary-neumorph, .linkinbio, .home .card.post, #right-sidebar, #loginform, .wp-core-ui .button-primary,
+.secondary-neumorph, .neumorph-portfolio-card, .linkinbio, .home .card.post, .home .post.neumorph-portfolio-card, #right-sidebar, #loginform, .wp-core-ui .button-primary,
 .wp-core-ui .button-primary:hover,
 .wp-core-ui .button-primary:focus,
 .secondary-neumorph:visited,
+.neumorph-portfolio-card:visited,
 .linkinbio:visited,
 .home .card.post:visited,
+.home .post.neumorph-portfolio-card:visited,
 #right-sidebar:visited,
 #loginform:visited,
 .wp-core-ui .button-primary:visited,
 .secondary-neumorph:focus,
+.neumorph-portfolio-card:focus,
 .linkinbio:focus,
 .home .card.post:focus,
+.home .post.neumorph-portfolio-card:focus,
 #right-sidebar:focus,
 #loginform:focus,
 .wp-core-ui .button-primary:focus {
@@ -238,6 +242,7 @@
           transition-duration: 0.3s; }
 
 .secondary-neumorph:hover:not(.btn):not(#nf-field-4):not(
+#nf-field-25), .neumorph-portfolio-card:hover:not(.btn):not(#nf-field-4):not(
 #nf-field-25), .linkinbio:hover:not(.btn):not(#nf-field-4):not(
 #nf-field-25), .home .card.post:hover:not(.btn):not(#nf-field-4):not(
 #nf-field-25), #right-sidebar:hover:not(.btn):not(#nf-field-4):not(
@@ -311,9 +316,19 @@
 .nf-error .ninja-forms-field {
   border-color: #C8689A !important; }
 
-.portfolio-card .card {
+/*font family*/
+/*Colors*/
+/*border-style*/
+/*enable*/
+/*
+*
+*Neumorphism Buttons*/
+.portfolio-card .card, .portfolio-card .neumorph-portfolio-card {
   border: none !important;
   background-color: #2D3142; }
+
+.neumorph-portfolio-card {
+  background-color: #2D3142 !important; }
 
 /* width */
 ::-webkit-scrollbar {
@@ -4513,7 +4528,7 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .site-header .navbar-text a:hover, .navbar-dark .navbar-text a:focus, .site-header .navbar-text a:focus {
       color: #F2F4F3; }
 
-.card {
+.card, .neumorph-portfolio-card {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4528,13 +4543,13 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.8rem; }
-  .card > hr {
+  .card > hr, .neumorph-portfolio-card > hr {
     margin-right: 0;
     margin-left: 0; }
-  .card > .list-group:first-child .list-group-item:first-child {
+  .card > .list-group:first-child .list-group-item:first-child, .neumorph-portfolio-card > .list-group:first-child .list-group-item:first-child {
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem; }
-  .card > .list-group:last-child .list-group-item:last-child {
+  .card > .list-group:last-child .list-group-item:last-child, .neumorph-portfolio-card > .list-group:last-child .list-group-item:last-child {
     border-bottom-right-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem; }
 
@@ -4613,7 +4628,7 @@ input[type="button"].btn-block {
   border-bottom-right-radius: calc(0.8rem - 1px);
   border-bottom-left-radius: calc(0.8rem - 1px); }
 
-.card-deck .card {
+.card-deck .card, .card-deck .neumorph-portfolio-card {
   margin-bottom: 15px; }
 
 @media (min-width: 576px) {
@@ -4627,7 +4642,7 @@ input[type="button"].btn-block {
             flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px; }
-    .card-deck .card {
+    .card-deck .card, .card-deck .neumorph-portfolio-card {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 0%;
               flex: 1 0 0%;
@@ -4635,7 +4650,7 @@ input[type="button"].btn-block {
       margin-bottom: 0;
       margin-left: 15px; } }
 
-.card-group > .card {
+.card-group > .card, .card-group > .neumorph-portfolio-card {
   margin-bottom: 15px; }
 
 @media (min-width: 576px) {
@@ -4647,34 +4662,38 @@ input[type="button"].btn-block {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    .card-group > .card {
+    .card-group > .card, .card-group > .neumorph-portfolio-card {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 0%;
               flex: 1 0 0%;
       margin-bottom: 0; }
-      .card-group > .card + .card {
+      .card-group > .card + .card, .card-group > .neumorph-portfolio-card + .card, .card-group > .card + .neumorph-portfolio-card, .card-group > .neumorph-portfolio-card + .neumorph-portfolio-card {
         margin-left: 0;
         border-left: 0; }
-      .card-group > .card:not(:last-child) {
+      .card-group > .card:not(:last-child), .card-group > .neumorph-portfolio-card:not(:last-child) {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0; }
-        .card-group > .card:not(:last-child) .card-img-top,
-        .card-group > .card:not(:last-child) .card-header {
+        .card-group > .card:not(:last-child) .card-img-top, .card-group > .neumorph-portfolio-card:not(:last-child) .card-img-top,
+        .card-group > .card:not(:last-child) .card-header,
+        .card-group > .neumorph-portfolio-card:not(:last-child) .card-header {
           border-top-right-radius: 0; }
-        .card-group > .card:not(:last-child) .card-img-bottom,
-        .card-group > .card:not(:last-child) .card-footer {
+        .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .neumorph-portfolio-card:not(:last-child) .card-img-bottom,
+        .card-group > .card:not(:last-child) .card-footer,
+        .card-group > .neumorph-portfolio-card:not(:last-child) .card-footer {
           border-bottom-right-radius: 0; }
-      .card-group > .card:not(:first-child) {
+      .card-group > .card:not(:first-child), .card-group > .neumorph-portfolio-card:not(:first-child) {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0; }
-        .card-group > .card:not(:first-child) .card-img-top,
-        .card-group > .card:not(:first-child) .card-header {
+        .card-group > .card:not(:first-child) .card-img-top, .card-group > .neumorph-portfolio-card:not(:first-child) .card-img-top,
+        .card-group > .card:not(:first-child) .card-header,
+        .card-group > .neumorph-portfolio-card:not(:first-child) .card-header {
           border-top-left-radius: 0; }
-        .card-group > .card:not(:first-child) .card-img-bottom,
-        .card-group > .card:not(:first-child) .card-footer {
+        .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .neumorph-portfolio-card:not(:first-child) .card-img-bottom,
+        .card-group > .card:not(:first-child) .card-footer,
+        .card-group > .neumorph-portfolio-card:not(:first-child) .card-footer {
           border-bottom-left-radius: 0; } }
 
-.card-columns .card {
+.card-columns .card, .card-columns .neumorph-portfolio-card {
   margin-bottom: 0.75rem; }
 
 @media (min-width: 576px) {
@@ -4687,20 +4706,20 @@ input[type="button"].btn-block {
             column-gap: 1.25rem;
     orphans: 1;
     widows: 1; }
-    .card-columns .card {
+    .card-columns .card, .card-columns .neumorph-portfolio-card {
       display: inline-block;
       width: 100%; } }
 
-.accordion > .card {
+.accordion > .card, .accordion > .neumorph-portfolio-card {
   overflow: hidden; }
-  .accordion > .card:not(:last-of-type) {
+  .accordion > .card:not(:last-of-type), .accordion > .neumorph-portfolio-card:not(:last-of-type) {
     border-bottom: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .accordion > .card:not(:first-of-type) {
+  .accordion > .card:not(:first-of-type), .accordion > .neumorph-portfolio-card:not(:first-of-type) {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
-  .accordion > .card > .card-header {
+  .accordion > .card > .card-header, .accordion > .neumorph-portfolio-card > .card-header {
     border-radius: 0;
     margin-bottom: -1px; }
 
@@ -7330,7 +7349,7 @@ button.bg-dark:focus {
 .mx-0 {
   margin-left: 0 !important; }
 
-.m-1, .nf_neumorph, .home .card.post, #right-sidebar {
+.m-1, .nf_neumorph, .home .card.post, .home .post.neumorph-portfolio-card, #right-sidebar {
   margin: 0.25rem !important; }
 
 .mt-1,
@@ -7368,7 +7387,7 @@ button.bg-dark:focus {
 .mx-2 {
   margin-left: 0.5rem !important; }
 
-.m-3 {
+.m-3, .neumorph-portfolio-card {
   margin: 1rem !important; }
 
 .mt-3,
@@ -7395,15 +7414,19 @@ button.bg-dark:focus {
 .linkinbio,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -7418,15 +7441,19 @@ button.bg-dark:focus {
 .linkinbio,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -7494,7 +7521,7 @@ button.bg-dark:focus {
   padding-left: 0.25rem !important; }
 
 .p-2, #nf-field-4,
-#nf-field-25, .nf_neumorph, .home .card.post {
+#nf-field-25, .nf_neumorph, .home .card.post, .home .post.neumorph-portfolio-card {
   padding: 0.5rem !important; }
 
 .pt-2,
@@ -7513,22 +7540,26 @@ button.bg-dark:focus {
 .px-2 {
   padding-left: 0.5rem !important; }
 
-.p-3, #right-sidebar {
+.p-3, .neumorph-portfolio-card, #right-sidebar {
   padding: 1rem !important; }
 
 .pt-3,
 .py-3,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -7542,15 +7573,19 @@ button.bg-dark:focus {
 .py-3,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -7571,15 +7606,19 @@ button.bg-dark:focus {
 .px-4,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -7593,15 +7632,19 @@ button.bg-dark:focus {
 .px-4,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -8573,7 +8616,7 @@ button.bg-dark:focus {
   .ml-xl-4,
   .mx-xl-4 {
     margin-left: 1.5rem !important; }
-  .m-xl-5 {
+  .m-xl-5, .neumorph-portfolio-card {
     margin: 3rem !important; }
   .mt-xl-5,
   .my-xl-5 {
@@ -8657,7 +8700,7 @@ button.bg-dark:focus {
   .pl-xl-4,
   .px-xl-4 {
     padding-left: 1.5rem !important; }
-  .p-xl-5 {
+  .p-xl-5, .neumorph-portfolio-card {
     padding: 3rem !important; }
   .pt-xl-5,
   .py-xl-5 {
@@ -13167,7 +13210,7 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .site-header .navbar-text a:hover, .navbar-dark .navbar-text a:focus, .site-header .navbar-text a:focus {
       color: #F2F4F3; }
 
-.card {
+.card, .neumorph-portfolio-card {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13182,13 +13225,13 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.8rem; }
-  .card > hr {
+  .card > hr, .neumorph-portfolio-card > hr {
     margin-right: 0;
     margin-left: 0; }
-  .card > .list-group:first-child .list-group-item:first-child {
+  .card > .list-group:first-child .list-group-item:first-child, .neumorph-portfolio-card > .list-group:first-child .list-group-item:first-child {
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem; }
-  .card > .list-group:last-child .list-group-item:last-child {
+  .card > .list-group:last-child .list-group-item:last-child, .neumorph-portfolio-card > .list-group:last-child .list-group-item:last-child {
     border-bottom-right-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem; }
 
@@ -13267,7 +13310,7 @@ input[type="button"].btn-block {
   border-bottom-right-radius: calc(0.8rem - 1px);
   border-bottom-left-radius: calc(0.8rem - 1px); }
 
-.card-deck .card {
+.card-deck .card, .card-deck .neumorph-portfolio-card {
   margin-bottom: 15px; }
 
 @media (min-width: 576px) {
@@ -13281,7 +13324,7 @@ input[type="button"].btn-block {
             flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px; }
-    .card-deck .card {
+    .card-deck .card, .card-deck .neumorph-portfolio-card {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 0%;
               flex: 1 0 0%;
@@ -13289,7 +13332,7 @@ input[type="button"].btn-block {
       margin-bottom: 0;
       margin-left: 15px; } }
 
-.card-group > .card {
+.card-group > .card, .card-group > .neumorph-portfolio-card {
   margin-bottom: 15px; }
 
 @media (min-width: 576px) {
@@ -13301,34 +13344,38 @@ input[type="button"].btn-block {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    .card-group > .card {
+    .card-group > .card, .card-group > .neumorph-portfolio-card {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 0%;
               flex: 1 0 0%;
       margin-bottom: 0; }
-      .card-group > .card + .card {
+      .card-group > .card + .card, .card-group > .neumorph-portfolio-card + .card, .card-group > .card + .neumorph-portfolio-card, .card-group > .neumorph-portfolio-card + .neumorph-portfolio-card {
         margin-left: 0;
         border-left: 0; }
-      .card-group > .card:not(:last-child) {
+      .card-group > .card:not(:last-child), .card-group > .neumorph-portfolio-card:not(:last-child) {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0; }
-        .card-group > .card:not(:last-child) .card-img-top,
-        .card-group > .card:not(:last-child) .card-header {
+        .card-group > .card:not(:last-child) .card-img-top, .card-group > .neumorph-portfolio-card:not(:last-child) .card-img-top,
+        .card-group > .card:not(:last-child) .card-header,
+        .card-group > .neumorph-portfolio-card:not(:last-child) .card-header {
           border-top-right-radius: 0; }
-        .card-group > .card:not(:last-child) .card-img-bottom,
-        .card-group > .card:not(:last-child) .card-footer {
+        .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .neumorph-portfolio-card:not(:last-child) .card-img-bottom,
+        .card-group > .card:not(:last-child) .card-footer,
+        .card-group > .neumorph-portfolio-card:not(:last-child) .card-footer {
           border-bottom-right-radius: 0; }
-      .card-group > .card:not(:first-child) {
+      .card-group > .card:not(:first-child), .card-group > .neumorph-portfolio-card:not(:first-child) {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0; }
-        .card-group > .card:not(:first-child) .card-img-top,
-        .card-group > .card:not(:first-child) .card-header {
+        .card-group > .card:not(:first-child) .card-img-top, .card-group > .neumorph-portfolio-card:not(:first-child) .card-img-top,
+        .card-group > .card:not(:first-child) .card-header,
+        .card-group > .neumorph-portfolio-card:not(:first-child) .card-header {
           border-top-left-radius: 0; }
-        .card-group > .card:not(:first-child) .card-img-bottom,
-        .card-group > .card:not(:first-child) .card-footer {
+        .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .neumorph-portfolio-card:not(:first-child) .card-img-bottom,
+        .card-group > .card:not(:first-child) .card-footer,
+        .card-group > .neumorph-portfolio-card:not(:first-child) .card-footer {
           border-bottom-left-radius: 0; } }
 
-.card-columns .card {
+.card-columns .card, .card-columns .neumorph-portfolio-card {
   margin-bottom: 0.75rem; }
 
 @media (min-width: 576px) {
@@ -13341,20 +13388,20 @@ input[type="button"].btn-block {
             column-gap: 1.25rem;
     orphans: 1;
     widows: 1; }
-    .card-columns .card {
+    .card-columns .card, .card-columns .neumorph-portfolio-card {
       display: inline-block;
       width: 100%; } }
 
-.accordion > .card {
+.accordion > .card, .accordion > .neumorph-portfolio-card {
   overflow: hidden; }
-  .accordion > .card:not(:last-of-type) {
+  .accordion > .card:not(:last-of-type), .accordion > .neumorph-portfolio-card:not(:last-of-type) {
     border-bottom: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .accordion > .card:not(:first-of-type) {
+  .accordion > .card:not(:first-of-type), .accordion > .neumorph-portfolio-card:not(:first-of-type) {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
-  .accordion > .card > .card-header {
+  .accordion > .card > .card-header, .accordion > .neumorph-portfolio-card > .card-header {
     border-radius: 0;
     margin-bottom: -1px; }
 
@@ -15978,7 +16025,7 @@ button.bg-dark:focus {
 .mx-0 {
   margin-left: 0 !important; }
 
-.m-1, .nf_neumorph, .home .card.post, #right-sidebar {
+.m-1, .nf_neumorph, .home .card.post, .home .post.neumorph-portfolio-card, #right-sidebar {
   margin: 0.25rem !important; }
 
 .mt-1,
@@ -16016,7 +16063,7 @@ button.bg-dark:focus {
 .mx-2 {
   margin-left: 0.5rem !important; }
 
-.m-3 {
+.m-3, .neumorph-portfolio-card {
   margin: 1rem !important; }
 
 .mt-3,
@@ -16043,15 +16090,19 @@ button.bg-dark:focus {
 .linkinbio,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -16066,15 +16117,19 @@ button.bg-dark:focus {
 .linkinbio,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -16142,7 +16197,7 @@ button.bg-dark:focus {
   padding-left: 0.25rem !important; }
 
 .p-2, #nf-field-4,
-#nf-field-25, .nf_neumorph, .home .card.post {
+#nf-field-25, .nf_neumorph, .home .card.post, .home .post.neumorph-portfolio-card {
   padding: 0.5rem !important; }
 
 .pt-2,
@@ -16161,22 +16216,26 @@ button.bg-dark:focus {
 .px-2 {
   padding-left: 0.5rem !important; }
 
-.p-3, #right-sidebar {
+.p-3, .neumorph-portfolio-card, #right-sidebar {
   padding: 1rem !important; }
 
 .pt-3,
 .py-3,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -16190,15 +16249,19 @@ button.bg-dark:focus {
 .py-3,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -16219,15 +16282,19 @@ button.bg-dark:focus {
 .px-4,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -16241,15 +16308,19 @@ button.bg-dark:focus {
 .px-4,
 .btn.secondary-neumorph,
 .secondary-neumorph#nf-field-4,
+#nf-field-4.neumorph-portfolio-card,
 #nf-field-4.linkinbio,
 .home #nf-field-4.card.post,
 .wp-core-ui #nf-field-4.button-primary,
 .secondary-neumorph#nf-field-25,
+#nf-field-25.neumorph-portfolio-card,
 #nf-field-25.linkinbio,
 .home #nf-field-25.card.post,
 .wp-core-ui #nf-field-25.button-primary,
+.btn.neumorph-portfolio-card,
 .btn.linkinbio,
 .home .btn.card.post,
+.home .btn.post.neumorph-portfolio-card,
 .btn#right-sidebar,
 .btn#loginform,
 .wp-core-ui .btn.button-primary {
@@ -17221,7 +17292,7 @@ button.bg-dark:focus {
   .ml-xl-4,
   .mx-xl-4 {
     margin-left: 1.5rem !important; }
-  .m-xl-5 {
+  .m-xl-5, .neumorph-portfolio-card {
     margin: 3rem !important; }
   .mt-xl-5,
   .my-xl-5 {
@@ -17305,7 +17376,7 @@ button.bg-dark:focus {
   .pl-xl-4,
   .px-xl-4 {
     padding-left: 1.5rem !important; }
-  .p-xl-5 {
+  .p-xl-5, .neumorph-portfolio-card {
     padding: 3rem !important; }
   .pt-xl-5,
   .py-xl-5 {
@@ -17635,11 +17706,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.home .card.post .card-body {
+.home .card.post .card-body, .home .post.neumorph-portfolio-card .card-body {
   padding: 0;
   margin-top: 1em; }
 
-.home .card img {
+.home .card img, .home .neumorph-portfolio-card img {
   border-radius: 0.8rem; }
 
 input[type=text]:not(.components-text-control__input) {
@@ -17648,8 +17719,8 @@ input[type=text]:not(.components-text-control__input) {
   -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important; }
 
-.btn.secondary-neumorph, .secondary-neumorph#nf-field-4, #nf-field-4.linkinbio, .home #nf-field-4.card.post, .wp-core-ui #nf-field-4.button-primary,
-.secondary-neumorph#nf-field-25, #nf-field-25.linkinbio, .home #nf-field-25.card.post, .wp-core-ui #nf-field-25.button-primary, .btn.linkinbio, .home .btn.card.post, .btn#right-sidebar, .btn#loginform, .wp-core-ui .btn.button-primary {
+.btn.secondary-neumorph, .secondary-neumorph#nf-field-4, #nf-field-4.neumorph-portfolio-card, #nf-field-4.linkinbio, .home #nf-field-4.card.post, .wp-core-ui #nf-field-4.button-primary,
+.secondary-neumorph#nf-field-25, #nf-field-25.neumorph-portfolio-card, #nf-field-25.linkinbio, .home #nf-field-25.card.post, .wp-core-ui #nf-field-25.button-primary, .btn.neumorph-portfolio-card, .btn.linkinbio, .home .btn.card.post, .home .btn.post.neumorph-portfolio-card, .btn#right-sidebar, .btn#loginform, .wp-core-ui .btn.button-primary {
   font-weight: 700;
   font-size: larger; }
 
@@ -17685,6 +17756,16 @@ input[type=text]:not(.components-text-control__input) {
 #wrapper-footer-full,
 #wrapper-static-hero {
   background-color: transparent !important; }
+
+/*images background sizes*/
+.background-image-150px {
+  background-size: 150px 150px !important; }
+
+.background-image-300px {
+  background-size: 300px 300px !important; }
+
+.background-image-no-repeat {
+  background-repeat: no-repeat !important; }
 
 /*--------------------------------------------------------------
 ## Login
