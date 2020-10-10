@@ -36,7 +36,7 @@
 		<div id="dropdownsearch" class="collapse container mx-auto m-1 px-5 text-center"><?php get_search_form(); ?></div>
 
 
-			<nav class="navbar container navbar-expand-lg" role="navigation">
+			<nav class="navbar navbar-expand-lg" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 							<span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
 
 
 						<?php } else { ?>
-							 <a class="navbar-brand w-50 m-0" <?php the_custom_logo(); ?></a>
+							 <a class="navbar-brand m-0" <?php the_custom_logo(); ?></a>
 						<?php } ?><!-- end custom logo -->
 
 									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>

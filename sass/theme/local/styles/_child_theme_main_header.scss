@@ -2,14 +2,17 @@
 
 .site-header {
   @extend .mt-0;
-  @extend .shadow-sm;
-  @extend .navbar-dark;
-  @extend .bg-success;
+  @extend .navbar-light;
   @extend .sticky-top;
 }
 
+.navbar-expand-lg {
+  @extend .px-lg-5;
+  @extend .mx-lg-2;
+}
+
 #masthead a {
-  color: $white !important;
+  color: $primary !important;
 }
 
 /*mobile header*/
@@ -39,3 +42,9 @@
   transition: ease;
   border-radius: 20px;
 }
+
+/*brand-logo*/
+@media screen and (min-width: 1000px) {
+  .navbar-brand {
+  width: 16% !important;
+}}

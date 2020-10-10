@@ -9,23 +9,40 @@
 
 /*font family*/
 $font-family-base: Raleway;
+$headings-font-weight: 600 !important;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+
+
+$h1-font-size: $font-size-base * 3.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
 
 /*Colors*/
 $white: #F2F4F3;
 $primary: #C8689A; //rosa
-$secondary: #2D3142; //blue
+$secondary: #F2F4F3; //white
 $success: #2D3142; //blue
 $info: #B2B4BA; //grey
 $warning: #2D3142;
 $danger: #2D3142;
 $light: rgba(250, 250, 250, 0.7);
-$dark: #0A090C;
+$dark: #2D3142;
+
+/*light gradient*/
+$cr-light-gradient :linear-gradient(181.03deg, #F2F4F3 1.72%, #C8689A 464.71%),#C4C4C4;
+
+.cr-light-gradient {
+    background: $cr-light-gradient;
+}
 
 $body-bg: $secondary;
-$body-color: $white;
+$body-color: $dark;
 
 /*border-style*/
-$border-radius: 0.8rem;
+$border-radius: 0.5rem;
 
 /*enable*/
 $enable-gradients: true;

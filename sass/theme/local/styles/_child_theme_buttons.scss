@@ -6,3 +6,21 @@
     @extend .py-3;
     @extend .py-3;
 }
+
+.wp-block-button.btn-primary,
+.wp-block-button,
+a.wp-block-button__link,
+//for gutenberg
+rich-text.block-editor-rich-text__editable.wp-block-button__link {
+    all: unset;
+}
+
+.btn.btn-primary.btn-lg a.wp-block-button__link,
+//For gutenberg:
+.btn.btn-primary.btn-lg .rich-text.block-editor-rich-text__editable.wp-block-button__link {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+    text-transform: uppercase !important;
+   
+}
