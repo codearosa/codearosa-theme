@@ -44,7 +44,15 @@
 }
 
 /*brand-logo*/
+
 @media screen and (min-width: 1000px) {
   .navbar-brand {
-  width: 16% !important;
-}}
+    width: 16% !important;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .navbar-brand {
+    max-width: 50% !important;
+  }
+}
