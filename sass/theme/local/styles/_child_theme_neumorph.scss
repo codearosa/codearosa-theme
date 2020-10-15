@@ -37,7 +37,7 @@
 
 @mixin secondary-neumorph-active {
   border-color: transparent !important;
-  background: $secondary;
+  background: $secondary !important;
   box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
     inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light !important;
 }

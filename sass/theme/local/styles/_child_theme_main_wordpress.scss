@@ -1,0 +1,15 @@
+//Search
+
+input.wp-block-search__input {
+    @include secondary-neumorph-active;
+    border-radius: $border-radius;
+}
+
+.wp-block-search__button {
+    @extend .btn;
+    @extend .btn-primary;
+}
+
+.wp-block-search__label {
+    @extend h4;
+}

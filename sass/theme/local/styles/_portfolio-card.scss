@@ -16,3 +16,13 @@
   @extend .m-xl-5;
   background-color: $secondary !important;
 }
+
+.card {
+  @extend .secondary-neumorph;
+  @extend .p-3;
+  @extend .p-xl-5;
+  @extend .m-3;
+  @extend .m-xl-5;
+  background-color: $secondary !important;
+  border-color: transparent !important;
+}
