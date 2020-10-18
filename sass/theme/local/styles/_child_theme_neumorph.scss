@@ -53,7 +53,6 @@
 }
 
 .secondary-neumorph:hover:not(.btn) {
-  @include secondary-neumorph;
   transform: translateX(0px) translateY(-20px) !important;
 }
 

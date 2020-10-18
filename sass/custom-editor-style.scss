@@ -6,8 +6,9 @@
   max-width: 100%;
 }
 
+.editor-styles-wrapper,
 .editor-writing-flow {
-  font-family: $font-family-base;
+  font-family: $font-family-base !important;
 }
 
 // style the input fields

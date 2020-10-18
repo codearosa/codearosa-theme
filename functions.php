@@ -40,8 +40,12 @@ $codearosa_custom_functions_includes = array(
 
   //Gutenberg Editor
 	'/php/functions/0_gutenberg_editor/0001_enqueue_editor_styles.php',
-  '/php/functions/0_gutenberg_editor/0002_color_palette_enqueue_styles.php',
+  '/php/functions/0_gutenberg_editor/0002_enable_and _disable.php',
   '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
+  '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
+  '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
+
+  
 
   //Menus
   '/php/functions/1_menus/0001_social_menu.php',
