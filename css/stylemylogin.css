@@ -6870,7 +6870,7 @@ input.btn.btn-lg[type=button]:not(.components-text-control__input) .wp-block-sea
   border-top-right-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem; }
 
-.badge {
+.badge, a.tag-cloud-link {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
@@ -6885,30 +6885,30 @@ input.btn.btn-lg[type=button]:not(.components-text-control__input) .wp-block-sea
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
-    .badge {
+    .badge, a.tag-cloud-link {
       -webkit-transition: none;
       transition: none; } }
-  a.badge:hover, a.badge:focus {
+  a.badge:hover, a.tag-cloud-link:hover, a.badge:focus, a.tag-cloud-link:focus {
     text-decoration: none; }
-  .badge:empty {
+  .badge:empty, a.tag-cloud-link:empty {
     display: none; }
 
-.btn .badge, #nf-field-4 .badge, #nf-field-25 .badge, .btn.btn-primary.btn-lg a.wp-block-button__link .badge, .btn.btn-primary.btn-lg .rich-text.block-editor-rich-text__editable.wp-block-button__link .badge, .wp-block-search__button .badge {
+.btn .badge, #nf-field-4 .badge, #nf-field-25 .badge, .btn.btn-primary.btn-lg a.wp-block-button__link .badge, .btn.btn-primary.btn-lg .rich-text.block-editor-rich-text__editable.wp-block-button__link .badge, .wp-block-search__button .badge, .btn a.tag-cloud-link, #nf-field-4 a.tag-cloud-link, #nf-field-25 a.tag-cloud-link, .btn.btn-primary.btn-lg a.wp-block-button__link a.tag-cloud-link, .btn.btn-primary.btn-lg .rich-text.block-editor-rich-text__editable.wp-block-button__link a.tag-cloud-link, .wp-block-search__button a.tag-cloud-link {
   position: relative;
   top: -1px; }
 
-.badge-pill {
+.badge-pill, a.tag-cloud-link {
   padding-right: 0.6em;
   padding-left: 0.6em;
   border-radius: 10rem; }
 
-.badge-primary {
+.badge-primary, a.tag-cloud-link {
   color: #F2F4F3;
   background-color: #C8689A; }
-  a.badge-primary:hover, a.badge-primary:focus {
+  a.badge-primary:hover, a.tag-cloud-link:hover, a.badge-primary:focus, a.tag-cloud-link:focus {
     color: #F2F4F3;
     background-color: #b94481; }
-  a.badge-primary:focus, a.badge-primary.focus {
+  a.badge-primary:focus, a.tag-cloud-link:focus, a.badge-primary.focus, a.focus.tag-cloud-link {
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(200, 104, 154, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(200, 104, 154, 0.5); }
@@ -9422,7 +9422,7 @@ button.bg-dark:focus {
 .my-2 {
   margin-bottom: 0.5rem !important; }
 
-.ml-2,
+.ml-2, a.tag-cloud-link,
 .mx-2 {
   margin-left: 0.5rem !important; }
 
@@ -9430,7 +9430,8 @@ button.bg-dark:focus {
   margin: 1rem !important; }
 
 .mt-3,
-.my-3 {
+.my-3,
+.wp-block-search {
   margin-top: 1rem !important; }
 
 .mr-3,
@@ -9438,7 +9439,8 @@ button.bg-dark:focus {
   margin-right: 1rem !important; }
 
 .mb-3,
-.my-3 {
+.my-3,
+.wp-block-search {
   margin-bottom: 1rem !important; }
 
 .ml-3,
@@ -11948,7 +11950,7 @@ input.btn.btn-lg[type=button]:not(.components-text-control__input) .wp-block-sea
   padding-left: 0.25rem !important; }
 
 .p-2, #nf-field-4,
-#nf-field-25, .nf_neumorph {
+#nf-field-25, .nf_neumorph, a.tag-cloud-link {
   padding: 0.5rem !important; }
 
 .pt-2,
@@ -18216,7 +18218,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important; }
   .navbar {
     display: none; }
-  .badge {
+  .badge, a.tag-cloud-link {
     border: 1px solid #000; }
   .table {
     border-collapse: collapse !important; }
@@ -18806,12 +18808,18 @@ h1, h2, h3, h4, .wp-block-search__label, h5, h6 {
 .background-image-no-repeat {
   background-repeat: no-repeat !important; }
 
+li.wp-social-link {
+  background-color: #C8689A !important; }
+
 input.wp-block-search__input {
   border-color: transparent !important;
   background: #F2F4F3 !important;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
           box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
   border-radius: 0.5rem; }
+
+a.tag-cloud-link {
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 ## Login

@@ -1,4 +1,11 @@
+li.wp-social-link {
+    background-color: $primary !important;
+}
+
 //Search
+.wp-block-search {
+    @extend .my-3;
+}
 
 input.wp-block-search__input {
     @include secondary-neumorph-active;
@@ -6,10 +13,20 @@ input.wp-block-search__input {
 }
 
 .wp-block-search__button {
-    @extend .btn;
-    @extend .btn-primary;
+    @include button-primary;
 }
 
 .wp-block-search__label {
     @extend h4;
+}
+
+//Schlagwörter
+
+a.tag-cloud-link {
+    @extend .badge;
+    @extend .badge-primary;
+    @extend .badge-pill;
+    @extend .ml-2;
+    @extend .p-2;
+    text-transform: uppercase;
 }
