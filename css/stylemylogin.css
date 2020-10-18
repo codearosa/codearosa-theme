@@ -18818,6 +18818,9 @@ input.wp-block-search__input {
           box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
   border-radius: 0.5rem; }
 
+.wp-block-search__button {
+  border-radius: 0.5rem; }
+
 a.tag-cloud-link {
   text-transform: uppercase; }
 
