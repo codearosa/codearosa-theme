@@ -1,3 +1,13 @@
+//code
+
+.wp-block-code {
+    white-space: initial;
+    background-color: $body-color;
+    color: $body-bg;
+    border-radius: $border-radius;
+    @extend .p-3;
+}
+
 //buttons
 @each $name,
 $color in $theme-colors {

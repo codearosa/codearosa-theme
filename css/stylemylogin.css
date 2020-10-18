@@ -13857,7 +13857,7 @@ button.bg-dark:focus {
 .px-2 {
   padding-left: 0.5rem !important; }
 
-.p-3, .neumorph-portfolio-card, .card, #right-sidebar {
+.p-3, .neumorph-portfolio-card, .card, #right-sidebar, .wp-block-code {
   padding: 1rem !important; }
 
 .pt-3,
@@ -17031,6 +17031,12 @@ h1, h2, h3, h4, .wp-block-search__label, h5, h6 {
 
 .background-image-no-repeat {
   background-repeat: no-repeat !important; }
+
+.wp-block-code {
+  white-space: initial;
+  background-color: #2D3142;
+  color: #F2F4F3;
+  border-radius: 0.5rem; }
 
 .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
 .is-style-fill .has-primary-background-color {
