@@ -1,5 +1,7 @@
 /*HEADER STYLES*/
-
+#masthead {
+  background-color: $light;
+}
 .site-header {
   @extend .mt-0;
   @extend .navbar-light;

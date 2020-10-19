@@ -1,0 +1,73 @@
+//code
+
+.wp-block-code {
+    white-space: initial;
+    background-color: $body-color;
+    color: $body-bg;
+    border-radius: $border-radius;
+    @extend .p-3;
+}
+
+//buttons
+@each $name,
+$color in $theme-colors {
+
+    .is-style-fill .rich-text.wp-block-button__link.has-#{$name}-background-color,
+    .is-style-fill .has-#{$name}-background-color {
+        @extend .btn;
+        @extend .btn-#{$name};
+        border-color: transparent;
+        @extend .btn-lg;
+        @extend .mt-3;
+        text-transform: uppercase;
+        color: $body-bg;
+    }
+
+    .is-style-outline .rich-text.wp-block-button__link.has-#{$name}-background-color,
+    .is-style-outline .has-#{$name}-background-color {
+        @extend .btn;
+        @extend .btn-outline-#{$name};
+        @extend .btn-lg;
+        @extend .mt-3;
+        text-transform: uppercase;
+    }
+}
+
+
+
+//RSS
+
+li.wp-social-link {
+    background-color: $primary !important;
+}
+
+//Search
+.wp-block-search {
+    @extend .my-3;
+}
+
+input.wp-block-search__input {
+    @include secondary-neumorph-active;
+    border-radius: $border-radius;
+}
+
+.wp-block-search__button {
+    @extend .btn;
+    @extend .btn-primary;
+    border-radius: $border-radius;
+}
+
+.wp-block-search__label {
+    @extend h4;
+}
+
+//Schlagwörter
+
+a.tag-cloud-link {
+    @extend .badge;
+    @extend .badge-primary;
+    @extend .badge-pill;
+    @extend .ml-2;
+    @extend .p-2;
+    text-transform: uppercase;
+}
