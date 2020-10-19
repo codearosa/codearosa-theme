@@ -16872,7 +16872,7 @@ input[type=text]:not(.components-text-control__input) {
 /*brand-logo*/
 @media screen and (min-width: 1000px) {
   .navbar-brand {
-    width: 16% !important; } }
+    width: 12% !important; } }
 
 @media screen and (max-width: 999px) {
   .navbar-brand {
