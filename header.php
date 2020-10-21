@@ -39,9 +39,12 @@
 			<nav class="navbar navbar-expand-lg" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-							<span class="navbar-toggler-icon"></span>
+							<div class="hamburger">
+    							<div class="line"></div>
+    							<div class="line"></div>
+    							<div class="line"></div>
+						</div>
 						</button>
-
 						<!-- Your site title as branding in the menu -->
 						<?php if ( ! has_custom_logo() ) { ?>
 
