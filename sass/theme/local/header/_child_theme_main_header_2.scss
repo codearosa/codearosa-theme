@@ -6,13 +6,13 @@
 
 /*brand-logo*/
 
-@media screen and (min-width: 1000px) {
+@include media-breakpoint-down(md) {
   .navbar-brand {
     width: 12% !important;
   }
 }
 
-@media screen and (max-width: 999px) {
+@include media-breakpoint-down(md) {
   .navbar-brand {
     max-width: 50% !important;
   }
