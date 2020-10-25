@@ -67,6 +67,8 @@ $codearosa_custom_functions_includes = array(
 
 // SHORTCODES
   '/php/functions/6_shortcodes/0001_recentpost_shortcode.php',
+  '/php/functions/6_shortcodes/0002_shortcode_primary_menu.php',
+  '/php/functions/6_shortcodes/0003_shortcode_right-sidebar.php',
 );
 
 foreach ( $codearosa_custom_functions_includes as $file ) {
