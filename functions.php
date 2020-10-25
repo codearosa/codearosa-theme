@@ -15,7 +15,7 @@ function theme_enqueue_styles() {
 
 	// Get the theme data
 	$the_theme = wp_get_theme();
-    wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.css', array(), $the_theme->get( 'Version' ) );
+    wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
     wp_enqueue_script( 'jquery');
 	  wp_enqueue_script( 'popper-scripts', get_stylesheet_directory_uri() . '/js/popper.min.js', array(), false);
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
@@ -42,43 +42,14 @@ $codearosa_custom_functions_includes = array(
 	'/php/functions/0_gutenberg_editor/0001_enqueue_editor_styles.php',
   '/php/functions/0_gutenberg_editor/0002_enable_and _disable.php',
   '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
-
-  
->>>>>>> parent of 7b8277a9... Update functions.php
-=======
->>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
-=======
->>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
-=======
->>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
-=======
->>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
-=======
->>>>>>> parent of ae4b8a2f... revert commits
-
->>>>>>> parent of e8bd04d2... revert commits
-=======
   //'/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
 
   
-
->>>>>>> parent of fe0024ea... Revert "Merge pull request #3 from codearosa/neumorph-light-styleguide"
   //Menus
   '/php/functions/1_menus/0001_social_menu.php',
 
