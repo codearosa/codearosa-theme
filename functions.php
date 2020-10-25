@@ -47,12 +47,15 @@ $codearosa_custom_functions_includes = array(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
 
   
 >>>>>>> parent of 7b8277a9... Update functions.php
+=======
+>>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
 =======
 >>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
 =======
