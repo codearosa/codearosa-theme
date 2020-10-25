@@ -40,8 +40,9 @@ $codearosa_custom_functions_includes = array(
 
   //Gutenberg Editor
 	'/php/functions/0_gutenberg_editor/0001_enqueue_editor_styles.php',
-  '/php/functions/0_gutenberg_editor/0002_color_palette_enqueue_styles.php',
+  '/php/functions/0_gutenberg_editor/0002_enable_and _disable.php',
   '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
@@ -71,6 +72,13 @@ $codearosa_custom_functions_includes = array(
 >>>>>>> parent of ae4b8a2f... revert commits
 
 >>>>>>> parent of e8bd04d2... revert commits
+=======
+  //'/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
+  '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
+
+  
+
+>>>>>>> parent of fe0024ea... Revert "Merge pull request #3 from codearosa/neumorph-light-styleguide"
   //Menus
   '/php/functions/1_menus/0001_social_menu.php',
 

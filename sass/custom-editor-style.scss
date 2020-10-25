@@ -6,8 +6,23 @@
   max-width: 100%;
 }
 
+.editor-styles-wrapper,
 .editor-writing-flow {
-  font-family: $font-family-base;
+  font-family: $font-family-base !important;
+  font-size: $font-size-base !important;
+}
+
+// style the input fields
+input.components-text-control__input {
+  background-color: white;
+  box-shadow: none !important;
+  border: 1px solid black;
+}
+
+
+.block-editor-block-list__layout.is-root-container {
+  background-color: $body-bg !important;
+  color: $body-color !important;
 }
 
 
