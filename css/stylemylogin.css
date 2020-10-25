@@ -16974,11 +16974,11 @@ input[type=text]:not(.components-text-control__input) {
   font-size: larger; }
 
 /*brand-logo*/
-@media (max-width: 991.98px) {
+@media screen and (min-width: 1000px) {
   .navbar-brand {
     width: 12% !important; } }
 
-@media (max-width: 991.98px) {
+@media screen and (max-width: 999px) {
   .navbar-brand {
     max-width: 50% !important; } }
 
