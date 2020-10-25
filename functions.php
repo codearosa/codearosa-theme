@@ -42,9 +42,32 @@ $codearosa_custom_functions_includes = array(
 	'/php/functions/0_gutenberg_editor/0001_enqueue_editor_styles.php',
   '/php/functions/0_gutenberg_editor/0002_color_palette_enqueue_styles.php',
   '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
+<<<<<<< HEAD
   '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
+  '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
+
+  
+>>>>>>> parent of 7b8277a9... Update functions.php
+=======
+>>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
+=======
+>>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
+=======
+>>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
+=======
+>>>>>>> parent of dfe24507... Merge pull request #3 from codearosa/neumorph-light-styleguide
+
+>>>>>>> parent of e8bd04d2... revert commits
   //Menus
   '/php/functions/1_menus/0001_social_menu.php',
 
