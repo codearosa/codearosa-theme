@@ -31,20 +31,17 @@
 <div id="page" class="site">
 
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header mt-0 shadow-sm navbar-light bg-white sticky-top">
 		<div class="container-fluid mx-auto m-0 p-0"><?php dynamic_sidebar( 'topbar' ); ?></div>
 		<div id="dropdownsearch" class="collapse container mx-auto m-1 px-5 text-center"><?php get_search_form(); ?></div>
 
 
-			<nav class="navbar navbar-expand-lg" role="navigation">
+			<nav class="navbar container navbar-expand-lg" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-							<div class="hamburger">
-    							<div class="line"></div>
-    							<div class="line"></div>
-    							<div class="line"></div>
-						</div>
+							<span class="navbar-toggler-icon"></span>
 						</button>
+
 						<!-- Your site title as branding in the menu -->
 						<?php if ( ! has_custom_logo() ) { ?>
 
@@ -60,7 +57,7 @@
 
 
 						<?php } else { ?>
-							 <a class="navbar-brand m-0" <?php the_custom_logo(); ?></a>
+							 <a class="navbar-brand w-50 m-0" <?php the_custom_logo(); ?></a>
 						<?php } ?><!-- end custom logo -->
 
 									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>

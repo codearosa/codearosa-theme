@@ -1,28 +1,3 @@
-@import "../sass/theme/local/local_child_theme_variables";
-
-
-.portfolio-card .card {
-  border: none !important;
-  background-color: $secondary;
-}
-
-//give this class to a wordpress column
-.neumorph-portfolio-card {
-  @extend .card;
-  @extend .secondary-neumorph;
-  @extend .p-3;
-  @extend .p-xl-5;
-  @extend .m-3;
-  @extend .m-xl-5;
-  background-color: $secondary !important;
-}
-
 .card {
-  @extend .secondary-neumorph;
-  @extend .p-3;
-  @extend .p-xl-5;
-  @extend .m-3;
-  @extend .m-xl-5;
-  background-color: $secondary !important;
-  border-color: transparent !important;
+  border: none !important
 }
