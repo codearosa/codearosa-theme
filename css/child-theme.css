@@ -16870,7 +16870,7 @@ input[type=text]:not(.components-text-control__input) {
   font-size: larger; }
 
 /*brand-logo*/
-@media (max-width: 991.98px) {
+@media (min-width: 992px) {
   .navbar-brand {
     width: 12% !important; } }
 
