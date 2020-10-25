@@ -6,7 +6,7 @@
 
 /*brand-logo*/
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-up(md) {
   .navbar-brand {
     width: 12% !important;
   }
