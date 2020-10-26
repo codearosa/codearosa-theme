@@ -21,18 +21,18 @@ $h5-font-size: $font-size-base * 1.25 !default;
 $h6-font-size: $font-size-base !default;
 
 /*Colors*/
-$white: #F2F4F3;
-$primary: #C8689A; //rosa
-$secondary: #F2F4F3; //white
-$success: #2D3142; //blue
+$white: #F6F6F2;
+$primary: #ABB94F; //green
+$secondary: #F6F6F2; //white
+$success: #FFDA2A; //blue
 $info: #B2B4BA; //grey
 $warning: #2D3142;
 $danger: #2D3142;
-$light: rgba(242, 244, 243, 0.7);
-$dark: #2D3142;
+$light: rgba(250, 250, 250, 0.7);
+$dark: #282C11;
 
 /*light gradient*/
-$cr-light-gradient :linear-gradient(181.03deg, #F2F4F3 1.72%, #C8689A 464.71%),
+$cr-light-gradient :linear-gradient(181.03deg, $secondary 1.72%, $primary 464.71%),
 #C4C4C4;
 
 .cr-light-gradient {
@@ -81,3 +81,13 @@ $info-box-shadow-light: lighten($info, $box-shadow-intensity);
 $info-box-shadow-dark: darken($info, $box-shadow-intensity);
 $success-box-shadow-light: lighten($success, $box-shadow-intensity);
 $success-box-shadow-dark: darken($success, $box-shadow-intensity);
+
+/*content width*/
+#page-wrapper {
+    @extend .mx-lg-5;
+    @extend .px-lg-5;
+}
+
+#right-sidebar {
+    @extend .col-md-3;
+}
