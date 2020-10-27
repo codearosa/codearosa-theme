@@ -2,15 +2,10 @@
 @import "local_child_theme_variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
 @import "child_theme_localfont"; // <--------- Localfont
 
-@import "styles/child_theme_neumorph"; // <--------- Add neumorph here
-@import "styles/ninja-form"; // <--------- Add Ninja Form Styles here
-@import "styles/portfolio-card"; // <--------- Add Ninja Form Styles here
-@import "styles/child_theme_custom_scrollbar"; // <--------- Custom Scrollbar
-@import "styles/child_theme_linkinbio"; // <--------- add class linkinbio to style this side
-//@import "styles/child_theme_home"; // <--------- add class linkinbio to style this side
+/* Import bootstrap-sass so that we have access to all of its selectors */
+@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
 
-@import "styles/child_theme_inputs";
-@import "styles/child_theme_buttons";
+@import "styles/child_theme_mixins"; // <--------- Add neumorph here
 
 @import "header/child_theme_main_header_2";
 @import "header/toggler/child_theme_main_toggler_1";
@@ -18,10 +13,20 @@
 @import "sidebar/child_theme_main_sidebar_1";
 
 
-@import "styles/child_theme_main_footer";
-@import "styles/child_theme_main_type";
-@import "styles/child_theme_main_single";
+@import "footer/child_theme_main_footer";
+@import "content/child_theme_main_single";
+@import "content/child_theme_home"; // <--------- add class linkinbio to style this side
+
 @import "styles/child_theme_main_images";
-@import "styles/child_theme_main_wordpress";
+@import "content/child_theme_main_wordpress";
+
+@import "content/ninja-form"; // <--------- Add Ninja Form Styles here
+@import "styles/portfolio-card"; // <--------- Add Ninja Form Styles here
+
+@import "styles/child_theme_custom_scrollbar"; // <--------- Custom Scrollbar
+@import "styles/child_theme_linkinbio"; // <--------- add class linkinbio to style this side
+@import "styles/child_theme_inputs";
+@import "styles/child_theme_buttons";
+@import "styles/child_theme_main_type";
 
 @import "styles/child_theme_main_animations";
