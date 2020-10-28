@@ -1,5 +1,6 @@
-#right-sidebar {
+.addrightsidebar #right-sidebar {
     @extend .p-3;
     @extend .m-1;
     @extend .secondary-neumorph;
+    max-width: 100% !important;
 }
