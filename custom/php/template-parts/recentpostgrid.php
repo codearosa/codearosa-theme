@@ -16,13 +16,18 @@
    <div class="card">
      <?php the_post_thumbnail('full'); ?>
       <div class="card-body">
-       <h5 class="card-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
-   <div class="card-text"><?php the_excerpt(); ?></div>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted"><p><?php the_tags('', ' • ', '<br />' ); ?></p></small>
-      </div>
-    </div>
+        <div class="card-footer">
+          <small class="text-muted"><p><?php the_tags('', ' • ', '<br />' ); ?></p></small>
+        </div>
+
+        <h5 class="card-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
+          <div class="card-text"><?php the_excerpt(); ?></div>
+        </div>
+
+        <div class="card-footer">
+          <small class="text-muted"><p><?php the_tags('', ' • ', '<br />' ); ?></p></small>
+        </div>
+        </div>
 
     <?php
     endwhile;
