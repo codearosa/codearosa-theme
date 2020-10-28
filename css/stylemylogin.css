@@ -12765,7 +12765,7 @@ button.bg-dark:focus {
 .mx-0 {
   margin-left: 0 !important; }
 
-.m-1, .addrightsidebar #right-sidebar, .home .card.post, .home .post.neumorph-portfolio-card, .nf_neumorph {
+.m-1, .home .card.post, .home .post.neumorph-portfolio-card, .nf_neumorph {
   margin: 0.25rem !important; }
 
 .mt-1,
@@ -13856,7 +13856,9 @@ button.bg-dark:focus {
 .mx-5 {
   margin-right: 3rem !important; }
 
-.mb-5,
+.mb-5, .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
+.addrightsidebar .widget-area,
+.addrightsidebar .card-deck .card, .addrightsidebar .card-deck .neumorph-portfolio-card,
 .my-5 {
   margin-bottom: 3rem !important; }
 
@@ -17468,6 +17470,13 @@ a.nav-link {
 
 .addrightsidebar #right-sidebar {
   max-width: 100% !important; }
+
+.addrightsidebar .card-deck .card, .addrightsidebar .card-deck .neumorph-portfolio-card {
+  width: 100%;
+  -webkit-box-flex: unset;
+      -ms-flex: unset;
+          flex: unset;
+  margin: 0 !important; }
 
 #wrapper-footer-full,
 #wrapper-static-hero {
@@ -30040,7 +30049,7 @@ button.bg-dark:focus {
 .mx-0 {
   margin-left: 0 !important; }
 
-.m-1, .addrightsidebar #right-sidebar, .home .card.post, .home .post.neumorph-portfolio-card, .nf_neumorph {
+.m-1, .home .card.post, .home .post.neumorph-portfolio-card, .nf_neumorph {
   margin: 0.25rem !important; }
 
 .mt-1,
@@ -31131,7 +31140,9 @@ button.bg-dark:focus {
 .mx-5 {
   margin-right: 3rem !important; }
 
-.mb-5,
+.mb-5, .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
+.addrightsidebar .widget-area,
+.addrightsidebar .card-deck .card, .addrightsidebar .card-deck .neumorph-portfolio-card,
 .my-5 {
   margin-bottom: 3rem !important; }
 
