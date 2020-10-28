@@ -71,3 +71,9 @@ a.tag-cloud-link {
     @extend .p-2;
     text-transform: uppercase;
 }
+
+/*custom styles*/
+
+.wp-block-column {
+    @extend .p-5;
+}
