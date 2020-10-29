@@ -17483,6 +17483,11 @@ a.nav-link {
           flex: unset;
   margin: 0 !important; }
 
+/*CUSTOM STYLES*/
+.addrightsidebar .card-deck .card:last-child, .addrightsidebar .card-deck .neumorph-portfolio-card:last-child,
+.addrightsidebar .card-text {
+  display: none; }
+
 #wrapper-footer-full,
 #wrapper-static-hero {
   background-color: transparent !important; }

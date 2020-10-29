@@ -21,3 +21,13 @@
         margin: 0 !important;
     }
 }
+
+/*CUSTOM STYLES*/
+
+.addrightsidebar {
+    .card-deck .card:last-child,
+     .card-text {
+        display: none;
+    }
+
+}
