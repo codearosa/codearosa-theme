@@ -17484,7 +17484,7 @@ a.nav-link {
   margin: 0 !important; }
 
 /*CUSTOM STYLES*/
-.addrightsidebar .card-deck .card:last-child, .addrightsidebar .card-deck .neumorph-portfolio-card:last-child,
+.addrightsidebar .card-deck .card-footer,
 .addrightsidebar .card-text {
   display: none; }
 

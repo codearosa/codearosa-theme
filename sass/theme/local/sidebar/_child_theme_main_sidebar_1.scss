@@ -25,8 +25,9 @@
 /*CUSTOM STYLES*/
 
 .addrightsidebar {
-    .card-deck .card:last-child,
-     .card-text {
+    .card-deck .card-footer,
+     .card-text
+      {
         display: none;
     }
 
