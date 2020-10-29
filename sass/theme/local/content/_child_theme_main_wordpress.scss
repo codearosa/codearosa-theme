@@ -77,3 +77,32 @@ a.tag-cloud-link {
 .wp-block-column {
     @extend .p-5;
 }
+
+//card styles
+.card {
+    padding: $card-inner-padding !important;
+
+    .card-header {
+        text-transform: capitalize;
+        padding: 0;
+        background: transparent;
+        @extend h5;
+
+        p {
+            margin: 0;
+        }
+
+    }
+
+    .card-body {
+        padding: $card-inner-padding 0 0 0;
+    }
+
+    .card-title a {
+        color: $body-color;
+        font-weight: $font-weight-normal !important;
+        text-transform: capitalize;
+
+
+    }
+}

@@ -264,7 +264,7 @@ hr {
   height: 0;
   overflow: visible; }
 
-h1, h2, h3, h4, .wp-block-search__label, h5, h6 {
+h1, h2, h3, h4, .wp-block-search__label, h5, .card .card-header, .neumorph-portfolio-card .card-header, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -335,7 +335,7 @@ a {
   background-color: transparent; }
   a:hover {
     color: #7b8635;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]) {
   color: inherit;
@@ -498,7 +498,7 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, .wp-block-search__label, h5, h6,
+h1, h2, h3, h4, .wp-block-search__label, h5, .card .card-header, .neumorph-portfolio-card .card-header, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 600 !important;
@@ -528,7 +528,7 @@ h4, .wp-block-search__label, .h4 {
     h4, .wp-block-search__label, .h4 {
       font-size: calc(1.275rem + 0.3vw) ; } }
 
-h5, .h5 {
+h5, .card .card-header, .neumorph-portfolio-card .card-header, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
@@ -3403,9 +3403,9 @@ fieldset:disabled a#nf-field-25 {
   text-decoration: none; }
   .btn-link:hover {
     color: #7b8635;
-    text-decoration: underline; }
+    text-decoration: none; }
   .btn-link:focus, .btn-link.focus {
-    text-decoration: underline;
+    text-decoration: none;
     -webkit-box-shadow: none;
             box-shadow: none; }
   .btn-link:disabled, .btn-link.disabled {
@@ -17575,7 +17575,7 @@ hr {
   height: 0;
   overflow: visible; }
 
-h1, h2, h3, h4, .wp-block-search__label, h5, h6 {
+h1, h2, h3, h4, .wp-block-search__label, h5, .card .card-header, .neumorph-portfolio-card .card-header, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -17646,7 +17646,7 @@ a {
   background-color: transparent; }
   a:hover {
     color: #7b8635;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]) {
   color: inherit;
@@ -17809,7 +17809,7 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, .wp-block-search__label, h5, h6,
+h1, h2, h3, h4, .wp-block-search__label, h5, .card .card-header, .neumorph-portfolio-card .card-header, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 600 !important;
@@ -17839,7 +17839,7 @@ h4, .wp-block-search__label, .h4 {
     h4, .wp-block-search__label, .h4 {
       font-size: calc(1.275rem + 0.3vw) ; } }
 
-h5, .h5 {
+h5, .card .card-header, .neumorph-portfolio-card .card-header, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
@@ -20714,9 +20714,9 @@ fieldset:disabled a#nf-field-25 {
   text-decoration: none; }
   .btn-link:hover {
     color: #7b8635;
-    text-decoration: underline; }
+    text-decoration: none; }
   .btn-link:focus, .btn-link.focus {
-    text-decoration: underline;
+    text-decoration: none;
     -webkit-box-shadow: none;
             box-shadow: none; }
   .btn-link:disabled, .btn-link.disabled {
@@ -34744,6 +34744,21 @@ a.tag-cloud-link {
   text-transform: uppercase; }
 
 /*custom styles*/
+.card, .neumorph-portfolio-card {
+  padding: 0.6em !important; }
+  .card .card-header, .neumorph-portfolio-card .card-header {
+    text-transform: capitalize;
+    padding: 0;
+    background: transparent; }
+    .card .card-header p, .neumorph-portfolio-card .card-header p {
+      margin: 0; }
+  .card .card-body, .neumorph-portfolio-card .card-body {
+    padding: 0.6em 0 0 0; }
+  .card .card-title a, .neumorph-portfolio-card .card-title a {
+    color: #282C11;
+    font-weight: 400 !important;
+    text-transform: capitalize; }
+
 /*Beschriftung einzelner Felder ausblenden*/
 .nf-form-fields-required,
 .nf-field-label {
@@ -34922,7 +34937,7 @@ input[type=text]:not(.components-text-control__input) {
   font-weight: 700;
   font-size: larger; }
 
-h1, h2, h3, h4, .wp-block-search__label, h5, h6 {
+h1, h2, h3, h4, .wp-block-search__label, h5, .card .card-header, .neumorph-portfolio-card .card-header, h6 {
   text-transform: uppercase; }
 
 /*--------------------------------------------------------------
