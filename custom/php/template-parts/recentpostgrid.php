@@ -16,6 +16,9 @@
    <div class="card">
      <?php the_post_thumbnail('full'); ?>
       <div class="card-body">
+        <div class="card-header">
+          <small class=""><p><?php the_category( ' ' ); ?></p></small>
+        </div>
         <div class="card-footer">
           <small class="text-muted"><p><?php the_tags('', ' • ', '<br />' ); ?></p></small>
         </div>
