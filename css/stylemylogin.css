@@ -13910,7 +13910,8 @@ button.bg-dark:focus {
   padding: 0.5rem !important; }
 
 .pt-2,
-.py-2 {
+.py-2,
+.addrightsidebar .widget-title {
   padding-top: 0.5rem !important; }
 
 .pr-2,
@@ -13918,7 +13919,8 @@ button.bg-dark:focus {
   padding-right: 0.5rem !important; }
 
 .pb-2,
-.py-2 {
+.py-2,
+.addrightsidebar .widget-title {
   padding-bottom: 0.5rem !important; }
 
 .pl-2,
@@ -14425,7 +14427,8 @@ button.bg-dark:focus {
   padding-top: 1rem !important; }
 
 .pr-3,
-.px-3 {
+.px-3,
+.addrightsidebar .widget-title {
   padding-right: 1rem !important; }
 
 .pb-3,
@@ -14925,7 +14928,8 @@ button.bg-dark:focus {
   padding-bottom: 1rem !important; }
 
 .pl-3,
-.px-3 {
+.px-3,
+.addrightsidebar .widget-title {
   padding-left: 1rem !important; }
 
 .p-4 {
@@ -17487,6 +17491,14 @@ a.nav-link {
 .addrightsidebar .card-deck .card-footer,
 .addrightsidebar .card-text {
   display: none; }
+
+.addrightsidebar .widget-title {
+  background: #ABB94F;
+  border-radius: 0.5rem;
+  font-size: inherit;
+  color: #F6F6F2;
+  text-transform: capitalize;
+  font-weight: 400 !important; }
 
 #wrapper-footer-full,
 #wrapper-static-hero {
@@ -31203,7 +31215,8 @@ button.bg-dark:focus {
   padding: 0.5rem !important; }
 
 .pt-2,
-.py-2 {
+.py-2,
+.addrightsidebar .widget-title {
   padding-top: 0.5rem !important; }
 
 .pr-2,
@@ -31211,7 +31224,8 @@ button.bg-dark:focus {
   padding-right: 0.5rem !important; }
 
 .pb-2,
-.py-2 {
+.py-2,
+.addrightsidebar .widget-title {
   padding-bottom: 0.5rem !important; }
 
 .pl-2,
@@ -31718,7 +31732,8 @@ button.bg-dark:focus {
   padding-top: 1rem !important; }
 
 .pr-3,
-.px-3 {
+.px-3,
+.addrightsidebar .widget-title {
   padding-right: 1rem !important; }
 
 .pb-3,
@@ -32218,7 +32233,8 @@ button.bg-dark:focus {
   padding-bottom: 1rem !important; }
 
 .pl-3,
-.px-3 {
+.px-3,
+.addrightsidebar .widget-title {
   padding-left: 1rem !important; }
 
 .p-4 {

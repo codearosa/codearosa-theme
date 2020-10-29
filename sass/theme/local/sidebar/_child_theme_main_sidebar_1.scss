@@ -25,10 +25,21 @@
 /*CUSTOM STYLES*/
 
 .addrightsidebar {
+
     .card-deck .card-footer,
-     .card-text
-      {
+    .card-text {
         display: none;
+    }
+
+    .widget-title {
+        background: $primary;
+        border-radius: $border-radius;
+        @extend .px-3;
+        @extend .py-2;
+        font-size: inherit;
+        color: $secondary;
+        text-transform: capitalize;
+        font-weight: 400 !important;
     }
 
 }
