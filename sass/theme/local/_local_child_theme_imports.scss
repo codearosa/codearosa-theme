@@ -15,7 +15,8 @@
 
 @import "footer/child_theme_main_footer";
 @import "content/child_theme_main_single";
-@import "content/child_theme_home"; // <--------- add class linkinbio to style this side
+@import "content/child_theme_home";
+@import "content/child_theme_main_archive";
 
 @import "styles/child_theme_main_images";
 @import "content/child_theme_main_wordpress";
