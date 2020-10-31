@@ -1,1 +1,47 @@
 // Give the styles to the archive page
+
+/* Import bootstrap-sass so that we have access to all of its selectors */
+/*set last posts to front-page*/
+@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+
+.archive .codearosa-archive-wrapper {
+    @extend .card-deck;
+}
+
+//style the posts
+
+.archive .post {
+    @extend .card;
+    @extend .secondary-neumorph;
+    @extend .m-5;
+    @extend .p-2;
+}
+
+.archive img {
+    border-radius: $border-radius;
+}
+
+.archive h2.entry-title a {
+    color: $dark;
+    font-weight: 300;
+    font-size: large;
+    line-height: 0.2;
+}
+
+//page title
+
+.archive .page-title {
+    color: $primary !important;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 1px solid $primary;
+    padding: 1em;
+}
+
+.archive header.entry-header {
+    @extend .pt-2;
+}
+
+.archive h2 {
+    line-height: 0.7;
+}
