@@ -34759,6 +34759,24 @@ a.tag-cloud-link {
     font-weight: 400 !important;
     text-transform: capitalize; }
 
+.wp-block-latest-posts img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.wp-block-latest-posts li {
+  border-color: transparent;
+  outline: 0 none;
+  background: #F6F6F2;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 5px 5px 12px #e1e1d4, -5px -5px 12px white !important;
+          box-shadow: 5px 5px 12px #e1e1d4, -5px -5px 12px white !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
+  .wp-block-latest-posts li a {
+    color: #282C11;
+    font-weight: 400 !important;
+    text-transform: capitalize; }
+
 /*Beschriftung einzelner Felder ausblenden*/
 .nf-form-fields-required,
 .nf-field-label {

@@ -106,3 +106,25 @@ a.tag-cloud-link {
 
     }
 }
+
+//wordpress latest posts
+
+.wp-block-latest-posts {
+
+    //display: contents !important;
+
+    img {
+        object-fit: cover;
+    }
+
+
+    li {
+        @include secondary-neumorph;
+
+        a {
+            color: $body-color;
+            font-weight: $font-weight-normal !important;
+            text-transform: capitalize;
+        }
+    }
+}
