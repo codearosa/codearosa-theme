@@ -6,6 +6,10 @@
   @extend .sticky-top;
 }
 
+.navbar-nav {
+  @extend .ml-auto;
+}
+
 /*brand-logo*/
 
 @include media-breakpoint-up(md) {
