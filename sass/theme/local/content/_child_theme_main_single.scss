@@ -1,3 +1,55 @@
+/* Import bootstrap-sass so that we have access to all of its selectors */
+/*set last posts to front-page*/
+@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+
+
+.single .card {
+    @extend .secondary-neumorph;
+    @extend .p-4;
+}
+
+.single img {
+    @extend .rounded;
+}
+
 #single-wrapper {
-    @extend .container;
+    @extend .m-xl-5;
+    //@extend .px-5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300 !important;
+}
+
+//style recipe
+.wprm-recipe.wprm-recipe-template-chic {
+    background-color: $secondary;
+    @extend .secondary-neumorph;
+}
+
+.wprm-recipe-image.wprm-block-image-rounded,
+span.wprm-recipe-author-with-image,
+a.wprm-recipe-pin.wprm-recipe-link.wprm-block-text-normal.wprm-recipe-pin-wide-button.wprm-recipe-link-wide-button.wprm-color-accent,
+.wprm-recipe-summary.wprm-block-text-normal,
+span.wprm-recipe-author-with-image,
+.wprm-recipe-template-snippet-basic-buttons,
+.wprm-recipe-jump {
+    display: none !important;
+}
+
+h2.wprm-recipe-name {
+    font-weight: 300 !important;
+}
+
+a.wprm-recipe-print.wprm-recipe-link.wprm-print-recipe-shortcode.wprm-block-text-normal.wprm-recipe-print-wide-button.wprm-recipe-link-wide-button.wprm-color-accent {
+    background: $primary !important;
+    border: none;
+    border-radius: $border-radius !important;
+    max-width: 70%;
+    /* margin: 0em 10em !important; */
+    text-align: center !important;
 }
