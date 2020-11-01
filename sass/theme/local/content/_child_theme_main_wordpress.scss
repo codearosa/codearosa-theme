@@ -114,17 +114,24 @@ a.tag-cloud-link {
     //display: contents !important;
 
     img {
+        @extend .mb-2;
+        @extend .card-img;
         object-fit: cover;
+        border-radius: $border-radius;
     }
-
 
     li {
         @include secondary-neumorph;
+        padding: $card-inner-padding;
 
         a {
             color: $body-color;
             font-weight: $font-weight-normal !important;
             text-transform: capitalize;
+            @extend .mb-3;
+            @extend .card-title;
+            @extend h5;
+
         }
     }
 }
