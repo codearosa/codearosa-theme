@@ -9,6 +9,11 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
+<div class="post-thumbail">
+    <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
+</div>
+<!-- post-thumbnail -->
+
 <div class="row">
 
 			<!-- Do the left sidebar check -->
