@@ -45,3 +45,10 @@
 .archive h2 {
     line-height: 0.7;
 }
+
+//show just one category
+.codearosa-archive-wrapper {
+.entry-title:not(:first-child):not(:last-child) {
+    display: none;
+}
+}
