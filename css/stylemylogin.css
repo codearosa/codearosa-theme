@@ -16059,7 +16059,7 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto,
+.ml-auto, .navbar-nav,
 .mx-auto {
   margin-left: auto !important; }
 
@@ -33343,7 +33343,7 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto,
+.ml-auto, .navbar-nav,
 .mx-auto {
   margin-left: auto !important; }
 
