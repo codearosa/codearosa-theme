@@ -43,3 +43,7 @@
     }
 
 }
+
+.post-categories li:not(:first-child) {
+    display: none;
+}
