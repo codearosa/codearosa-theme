@@ -99,11 +99,7 @@ a.tag-cloud-link {
     }
 
     .card-title a {
-        color: $body-color;
-        font-weight: $font-weight-normal !important;
-        text-transform: capitalize;
-
-
+        @include card-title-styles;
     }
 }
 
@@ -114,23 +110,14 @@ a.tag-cloud-link {
     //display: contents !important;
 
     img {
-        @extend .mb-2;
-        @extend .card-img;
-        object-fit: cover;
-        border-radius: $border-radius;
+        @include card-image-styles;
     }
 
     li {
-        @include secondary-neumorph;
-        padding: $card-inner-padding;
-
+        @include card-main-styles;
+        
         a {
-            color: $body-color;
-            font-weight: $font-weight-normal !important;
-            text-transform: capitalize;
-            @extend .mb-3;
-            @extend .card-title;
-            @extend h5;
+            @include card-title-styles;
 
         }
     }

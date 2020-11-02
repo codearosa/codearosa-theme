@@ -32,7 +32,7 @@
   //transition: box-shadow 0.3s ease-in-out;
   box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur $secondary-box-shadow-dark,
     (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur $secondary-box-shadow-light !important;
-    transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 @mixin secondary-neumorph-active {
@@ -85,4 +85,34 @@
 .success-neumorph a:hover:visited:focus:active {
   color: $secondary !important;
   text-decoration: none !important;
+}
+
+/*----------------------------------------*/
+
+//card styles
+
+@mixin card-main-styles {
+  @include secondary-neumorph;
+  padding: $card-inner-padding;
+}
+
+@mixin card-image-styles {
+  padding: $card-inner-padding !important;
+  @extend .card-img;
+  object-fit: cover;
+  border-radius: $border-radius;
+}
+
+@mixin card-category-styles {
+  @extend a;
+  @extend .card-header;
+}
+
+@mixin card-title-styles {
+  color: $body-color;
+  font-weight: $font-weight-normal !important;
+  text-transform: capitalize;
+  @extend .mb-3;
+  @extend .card-title;
+  @extend h5;
 }

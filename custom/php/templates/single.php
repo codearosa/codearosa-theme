@@ -15,9 +15,9 @@ defined( 'ABSPATH' ) || exit;
 		</div><!-- post-thumbnail -->
 		<div class="card-header">
           <small class=""><p><?php the_category( ' ' ); ?></p></small>
-        
+        </div>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		</div>
+		
 	</header><!-- .entry-header -->
 
 <div class="row">

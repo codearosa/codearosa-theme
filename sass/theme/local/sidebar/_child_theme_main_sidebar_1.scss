@@ -32,14 +32,7 @@
     }
 
     .widget-title {
-        background: $primary;
-        border-radius: $border-radius;
-        @extend .px-3;
-        @extend .py-2;
-        font-size: inherit;
-        color: $secondary;
-        text-transform: capitalize;
-        font-weight: 400 !important;
+        @include card-title-styles;
     }
 
 }

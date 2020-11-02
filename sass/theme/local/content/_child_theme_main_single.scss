@@ -7,16 +7,14 @@
     @extend .card;
 
     img {
-        border-radius: $border-radius;
+        @include card-image-styles;
+        max-height: 250px;
     }
 
+    
+
     h1 {
-        color: $body-color;
-        font-weight: $font-weight-normal !important;
-        text-transform: capitalize;
-        @extend .mb-3;
-        @extend .card-title;
-        @extend h5;
+        @include card-title-styles;
     }
 }
 
