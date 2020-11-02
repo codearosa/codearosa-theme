@@ -12,9 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title my-4">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 

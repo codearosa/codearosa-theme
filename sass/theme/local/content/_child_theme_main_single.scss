@@ -2,28 +2,24 @@
 /*set last posts to front-page*/
 @import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
 
+//post thumbnail
+.entry-header {
+    @extend .card;
 
-.single .card {
-    @extend .secondary-neumorph;
-    @extend .p-4;
+    img {
+        border-radius: $border-radius;
+    }
+
+    h1 {
+        color: $body-color;
+        font-weight: $font-weight-normal !important;
+        text-transform: capitalize;
+        @extend .mb-3;
+        @extend .card-title;
+        @extend h5;
+    }
 }
 
-.single img {
-    @extend .rounded;
-}
-
-#single-wrapper {
-    @extend .m-xl-5;
-    //@extend .px-5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-weight: 300 !important;
-}
 
 //style recipe
 .wprm-recipe.wprm-recipe-template-chic {

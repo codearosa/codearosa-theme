@@ -9,10 +9,16 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<div class="post-thumbail">
-    <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
-</div>
-<!-- post-thumbnail -->
+<header class="entry-header">
+		<div class="post-thumbail">
+    		<?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
+		</div><!-- post-thumbnail -->
+		<div class="card-header">
+          <small class=""><p><?php the_category( ' ' ); ?></p></small>
+        
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		</div>
+	</header><!-- .entry-header -->
 
 <div class="row">
 
