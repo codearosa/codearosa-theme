@@ -3,15 +3,15 @@
 @import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
 
 //post thumbnail
-.entry-header {
+.single .entry-header {
+    margin: 0 0 2em 0px !important;
+    @include card-main-styles;
     @extend .card;
 
     img {
         @include card-image-styles;
         max-height: 250px;
     }
-
-    
 
     h1 {
         @include card-title-styles;
