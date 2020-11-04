@@ -2,22 +2,43 @@
 /*set last posts to front-page*/
 @import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
 
-//post thumbnail
-.single .entry-header {
-    margin: 0 0 2em 0px !important;
-    @include card-main-styles;
-    @extend .card;
+.single{ 
+    //post header
+
+    #single-header {
+        margin: 0 0 2em 0px !important;
+    }
+
+        .entry-header {
+            @include card-main-styles;
+            @extend .card;
+
+            img {
+                @include card-image-styles;
+                max-height: 250px;
+            }
+
+            h1 {
+                @include card-title-styles;
+            }
+    }
+
+    hr {
+        color: $primary;
+        @extend .py-2;
+
+    }
 
     img {
-        @include card-image-styles;
-        max-height: 250px;
+        border-radius: $border-radius;
     }
 
-    h1 {
-        @include card-title-styles;
+    .entry-meta,
+    footer.entry-footer {
+        display: none;
     }
+
 }
-
 
 //style recipe
 .wprm-recipe.wprm-recipe-template-chic {

@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<header class="entry-header">
+<header class="entry-header" id="single-header">
 		<div class="post-thumbail">
     		<?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
 		</div><!-- post-thumbnail -->
@@ -19,6 +19,8 @@ defined( 'ABSPATH' ) || exit;
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		
 	</header><!-- .entry-header -->
+
+	<hr>
 
 <div class="row">
 
