@@ -98,7 +98,6 @@
 
 @mixin card-image-styles {
   border-radius: $border-radius;
-  padding: $card-inner-padding !important;
   @extend .card-img;
   object-fit: cover;
 }

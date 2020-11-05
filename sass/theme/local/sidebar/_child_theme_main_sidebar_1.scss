@@ -32,7 +32,9 @@
     }
 
     .widget-title {
-        @include card-title-styles;
+        color: $secondary;
+        background-color: $primary;
+         @include card-title-styles;
     }
 
 }
