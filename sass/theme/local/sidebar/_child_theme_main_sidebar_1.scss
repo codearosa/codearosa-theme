@@ -32,9 +32,12 @@
     }
 
     .widget-title {
-        color: $secondary;
+        color: $secondary !important;
         background-color: $primary;
-         @include card-title-styles;
+        border-radius: $border-radius;
+        @extend h6;
+        padding: $card-inner-padding;
+        @include card-title-styles;
     }
 
 }
