@@ -15,10 +15,10 @@
 
     //margins
     form#searchform {
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
+        @extend .mb-0;
     }
-    
-    form#searchform,
+
     .widget-area,
     .card-deck .card {
         @extend .mb-5;
@@ -58,4 +58,11 @@
 
 .post-categories li:not(:first-child) {
     display: none;
+}
+
+//width when sidebar inserted via shortcode
+.addrightsidebar #right-sidebar,
+.addrightsidebar .widget {
+    width: 100% !important;
+    max-width: 100%;
 }
