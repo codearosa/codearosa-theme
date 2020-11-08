@@ -72,16 +72,53 @@ a.tag-cloud-link {
     text-transform: uppercase;
 }
 
-//custom gutenberg styles
+/*custom styles*/
 
-@each $name,
-$color in $theme-colors {
+.wp-block-column {
+    @extend .p-5;
+}
 
-    .has-text-color.has-#{$name}-color {
-        color: $color;
+//card styles
+.card {
+    padding: $card-inner-padding !important;
+
+    .card-header {
+        text-transform: capitalize;
+        padding: 0;
+        background: transparent;
+        @extend h5;
+
+        p {
+            margin: 0;
+        }
+
     }
 
-    .has-text-color.has-#{$name}-background-color {
-        background-color: $color;
+    .card-body {
+        padding: $card-inner-padding 0 0 0;
+    }
+
+    .card-title a {
+        @include card-title-styles;
+    }
+}
+
+//wordpress latest posts
+
+.wp-block-latest-posts {
+
+    //display: contents !important;
+
+    img {
+        @include card-image-styles;
+    }
+
+    li {
+        @include card-main-styles;
+        
+        a {
+            @include card-title-styles;
+
+        }
     }
 }
