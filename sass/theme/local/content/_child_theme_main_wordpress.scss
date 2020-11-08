@@ -75,7 +75,8 @@ a.tag-cloud-link {
 /*custom styles*/
 
 .wp-block-column {
-    @extend .p-5;
+    @extend .p-1;
+    @extend .p-xl-5;
 }
 
 //card styles
