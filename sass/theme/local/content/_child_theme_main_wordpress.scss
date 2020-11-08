@@ -116,10 +116,22 @@ a.tag-cloud-link {
 
     li {
         @include card-main-styles;
-        
+
         a {
             @include card-title-styles;
 
         }
+    }
+}
+
+//custom gutenberg styles 
+@each $name, $color in $theme-colors {
+
+    .has-text-color.has-#{$name}-color {
+        color: $color;
+    }
+
+    .has-text-color.has-#{$name}-background-color {
+        background-color: $color;
     }
 }
