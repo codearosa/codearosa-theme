@@ -4,22 +4,22 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'White', 'ea_codearosa_child' ),
 		'slug'  => 'white',
-		'color'	=> '#F6F6F2',
+		'color'	=> '#F2F4F3',
 	),
 	array(
 		'name'  => __( 'Primary', 'ea_codearosa_child' ),
 		'slug'  => 'primary',
-		'color'	=> '#ABB94F',
+		'color'	=> '#C8689A',
 	),
 	array(
 		'name'  => __( 'Secondary', 'ea_codearosa_child' ),
 		'slug'  => 'secondary',
-		'color' => '#F6F6F2',
+		'color' => '#F2F4F3',
 	),
 	array(
 		'name'  => __( 'Success', 'ea_codearosa_child' ),
 		'slug'  => 'success',
-		'color' => '#FFDA2A',
+		'color' => '#2D3142',
 	),
 	array(
 		'name'	=> __( 'Info', 'ea_codearosa_child' ),
@@ -39,7 +39,7 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'	=> __( 'Dark', 'ea_codearosa_child' ),
 		'slug'	=> 'dark',
-		'color'	=> '#282C11',
+		'color'	=> '#2D3142',
 	),
 ) );
 
