@@ -10,4 +10,4 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 
-<?php get_template_part( 'custom/php/templates/searchforms/searchform_main_1'); ?>
+<?php get_template_part( 'custom/php/templates/searchforms/searchform_main_2'); ?>
