@@ -1,14 +1,24 @@
+// mixin for sidebar
+
+@mixin rightsidebarstyles {
+    @extend .p-3;
+    @extend .mb-5;
+    @extend .secondary-neumorph;
+    max-width: 100% !important;
+}
+
 //main sidebar
-.addrightsidebar {
+.widget {
     #right-sidebar {
-        @extend .p-3;
-        @extend .mb-5;
-        @extend .secondary-neumorph;
-        max-width: 100% !important;
+        @include rightsidebarstyles;
     }
 
     //margins
-    form#searchform,
+    form#searchform {
+        padding-bottom: 0 !important;
+        @extend .mb-0;
+    }
+
     .widget-area,
     .card-deck .card {
         @extend .mb-5;
@@ -23,8 +33,12 @@
 }
 
 /*CUSTOM STYLES*/
+.widget {
+    @include rightsidebarstyles;
+}
 
-.addrightsidebar {
+.addrightsidebar,
+.widget-area {
 
     .card-deck .card-footer,
     .card-text {
@@ -32,6 +46,11 @@
     }
 
     .widget-title {
+        color: $secondary !important;
+        background-color: $primary;
+        border-radius: $border-radius;
+        @extend h6;
+        padding: $card-inner-padding;
         @include card-title-styles;
     }
 
@@ -40,3 +59,12 @@
 .post-categories li:not(:first-child) {
     display: none;
 }
+
+//width when sidebar inserted via shortcode
+.addrightsidebar #right-sidebar,
+.addrightsidebar .widget {
+    width: 100% !important;
+    max-width: 100%;
+}
+
+//custom search

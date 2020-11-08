@@ -2,25 +2,25 @@
 /*set last posts to front-page*/
 @import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
 
-.single{ 
+.single {
     //post header
 
     #single-header {
         margin: 0 0 2em 0px !important;
     }
 
-        .entry-header {
-            @include card-main-styles;
-            @extend .card;
+    .entry-header {
+        @include card-main-styles;
+        @extend .card;
+        
+        img {
+            @include card-image-styles;
+            max-height: 250px;
+        }
 
-            img {
-                @include card-image-styles;
-                max-height: 250px;
-            }
-
-            h1 {
-                @include card-title-styles;
-            }
+        h1 {
+            @include card-title-styles;
+        }
     }
 
     hr {
