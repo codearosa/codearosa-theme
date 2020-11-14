@@ -34713,6 +34713,54 @@ input.wp-block-search__input {
 a.tag-cloud-link {
   text-transform: uppercase; }
 
+.has-text-color.has-primary-color {
+  color: #C8689A; }
+
+.has-text-color.has-primary-background-color {
+  background-color: #C8689A; }
+
+.has-text-color.has-secondary-color {
+  color: #F2F4F3; }
+
+.has-text-color.has-secondary-background-color {
+  background-color: #F2F4F3; }
+
+.has-text-color.has-success-color {
+  color: #2D3142; }
+
+.has-text-color.has-success-background-color {
+  background-color: #2D3142; }
+
+.has-text-color.has-info-color {
+  color: #B2B4BA; }
+
+.has-text-color.has-info-background-color {
+  background-color: #B2B4BA; }
+
+.has-text-color.has-warning-color {
+  color: #2D3142; }
+
+.has-text-color.has-warning-background-color {
+  background-color: #2D3142; }
+
+.has-text-color.has-danger-color {
+  color: #2D3142; }
+
+.has-text-color.has-danger-background-color {
+  background-color: #2D3142; }
+
+.has-text-color.has-light-color {
+  color: rgba(242, 244, 243, 0.7); }
+
+.has-text-color.has-light-background-color {
+  background-color: rgba(242, 244, 243, 0.7); }
+
+.has-text-color.has-dark-color {
+  color: #2D3142; }
+
+.has-text-color.has-dark-background-color {
+  background-color: #2D3142; }
+
 /*Beschriftung einzelner Felder ausblenden*/
 .nf-form-fields-required,
 .nf-field-label {
