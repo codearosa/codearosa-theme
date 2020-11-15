@@ -17310,34 +17310,31 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/*
-*
-*Neumorphism Buttons*/
 .primary-neumorph,
-.primary-neumorph:hover,
 .primary-neumorph:visited,
 .primary-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: #C8689A;
+  background: "primary";
   -webkit-box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3;
           box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
 
-.primary-neumorph:active {
-  border-color: #C8689A;
-  background: #C8689A;
-  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
-          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3; }
+.primary-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
 
-.secondary-neumorph:active, .addrightsidebar #right-sidebar:active, .home .card.post:active, .home .post.neumorph-portfolio-card:active, .neumorph-portfolio-card:active, .card:active, .linkinbio:active, #loginform:active, .wp-core-ui .button-primary:active {
+.primary-neumorph-active {
   border-color: transparent !important;
-  background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
+  background: "primary" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
+          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
+  background: #C8689A; }
 
 .secondary-neumorph, .addrightsidebar #right-sidebar, .home .card.post, .home .post.neumorph-portfolio-card, .neumorph-portfolio-card, .card, .linkinbio, #loginform, .wp-core-ui .button-primary,
 .wp-core-ui .button-primary:hover,
 .wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:active,
 .secondary-neumorph:visited,
 .addrightsidebar #right-sidebar:visited,
 .home .card.post:visited,
@@ -17358,12 +17355,9 @@ a.text-dark:hover, a.text-dark:focus {
 .wp-core-ui .button-primary:focus {
   border-color: transparent;
   outline: 0 none;
-  background: #F2F4F3;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
-          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s; }
+  background: "secondary";
+  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white;
+          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white; }
 
 .secondary-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25), .addrightsidebar #right-sidebar:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
@@ -17376,24 +17370,138 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
+.secondary-neumorph-active, input.wp-block-search__input, input[type=text]:not(.components-text-control__input) {
+  border-color: transparent !important;
+  background: "secondary" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
+  background: #F2F4F3; }
+
 .success-neumorph,
-.success-neumorph:hover:visited:focus {
+.success-neumorph:visited,
+.success-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: #2D3142;
+  background: "success";
   -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
           box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
 
-.success-neumorph:active {
-  border-color: #2D3142;
-  background: #2D3142;
-  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
-          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860; }
+.success-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
 
-.success-neumorph a,
-.success-neumorph a:hover:visited:focus:active {
-  color: #F2F4F3 !important;
-  text-decoration: none !important; }
+.success-neumorph-active {
+  border-color: transparent !important;
+  background: "success" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  background: #2D3142; }
+
+.info-neumorph,
+.info-neumorph:visited,
+.info-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: "info";
+  -webkit-box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2;
+          box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
+
+.info-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
+
+.info-neumorph-active {
+  border-color: transparent !important;
+  background: "info" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
+          box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
+  background: #B2B4BA; }
+
+.warning-neumorph,
+.warning-neumorph:visited,
+.warning-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: "warning";
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+
+.warning-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
+
+.warning-neumorph-active {
+  border-color: transparent !important;
+  background: "warning" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  background: #2D3142; }
+
+.danger-neumorph,
+.danger-neumorph:visited,
+.danger-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: "danger";
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+
+.danger-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
+
+.danger-neumorph-active {
+  border-color: transparent !important;
+  background: "danger" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  background: #2D3142; }
+
+.light-neumorph,
+.light-neumorph:visited,
+.light-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: "light";
+  -webkit-box-shadow: 5px 5px 12px rgba(214, 221, 218, 0.7), -5px -5px 12px rgba(255, 255, 255, 0.7);
+          box-shadow: 5px 5px 12px rgba(214, 221, 218, 0.7), -5px -5px 12px rgba(255, 255, 255, 0.7); }
+
+.light-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
+
+.light-neumorph-active {
+  border-color: transparent !important;
+  background: "light" !important;
+  -webkit-box-shadow: inset 5px 5px 12px rgba(214, 221, 218, 0.7), inset -5px -5px 12px rgba(255, 255, 255, 0.7);
+          box-shadow: inset 5px 5px 12px rgba(214, 221, 218, 0.7), inset -5px -5px 12px rgba(255, 255, 255, 0.7);
+  background: rgba(242, 244, 243, 0.7); }
+
+.dark-neumorph,
+.dark-neumorph:visited,
+.dark-neumorph:focus {
+  border-color: transparent;
+  outline: 0 none;
+  background: "dark";
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+
+.dark-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
+#nf-field-25) {
+  -webkit-transform: translateX(0px) translateY(-20px) !important;
+          transform: translateX(0px) translateY(-20px) !important; }
+
+.dark-neumorph-active {
+  border-color: transparent !important;
+  background: "dark" !important;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  background: #2D3142; }
 
 /*brand-logo*/
 @media (min-width: 768px) {
@@ -34701,10 +34809,6 @@ li.wp-social-link {
   background-color: #C8689A !important; }
 
 input.wp-block-search__input {
-  border-color: transparent !important;
-  background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
   border-radius: 0.5rem; }
 
 .wp-block-search__button {
@@ -34774,8 +34878,8 @@ a.tag-cloud-link {
 .nf_neumorph {
   border-color: transparent !important;
   background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+  -webkit-box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
+          box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
   border-radius: 0.5rem !important; }
 
 /*eroor styles*/
@@ -34824,12 +34928,6 @@ a.tag-cloud-link {
   background: #C8689A; }
 
 /*linkinbio add the class to style the link in bio button*/
-input[type=text]:not(.components-text-control__input) {
-  border-color: transparent !important;
-  background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important; }
-
 .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar,
 .addrightsidebar .is-style-fill #right-sidebar.has-primary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-outline #right-sidebar.has-primary-background-color, .is-style-outline .addrightsidebar #right-sidebar.has-primary-background-color,
@@ -34976,8 +35074,8 @@ p#backtoblog {
 .login input {
   border-color: transparent !important;
   background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+  -webkit-box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
+          box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
   background-color: #F2F4F3 !important; }
 
 /*dashicons color*/
