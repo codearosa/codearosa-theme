@@ -17370,7 +17370,7 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
-.secondary-neumorph-active, input.wp-block-search__input, input[type=text]:not(.components-text-control__input) {
+.secondary-neumorph-active, input.wp-block-search__input, .nf_neumorph, input[type=text]:not(.components-text-control__input) {
   border-color: transparent !important;
   background: "secondary" !important;
   -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
@@ -34876,10 +34876,6 @@ a.tag-cloud-link {
 
 /*add this class to input fields to style*/
 .nf_neumorph {
-  border-color: transparent !important;
-  background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
-          box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
   border-radius: 0.5rem !important; }
 
 /*eroor styles*/

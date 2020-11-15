@@ -14,7 +14,7 @@
 }
 /*add this class to input fields to style*/
 .nf_neumorph {
-  @include secondary-neumorph-active;
+  @extend .secondary-neumorph-active;
   border-radius: $border-radius !important;
   @extend .p-2 !optional;
   @extend .m-1 !optional;
