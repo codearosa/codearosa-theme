@@ -1,7 +1,13 @@
+
+
 //simple style
 .navbar {
   @extend .navbar-light;
   @extend .sticky-top;
+}
+
+.navbar-nav {
+  @extend .ml-auto;
 }
 
 /*brand-logo*/

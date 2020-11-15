@@ -44,7 +44,7 @@ $codearosa_custom_functions_includes = array(
   '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
   //'/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
-
+  
   
   //Menus
   '/php/functions/1_menus/0001_social_menu.php',
@@ -66,6 +66,8 @@ $codearosa_custom_functions_includes = array(
 
 // SHORTCODES
   '/php/functions/6_shortcodes/0001_recentpost_shortcode.php',
+  '/php/functions/6_shortcodes/0002_shortcode_primary_menu.php',
+  '/php/functions/6_shortcodes/0003_shortcode_right-sidebar.php',
 );
 
 foreach ( $codearosa_custom_functions_includes as $file ) {
