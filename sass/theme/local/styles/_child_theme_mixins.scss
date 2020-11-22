@@ -3,8 +3,7 @@
 // get the color variables
 
 // get the color variables for box shadow light
-$neumorph-box-shadow-colors-light: (
-  "primary": lighten($primary, $box-shadow-intensity),
+$neumorph-box-shadow-colors-light: ("primary": lighten($primary, $box-shadow-intensity),
   "secondary": lighten($secondary, $box-shadow-intensity),
   "success": lighten($success, $box-shadow-intensity),
   "info": lighten($info, $box-shadow-intensity),
@@ -15,8 +14,7 @@ $neumorph-box-shadow-colors-light: (
 );
 
 // stylelint-disable-next-line scss/dollar-variable-default
-$neumorph-box-shadow-colors-dark: (
-  "primary": darken($primary, $box-shadow-intensity),
+$neumorph-box-shadow-colors-dark: ("primary": darken($primary, $box-shadow-intensity),
   "secondary": darken($secondary, $box-shadow-intensity),
   "success": darken($success, $box-shadow-intensity),
   "info": darken($info, $box-shadow-intensity),
@@ -30,21 +28,17 @@ $neumorph-box-shadow-colors-dark: (
 @mixin neumorph-variant($color) {
   border-color: transparent;
   outline: 0 none;
-  background: $color;
+  background: $color !important;
   //transition: box-shadow 0.3s ease-in-out;
-  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur
-      (map-get($neumorph-box-shadow-colors-dark, $color)),
-    (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur
-      (map-get($neumorph-box-shadow-colors-light, $color));
+  box-shadow: $neumorphism-distance $neumorphism-distance $neumorphism-blur (map-get($neumorph-box-shadow-colors-dark, $color)),
+    (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur (map-get($neumorph-box-shadow-colors-light, $color)) !important;
 }
 
 @mixin neumorph-variant-active($color) {
   border-color: transparent !important;
   background: $color !important;
-  box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur
-      (map-get($neumorph-box-shadow-colors-dark, $color)),
-    inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur
-      (map-get($neumorph-box-shadow-colors-light, $color));
+  box-shadow: inset $neumorphism-distance $neumorphism-distance $neumorphism-blur (map-get($neumorph-box-shadow-colors-dark, $color)),
+    inset (-$neumorphism-distance) (-$neumorphism-distance) $neumorphism-blur (map-get($neumorph-box-shadow-colors-light, $color)) !important;
 }
 
 //FALLBACK SECONDARY
@@ -57,14 +51,17 @@ $neumorph-box-shadow-colors-dark: (
 }
 
 // add variant to classes
-@each $name, $color in $theme-colors {
+@each $name,
+$color in $theme-colors {
+
   .#{$name}-neumorph,
   .#{$name}-neumorph:visited,
   .#{$name}-neumorph:focus {
     @include neumorph-variant($name);
   }
 
-  .#{$name}-neumorph:hover:not(.btn) {
+  .#{$name}-neumorph:hover:not(.btn),
+  .#{$name}-neumorph:hover:not(#wp-submit) {
     transform: translateX(0px) translateY(-20px) !important;
   }
 

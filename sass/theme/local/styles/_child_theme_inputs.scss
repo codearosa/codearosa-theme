@@ -1,4 +1,4 @@
-input[type=text]:not(.components-text-control__input) {
+input:not(.components-text-control__input) {
     @extend .secondary-neumorph-active;
 }
 
