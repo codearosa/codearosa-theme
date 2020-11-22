@@ -17315,20 +17315,21 @@ a.text-dark:hover, a.text-dark:focus {
 .primary-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "primary";
-  -webkit-box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3;
-          box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3; }
+  background: "primary" !important;
+  -webkit-box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3 !important;
+          box-shadow: 5px 5px 12px #b94481, -5px -5px 12px #d68db3 !important; }
 
 .primary-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.primary-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .primary-neumorph-active {
   border-color: transparent !important;
   background: "primary" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
-          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3;
+  -webkit-box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3 !important;
+          box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3 !important;
   background: #C8689A; }
 
 .secondary-neumorph, .addrightsidebar #right-sidebar, .home .card.post, .home .post.neumorph-portfolio-card, .neumorph-portfolio-card, .card, .linkinbio, #loginform, .wp-core-ui .button-primary,
@@ -17355,9 +17356,9 @@ a.text-dark:hover, a.text-dark:focus {
 .wp-core-ui .button-primary:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "secondary";
-  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white;
-          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white; }
+  background: "secondary" !important;
+  -webkit-box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important;
+          box-shadow: 5px 5px 12px #d6ddda, -5px -5px 12px white !important; }
 
 .secondary-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25), .addrightsidebar #right-sidebar:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
@@ -17366,15 +17367,22 @@ a.text-dark:hover, a.text-dark:focus {
 #nf-field-25), .linkinbio:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25), #loginform:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25), .wp-core-ui .button-primary:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.secondary-neumorph:hover:not(#wp-submit),
+.addrightsidebar #right-sidebar:hover:not(#wp-submit),
+.neumorph-portfolio-card:hover:not(#wp-submit),
+.card:hover:not(#wp-submit),
+.linkinbio:hover:not(#wp-submit),
+#loginform:hover:not(#wp-submit),
+.wp-core-ui .button-primary:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
-.secondary-neumorph-active, input.wp-block-search__input, .nf_neumorph, input[type=text]:not(.components-text-control__input) {
+.secondary-neumorph-active, input.wp-block-search__input, .nf_neumorph, input:not(.components-text-control__input) {
   border-color: transparent !important;
   background: "secondary" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
-          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white;
+  -webkit-box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
+          box-shadow: inset 5px 5px 12px #d6ddda, inset -5px -5px 12px white !important;
   background: #F2F4F3; }
 
 .success-neumorph,
@@ -17382,20 +17390,21 @@ a.text-dark:hover, a.text-dark:focus {
 .success-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "success";
-  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
-          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+  background: "success" !important;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important; }
 
 .success-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.success-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .success-neumorph-active {
   border-color: transparent !important;
   background: "success" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
-          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
 
 .info-neumorph,
@@ -17403,20 +17412,21 @@ a.text-dark:hover, a.text-dark:focus {
 .info-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "info";
-  -webkit-box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2;
-          box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2; }
+  background: "info" !important;
+  -webkit-box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2 !important;
+          box-shadow: 5px 5px 12px #979aa2, -5px -5px 12px #cdced2 !important; }
 
 .info-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.info-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .info-neumorph-active {
   border-color: transparent !important;
   background: "info" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
-          box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2;
+  -webkit-box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2 !important;
+          box-shadow: inset 5px 5px 12px #979aa2, inset -5px -5px 12px #cdced2 !important;
   background: #B2B4BA; }
 
 .warning-neumorph,
@@ -17424,20 +17434,21 @@ a.text-dark:hover, a.text-dark:focus {
 .warning-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "warning";
-  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
-          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+  background: "warning" !important;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important; }
 
 .warning-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.warning-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .warning-neumorph-active {
   border-color: transparent !important;
   background: "warning" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
-          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
 
 .danger-neumorph,
@@ -17445,20 +17456,21 @@ a.text-dark:hover, a.text-dark:focus {
 .danger-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "danger";
-  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
-          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+  background: "danger" !important;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important; }
 
 .danger-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.danger-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .danger-neumorph-active {
   border-color: transparent !important;
   background: "danger" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
-          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
 
 .light-neumorph,
@@ -17466,20 +17478,21 @@ a.text-dark:hover, a.text-dark:focus {
 .light-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "light";
-  -webkit-box-shadow: 5px 5px 12px rgba(214, 221, 218, 0.7), -5px -5px 12px rgba(255, 255, 255, 0.7);
-          box-shadow: 5px 5px 12px rgba(214, 221, 218, 0.7), -5px -5px 12px rgba(255, 255, 255, 0.7); }
+  background: "light" !important;
+  -webkit-box-shadow: 5px 5px 12px rgba(214, 221, 218, 0.7), -5px -5px 12px rgba(255, 255, 255, 0.7) !important;
+          box-shadow: 5px 5px 12px rgba(214, 221, 218, 0.7), -5px -5px 12px rgba(255, 255, 255, 0.7) !important; }
 
 .light-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.light-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .light-neumorph-active {
   border-color: transparent !important;
   background: "light" !important;
-  -webkit-box-shadow: inset 5px 5px 12px rgba(214, 221, 218, 0.7), inset -5px -5px 12px rgba(255, 255, 255, 0.7);
-          box-shadow: inset 5px 5px 12px rgba(214, 221, 218, 0.7), inset -5px -5px 12px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: inset 5px 5px 12px rgba(214, 221, 218, 0.7), inset -5px -5px 12px rgba(255, 255, 255, 0.7) !important;
+          box-shadow: inset 5px 5px 12px rgba(214, 221, 218, 0.7), inset -5px -5px 12px rgba(255, 255, 255, 0.7) !important;
   background: rgba(242, 244, 243, 0.7); }
 
 .dark-neumorph,
@@ -17487,20 +17500,21 @@ a.text-dark:hover, a.text-dark:focus {
 .dark-neumorph:focus {
   border-color: transparent;
   outline: 0 none;
-  background: "dark";
-  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860;
-          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860; }
+  background: "dark" !important;
+  -webkit-box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important;
+          box-shadow: 5px 5px 12px #181a24, -5px -5px 12px #424860 !important; }
 
 .dark-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
-#nf-field-25) {
+#nf-field-25),
+.dark-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important; }
 
 .dark-neumorph-active {
   border-color: transparent !important;
   background: "dark" !important;
-  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
-          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860;
+  -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
+          box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
 
 /*brand-logo*/
@@ -34882,6 +34896,12 @@ a.tag-cloud-link {
 .nf-error .ninja-forms-field {
   border-color: #C8689A !important; }
 
+.ninja-forms-field.btn-primary, .is-style-fill .ninja-forms-field.rich-text.wp-block-button__link.has-primary-background-color,
+.is-style-fill .ninja-forms-field.has-primary-background-color, .ninja-forms-field.wp-block-search__button, .ninja-forms-field#nf-field-4,
+.ninja-forms-field#nf-field-25, input.ninja-forms-field[type=button]:not(.components-text-control__input) {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
 /*font family*/
 /*Colors*/
 /*light gradient*/
@@ -35049,52 +35069,46 @@ p#backtoblog {
   display: none; }
 
 #loginform {
+  background-color: #F2F4F3;
   border-radius: 0.5rem; }
 
 .login #backtoblog a,
 .login #nav a {
-  color: #F2F4F3; }
+  color: #C8689A; }
 
-/* Submit  input button*/
 .wp-core-ui .button-primary,
 .wp-core-ui .button-primary:hover,
 .wp-core-ui .button-primary:focus,
 .wp-core-ui .button-primary:active {
   width: 100%;
+  -webkit-transform: none !important;
+          transform: none !important;
+  background-color: #F2F4F3;
   color: #C8689A !important;
   text-transform: uppercase !important;
-  margin-top: 1em;
+  margin-top: 2em;
   font-size: large; }
 
-/*inputstyles*/
-.login input {
-  border-color: transparent !important;
-  background: #F2F4F3 !important;
-  -webkit-box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
-          box-shadow: inset 5px 5px 12px, inset -5px -5px 12px;
-  background-color: #F2F4F3 !important; }
-
-/*dashicons color*/
 .dashicons {
   color: #C8689A !important; }
 
-/*login error color*/
-.login #login_error {
-  border-left-color: #C8689A !important;
-  border-left: 4px solid #C8689A !important; }
-
 form,
 input {
-  /*force yellow background in chrome*/
-  -webkit-box-shadow: 0 0 0 100px rgba(250, 250, 250, 0) inset !important;
-          box-shadow: 0 0 0 100px rgba(250, 250, 250, 0) inset !important;
+  background-color: #F2F4F3 !important;
   border: 1px solid #C8689A;
   background-image: none !important;
   color: black !important; }
+
+.login #login_error {
+  border-left-color: #C8689A; }
 
 input:focus,
 textarea,
 button:focus {
   border: none !important; }
+
+.login #backtoblog a,
+.login #nav a {
+  color: #C8689A; }
 
 /*# sourceMappingURL=stylemylogin.css.map */

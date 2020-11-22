@@ -1,7 +1,7 @@
 /*Beschriftung einzelner Felder ausblenden*/
 .nf-form-fields-required,
 .nf-field-label {
-    display:  none;
+  display: none;
 }
 
 // Absenden Button Styles
@@ -12,6 +12,7 @@
   @extend .btn-primary !optional;
   @extend .p-2 !optional;
 }
+
 /*add this class to input fields to style*/
 .nf_neumorph {
   @extend .secondary-neumorph-active;
@@ -23,4 +24,8 @@
 /*eroor styles*/
 .nf-error .ninja-forms-field {
   border-color: $primary !important;
+}
+
+.ninja-forms-field.btn-primary {
+  box-shadow: none !important;
 }
