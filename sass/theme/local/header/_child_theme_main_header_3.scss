@@ -1,5 +1,3 @@
-
-
 //simple style
 .navbar {
   @extend .navbar-light;
@@ -14,14 +12,25 @@
 
 @include media-breakpoint-up(md) {
   .navbar-brand {
-    width: 12% !important;
+    max-width: 12% !important;
+    display: contents;
+
+    img.img-fluid {
+      width: 4em;
+      margin-right: 1em;
+    }
   }
 }
 
 @include media-breakpoint-down(md) {
   .navbar-brand {
     max-width: 50% !important;
+
+    img.img-fluid {
+      width: 4em;
+    }
   }
+
 }
 
 

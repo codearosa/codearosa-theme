@@ -61,6 +61,8 @@
 
 						<?php } else { ?>
 							 <a class="navbar-brand m-0" <?php the_custom_logo(); ?></a>
+							 <h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+							 
 						<?php } ?><!-- end custom logo -->
 
 									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle text-primary fa fa-search" aria-hidden="true"></i> </a>
