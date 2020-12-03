@@ -19,7 +19,7 @@ $color in $theme-colors {
         border-color: transparent;
         @extend .btn-lg;
         @extend .mt-3;
-        text-transform: uppercase;
+        text-transform: inherit !important;
         color: $body-bg;
     }
 
@@ -29,7 +29,7 @@ $color in $theme-colors {
         @extend .btn-outline-#{$name};
         @extend .btn-lg;
         @extend .mt-3;
-        text-transform: uppercase;
+        text-transform: inherit !important;
     }
 }
 

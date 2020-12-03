@@ -14,7 +14,7 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'Secondary', 'ea_codearosa_child' ),
 		'slug'  => 'secondary',
-		'color' => '#07436B',
+		'color' => '#191D32',
 	),
 	array(
 		'name'  => __( 'Success', 'ea_codearosa_child' ),
