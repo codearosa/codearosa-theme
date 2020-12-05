@@ -18,11 +18,30 @@
 }
 
 .card {
-  @extend .secondary-neumorph;
-  @extend .p-3;
-  @extend .p-xl-5;
-  @extend .m-3;
-  @extend .m-xl-5;
-  background-color: $secondary !important;
   border-color: transparent !important;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  border: 1px solid gray !important;
+  overflow: hidden;
+
+  .wp-block-image {
+    margin: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .wp-block-image img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  p {
+    @extend .mt-3;
+    @extend .mb-2;
+    @extend .mx-1;
+    @extend .card-text;
+  }
 }
