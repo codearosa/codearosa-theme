@@ -27,6 +27,12 @@
   border: 1px solid gray !important;
   overflow: hidden;
 
+  @include media-breakpoint-down(md) {
+    
+      margin-bottom: 1em !important;
+
+  }
+
   .wp-block-image {
     margin: 0 !important;
     margin-left: 0 !important;

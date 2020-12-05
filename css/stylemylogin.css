@@ -33572,6 +33572,9 @@ h1, h2, h3, h4, .wp-block-search__label, h5 {
   width: 100%;
   border: 1px solid gray !important;
   overflow: hidden; }
+  @media (max-width: 991.98px) {
+    .card, .neumorph-portfolio-card {
+      margin-bottom: 1em !important; } }
   .card .wp-block-image, .neumorph-portfolio-card .wp-block-image {
     margin: 0 !important;
     margin-left: 0 !important;
