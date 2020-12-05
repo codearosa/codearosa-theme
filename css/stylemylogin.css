@@ -11505,12 +11505,14 @@ button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #57253f !important; }
 
-.bg-light {
+.bg-light, .navbar {
   background-color: rgba(250, 250, 250, 0.7) !important; }
 
-a.bg-light:hover, a.bg-light:focus,
+a.bg-light:hover, a.navbar:hover, a.bg-light:focus, a.navbar:focus,
 button.bg-light:hover,
-button.bg-light:focus {
+button.navbar:hover,
+button.bg-light:focus,
+button.navbar:focus {
   background-color: rgba(225, 225, 225, 0.7) !important; }
 
 .bg-dark {
@@ -12570,7 +12572,7 @@ button.bg-dark:focus {
   z-index: 1030; }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top, .navbar {
+  .sticky-top, #masthead {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -16788,6 +16790,9 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-shadow: inset 5px 5px 12px #04253b, inset -5px -5px 12px #0a619b !important;
           box-shadow: inset 5px 5px 12px #04253b, inset -5px -5px 12px #0a619b !important;
   background: #07436B; }
+
+.mysearchtoggle {
+  display: none; }
 
 /*brand-logo*/
 @media (min-width: 768px) {
@@ -28262,12 +28267,14 @@ button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #57253f !important; }
 
-.bg-light {
+.bg-light, .navbar {
   background-color: rgba(250, 250, 250, 0.7) !important; }
 
-a.bg-light:hover, a.bg-light:focus,
+a.bg-light:hover, a.navbar:hover, a.bg-light:focus, a.navbar:focus,
 button.bg-light:hover,
-button.bg-light:focus {
+button.navbar:hover,
+button.bg-light:focus,
+button.navbar:focus {
   background-color: rgba(225, 225, 225, 0.7) !important; }
 
 .bg-dark {
@@ -29339,7 +29346,7 @@ button.bg-dark:focus {
   z-index: 1030; }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top, .navbar {
+  .sticky-top, #masthead {
     position: -webkit-sticky;
     position: sticky;
     top: 0;

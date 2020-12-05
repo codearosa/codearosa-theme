@@ -1,7 +1,15 @@
+#masthead {
+  @extend .sticky-top;
+}
+
+.mysearchtoggle {
+  display: none;
+}
+
 //simple style
 .navbar {
   @extend .navbar-light;
-  @extend .sticky-top;
+  @extend .bg-light;
 }
 
 .navbar-nav {
