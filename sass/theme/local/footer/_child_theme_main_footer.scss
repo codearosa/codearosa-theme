@@ -1,4 +1,22 @@
-#wrapper-footer-full,
-#wrapper-static-hero {
-   background-color: transparent !important;
+//custom
+
+#wrapper-footer-full {
+
+   @extend .mt-5;
 }
+   #wrapper-footer-full,
+   #wrapper-footer {
+
+      background-color: $primary;
+      color: $light;
+
+      a,
+      .site-info a.text-primary {
+         color: $light !important;
+      }
+
+      .footer-widget {
+         padding: 0;
+      }
+
+   }

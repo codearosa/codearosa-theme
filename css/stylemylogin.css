@@ -13560,7 +13560,7 @@ button.bg-dark:focus {
 .m-5 {
   margin: 3rem !important; }
 
-.mt-5,
+.mt-5, #wrapper-footer-full,
 .my-5 {
   margin-top: 3rem !important; }
 
@@ -16879,8 +16879,17 @@ a.nav-link {
   margin: 0 !important; }
 
 #wrapper-footer-full,
-#wrapper-static-hero {
-  background-color: transparent !important; }
+#wrapper-footer {
+  background-color: #780201;
+  color: rgba(250, 250, 250, 0.7); }
+  #wrapper-footer-full a,
+  #wrapper-footer-full .site-info a.text-primary,
+  #wrapper-footer a,
+  #wrapper-footer .site-info a.text-primary {
+    color: rgba(250, 250, 250, 0.7) !important; }
+  #wrapper-footer-full .footer-widget,
+  #wrapper-footer .footer-widget {
+    padding: 0; }
 
 /* Import bootstrap-sass so that we have access to all of its selectors */
 /*!
@@ -30320,7 +30329,7 @@ button.bg-dark:focus {
 .m-5 {
   margin: 3rem !important; }
 
-.mt-5,
+.mt-5, #wrapper-footer-full,
 .my-5 {
   margin-top: 3rem !important; }
 
