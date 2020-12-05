@@ -33573,6 +33573,13 @@ h1, h2, h3, h4, .wp-block-search__label, h5 {
     width: 100% !important;
     height: auto; }
 
+.wp-block-group.card, .wp-block-group.neumorph-portfolio-card {
+  padding: 0;
+  margin: 0; }
+
+.wp-block-group.card.border-success, .wp-block-group.border-success.neumorph-portfolio-card {
+  border: 1px solid gray !important; }
+
 /* width */
 ::-webkit-scrollbar {
   width: 15px; }

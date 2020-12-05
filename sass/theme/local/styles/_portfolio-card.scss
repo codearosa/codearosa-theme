@@ -45,3 +45,14 @@
     @extend .card-text;
   }
 }
+
+//gutenberg styles
+
+.wp-block-group.card {
+  padding: 0;
+  margin: 0;
+}
+
+.wp-block-group.card.border-success {
+  border: 1px solid gray !important;
+}
