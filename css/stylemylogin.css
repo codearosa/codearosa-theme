@@ -34918,7 +34918,11 @@ a.tag-cloud-link {
   background-color: #F2F4F3; }
 
 .neumorph-portfolio-card {
-  background-color: #F2F4F3 !important; }
+  background-color: #F2F4F3 !important;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
 
 .card, .neumorph-portfolio-card {
   background-color: #F2F4F3 !important;
