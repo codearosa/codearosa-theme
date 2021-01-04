@@ -3,7 +3,7 @@
 @import "child_theme_localfont"; // <--------- Localfont
 
 /* Import bootstrap-sass so that we have access to all of its selectors */
-@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+@import "../sass/assets/bootstrap5.0.0-beta"; // <------- Loads bootstrap5.0.0-beta
 
 @import "styles/child_theme_mixins"; // <--------- Add neumorph here
 
