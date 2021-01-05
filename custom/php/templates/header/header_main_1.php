@@ -1,6 +1,6 @@
 <?php
 /**
- * Body Header Section
+ * Header Part for the main header
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
