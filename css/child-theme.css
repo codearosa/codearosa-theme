@@ -10943,39 +10943,36 @@ input[type="button"].btn-block {
   .navbar-expand .navbar-toggler {
     display: none; }
 
-.navbar-light .navbar-brand, .navbar .navbar-brand {
+.navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9); }
-  .navbar-light .navbar-brand:hover, .navbar .navbar-brand:hover, .navbar-light .navbar-brand:focus, .navbar .navbar-brand:focus {
+  .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-nav .nav-link, .navbar .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:focus {
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, .navbar .navbar-nav .nav-link.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
-.navbar .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-toggler, .navbar .navbar-toggler {
+.navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1); }
 
-.navbar-light .navbar-toggler-icon, .navbar .navbar-toggler-icon {
+.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
-.navbar-light .navbar-text, .navbar .navbar-text {
+.navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-text a, .navbar .navbar-text a {
+  .navbar-light .navbar-text a {
     color: rgba(0, 0, 0, 0.9); }
-    .navbar-light .navbar-text a:hover, .navbar .navbar-text a:hover, .navbar-light .navbar-text a:focus, .navbar .navbar-text a:focus {
+    .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
@@ -13710,7 +13707,7 @@ button.bg-dark:focus {
   z-index: 1030; }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top, .navbar {
+  .sticky-top {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -15924,7 +15921,7 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto, .navbar-nav,
+.ml-auto,
 .mx-auto,
 .aligncenter {
   margin-left: auto !important; }
@@ -17251,9 +17248,9 @@ a.skip-link {
     background-color: transparent;
     background-image: none; }
 
-.navbar-light .navbar-brand a, .navbar .navbar-brand a {
+.navbar-light .navbar-brand a {
   color: rgba(0, 0, 0, 0.9); }
-  .navbar-light .navbar-brand a:hover, .navbar .navbar-brand a:hover, .navbar-light .navbar-brand a:focus, .navbar .navbar-brand a:focus {
+  .navbar-light .navbar-brand a:hover, .navbar-light .navbar-brand a:focus {
     color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand a {
@@ -25810,33 +25807,34 @@ textarea.form-control-lg {
   .navbar-expand .navbar-toggler {
     display: none; }
 
-.navbar-light .navbar-brand, .navbar .navbar-brand {
+.navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9); }
-  .navbar-light .navbar-brand:hover, .navbar .navbar-brand:hover, .navbar-light .navbar-brand:focus, .navbar .navbar-brand:focus {
+  .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-nav .nav-link, .navbar .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:focus {
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, .navbar .navbar-nav .nav-link.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-toggler, .navbar .navbar-toggler {
+.navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1); }
 
-.navbar-light .navbar-toggler-icon, .navbar .navbar-toggler-icon {
+.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
-.navbar-light .navbar-text, .navbar .navbar-text {
+.navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-text a, .navbar .navbar-text a, .navbar-light .navbar-text a:hover, .navbar .navbar-text a:hover, .navbar-light .navbar-text a:focus, .navbar .navbar-text a:focus {
+  .navbar-light .navbar-text a,
+  .navbar-light .navbar-text a:hover,
+  .navbar-light .navbar-text a:focus {
     color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
@@ -27516,7 +27514,7 @@ textarea.form-control-lg {
   left: 0;
   z-index: 1030; }
 
-.sticky-top, .navbar {
+.sticky-top {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -31431,47 +31429,19 @@ textarea.form-control-lg {
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
 
-/*brand-logo*/
-@media (min-width: 768px) {
-  .navbar-brand {
-    width: 12% !important; } }
-
-@media (max-width: 767.98px) {
-  .navbar-brand {
-    max-width: 50% !important; } }
-
-@media (max-width: 767.98px) {
-  #navbarNavDropdown {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 50vw;
-    background: #F2F4F3;
-    margin: 0 0 0 -50vw;
-    -webkit-transition: margin .4s ease-in-out .2s;
-    transition: margin .4s ease-in-out .2s; }
-  #navbarNavDropdown.show {
-    margin: 0;
-    -webkit-transition: margin .4s ease-in-out .2s;
-    transition: margin .4s ease-in-out .2s; }
-  ul#main-menu {
-    height: 100vh;
-    padding: 40% 6% 6% 6%; } }
-
-button.navbar-toggler {
-  z-index: 1070; }
-
-a.nav-link {
-  color: #C8689A !important;
-  text-transform: uppercase; }
-
+/* used header design in melaniemueller.design
+* Style for 
+*header_main_4.php
+*/
 .navbar-toggler {
   width: 1.5em;
   height: 1.5em;
   padding: 0.25em !important;
   background-color: transparent;
-  border-color: rgba(0, 0, 0, 0) !important; }
+  border-color: rgba(0, 0, 0, 0) !important;
+  color: transparent; }
+  .navbar-toggler .hamburger {
+    color: transparent; }
   .navbar-toggler .line {
     width: 100%;
     height: 0.1875em;
@@ -31481,28 +31451,33 @@ a.nav-link {
   .navbar-toggler:focus {
     outline: none; }
   .navbar-toggler:hover {
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
     .navbar-toggler:hover .line:nth-child(1) {
       width: 100%; }
     .navbar-toggler:hover .line:nth-child(2) {
       width: 100%; }
     .navbar-toggler:hover .line:nth-child(3) {
       width: 100%; }
-  .navbar-toggler[aria-expanded="true"] .line {
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
-    .navbar-toggler[aria-expanded="true"] .line:nth-child(1) {
-      width: 100%;
-      -webkit-transform: translateY(150%) rotate(45deg);
-              transform: translateY(150%) rotate(45deg); }
-    .navbar-toggler[aria-expanded="true"] .line:nth-child(2) {
-      opacity: 0;
-      width: 100%; }
-    .navbar-toggler[aria-expanded="true"] .line:nth-child(3) {
-      width: 100%;
-      -webkit-transform: translateY(-150%) rotate(-45deg);
-              transform: translateY(-150%) rotate(-45deg); }
+  .navbar-toggler[aria-expanded="true"] {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .navbar-toggler[aria-expanded="true"] .line {
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
+      .navbar-toggler[aria-expanded="true"] .line:nth-child(1) {
+        width: 100%;
+        -webkit-transform: translateY(150%) rotate(45deg);
+                transform: translateY(150%) rotate(45deg); }
+      .navbar-toggler[aria-expanded="true"] .line:nth-child(2) {
+        opacity: 0;
+        width: 100%; }
+      .navbar-toggler[aria-expanded="true"] .line:nth-child(3) {
+        width: 100%;
+        -webkit-transform: translateY(-150%) rotate(-45deg);
+                transform: translateY(-150%) rotate(-45deg); }
 
 .addrightsidebar #right-sidebar {
   max-width: 100% !important; }
@@ -42453,39 +42428,36 @@ input[type="button"].btn-block {
   .navbar-expand .navbar-toggler {
     display: none; }
 
-.navbar-light .navbar-brand, .navbar .navbar-brand {
+.navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9); }
-  .navbar-light .navbar-brand:hover, .navbar .navbar-brand:hover, .navbar-light .navbar-brand:focus, .navbar .navbar-brand:focus {
+  .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-nav .nav-link, .navbar .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:focus {
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, .navbar .navbar-nav .nav-link.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
-.navbar .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-toggler, .navbar .navbar-toggler {
+.navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1); }
 
-.navbar-light .navbar-toggler-icon, .navbar .navbar-toggler-icon {
+.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
-.navbar-light .navbar-text, .navbar .navbar-text {
+.navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-text a, .navbar .navbar-text a {
+  .navbar-light .navbar-text a {
     color: rgba(0, 0, 0, 0.9); }
-    .navbar-light .navbar-text a:hover, .navbar .navbar-text a:hover, .navbar-light .navbar-text a:focus, .navbar .navbar-text a:focus {
+    .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
@@ -45214,7 +45186,7 @@ button.bg-dark:focus {
   z-index: 1030; }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top, .navbar {
+  .sticky-top {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -47428,7 +47400,7 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto, .navbar-nav,
+.ml-auto,
 .mx-auto,
 .aligncenter {
   margin-left: auto !important; }
