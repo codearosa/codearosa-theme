@@ -11,6 +11,7 @@ $transition-toggler: 0.5s;
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0) !important;
   color: transparent;
+  z-index: $zindex-tooltip;
 
   .hamburger {
     color: transparent;

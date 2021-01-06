@@ -11297,7 +11297,8 @@ textarea.form-control-lg {
   padding: 0.25em !important;
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0) !important;
-  color: transparent; }
+  color: transparent;
+  z-index: 1070; }
   .navbar-toggler .hamburger {
     color: transparent; }
   .navbar-toggler .line {
@@ -11336,6 +11337,19 @@ textarea.form-control-lg {
         width: 100%;
         -webkit-transform: translateY(-150%) rotate(-45deg);
                 transform: translateY(-150%) rotate(-45deg); }
+
+.navbar-brand {
+  font-weight: bold;
+  color: #2D3142;
+  z-index: 1070; }
+
+.navbar-collapse.collapse.show {
+  background-color: #2D3142;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1030; }
 
 .addrightsidebar #right-sidebar {
   max-width: 100% !important; }
