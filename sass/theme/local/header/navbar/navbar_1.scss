@@ -1,3 +1,25 @@
+$navbar-transition: top $transition-toggler linear;
+
+.navbar-collapse {
+    background-color: $dark;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: $zindex-fixed;
+    transition: $navbar-transition;
+}
+
+.navbar-collapse.collapsing {
+    background-color: $dark;
+    height: 100vh;
+    position: fixed;
+    top: -0;
+    left: 0;
+    z-index: $zindex-fixed;
+    transition: $navbar-transition;
+}
+
 .navbar-collapse.collapse.show {
     background-color: $dark;
     height: 100vh;
@@ -5,4 +27,6 @@
     top: 0;
     left: 0;
     z-index: $zindex-fixed;
+    transition: $navbar-transition;
+
 }

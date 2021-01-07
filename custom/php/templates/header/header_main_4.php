@@ -15,27 +15,11 @@
 						
 						
 
-						<!-- Your site title as branding in the menu -->
-						<?php if ( ! has_custom_logo() ) { ?>
+						<?php get_template_part( 'custom/php/templates/brand/logo/brand_and_logo_main_1' ); ?>
 
-							<?php if ( is_front_page() && is_home() ) : ?>
+						<?php get_template_part( 'custom/php/templates/toggler/toggler_main_1' ); ?>
 
-								<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
-
-							<?php else : ?>
-
-								<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-
-							<?php endif; ?>
-
-
-						<?php } else { ?>
-							 <a class="navbar-brand m-0" <?php the_custom_logo(); ?></a>
-						<?php } ?><!-- end custom logo -->
-
-										<?php get_template_part( 'custom/php/templates/toggler/toggler_main_1' ); ?>
-
-										<?php get_template_part( 'custom/php/menu/menu-primary', 'none' ); ?>
+						<?php get_template_part( 'custom/php/templates/navbar/navbar_1', 'none' ); ?>
 
 
 				</nav>

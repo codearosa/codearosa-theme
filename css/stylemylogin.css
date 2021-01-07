@@ -11341,7 +11341,31 @@ textarea.form-control-lg {
 .navbar-brand {
   font-weight: bold;
   color: #2D3142;
-  z-index: 1070; }
+  z-index: 1070;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+  .navbar-brand[aria-expanded="true"] {
+    color: #F2F4F3; }
+
+.navbar-collapse {
+  background-color: #2D3142;
+  height: 100vh;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  z-index: 1030;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear; }
+
+.navbar-collapse.collapsing {
+  background-color: #2D3142;
+  height: 100vh;
+  position: fixed;
+  top: -0;
+  left: 0;
+  z-index: 1030;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear; }
 
 .navbar-collapse.collapse.show {
   background-color: #2D3142;
@@ -11349,7 +11373,9 @@ textarea.form-control-lg {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1030; }
+  z-index: 1030;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear; }
 
 .addrightsidebar #right-sidebar {
   max-width: 100% !important; }
