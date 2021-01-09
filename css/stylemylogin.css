@@ -11347,25 +11347,27 @@ textarea.form-control-lg {
   .navbar-brand[aria-expanded="true"] {
     color: #F2F4F3; }
 
-.navbar-collapse {
+.navbar-collapse.collapse {
+  display: block !important;
   background-color: #2D3142;
   height: 100vh;
   position: fixed;
   top: -100vh;
   left: 0;
   z-index: 1030;
-  -webkit-transition: top 0.5s linear;
-  transition: top 0.5s linear; }
+  -webkit-transition: top 0.5s ease-in;
+  transition: top 0.5s ease-in; }
 
 .navbar-collapse.collapsing {
+  display: block !important;
   background-color: #2D3142;
-  height: 100vh;
+  height: 100vh !important;
   position: fixed;
   top: -0;
   left: 0;
   z-index: 1030;
-  -webkit-transition: top 0.5s linear;
-  transition: top 0.5s linear; }
+  -webkit-transition: top 0.5s ease-in;
+  transition: top 0.5s ease-in; }
 
 .navbar-collapse.collapse.show {
   background-color: #2D3142;
@@ -11374,8 +11376,8 @@ textarea.form-control-lg {
   top: 0;
   left: 0;
   z-index: 1030;
-  -webkit-transition: top 0.5s linear;
-  transition: top 0.5s linear; }
+  -webkit-transition: top 0.5s ease-in;
+  transition: top 0.5s ease-in; }
 
 .addrightsidebar #right-sidebar {
   max-width: 100% !important; }

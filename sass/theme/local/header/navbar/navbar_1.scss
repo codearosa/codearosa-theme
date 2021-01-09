@@ -1,6 +1,7 @@
-$navbar-transition: top $transition-toggler linear;
+$navbar-transition: top $transition-toggler ease-in;
 
-.navbar-collapse {
+.navbar-collapse.collapse {
+    display: block !important;
     background-color: $dark;
     height: 100vh;
     position: fixed;
@@ -11,8 +12,9 @@ $navbar-transition: top $transition-toggler linear;
 }
 
 .navbar-collapse.collapsing {
+    display: block !important;
     background-color: $dark;
-    height: 100vh;
+    height: 100vh !important;
     position: fixed;
     top: -0;
     left: 0;
