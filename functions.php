@@ -51,6 +51,7 @@ $codearosa_custom_functions_includes = array(
 
   //WIDGETS
   '/php/functions/2_widgets/0001_topbar_widget_area.php',
+  '/php/functions/2_widgets/0002_contact_widget_area.php',
 
   //CUSTOM WP Login
   '/php/functions/3_custom_wp_login/0001_custom_wp_login.php',
@@ -68,6 +69,8 @@ $codearosa_custom_functions_includes = array(
   '/php/functions/6_shortcodes/0001_recentpost_shortcode.php',
   '/php/functions/6_shortcodes/0002_shortcode_primary_menu.php',
   '/php/functions/6_shortcodes/0003_shortcode_right-sidebar.php',
+  '/php/functions/6_shortcodes/0004_shortcode_contact_widget.php',
+
 );
 
 foreach ( $codearosa_custom_functions_includes as $file ) {
