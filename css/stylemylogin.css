@@ -11329,7 +11329,8 @@ textarea.form-control-lg {
       .navbar-toggler[aria-expanded="true"] .line:nth-child(1) {
         width: 100%;
         -webkit-transform: translateY(150%) rotate(45deg);
-                transform: translateY(150%) rotate(45deg); }
+                transform: translateY(150%) rotate(45deg);
+        margin: 0; }
       .navbar-toggler[aria-expanded="true"] .line:nth-child(2) {
         opacity: 0;
         width: 100%; }
@@ -11352,7 +11353,7 @@ textarea.form-control-lg {
   background-color: #2D3142;
   height: 100vh;
   position: fixed;
-  top: -100vh;
+  top: -250vh;
   left: 0;
   z-index: 1030;
   -webkit-transition: top 0.5s ease-in;
@@ -27137,8 +27138,9 @@ a.tag-cloud-link {
     .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down,
     .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down.wp-block {
       background: transparent;
-      top: -30px;
-      left: 47%;
+      position: absolute;
+      top: -0;
+      left: 0;
       padding: 0;
       margin: 0; }
       .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p.fas.fa-arrow-down:before,
@@ -27147,7 +27149,10 @@ a.tag-cloud-link {
       .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down.wp-block:before {
         background-color: #C8689A;
         padding: 0.2em;
-        border-radius: 0.5rem; }
+        border-radius: 0.5rem;
+        position: absolute;
+        top: -30px;
+        left: calc(50% - 30px); }
 
 /*linkinbio add the class to style the link in bio button*/
 .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar,

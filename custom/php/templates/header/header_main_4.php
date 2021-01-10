@@ -20,7 +20,7 @@
 						<div id="navbarNavDropdown" class="navbar-collapse collapse" style="">
 
 							<div class="row">
-								<div class="col-sm-12 col-md-6">
+								<div class="col-sm-12 col-md-6 d-none d-md-block">
 
 									<?php echo do_shortcode("[add-cr-contact]"); ?>
 

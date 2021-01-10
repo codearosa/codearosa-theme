@@ -59,6 +59,7 @@ $transition-toggler: 0.5s;
       &:nth-child(1) {
         width: 100%;
         transform: translateY(150%) rotate(45deg);
+        margin: 0;
       }
 
       &:nth-child(2) {

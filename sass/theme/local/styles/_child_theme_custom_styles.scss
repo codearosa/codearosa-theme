@@ -25,19 +25,23 @@
         p.fas.fa-arrow-down,
         //for gutenberg 
         p.fas.fa-arrow-down.wp-block {
-            
-                background: transparent;
-                top: -30px;
-                left: 47%;
-                padding: 0;
-                margin: 0;
 
-                &:before {
-                    background-color: $primary;
-                    padding: 0.2em;
-                    border-radius: $border-radius;
-                }
-            
+            background: transparent;
+            position: absolute;
+            top: -0;
+            left: 0;
+            padding: 0;
+            margin: 0;
+
+            &:before {
+                background-color: $primary;
+                padding: 0.2em;
+                border-radius: $border-radius;
+                position: absolute;
+                top: -30px;
+                left: calc(50% - 30px);
+            }
+
 
         }
     }
