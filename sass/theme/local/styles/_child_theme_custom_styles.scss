@@ -1,0 +1,44 @@
+//add .cr-relative-cover to wordpress cover 
+.wp-block-cover.cr_relative_cover {
+    padding: 0;
+
+
+    .wp-block-cover__inner-container,
+    //for gutenberg
+    .block-editor-block-list__layout.wp-block-cover__inner-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        p,
+        // gutenberg styles
+        p.wp-block {
+            background: $dark;
+            display: inline-block;
+            bottom: 0;
+            position: absolute;
+            padding: 2em 4em;
+            right: 0;
+            margin: 0;
+        }
+
+        p.fas.fa-arrow-down,
+        //for gutenberg 
+        p.fas.fa-arrow-down.wp-block {
+            
+                background: transparent;
+                top: -30px;
+                left: 47%;
+                padding: 0;
+                margin: 0;
+
+                &:before {
+                    background-color: $primary;
+                    padding: 0.2em;
+                    border-radius: $border-radius;
+                }
+            
+
+        }
+    }
+}
