@@ -61,8 +61,10 @@ $color in $theme-colors {
   }
 
   .#{$name}-neumorph:hover:not(.btn),
+  .#{$name}-neumorph:hover:not(.wp-block-cover),
   .#{$name}-neumorph:hover:not(#wp-submit) {
     transform: translateX(0px) translateY(-20px) !important;
+    transition: 1s transform ease-in;
   }
 
   .#{$name}-neumorph-active {

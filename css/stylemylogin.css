@@ -11091,9 +11091,14 @@ textarea.form-control-lg {
 
 .primary-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.primary-neumorph:hover:not(.wp-block-cover),
 .primary-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .primary-neumorph-active {
   border-color: transparent !important;
@@ -11138,6 +11143,13 @@ textarea.form-control-lg {
 #nf-field-25), #loginform:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25), .wp-core-ui .button-primary:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.secondary-neumorph:hover:not(.wp-block-cover),
+.addrightsidebar #right-sidebar:hover:not(.wp-block-cover),
+.neumorph-portfolio-card:hover:not(.wp-block-cover),
+.card:hover:not(.wp-block-cover),
+.linkinbio:hover:not(.wp-block-cover),
+#loginform:hover:not(.wp-block-cover),
+.wp-core-ui .button-primary:hover:not(.wp-block-cover),
 .secondary-neumorph:hover:not(#wp-submit),
 .addrightsidebar #right-sidebar:hover:not(#wp-submit),
 .neumorph-portfolio-card:hover:not(#wp-submit),
@@ -11146,7 +11158,11 @@ textarea.form-control-lg {
 #loginform:hover:not(#wp-submit),
 .wp-core-ui .button-primary:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .secondary-neumorph-active, input.wp-block-search__input, input:not(.components-text-control__input) {
   border-color: transparent !important;
@@ -11166,9 +11182,14 @@ textarea.form-control-lg {
 
 .success-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.success-neumorph:hover:not(.wp-block-cover),
 .success-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .success-neumorph-active {
   border-color: transparent !important;
@@ -11188,9 +11209,14 @@ textarea.form-control-lg {
 
 .info-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.info-neumorph:hover:not(.wp-block-cover),
 .info-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .info-neumorph-active {
   border-color: transparent !important;
@@ -11210,9 +11236,14 @@ textarea.form-control-lg {
 
 .warning-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.warning-neumorph:hover:not(.wp-block-cover),
 .warning-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .warning-neumorph-active {
   border-color: transparent !important;
@@ -11232,9 +11263,14 @@ textarea.form-control-lg {
 
 .danger-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.danger-neumorph:hover:not(.wp-block-cover),
 .danger-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .danger-neumorph-active {
   border-color: transparent !important;
@@ -11254,9 +11290,14 @@ textarea.form-control-lg {
 
 .light-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.light-neumorph:hover:not(.wp-block-cover),
 .light-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .light-neumorph-active {
   border-color: transparent !important;
@@ -11276,9 +11317,14 @@ textarea.form-control-lg {
 
 .dark-neumorph:hover:not(.btn):not(.wp-block-search__button):not(#nf-field-4):not(
 #nf-field-25),
+.dark-neumorph:hover:not(.wp-block-cover),
 .dark-neumorph:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
-          transform: translateX(0px) translateY(-20px) !important; }
+          transform: translateX(0px) translateY(-20px) !important;
+  -webkit-transition: 1s -webkit-transform ease-in;
+  transition: 1s -webkit-transform ease-in;
+  transition: 1s transform ease-in;
+  transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
 .dark-neumorph-active {
   border-color: transparent !important;
