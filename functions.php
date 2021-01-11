@@ -52,6 +52,8 @@ $codearosa_custom_functions_includes = array(
   //WIDGETS
   '/php/functions/2_widgets/0001_topbar_widget_area.php',
   '/php/functions/2_widgets/0002_contact_widget_area.php',
+  '/php/functions/2_widgets/0003_footer_widget_area.php',
+
 
   //CUSTOM WP Login
   '/php/functions/3_custom_wp_login/0001_custom_wp_login.php',

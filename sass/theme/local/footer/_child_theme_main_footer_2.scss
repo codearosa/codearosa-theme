@@ -1,0 +1,18 @@
+#wrapper-footer {
+
+   .col-md-4 {
+      @extend .pt-1;
+   } 
+   
+   .col-md-4:nth-child(2) {
+      @extend .lead;
+   }
+
+   .socialmenuclass .fa,
+   .socialmenuclass .fas,
+   .socialmenuclass .fab {
+      @extend .my-0;
+      @extend .text-primary;
+   }
+
+}

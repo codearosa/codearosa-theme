@@ -350,7 +350,7 @@ h5, .h5, .h5 {
 h6, .h6, .h6 {
   font-size: 1rem; }
 
-.lead {
+.lead, #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
@@ -13811,7 +13811,10 @@ button.bg-dark:focus {
   margin: 0 !important; }
 
 .mt-0,
-.my-0 {
+.my-0,
+#wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   margin-top: 0 !important; }
 
 .mr-0,
@@ -13819,7 +13822,10 @@ button.bg-dark:focus {
   margin-right: 0 !important; }
 
 .mb-0,
-.my-0 {
+.my-0,
+#wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   margin-bottom: 0 !important; }
 
 .ml-0,
@@ -14549,7 +14555,7 @@ button.bg-dark:focus {
 .p-1 {
   padding: 0.25rem !important; }
 
-.pt-1,
+.pt-1, #wrapper-footer .col-md-4,
 .py-1 {
   padding-top: 0.25rem !important; }
 
@@ -17032,10 +17038,16 @@ button.bg-dark:focus {
 .text-white {
   color: #FBFBFD !important; }
 
-.text-primary {
+.text-primary, #wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   color: #C8689A !important; }
 
-a.text-primary:hover, a.text-primary:focus {
+a.text-primary:hover, #wrapper-footer .socialmenuclass a.fa:hover,
+#wrapper-footer .socialmenuclass a.fas:hover,
+#wrapper-footer .socialmenuclass a.fab:hover, a.text-primary:focus, #wrapper-footer .socialmenuclass a.fa:focus,
+#wrapper-footer .socialmenuclass a.fas:focus,
+#wrapper-footer .socialmenuclass a.fab:focus {
   color: #a73d74 !important; }
 
 .text-secondary {
@@ -20177,7 +20189,7 @@ progress {
 [hidden] {
   display: none !important; }
 
-.lead {
+.lead, #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
@@ -28123,7 +28135,11 @@ textarea.form-control-lg {
   margin-right: auto !important;
   margin-left: auto !important; }
 
-.my-0 {
+
+.my-0,
+#wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   margin-top: 0 !important;
   margin-bottom: 0 !important; }
 
@@ -29205,7 +29221,7 @@ textarea.form-control-lg {
 .pt-0 {
   padding-top: 0 !important; }
 
-.pt-1 {
+.pt-1, #wrapper-footer .col-md-4 {
   padding-top: 0.25rem !important; }
 
 .pt-2 {
@@ -29331,7 +29347,9 @@ textarea.form-control-lg {
 .text-center, .linkinbio {
   text-align: center !important; }
 
-.text-primary {
+.text-primary, #wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   color: #C8689A !important; }
 
 .text-secondary {
@@ -31613,10 +31631,6 @@ textarea.form-control-lg {
           flex: unset;
   margin: 0 !important; }
 
-#wrapper-footer-full,
-#wrapper-static-hero {
-  background-color: transparent !important; }
-
 /* Import bootstrap-sass so that we have access to all of its selectors */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -31958,7 +31972,7 @@ h5, .h5, .h5 {
 h6, .h6, .h6 {
   font-size: 1rem; }
 
-.lead {
+.lead, #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
@@ -45414,7 +45428,10 @@ button.bg-dark:focus {
   margin: 0 !important; }
 
 .mt-0,
-.my-0 {
+.my-0,
+#wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   margin-top: 0 !important; }
 
 .mr-0,
@@ -45422,7 +45439,10 @@ button.bg-dark:focus {
   margin-right: 0 !important; }
 
 .mb-0,
-.my-0 {
+.my-0,
+#wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   margin-bottom: 0 !important; }
 
 .ml-0,
@@ -46152,7 +46172,7 @@ button.bg-dark:focus {
 .p-1 {
   padding: 0.25rem !important; }
 
-.pt-1,
+.pt-1, #wrapper-footer .col-md-4,
 .py-1 {
   padding-top: 0.25rem !important; }
 
@@ -48635,10 +48655,16 @@ button.bg-dark:focus {
 .text-white {
   color: #FBFBFD !important; }
 
-.text-primary {
+.text-primary, #wrapper-footer .socialmenuclass .fa,
+#wrapper-footer .socialmenuclass .fas,
+#wrapper-footer .socialmenuclass .fab {
   color: #C8689A !important; }
 
-a.text-primary:hover, a.text-primary:focus {
+a.text-primary:hover, #wrapper-footer .socialmenuclass a.fa:hover,
+#wrapper-footer .socialmenuclass a.fas:hover,
+#wrapper-footer .socialmenuclass a.fab:hover, a.text-primary:focus, #wrapper-footer .socialmenuclass a.fa:focus,
+#wrapper-footer .socialmenuclass a.fas:focus,
+#wrapper-footer .socialmenuclass a.fab:focus {
   color: #a73d74 !important; }
 
 .text-secondary {
