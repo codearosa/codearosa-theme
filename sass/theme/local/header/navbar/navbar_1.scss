@@ -105,3 +105,12 @@ $navbar-transition: top $transition-toggler ease-in;
         }
     }
 }
+
+//disable background image
+.navbar {
+    background-image: none;
+}
+
+.logged-in header#masthead {
+    padding-top: 1em;
+}
