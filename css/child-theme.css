@@ -15805,7 +15805,8 @@ button.bg-dark:focus {
   padding-top: 3rem !important; }
 
 .pr-5,
-.px-5 {
+.px-5,
+#wrapper-footer {
   padding-right: 3rem !important; }
 
 .pb-5,
@@ -15813,7 +15814,8 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important; }
 
 .pl-5,
-.px-5 {
+.px-5,
+#wrapper-footer {
   padding-left: 3rem !important; }
 
 .m-n1 {
@@ -16973,7 +16975,7 @@ button.bg-dark:focus {
 .text-right, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   text-align: right !important; }
 
-.text-center, .linkinbio {
+.text-center, #wrapper-footer .col-md-4:nth-child(2), .linkinbio {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -16985,9 +16987,9 @@ button.bg-dark:focus {
     text-align: center !important; } }
 
 @media (min-width: 768px) {
-  .text-md-left {
+  .text-md-left, #wrapper-footer .col-md-4:nth-child(1) {
     text-align: left !important; }
-  .text-md-right {
+  .text-md-right, #wrapper-footer .col-md-4:nth-child(3) {
     text-align: right !important; }
   .text-md-center {
     text-align: center !important; } }
@@ -17038,14 +17040,14 @@ button.bg-dark:focus {
 .text-white {
   color: #FBFBFD !important; }
 
-.text-primary, #wrapper-footer .socialmenuclass .fa,
+.text-primary, #wrapper-footer .col-md-4:nth-child(2) a:hover, #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
 #wrapper-footer .socialmenuclass .fab {
   color: #C8689A !important; }
 
-a.text-primary:hover, #wrapper-footer .socialmenuclass a.fa:hover,
+a.text-primary:hover, #wrapper-footer .col-md-4:nth-child(2) a:hover, #wrapper-footer .socialmenuclass a.fa:hover,
 #wrapper-footer .socialmenuclass a.fas:hover,
-#wrapper-footer .socialmenuclass a.fab:hover, a.text-primary:focus, #wrapper-footer .socialmenuclass a.fa:focus,
+#wrapper-footer .socialmenuclass a.fab:hover, a.text-primary:focus, #wrapper-footer .col-md-4:nth-child(2) a:focus:hover, #wrapper-footer .socialmenuclass a.fa:focus,
 #wrapper-footer .socialmenuclass a.fas:focus,
 #wrapper-footer .socialmenuclass a.fab:focus {
   color: #a73d74 !important; }
@@ -17086,10 +17088,10 @@ a.text-danger:hover, a.text-danger:focus {
 a.text-light:hover, a.text-light:focus {
   color: rgba(201, 209, 205, 0.7) !important; }
 
-.text-dark {
+.text-dark, #wrapper-footer .col-md-4:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a {
   color: #2D3142 !important; }
 
-a.text-dark:hover, a.text-dark:focus {
+a.text-dark:hover, #wrapper-footer a.col-md-4:hover:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a:hover, a.text-dark:focus, #wrapper-footer a.col-md-4:focus:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a:focus {
   color: #0e0f15 !important; }
 
 .text-body {
@@ -17111,7 +17113,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: transparent;
   border: 0; }
 
-.text-decoration-none {
+.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
   text-decoration: none !important; }
 
 .text-break {
@@ -28897,7 +28899,9 @@ textarea.form-control-lg {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important; }
 
-.px-5 {
+
+.px-5,
+#wrapper-footer {
   padding-right: 3rem !important;
   padding-left: 3rem !important; }
 
@@ -29344,10 +29348,10 @@ textarea.form-control-lg {
 .text-end {
   text-align: right !important; }
 
-.text-center, .linkinbio {
+.text-center, #wrapper-footer .col-md-4:nth-child(2), .linkinbio {
   text-align: center !important; }
 
-.text-primary, #wrapper-footer .socialmenuclass .fa,
+.text-primary, #wrapper-footer .col-md-4:nth-child(2) a:hover, #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
 #wrapper-footer .socialmenuclass .fab {
   color: #C8689A !important; }
@@ -29370,7 +29374,7 @@ textarea.form-control-lg {
 .text-light {
   color: rgba(242, 244, 243, 0.7) !important; }
 
-.text-dark {
+.text-dark, #wrapper-footer .col-md-4:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a {
   color: #2D3142 !important; }
 
 .text-white {
@@ -29445,7 +29449,7 @@ textarea.form-control-lg {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-decoration-none {
+.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
   text-decoration: none !important; }
 
 .text-decoration-underline {
@@ -31636,6 +31640,10 @@ textarea.form-control-lg {
       -ms-flex: unset;
           flex: unset;
   margin: 0 !important; }
+
+#wrapper-footer .socialmenuclass .nav-link {
+  padding: 0 0.5em;
+  line-height: 0; }
 
 /* Import bootstrap-sass so that we have access to all of its selectors */
 /*!
@@ -47428,7 +47436,8 @@ button.bg-dark:focus {
   padding-top: 3rem !important; }
 
 .pr-5,
-.px-5 {
+.px-5,
+#wrapper-footer {
   padding-right: 3rem !important; }
 
 .pb-5,
@@ -47436,7 +47445,8 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important; }
 
 .pl-5,
-.px-5 {
+.px-5,
+#wrapper-footer {
   padding-left: 3rem !important; }
 
 .m-n1 {
@@ -48596,7 +48606,7 @@ button.bg-dark:focus {
 .text-right, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   text-align: right !important; }
 
-.text-center, .linkinbio {
+.text-center, #wrapper-footer .col-md-4:nth-child(2), .linkinbio {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -48608,9 +48618,9 @@ button.bg-dark:focus {
     text-align: center !important; } }
 
 @media (min-width: 768px) {
-  .text-md-left {
+  .text-md-left, #wrapper-footer .col-md-4:nth-child(1) {
     text-align: left !important; }
-  .text-md-right {
+  .text-md-right, #wrapper-footer .col-md-4:nth-child(3) {
     text-align: right !important; }
   .text-md-center {
     text-align: center !important; } }
@@ -48661,14 +48671,14 @@ button.bg-dark:focus {
 .text-white {
   color: #FBFBFD !important; }
 
-.text-primary, #wrapper-footer .socialmenuclass .fa,
+.text-primary, #wrapper-footer .col-md-4:nth-child(2) a:hover, #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
 #wrapper-footer .socialmenuclass .fab {
   color: #C8689A !important; }
 
-a.text-primary:hover, #wrapper-footer .socialmenuclass a.fa:hover,
+a.text-primary:hover, #wrapper-footer .col-md-4:nth-child(2) a:hover, #wrapper-footer .socialmenuclass a.fa:hover,
 #wrapper-footer .socialmenuclass a.fas:hover,
-#wrapper-footer .socialmenuclass a.fab:hover, a.text-primary:focus, #wrapper-footer .socialmenuclass a.fa:focus,
+#wrapper-footer .socialmenuclass a.fab:hover, a.text-primary:focus, #wrapper-footer .col-md-4:nth-child(2) a:focus:hover, #wrapper-footer .socialmenuclass a.fa:focus,
 #wrapper-footer .socialmenuclass a.fas:focus,
 #wrapper-footer .socialmenuclass a.fab:focus {
   color: #a73d74 !important; }
@@ -48709,10 +48719,10 @@ a.text-danger:hover, a.text-danger:focus {
 a.text-light:hover, a.text-light:focus {
   color: rgba(201, 209, 205, 0.7) !important; }
 
-.text-dark {
+.text-dark, #wrapper-footer .col-md-4:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a {
   color: #2D3142 !important; }
 
-a.text-dark:hover, a.text-dark:focus {
+a.text-dark:hover, #wrapper-footer a.col-md-4:hover:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a:hover, a.text-dark:focus, #wrapper-footer a.col-md-4:focus:nth-child(2), #wrapper-footer .col-md-4:nth-child(2) a:focus {
   color: #0e0f15 !important; }
 
 .text-body {
@@ -48734,7 +48744,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: transparent;
   border: 0; }
 
-.text-decoration-none {
+.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
   text-decoration: none !important; }
 
 .text-break {
