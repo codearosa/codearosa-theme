@@ -52,3 +52,17 @@
 body {
     letter-spacing: $letter-spacing;
 }
+
+//fa arrow after add class .fas.fa-arrow-right-after
+.fa-arrow-right-after .wp-block-button__link,
+.mmu.fa-arrow-right-after
+{
+    &:after {
+    content:"\f061"; 
+    padding-left: 1em;
+    opacity: 0.5;
+    font-family: "Font Awesome 5 Free";
+    font-size: smaller;
+}
+}
+
