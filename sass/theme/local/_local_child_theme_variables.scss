@@ -32,16 +32,10 @@ $success: #2D3142; //blue
 $info: #B2B4BA; //grey
 $warning: #2D3142;
 $danger: #2D3142;
-$light: rgba(242, 244, 243, 0.7);
+$light: #FBFBFD;
 $dark: #2D3142;
 
-/*light gradient*/
-$cr-light-gradient :linear-gradient(181.03deg, #F2F4F3 1.72%, #C8689A 464.71%),
-#C4C4C4;
 
-.cr-light-gradient {
-    background: $cr-light-gradient;
-}
 
 $body-bg: $secondary;
 $body-color: $dark;
@@ -52,7 +46,7 @@ $body-color: $dark;
 $border-radius: 0.5rem;
 
 /*enable*/
-$enable-gradients: true;
+$enable-gradients: false;
 $enable-transitions: true;
 $enable-shadows: true;
 $enable-responsive-font-sizes: true;

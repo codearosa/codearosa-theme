@@ -1,0 +1,21 @@
+// background color swipe in top bottom out
+
+.preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: $dark;
+    left: 0;
+    z-index: 9999999;
+    top: -150vh;
+    animation: preloader 3s ease-in-out;
+}
+
+
+
+@keyframes preloader {
+       to {
+        top: 150vh;
+        display: none;
+    }
+}
