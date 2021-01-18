@@ -49158,9 +49158,9 @@ body {
   background-color: #2D3142;
   left: 0;
   z-index: 9999999;
-  top: -150vh;
-  -webkit-animation: preloader 3s ease-in-out;
-          animation: preloader 3s ease-in-out; }
+  top: -0;
+  -webkit-animation: preloader 3s ease-in-out forwards;
+          animation: preloader 3s ease-in-out forwards; }
 
 @-webkit-keyframes preloader {
   to {
