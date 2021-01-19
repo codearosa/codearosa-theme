@@ -31351,8 +31351,8 @@ textarea.form-control-lg {
   .navbar-toggler:focus {
     outline: none; }
   .navbar-toggler:hover {
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out; }
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out; }
     .navbar-toggler:hover .line:nth-child(1) {
       width: 100%; }
     .navbar-toggler:hover .line:nth-child(2) {
@@ -31362,11 +31362,11 @@ textarea.form-control-lg {
   .navbar-toggler[aria-expanded="true"] {
     -webkit-transform: rotate(-180deg);
             transform: rotate(-180deg);
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out; }
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out; }
     .navbar-toggler[aria-expanded="true"] .line {
-      -webkit-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out; }
+      -webkit-transition: all 0.8s ease-in-out;
+      transition: all 0.8s ease-in-out; }
       .navbar-toggler[aria-expanded="true"] .line:nth-child(1) {
         width: 100%;
         -webkit-transform: translateY(150%) rotate(45deg);
@@ -31384,8 +31384,8 @@ textarea.form-control-lg {
   font-weight: bold;
   color: #2D3142;
   z-index: 1070;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s; }
   .navbar-brand[aria-expanded="true"] {
     color: #FBFBFD; }
 
@@ -31397,8 +31397,8 @@ textarea.form-control-lg {
   top: -250vh;
   left: 0;
   z-index: 1030;
-  -webkit-transition: top 0.5s ease-in;
-  transition: top 0.5s ease-in; }
+  -webkit-transition: top 0.8s ease-in-out;
+  transition: top 0.8s ease-in-out; }
 
 .navbar-collapse.collapsing {
   display: block !important;
@@ -31408,8 +31408,8 @@ textarea.form-control-lg {
   top: -0;
   left: 0;
   z-index: 1030;
-  -webkit-transition: top 0.5s ease-in;
-  transition: top 0.5s ease-in; }
+  -webkit-transition: top 0.8s ease-in-out;
+  transition: top 0.8s ease-in-out; }
 
 .navbar-collapse.collapse.show {
   background-color: #2D3142;
@@ -31418,8 +31418,8 @@ textarea.form-control-lg {
   top: 0;
   left: 0;
   z-index: 1030;
-  -webkit-transition: top 0.5s ease-in;
-  transition: top 0.5s ease-in; }
+  -webkit-transition: top 0.8s ease-in-out;
+  transition: top 0.8s ease-in-out; }
 
 .navbar-collapse .row {
   height: 100vh;
@@ -31450,8 +31450,8 @@ textarea.form-control-lg {
         color: #FBFBFD; }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
           color: #C8689A;
-          -webkit-transition: color 0.5s ease-in;
-          transition: color 0.5s ease-in; }
+          -webkit-transition: color 0.8s ease-in;
+          transition: color 0.8s ease-in; }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:active {
           color: #C8689A; }
 
