@@ -27504,45 +27504,6 @@ a.tag-cloud-link {
 ::-webkit-scrollbar-thumb:hover {
   background: #C8689A; }
 
-.wp-block-cover.cr_relative_cover {
-  padding: 0; }
-  .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container,
-  .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container {
-    position: absolute;
-    width: 100%;
-    height: 100%; }
-    .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p,
-    .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p.wp-block,
-    .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p,
-    .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.wp-block {
-      background: #2D3142;
-      display: inline-block;
-      bottom: 0;
-      position: absolute;
-      padding: 2em 4em;
-      right: 0;
-      margin: 0; }
-    .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p.fas.fa-arrow-down,
-    .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p.fas.fa-arrow-down.wp-block,
-    .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down,
-    .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down.wp-block {
-      background: transparent;
-      position: absolute;
-      top: -0;
-      left: 0;
-      padding: 0;
-      margin: 0; }
-      .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p.fas.fa-arrow-down:before,
-      .wp-block-cover.cr_relative_cover .wp-block-cover__inner-container p.fas.fa-arrow-down.wp-block:before,
-      .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down:before,
-      .wp-block-cover.cr_relative_cover .block-editor-block-list__layout.wp-block-cover__inner-container p.fas.fa-arrow-down.wp-block:before {
-        background-color: #C8689A;
-        padding: 0.2em;
-        border-radius: 0.5rem;
-        position: absolute;
-        top: -30px;
-        left: calc(50% - 30px); }
-
 body {
   letter-spacing: 0.5px; }
 
