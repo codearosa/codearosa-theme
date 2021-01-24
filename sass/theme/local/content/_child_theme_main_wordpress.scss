@@ -1,3 +1,6 @@
+html {
+    overflow-x: hidden;
+}
 //code
 
 .wp-block-code {
@@ -7,10 +10,6 @@
     border-radius: $border-radius;
     @extend .p-3;
 }
-
-
-
-
 
 //RSS
 
@@ -60,5 +59,9 @@ $color in $theme-colors {
 
     .has-text-color.has-#{$name}-background-color {
         background-color: $color;
+    }
+
+    .has-inline-color.has-#{$name}-color {
+        color: $color;
     }
 }

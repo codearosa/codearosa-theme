@@ -48570,6 +48570,9 @@ a.text-dark:hover, #wrapper-footer a.col-md-4:hover:nth-child(2), #wrapper-foote
 .background-image-no-repeat {
   background-repeat: no-repeat !important; }
 
+html {
+  overflow-x: hidden; }
+
 .wp-block-code {
   white-space: initial;
   background-color: #2D3142;
@@ -48594,11 +48597,17 @@ a.tag-cloud-link {
 .has-text-color.has-primary-background-color {
   background-color: #C8689A; }
 
+.has-inline-color.has-primary-color {
+  color: #C8689A; }
+
 .has-text-color.has-secondary-color {
   color: #FBFBFD; }
 
 .has-text-color.has-secondary-background-color {
   background-color: #FBFBFD; }
+
+.has-inline-color.has-secondary-color {
+  color: #FBFBFD; }
 
 .has-text-color.has-success-color {
   color: #2D3142; }
@@ -48606,11 +48615,17 @@ a.tag-cloud-link {
 .has-text-color.has-success-background-color {
   background-color: #2D3142; }
 
+.has-inline-color.has-success-color {
+  color: #2D3142; }
+
 .has-text-color.has-info-color {
   color: #B2B4BA; }
 
 .has-text-color.has-info-background-color {
   background-color: #B2B4BA; }
+
+.has-inline-color.has-info-color {
+  color: #B2B4BA; }
 
 .has-text-color.has-warning-color {
   color: #2D3142; }
@@ -48618,11 +48633,17 @@ a.tag-cloud-link {
 .has-text-color.has-warning-background-color {
   background-color: #2D3142; }
 
+.has-inline-color.has-warning-color {
+  color: #2D3142; }
+
 .has-text-color.has-danger-color {
   color: #2D3142; }
 
 .has-text-color.has-danger-background-color {
   background-color: #2D3142; }
+
+.has-inline-color.has-danger-color {
+  color: #2D3142; }
 
 .has-text-color.has-light-color {
   color: #FBFBFD; }
@@ -48630,11 +48651,17 @@ a.tag-cloud-link {
 .has-text-color.has-light-background-color {
   background-color: #FBFBFD; }
 
+.has-inline-color.has-light-color {
+  color: #FBFBFD; }
+
 .has-text-color.has-dark-color {
   color: #2D3142; }
 
 .has-text-color.has-dark-background-color {
   background-color: #2D3142; }
+
+.has-inline-color.has-dark-color {
+  color: #2D3142; }
 
 /*Beschriftung einzelner Felder ausblenden*/
 .nf-form-fields-required,
