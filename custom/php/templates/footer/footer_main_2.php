@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div class="site-info text-center">
 
-					&copy; <?php echo date('Y'); ?> <a class="text-primary" href="<?php bloginfo( 'url' ); ?>"> <?php $protocols = array('http://', 'http://www.', 'www.'); echo str_replace($protocols, '', get_bloginfo('wpurl')); ?></i></a>
+					&copy; <?php echo date('Y'); ?> <a class="text-primary" href="<?php bloginfo( 'url' ); ?>"> <?php $protocols = array('http://', 'http://www.', 'www.', 'https://'); echo str_replace($protocols, '', get_bloginfo('wpurl')); ?></i></a>
 
 				</div><!-- .site-info -->
 
