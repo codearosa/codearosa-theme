@@ -8385,7 +8385,7 @@ textarea.form-control-lg {
   padding-right: 1rem !important;
   padding-left: 1rem !important; }
 
-.px-4, .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar, .addrightsidebar #right-sidebar.wp-block-search__button,
+.px-4, #wrapper-footer, .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar, .addrightsidebar #right-sidebar.wp-block-search__button,
 .addrightsidebar .is-style-fill #right-sidebar.has-primary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-outline #right-sidebar.has-primary-background-color, .is-style-outline .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-fill #right-sidebar.has-secondary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-secondary-background-color,
@@ -8557,7 +8557,7 @@ textarea.form-control-lg {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important; }
 
-.px-5, #wrapper-footer {
+.px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important; }
 
@@ -11600,6 +11600,9 @@ textarea.form-control-lg {
       -ms-flex: unset;
           flex: unset;
   margin: 0 !important; }
+
+#wrapper-footer .container-fluid, #wrapper-footer .container-sm, #wrapper-footer .container-md, #wrapper-footer .container-lg, #wrapper-footer .container-xl, #wrapper-footer .container-xxl {
+  padding: 0 !important; }
 
 #wrapper-footer .socialmenuclass .nav-link {
   padding: 0 0.5em;
@@ -25376,7 +25379,7 @@ button.bg-dark:focus {
 .py-4 {
   padding-top: 1.5rem !important; }
 
-.pr-4, .px-4, .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar, .addrightsidebar #right-sidebar.wp-block-search__button,
+.pr-4, .px-4, #wrapper-footer, .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar, .addrightsidebar #right-sidebar.wp-block-search__button,
 .addrightsidebar .is-style-fill #right-sidebar.has-primary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-outline #right-sidebar.has-primary-background-color, .is-style-outline .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-fill #right-sidebar.has-secondary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-secondary-background-color,
@@ -25551,7 +25554,7 @@ button.bg-dark:focus {
 .py-4 {
   padding-bottom: 1.5rem !important; }
 
-.pl-4, .px-4, .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar, .addrightsidebar #right-sidebar.wp-block-search__button,
+.pl-4, .px-4, #wrapper-footer, .btn.secondary-neumorph, .addrightsidebar .btn#right-sidebar, .addrightsidebar #right-sidebar.wp-block-search__button,
 .addrightsidebar .is-style-fill #right-sidebar.has-primary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-outline #right-sidebar.has-primary-background-color, .is-style-outline .addrightsidebar #right-sidebar.has-primary-background-color,
 .addrightsidebar .is-style-fill #right-sidebar.has-secondary-background-color, .is-style-fill .addrightsidebar #right-sidebar.has-secondary-background-color,
@@ -25729,14 +25732,16 @@ button.bg-dark:focus {
 .py-5 {
   padding-top: 3rem !important; }
 
-.pr-5, .px-5, #wrapper-footer {
+.pr-5,
+.px-5 {
   padding-right: 3rem !important; }
 
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important; }
 
-.pl-5, .px-5, #wrapper-footer {
+.pl-5,
+.px-5 {
   padding-left: 3rem !important; }
 
 .m-n1 {

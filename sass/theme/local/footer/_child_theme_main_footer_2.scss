@@ -1,5 +1,9 @@
 #wrapper-footer {
-   @extend .px-5;
+   @extend .px-4;
+
+   .container-fluid {
+      padding: 0 !important;
+   }
 
    .col-md-4 {
       @extend .pt-1;

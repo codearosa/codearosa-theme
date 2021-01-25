@@ -15105,6 +15105,7 @@ button.bg-dark:focus {
 
 .pr-4,
 .px-4,
+#wrapper-footer,
 .btn.secondary-neumorph,
 .addrightsidebar .btn#right-sidebar,
 .addrightsidebar #right-sidebar.wp-block-search__button,
@@ -15405,6 +15406,7 @@ button.bg-dark:focus {
 
 .pl-4,
 .px-4,
+#wrapper-footer,
 .btn.secondary-neumorph,
 .addrightsidebar .btn#right-sidebar,
 .addrightsidebar #right-sidebar.wp-block-search__button,
@@ -15707,8 +15709,7 @@ button.bg-dark:focus {
   padding-top: 3rem !important; }
 
 .pr-5,
-.px-5,
-#wrapper-footer {
+.px-5 {
   padding-right: 3rem !important; }
 
 .pb-5,
@@ -15716,8 +15717,7 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important; }
 
 .pl-5,
-.px-5,
-#wrapper-footer {
+.px-5 {
   padding-left: 3rem !important; }
 
 .m-n1 {
@@ -28434,6 +28434,7 @@ textarea.form-control-lg {
 
 
 .px-4,
+#wrapper-footer,
 .btn.secondary-neumorph,
 .addrightsidebar .btn#right-sidebar,
 .addrightsidebar #right-sidebar.wp-block-search__button,
@@ -28729,9 +28730,7 @@ textarea.form-control-lg {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important; }
 
-
-.px-5,
-#wrapper-footer {
+.px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important; }
 
@@ -31470,6 +31469,9 @@ textarea.form-control-lg {
       -ms-flex: unset;
           flex: unset;
   margin: 0 !important; }
+
+#wrapper-footer .container-fluid, #wrapper-footer .container-sm, #wrapper-footer .container-md, #wrapper-footer .container-lg, #wrapper-footer .container-xl {
+  padding: 0 !important; }
 
 #wrapper-footer .socialmenuclass .nav-link {
   padding: 0 0.5em;
@@ -46570,6 +46572,7 @@ button.bg-dark:focus {
 
 .pr-4,
 .px-4,
+#wrapper-footer,
 .btn.secondary-neumorph,
 .addrightsidebar .btn#right-sidebar,
 .addrightsidebar #right-sidebar.wp-block-search__button,
@@ -46870,6 +46873,7 @@ button.bg-dark:focus {
 
 .pl-4,
 .px-4,
+#wrapper-footer,
 .btn.secondary-neumorph,
 .addrightsidebar .btn#right-sidebar,
 .addrightsidebar #right-sidebar.wp-block-search__button,
@@ -47172,8 +47176,7 @@ button.bg-dark:focus {
   padding-top: 3rem !important; }
 
 .pr-5,
-.px-5,
-#wrapper-footer {
+.px-5 {
   padding-right: 3rem !important; }
 
 .pb-5,
@@ -47181,8 +47184,7 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important; }
 
 .pl-5,
-.px-5,
-#wrapper-footer {
+.px-5 {
   padding-left: 3rem !important; }
 
 .m-n1 {
