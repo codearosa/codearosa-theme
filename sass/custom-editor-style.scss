@@ -1,0 +1,167 @@
+@import "theme/child_theme"; // <------- Add your styles into this file
+
+// Add specific Gutenberg editor styles there
+// add your personal styles here
+.wp-block {
+  max-width: 100%;
+}
+//init Bootstrap type in editor style
+.editor-styles-wrapper,
+.editor-writing-flow,
+.edit-post-visual-editor {
+
+  font-family: $font-family-base !important;
+  font-size: $font-size-base !important;
+
+      //
+    // Headings
+    //
+    .h1,
+    h1,
+    h1.block-editor-block-list__block {
+      @extend h1;
+    }
+
+    .h2,
+    h2,
+    h2.block-editor-block-list__block  {
+      @extend h2;
+    }
+
+    .h3,
+    h3,
+    h3.block-editor-block-list__block  {
+      @extend h3;
+    }
+
+    .h4,
+    h4,
+    h4.block-editor-block-list__block  {
+      @extend h4;
+    }
+
+    .h5,
+    h5,
+    h5.block-editor-block-list__block  {
+      @extend h5;
+    }
+
+    .h6,
+    h6,
+    h6.block-editor-block-list__block  {
+      @extend h6;
+    }
+
+
+    .lead {
+      @include font-size($lead-font-size);
+      font-weight: $lead-font-weight;
+    }
+
+    // Type display classes
+    @each $display, $font-size in $display-font-sizes {
+      .display-#{$display} {
+        @include font-size($font-size);
+        font-weight: $display-font-weight;
+        line-height: $display-line-height;
+      }
+    }
+
+    //
+    // Emphasis
+    //
+    .small {
+      @extend small;
+    }
+
+    .mark {
+      @extend mark;
+    }
+
+    //
+    // Lists
+    //
+
+    .list-unstyled {
+      @include list-unstyled();
+    }
+
+    // Inline turns list items into inline-block
+    .list-inline {
+      @include list-unstyled();
+    }
+    .list-inline-item {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: $list-inline-padding;
+      }
+    }
+
+
+    //
+    // Misc
+    //
+
+    // Builds on `abbr`
+    .initialism {
+      @include font-size($initialism-font-size);
+      text-transform: uppercase;
+    }
+
+    // Blockquotes
+    .blockquote {
+      margin-bottom: $blockquote-margin-y;
+      @include font-size($blockquote-font-size);
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .blockquote-footer {
+      margin-top: -$blockquote-margin-y;
+      margin-bottom: $blockquote-margin-y;
+      @include font-size($blockquote-footer-font-size);
+      color: $blockquote-footer-color;
+
+      &::before {
+        content: "\2014\00A0"; // em dash, nbsp
+      }
+    }
+
+}
+
+// style the input fields
+input.components-text-control__input {
+  background-color: white;
+  box-shadow: none !important;
+  border: 1px solid black;
+}
+
+
+.block-editor-block-list__layout.is-root-container {
+  background-color: $body-bg !important;
+  color: $body-color !important;
+}
+
+
+@import "assets/bootstrap4"; // <------- Loads Bootstrap4
+@import "../src/sass/understrap/understrap/understrap"; // <------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
+@import "../src/sass/understrap/understrap/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you don´t use the corresponding scripts/fonts comment em out
+@import "assets/font-awesome"; // <------- Font Awesome Icon font
+@import "assets/underscores"; // <------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/child_theme"; // <------- Add your styles into this file
+@import "../src/sass/understrap/theme/contact-form7"; // <------- Loads some basic styling for contact form 7 plugin
+
+//give my-auto to wp-block-column class
+.wp-block-column.my-auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
