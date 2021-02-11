@@ -1,44 +1,44 @@
 #wrapper-footer {
-   @extend %px-4;
+   @extend .px-4;
 
    .container-fluid {
       padding: 0 !important;
    }
 
    .col-md-4 {
-      @extend %pt-1;
+      @extend .pt-1;
    }
 
    .col-md-4:nth-child(1) {
-      @extend %text-md-left;
+      @extend .text-md-left;
    }
 
    
    .col-md-4:nth-child(2) {
-      @extend %lead;
-      @extend %text-dark;
-      @extend %text-center;
+      @extend .lead;
+      @extend .text-dark;
+      @extend .text-center;
 
       a {
-         @extend %text-dark;
+         @extend .text-dark;
 
          &:hover {
-            @extend %text-primary;
-            @extend %text-decoration-none;
+            @extend .text-primary;
+            @extend .text-decoration-none;
          }
       }
    }
 
    .col-md-4:nth-child(3) {
-      @extend %text-md-right;
+      @extend .text-md-right;
    }
 
    .socialmenuclass {
       .fa,
       .fas,
       .fab {
-         @extend %my-0;
-         @extend %text-primary;
+         @extend .my-0;
+         @extend .text-primary;
       }
 
       .nav-link {

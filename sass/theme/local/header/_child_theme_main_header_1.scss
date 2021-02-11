@@ -3,14 +3,14 @@
   background-color: $light;
 }
 .site-header {
-  @extend %mt-0;
-  @extend %navbar-light;
-  @extend %sticky-top;
+  @extend .mt-0;
+  @extend .navbar-light;
+  @extend .sticky-top;
 }
 
 .navbar-expand-lg {
-  @extend %px-lg-5;
-  @extend %mx-lg-2;
+  @extend .px-lg-5;
+  @extend .mx-lg-2;
 }
 
 #masthead a {
