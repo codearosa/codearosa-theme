@@ -8,7 +8,7 @@ html {
     background-color: $body-color;
     color: $body-bg;
     border-radius: $border-radius;
-    @extend .p-3;
+    @extend %p-3;
 }
 
 //RSS
@@ -19,17 +19,17 @@ li.wp-social-link {
 
 //Search
 .wp-block-search {
-    @extend .my-3;
+    @extend %my-3;
 }
 
 input.wp-block-search__input {
-    @extend .secondary-neumorph-active;
+    @extend %secondary-neumorph-active;
     border-radius: $border-radius;
 }
 
 .wp-block-search__button {
-    @extend .btn;
-    @extend .btn-primary;
+    @extend %btn;
+    @extend %btn-primary;
     border-radius: $border-radius;
 }
 
@@ -40,11 +40,11 @@ input.wp-block-search__input {
 //Schlagwörter
 
 a.tag-cloud-link {
-    @extend .badge;
-    @extend .badge-primary;
-    @extend .badge-pill;
-    @extend .ml-2;
-    @extend .p-2;
+    @extend %badge;
+    @extend %badge-primary;
+    @extend %badge-pill;
+    @extend %ml-2;
+    @extend %p-2;
     text-transform: uppercase;
 }
 

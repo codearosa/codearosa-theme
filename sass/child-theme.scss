@@ -1,5 +1,7 @@
 @import "theme/local/_local_child_theme_variables"; // <--------- LocalStyles import
-@import "assets/bootstrap4"; // <------- Loads Bootstrap4
+@import "assets/bootstrap5.0.0-beta"; // <------- Loads Bootstrap5.5
+@import "assets/bootstrap5.0.0-beta_silent"; // <------- Loads Bootstrap5.5 silent
+
 @import "../src/sass/understrap/understrap/understrap"; // <------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
 @import "../src/sass/understrap/understrap/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
 
@@ -10,3 +12,4 @@
 // Any additional imported files //
 @import "theme/child_theme"; // <------- Add your styles into this file
 @import "../src/sass/understrap/theme/contact-form7"; // <------- Loads some basic styling for contact form 7 plugin
+

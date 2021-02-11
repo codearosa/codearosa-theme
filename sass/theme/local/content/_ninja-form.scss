@@ -8,16 +8,16 @@
 #nf-field-4,
 #nf-field-25 {
   all: unset;
-  @extend .btn !optional;
-  @extend .btn-primary !optional;
-  @extend .p-2 !optional;
+  @extend %btn !optional;
+  @extend %btn-primary !optional;
+  @extend %p-2 !optional;
 }
 /*add this class to input fields to style*/
 .nf_neumorph {
   @include secondary-neumorph-active;
   border-radius: $border-radius !important;
-  @extend .p-2 !optional;
-  @extend .m-1 !optional;
+  @extend %p-2 !optional;
+  @extend %m-1 !optional;
 }
 
 /*eroor styles*/

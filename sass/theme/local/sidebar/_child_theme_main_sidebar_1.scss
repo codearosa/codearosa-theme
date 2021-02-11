@@ -1,9 +1,9 @@
 //main sidebar
 .addrightsidebar {
     #right-sidebar {
-        @extend .p-3;
-        @extend .mb-5;
-        @extend .secondary-neumorph;
+        @extend %p-3;
+        @extend %mb-5;
+        @extend %secondary-neumorph;
         max-width: 100% !important;
     }
 
@@ -11,7 +11,7 @@
     form#searchform,
     .widget-area,
     .card-deck .card {
-        @extend .mb-5;
+        @extend %mb-5;
     }
 
 
