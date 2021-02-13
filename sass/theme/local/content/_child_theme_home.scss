@@ -2,8 +2,8 @@
 @import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
 
 .home .card.post {
-    @extend .p-2;
-    @extend .m-1;
+    @extend %p-2;
+    @extend %m-1;
     @extend .secondary-neumorph;
 }
 
