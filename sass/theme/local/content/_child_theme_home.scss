@@ -1,5 +1,5 @@
 /* Import bootstrap-sass so that we have access to all of its selectors */
-@import "../sass/assets/bootstrap4"; // <------- Loads Bootstrap4
+@import "../sass/assets/bootstrap5.0.0-beta"; // <------- Loads Bootstrap4
 
 .home .card.post {
     @extend %p-2;

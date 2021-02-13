@@ -146,7 +146,7 @@ input.components-text-control__input {
 }
 
 
-@import "assets/bootstrap4"; // <------- Loads Bootstrap4
+@import "assets/bootstrap5.0.0-beta"; // <------- Loads Bootstrap4
 @import "../src/sass/understrap/understrap/understrap"; // <------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
 @import "../src/sass/understrap/understrap/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
 
