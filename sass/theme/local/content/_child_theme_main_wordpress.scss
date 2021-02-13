@@ -23,7 +23,7 @@ li.wp-social-link {
 }
 
 input.wp-block-search__input {
-    @extend .secondary-neumorph-active;
+    @extend %secondary-neumorph-active;
     border-radius: $border-radius;
 }
 

@@ -6,7 +6,6 @@
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
 //silent bootstrap
-@import "assets/bootstrap4_silent"; // <------- Loads Bootstrap5.5 silent
 
 //fontawesome
 $fa-font-path:        "../custom/localfont/fontawesome";
@@ -68,3 +67,5 @@ $neumorphism-insensity: 0.8; //max 1
 
 //box shadow
 $box-shadow-intensity: 10%;
+
+@import "assets/bootstrap4_silent"; // <------- Loads Bootstrap silent

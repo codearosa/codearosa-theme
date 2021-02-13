@@ -4,7 +4,7 @@
 .home .card.post {
     @extend %p-2;
     @extend %m-1;
-    @extend .secondary-neumorph;
+    @extend %secondary-neumorph;
 }
 
 .home .card.post .card-body {

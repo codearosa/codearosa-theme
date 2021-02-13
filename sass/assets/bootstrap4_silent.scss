@@ -1,15 +1,12 @@
 /*!
- * Bootstrap v4_silent.3.1 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap v4_silent.3.1 (https://getbootstrap.com) START
  */
 
 @import "../../src/sass/bootstrap4_silent/functions";
 @import "../../src/sass/bootstrap4_silent/variables";
 @import "../../src/sass/bootstrap4_silent/mixins";
-@import "../../src/sass/bootstrap4_silent/root";
-@import "../../src/sass/bootstrap4_silent/reboot";
+//@import "../../src/sass/bootstrap4_silent/root";
+//@import "../../src/sass/bootstrap4_silent/reboot";
 @import "../../src/sass/bootstrap4_silent/type";
 @import "../../src/sass/bootstrap4_silent/images";
 @import "../../src/sass/bootstrap4_silent/code";
@@ -40,3 +37,5 @@
 @import "../../src/sass/bootstrap4_silent/carousel";
 @import "../../src/sass/bootstrap4_silent/utilities";
 @import "../../src/sass/bootstrap4_silent/print";
+
+//Bootstrap Silent End 

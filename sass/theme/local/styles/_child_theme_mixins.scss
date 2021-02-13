@@ -54,6 +54,7 @@ $neumorph-box-shadow-colors-dark: ("primary": darken($primary, $box-shadow-inten
 @each $name,
 $color in $theme-colors {
 
+  %#{$name}-neumorph,
   .#{$name}-neumorph,
   .#{$name}-neumorph:visited,
   .#{$name}-neumorph:focus {
@@ -67,6 +68,7 @@ $color in $theme-colors {
     transition: 1s transform ease-in;
   }
 
+  %#{$name}-neumorph-active,
   .#{$name}-neumorph-active {
     @include neumorph-variant-active($name);
     background: $color;

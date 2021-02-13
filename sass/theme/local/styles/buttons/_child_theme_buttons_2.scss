@@ -2,10 +2,10 @@
 .btn.secondary-neumorph {
     font-weight: 700;
     font-size: larger;
-    @extend .my-4;
-    @extend .px-4;
-    @extend .py-3;
-    @extend .py-3;
+    @extend %my-4;
+    @extend %px-4;
+    @extend %py-3;
+    @extend %py-3;
 }
 
 //set the hover-buttons
@@ -35,11 +35,11 @@ $color in $theme-colors {
 
     .is-style-fill .rich-text.wp-block-button__link.has-#{$name}-background-color,
     .is-style-fill .has-#{$name}-background-color {
-        @extend .btn;
-        @extend .btn-#{$name};
+        @extend %btn;
+        @extend %btn-#{$name};
         border-color: transparent;
-        @extend .btn-lg;
-        @extend .mt-3;
+        @extend %btn-lg;
+        @extend %mt-3;
         text-transform: inherit;
         color: $body-bg;
         background: #{$color};
@@ -63,10 +63,10 @@ $color in $theme-colors {
 
     .is-style-outline .rich-text.wp-block-button__link.has-#{$name}-background-color,
     .is-style-outline .has-#{$name}-background-color {
-        @extend .btn;
-        @extend .btn-outline-#{$name};
-        @extend .btn-lg;
-        @extend .mt-3;
+        @extend %btn;
+        @extend %btn-outline-#{$name};
+        @extend %btn-lg;
+        @extend %mt-3;
         text-transform: inherit;
         font-family: $font-family-base;
 

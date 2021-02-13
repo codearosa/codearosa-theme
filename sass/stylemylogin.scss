@@ -17,7 +17,7 @@ p#backtoblog {
 }
 
 #loginform {
-    @extend .secondary-neumorph;
+    @extend %secondary-neumorph;
     background-color: $secondary;
     border-radius: $border-radius;
 }
@@ -32,7 +32,7 @@ p#backtoblog {
 .wp-core-ui .button-primary:hover,
 .wp-core-ui .button-primary:focus,
 .wp-core-ui .button-primary:active {
-    @extend .secondary-neumorph;
+    @extend %secondary-neumorph;
     width: 100%;
     transform: none !important;
     background-color: $secondary;
