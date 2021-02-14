@@ -43,9 +43,11 @@ $navbar-transition: top $transition-toggler ease-in-out;
         height: 100vh;
         width: 50%;
         @extend %mx-auto;
+        @extend %row;
 
         //style the contact part
 
+       
         .col-sm-12:not(:nth-child(2)) {
 
             .cr-contact {
