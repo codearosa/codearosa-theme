@@ -3,7 +3,7 @@
 
 /**
 *USE : http://example.dev/?show_sitemap copy and paste it to 
-*/
+
 
 function show_sitemap() {
   
@@ -17,5 +17,5 @@ function show_sitemap() {
   
 }
 add_action('template_redirect', 'show_sitemap');
-
+*/
 ?>
