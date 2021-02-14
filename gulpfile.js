@@ -48,8 +48,8 @@ gulp.task( 'sass', function() {
 gulp.task('purgecss', () => {
     return gulp.src('css/**/*.css')
         .pipe(purgecss({
-            content: ["http://localhost/melaniemueller.design/"],
-            ignore: [
+            content: ["localhost/melaniemueller.design/"],
+            whitelist: [
                 ".fade",
                 ".fade.in",
                 ".collapse",
@@ -60,7 +60,7 @@ gulp.task('purgecss', () => {
                 "/open+/"
             ]
         }))
-        .pipe(gulp.dest('cssPurge/'))
+        .pipe(gulp.dest('css/'))
 })
 
 // Run:

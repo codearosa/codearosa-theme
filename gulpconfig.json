@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "localhost/wordpress/",
+    "proxy": "localhost/melaniemueller.design/",
     "notify": false
   },
   "browserSyncWatchFiles" : [
