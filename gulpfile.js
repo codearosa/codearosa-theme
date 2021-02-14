@@ -48,7 +48,7 @@ gulp.task( 'sass', function() {
 gulp.task('purgecss', () => {
     return gulp.src('css/**/*.css')
         .pipe(purgecss({
-            content: ["http:\/\/localhost\/melaniemueller.design\/styleguide\/", "http:\/\/localhost\/melaniemueller.design\/service\/", "http:\/\/localhost\/melaniemueller.design\/", "http:\/\/localhost\/melaniemueller.design\/lebenslauf\/", "http:\/\/localhost\/melaniemueller.design\/food-app\/", "http:\/\/localhost\/melaniemueller.design\/linkinbio\/", "http:\/\/localhost\/melaniemueller.design\/webdesign-und-frontend-entwicklung-2\/", "http:\/\/localhost\/melaniemueller.design\/portfolio\/", "http:\/\/localhost\/melaniemueller.design\/3-gute-grunde-fur-lokale-schriftarten-in-wordpress\/", "http:\/\/localhost\/melaniemueller.design\/blog\/", "http:\/\/localhost\/melaniemueller.design\/ueber-mich\/", "http:\/\/localhost\/melaniemueller.design\/datenschutzerklaerung-2\/", "http:\/\/localhost\/melaniemueller.design\/impressum\/"],
+            content: ["http://localhost/melaniemueller.design/"],
             ignore: [
                 ".fade",
                 ".fade.in",
