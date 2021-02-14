@@ -15,7 +15,7 @@ function theme_enqueue_styles() {
 
 	// Get the theme data
 	$the_theme = wp_get_theme();
-    wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
+    wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/csspurify/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
     wp_enqueue_script( 'jquery');
 	  wp_enqueue_script( 'popper-scripts', get_stylesheet_directory_uri() . '/js/popper.min.js', array(), false);
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
@@ -38,6 +38,8 @@ $codearosa_custom_functions_includes = array(
   '/php/functions/0_enable_and_enqueue/0001_enqueue_bootstrap_slider.php',
   '/php/functions/0_enable_and_enqueue/0002_enable_blogroll.php',
   '/php/functions/0_enable_and_enqueue/0003_enable_font_preload.php',
+  //'/php/functions/0_enable_and_enqueue/0004_url_purify.php',
+
 
 
   //Gutenberg Editor

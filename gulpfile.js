@@ -15,6 +15,9 @@ var del = require( 'del' );
 var cleanCSS = require( 'gulp-clean-css' );
 var replace = require( 'gulp-replace' );
 var autoprefixer = require( 'gulp-autoprefixer' );
+var purifycss = require('gulp-purifycss');
+
+
 
 // Configuration file to keep your code DRY
 var cfg = require( './gulpconfig.json' );
@@ -107,7 +110,16 @@ gulp.task( 'cleancss', function() {
     .pipe( rimraf() );
 });
 
-gulp.task( 'styles', gulp.series( 'sass', 'minifycss' ));
+//purify
+gulp.task('purify', function () {
+    return gulp.src('css/child-theme.min.css')
+        .pipe(
+            purifycss(["http:\/\/localhost\/melaniemueller.design\/styleguide\/", "http:\/\/localhost\/melaniemueller.design\/service\/", "http:\/\/localhost\/melaniemueller.design\/", "http:\/\/localhost\/melaniemueller.design\/lebenslauf\/", "http:\/\/localhost\/melaniemueller.design\/food-app\/", "http:\/\/localhost\/melaniemueller.design\/linkinbio\/", "http:\/\/localhost\/melaniemueller.design\/webdesign-und-frontend-entwicklung-2\/", "http:\/\/localhost\/melaniemueller.design\/portfolio\/", "http:\/\/localhost\/melaniemueller.design\/3-gute-grunde-fur-lokale-schriftarten-in-wordpress\/", "http:\/\/localhost\/melaniemueller.design\/blog\/", "http:\/\/localhost\/melaniemueller.design\/ueber-mich\/", "http:\/\/localhost\/melaniemueller.design\/datenschutzerklaerung-2\/", "http:\/\/localhost\/melaniemueller.design\/impressum\/"]),
+            ignore(['button-active', '*modal*', '*navbar*']))
+        .pipe(gulp.dest('csspurify/'));
+});
+
+gulp.task( 'styles', gulp.series( 'sass', 'minifycss' , 'purify' ));
 
 // Run:
 // gulp browser-sync

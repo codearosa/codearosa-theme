@@ -51,6 +51,8 @@
     "underscores-for-npm": "^1.0.0"
   },
   "devDependencies": {
-    "gulp-sass": "^4.0.2"
+    "gulp-purifycss": "^0.2.0",
+    "gulp-sass": "^4.0.2",
+    "purify-css": "^1.2.5"
   }
 }
