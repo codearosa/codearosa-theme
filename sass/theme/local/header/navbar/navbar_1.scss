@@ -49,7 +49,6 @@ $navbar-transition: top $transition-toggler ease-in-out;
     .row {
 
         height: 100vh;
-        width: 50%;
         @extend %mx-auto;
         @extend %row;
 
@@ -98,8 +97,8 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
                     li a {
 
-                        font-size: calc(1.475rem + 2.7vw);
-                        color: $secondary;
+                        @extend %display-4;
+                        color: $secondary !important;
 
                         &:hover {
                             color: $primary;

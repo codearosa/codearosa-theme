@@ -22,6 +22,11 @@
   font-size: 1.25rem;
   font-weight: 300; }
 
+.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
 #single-wrapper {
   width: 100%;
   padding-right: 15px;
@@ -2409,6 +2414,11 @@ a.tag-cloud-link {
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
+
+.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
 
 #single-wrapper {
   width: 100%;
@@ -9564,6 +9574,11 @@ readers do not read off random characters that represent icons */
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
+
+.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
 
 #single-wrapper {
   width: 100%;
@@ -24977,8 +24992,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   transition: top 0.8s ease-in-out; }
 
 .navbar-collapse .row {
-  height: 100vh;
-  width: 50%; }
+  height: 100vh; }
   .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact {
     height: 100%;
     color: #FBFBFD;
@@ -25002,8 +25016,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           -ms-flex-pack: center;
               justify-content: center; }
       .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-        font-size: calc(1.475rem + 2.7vw);
-        color: #FBFBFD; }
+        color: #FBFBFD !important; }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
           color: #C8689A;
           -webkit-transition: color 0.8s ease-in;
@@ -25192,6 +25205,11 @@ a.tag-cloud-link {
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
+
+.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
 
 #single-wrapper {
   width: 100%;
