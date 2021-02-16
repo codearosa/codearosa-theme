@@ -38,6 +38,14 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
 .navbar-collapse {
 
+    img {
+        
+        @extend %rounded-circle;
+        @extend %w-25;
+        @extend %py-5;
+        @extend %mr-5;
+    }
+
     .row {
 
         height: 100vh;
@@ -49,7 +57,8 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
        
         .col-sm-12:not(:nth-child(2)) {
-
+            
+            
             .cr-contact {
                 height: 100%;
                 @extend %d-flex;
@@ -89,7 +98,7 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
                     li a {
 
-                        @extend %display-4;
+                        font-size: calc(1.475rem + 2.7vw);
                         color: $secondary;
 
                         &:hover {

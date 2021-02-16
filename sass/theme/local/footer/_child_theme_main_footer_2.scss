@@ -24,7 +24,7 @@
 
          &:hover {
             @extend %text-primary;
-            @extend .text-decoration-none;
+            text-decoration: none;
          }
       }
    }

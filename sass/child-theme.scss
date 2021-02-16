@@ -1,11 +1,11 @@
 @import "theme/local/_local_child_theme_variables"; // <--------- LocalStyles import
-@import "assets/bootstrap5.0.0-beta"; // <------- Loads Bootstrap5.5
+//@import "assets/bootstrap5.0.0-beta"; // <------- Loads Bootstrap5.5
 //@import "assets/bootstrap5.0.0-beta_silent"; // <------- Loads Bootstrap5.5 silent
 @import "assets/bootstrap4_silent"; // <------- Loads Bootstrap5.5 silent
 
 
 @import "../src/sass/understrap/understrap/understrap"; // <------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
-@import "../src/sass/understrap/understrap/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+//@import "../src/sass/understrap/understrap/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
 
 // Optional files - If you don´t use the corresponding scripts/fonts comment em out
 @import "assets/font-awesome"; // <------- Font Awesome Icon font

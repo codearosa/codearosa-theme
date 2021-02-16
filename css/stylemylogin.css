@@ -24,11 +24,6 @@
   font-size: 1.25rem;
   font-weight: 300; }
 
-.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
-
 #single-wrapper {
   width: 100%;
   padding-right: 15px;
@@ -2199,10 +2194,16 @@ a.tag-cloud-link {
     background-color: #171922;
     border-color: #171922; }
 
+.navbar-collapse img {
+  border-radius: 50% !important; }
+
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
+
+.navbar-collapse img {
+  width: 25% !important; }
 
 
 #wrapper-footer .socialmenuclass .fa,
@@ -2257,6 +2258,9 @@ a.tag-cloud-link {
 .btn.secondary-neumorph {
   margin-bottom: 1.5rem !important; }
 
+.navbar-collapse img {
+  margin-right: 3rem !important; }
+
 .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
 .addrightsidebar .widget-area,
 .addrightsidebar .card-deck .card {
@@ -2292,6 +2296,14 @@ a.tag-cloud-link {
 
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   padding: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-top: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-bottom: 3rem !important; }
 
 
 .navbar-collapse .row {
@@ -12979,7 +12991,7 @@ textarea.form-control-lg {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
+.text-decoration-none {
   text-decoration: none !important; }
 
 .text-decoration-underline {
@@ -15454,6 +15466,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           -ms-flex-pack: center;
               justify-content: center; }
       .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+        font-size: calc(1.475rem + 2.7vw);
         color: #FBFBFD; }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
           color: #C8689A;
@@ -15480,6 +15493,9 @@ input.wp-block-search__input, input:not(.components-text-control__input),
 
 #wrapper-footer .container-fluid, #wrapper-footer .container-sm, #wrapper-footer .container-md, #wrapper-footer .container-lg, #wrapper-footer .container-xl {
   padding: 0 !important; }
+
+#wrapper-footer .col-md-4:nth-child(2) a:hover {
+  text-decoration: none; }
 
 #wrapper-footer .socialmenuclass .nav-link {
   padding: 0 0.5em;
@@ -15640,11 +15656,6 @@ a.tag-cloud-link {
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
-
-.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
 
 #single-wrapper {
   width: 100%;
@@ -17810,10 +17821,16 @@ a.tag-cloud-link {
     background-color: #171922;
     border-color: #171922; }
 
+.navbar-collapse img {
+  border-radius: 50% !important; }
+
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
+
+.navbar-collapse img {
+  width: 25% !important; }
 
 
 #wrapper-footer .socialmenuclass .fa,
@@ -17868,6 +17885,9 @@ a.tag-cloud-link {
 .btn.secondary-neumorph {
   margin-bottom: 1.5rem !important; }
 
+.navbar-collapse img {
+  margin-right: 3rem !important; }
+
 .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
 .addrightsidebar .widget-area,
 .addrightsidebar .card-deck .card {
@@ -17903,6 +17923,14 @@ a.tag-cloud-link {
 
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   padding: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-top: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-bottom: 3rem !important; }
 
 
 .navbar-collapse .row {

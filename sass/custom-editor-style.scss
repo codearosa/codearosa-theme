@@ -19,37 +19,37 @@
     .h1,
     h1,
     h1.block-editor-block-list__block {
-      @extend h1;
+      @extend %h1;
     }
 
     .h2,
     h2,
     h2.block-editor-block-list__block  {
-      @extend h2;
+      @extend %h2;
     }
 
     .h3,
     h3,
     h3.block-editor-block-list__block  {
-      @extend h3;
+      @extend %h3;
     }
 
     .h4,
     h4,
     h4.block-editor-block-list__block  {
-      @extend h4;
+      @extend %h4;
     }
 
     .h5,
     h5,
     h5.block-editor-block-list__block  {
-      @extend h5;
+      @extend %h5;
     }
 
     .h6,
     h6,
     h6.block-editor-block-list__block  {
-      @extend h6;
+      @extend %h6;
     }
 
 
@@ -71,11 +71,11 @@
     // Emphasis
     //
     .small {
-      @extend small;
+      @extend %small;
     }
 
     .mark {
-      @extend mark;
+      @extend %mark;
     }
 
     //

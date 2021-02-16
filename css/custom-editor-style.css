@@ -10,24 +10,142 @@
 /*!
  * Bootstrap v4_silent.3.1 (https://getbootstrap.com) START
  */
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, .editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, .wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, .editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, .editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 300 !important;
   line-height: 1.2;
   color: inherit; }
 
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+  font-size: 4.5rem; }
+
+.editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+  font-size: 3rem; }
+
+.editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+  font-size: 1.75rem; }
+
+.wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
   font-size: 1.5rem; }
+
+.editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+  font-size: 1.25rem; }
+
+.editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+  font-size: 1rem; }
 
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
-.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
+.editor-styles-wrapper .small,
+.editor-writing-flow .small,
+.edit-post-visual-editor .small {
+  font-size: 80%;
+  font-weight: 300 !important; }
+
+.editor-styles-wrapper .mark,
+.editor-writing-flow .mark,
+.edit-post-visual-editor .mark {
+  padding: 0.2em;
+  background-color: #fcf8e3; }
 
 #single-wrapper {
   width: 100%;
@@ -2454,10 +2572,26 @@ a.tag-cloud-link {
     background-color: #171922;
     border-color: #171922; }
 
+.navbar-collapse img {
+  border-radius: 50% !important; }
+
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.navbar-collapse img {
+  width: 25% !important; }
 
 
 #wrapper-footer .socialmenuclass .fa,
@@ -2512,6 +2646,9 @@ a.tag-cloud-link {
 .btn.secondary-neumorph {
   margin-bottom: 1.5rem !important; }
 
+.navbar-collapse img {
+  margin-right: 3rem !important; }
+
 .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
 .addrightsidebar .widget-area,
 .addrightsidebar .card-deck .card {
@@ -2549,11 +2686,21 @@ a.tag-cloud-link {
   padding: 3rem !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse img {
+  padding-top: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-bottom: 3rem !important; }
+
+
+.navbar-collapse .row,
+.aligncenter {
   margin-right: auto !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse .row,
+.aligncenter {
   margin-left: auto !important; }
 
 @media (min-width: 1200px) {
@@ -2617,6 +2764,43 @@ a.tag-cloud-link {
   a:not(.wp-block-search__button):not(#nf-field-4):not(
   #nf-field-25) {
     text-decoration: underline; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    orphans: 3;
+    widows: 3; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    page-break-after: avoid; }
   @page {
     size: a3; }
   body {
@@ -7379,7 +7563,7 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\f63f"; }
 
-.sr-only, .screen-reader-text {
+.sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -7486,55 +7670,7 @@ hr {
 hr:not([size]) {
   height: 1px; }
 
-h1, .h1, .editor-styles-wrapper .h1,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-.editor-writing-flow .h1,
-.editor-writing-flow h1,
-.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-.edit-post-visual-editor .h1,
-.edit-post-visual-editor h1,
-.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, h2, .h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-.editor-writing-flow .h2,
-.editor-writing-flow h2,
-.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-.edit-post-visual-editor .h2,
-.edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, h3, .h3, .editor-styles-wrapper .h3,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-.editor-writing-flow .h3,
-.editor-writing-flow h3,
-.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-.edit-post-visual-editor .h3,
-.edit-post-visual-editor h3,
-.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, h4, .h4, .editor-styles-wrapper .h4,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-.editor-writing-flow .h4,
-.editor-writing-flow h4,
-.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-.edit-post-visual-editor .h4,
-.edit-post-visual-editor h4,
-.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, h5, .h5, .editor-styles-wrapper .h5,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
-.editor-writing-flow .h5,
-.editor-writing-flow h5,
-.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
-.edit-post-visual-editor .h5,
-.edit-post-visual-editor h5,
-.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, h6, .h6, .editor-styles-wrapper .h6,
-.editor-styles-wrapper h6,
-.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
-.editor-writing-flow .h6,
-.editor-writing-flow h6,
-.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
-.edit-post-visual-editor .h6,
-.edit-post-visual-editor h6,
-.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: inherit;
@@ -7542,114 +7678,34 @@ h1, .h1, .editor-styles-wrapper .h1,
   line-height: 1.2;
   color: inherit; }
 
-h1, .h1, .editor-styles-wrapper .h1,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-.editor-writing-flow .h1,
-.editor-writing-flow h1,
-.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-.edit-post-visual-editor .h1,
-.edit-post-visual-editor h1,
-.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+h1, .h1 {
   font-size: calc(1.575rem + 3.9vw); }
   @media (min-width: 1200px) {
-    h1, .h1, .editor-styles-wrapper .h1,
-    .editor-styles-wrapper h1,
-    .editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-    .editor-writing-flow .h1,
-    .editor-writing-flow h1,
-    .editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-    .edit-post-visual-editor .h1,
-    .edit-post-visual-editor h1,
-    .edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+    h1, .h1 {
       font-size: 4.5rem; } }
 
-h2, .h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-.editor-writing-flow .h2,
-.editor-writing-flow h2,
-.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-.edit-post-visual-editor .h2,
-.edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+h2, .h2 {
   font-size: calc(1.425rem + 2.1vw); }
   @media (min-width: 1200px) {
-    h2, .h2, .editor-styles-wrapper .h2,
-    .editor-styles-wrapper h2,
-    .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-    .editor-writing-flow .h2,
-    .editor-writing-flow h2,
-    .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-    .edit-post-visual-editor .h2,
-    .edit-post-visual-editor h2,
-    .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+    h2, .h2 {
       font-size: 3rem; } }
 
-h3, .h3, .editor-styles-wrapper .h3,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-.editor-writing-flow .h3,
-.editor-writing-flow h3,
-.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-.edit-post-visual-editor .h3,
-.edit-post-visual-editor h3,
-.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+h3, .h3 {
   font-size: calc(1.3rem + 0.6vw); }
   @media (min-width: 1200px) {
-    h3, .h3, .editor-styles-wrapper .h3,
-    .editor-styles-wrapper h3,
-    .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-    .editor-writing-flow .h3,
-    .editor-writing-flow h3,
-    .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-    .edit-post-visual-editor .h3,
-    .edit-post-visual-editor h3,
-    .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    h3, .h3 {
       font-size: 1.75rem; } }
 
-h4, .h4, .editor-styles-wrapper .h4,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-.editor-writing-flow .h4,
-.editor-writing-flow h4,
-.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-.edit-post-visual-editor .h4,
-.edit-post-visual-editor h4,
-.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
+h4, .h4 {
   font-size: calc(1.275rem + 0.3vw); }
   @media (min-width: 1200px) {
-    h4, .h4, .editor-styles-wrapper .h4,
-    .editor-styles-wrapper h4,
-    .editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-    .editor-writing-flow .h4,
-    .editor-writing-flow h4,
-    .editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-    .edit-post-visual-editor .h4,
-    .edit-post-visual-editor h4,
-    .edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
+    h4, .h4 {
       font-size: 1.5rem; } }
 
-h5, .h5, .editor-styles-wrapper .h5,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
-.editor-writing-flow .h5,
-.editor-writing-flow h5,
-.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
-.edit-post-visual-editor .h5,
-.edit-post-visual-editor h5,
-.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+h5, .h5 {
   font-size: 1.25rem; }
 
-h6, .h6, .editor-styles-wrapper .h6,
-.editor-styles-wrapper h6,
-.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
-.editor-writing-flow .h6,
-.editor-writing-flow h6,
-.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
-.edit-post-visual-editor .h6,
-.edit-post-visual-editor h6,
-.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+h6, .h6 {
   font-size: 1rem; }
 
 p {
@@ -7700,14 +7756,10 @@ b,
 strong {
   font-weight: bolder; }
 
-small, .small, .editor-styles-wrapper .small,
-.editor-writing-flow .small,
-.edit-post-visual-editor .small {
+small, .small {
   font-size: 80%; }
 
-mark, .mark, .editor-styles-wrapper .mark,
-.editor-writing-flow .mark,
-.edit-post-visual-editor .mark {
+mark, .mark {
   padding: 0.2em;
   background-color: #fcf8e3; }
 
@@ -13402,7 +13454,7 @@ textarea.form-control-lg {
   margin-right: 3rem !important;
   margin-left: 3rem !important; }
 
-.mx-auto, .aligncenter {
+.mx-auto {
   margin-right: auto !important;
   margin-left: auto !important; }
 
@@ -13924,7 +13976,7 @@ textarea.form-control-lg {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
+.text-decoration-none {
   text-decoration: none !important; }
 
 .text-decoration-underline {
@@ -16396,6 +16448,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           -ms-flex-pack: center;
               justify-content: center; }
       .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+        font-size: calc(1.475rem + 2.7vw);
         color: #FBFBFD; }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
           color: #C8689A;
@@ -16422,6 +16475,9 @@ input.wp-block-search__input, input:not(.components-text-control__input),
 
 #wrapper-footer .container-fluid, #wrapper-footer .container-sm, #wrapper-footer .container-md, #wrapper-footer .container-lg, #wrapper-footer .container-xl {
   padding: 0 !important; }
+
+#wrapper-footer .col-md-4:nth-child(2) a:hover {
+  text-decoration: none; }
 
 #wrapper-footer .socialmenuclass .nav-link {
   padding: 0 0.5em;
@@ -16569,24 +16625,142 @@ a.tag-cloud-link {
 /*!
  * Bootstrap v4_silent.3.1 (https://getbootstrap.com) START
  */
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, .editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, .wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, .editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, .editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 300 !important;
   line-height: 1.2;
   color: inherit; }
 
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+  font-size: 4.5rem; }
+
+.editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+  font-size: 3rem; }
+
+.editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+  font-size: 1.75rem; }
+
+.wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
   font-size: 1.5rem; }
+
+.editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+  font-size: 1.25rem; }
+
+.editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+  font-size: 1rem; }
 
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
-.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
+.editor-styles-wrapper .small,
+.editor-writing-flow .small,
+.edit-post-visual-editor .small {
+  font-size: 80%;
+  font-weight: 300 !important; }
+
+.editor-styles-wrapper .mark,
+.editor-writing-flow .mark,
+.edit-post-visual-editor .mark {
+  padding: 0.2em;
+  background-color: #fcf8e3; }
 
 #single-wrapper {
   width: 100%;
@@ -19007,10 +19181,26 @@ a.tag-cloud-link {
     background-color: #171922;
     border-color: #171922; }
 
+.navbar-collapse img {
+  border-radius: 50% !important; }
+
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.navbar-collapse img {
+  width: 25% !important; }
 
 
 #wrapper-footer .socialmenuclass .fa,
@@ -19065,6 +19255,9 @@ a.tag-cloud-link {
 .btn.secondary-neumorph {
   margin-bottom: 1.5rem !important; }
 
+.navbar-collapse img {
+  margin-right: 3rem !important; }
+
 .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
 .addrightsidebar .widget-area,
 .addrightsidebar .card-deck .card {
@@ -19102,11 +19295,21 @@ a.tag-cloud-link {
   padding: 3rem !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse img {
+  padding-top: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-bottom: 3rem !important; }
+
+
+.navbar-collapse .row,
+.aligncenter {
   margin-right: auto !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse .row,
+.aligncenter {
   margin-left: auto !important; }
 
 @media (min-width: 1200px) {
@@ -19170,6 +19373,43 @@ a.tag-cloud-link {
   a:not(.wp-block-search__button):not(#nf-field-4):not(
   #nf-field-25) {
     text-decoration: underline; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    orphans: 3;
+    widows: 3; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    page-break-after: avoid; }
   @page {
     size: a3; }
   body {
@@ -19706,55 +19946,7 @@ hr {
 hr:not([size]) {
   height: 1px; }
 
-h1, .h1, .editor-styles-wrapper .h1,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-.editor-writing-flow .h1,
-.editor-writing-flow h1,
-.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-.edit-post-visual-editor .h1,
-.edit-post-visual-editor h1,
-.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, h2, .h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-.editor-writing-flow .h2,
-.editor-writing-flow h2,
-.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-.edit-post-visual-editor .h2,
-.edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, h3, .h3, .editor-styles-wrapper .h3,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-.editor-writing-flow .h3,
-.editor-writing-flow h3,
-.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-.edit-post-visual-editor .h3,
-.edit-post-visual-editor h3,
-.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, h4, .h4, .editor-styles-wrapper .h4,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-.editor-writing-flow .h4,
-.editor-writing-flow h4,
-.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-.edit-post-visual-editor .h4,
-.edit-post-visual-editor h4,
-.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, h5, .h5, .editor-styles-wrapper .h5,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
-.editor-writing-flow .h5,
-.editor-writing-flow h5,
-.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
-.edit-post-visual-editor .h5,
-.edit-post-visual-editor h5,
-.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, h6, .h6, .editor-styles-wrapper .h6,
-.editor-styles-wrapper h6,
-.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
-.editor-writing-flow .h6,
-.editor-writing-flow h6,
-.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
-.edit-post-visual-editor .h6,
-.edit-post-visual-editor h6,
-.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: inherit;
@@ -19762,114 +19954,34 @@ h1, .h1, .editor-styles-wrapper .h1,
   line-height: 1.2;
   color: inherit; }
 
-h1, .h1, .editor-styles-wrapper .h1,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-.editor-writing-flow .h1,
-.editor-writing-flow h1,
-.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-.edit-post-visual-editor .h1,
-.edit-post-visual-editor h1,
-.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+h1, .h1 {
   font-size: calc(1.575rem + 3.9vw); }
   @media (min-width: 1200px) {
-    h1, .h1, .editor-styles-wrapper .h1,
-    .editor-styles-wrapper h1,
-    .editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-    .editor-writing-flow .h1,
-    .editor-writing-flow h1,
-    .editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-    .edit-post-visual-editor .h1,
-    .edit-post-visual-editor h1,
-    .edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+    h1, .h1 {
       font-size: 4.5rem; } }
 
-h2, .h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-.editor-writing-flow .h2,
-.editor-writing-flow h2,
-.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-.edit-post-visual-editor .h2,
-.edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+h2, .h2 {
   font-size: calc(1.425rem + 2.1vw); }
   @media (min-width: 1200px) {
-    h2, .h2, .editor-styles-wrapper .h2,
-    .editor-styles-wrapper h2,
-    .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-    .editor-writing-flow .h2,
-    .editor-writing-flow h2,
-    .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-    .edit-post-visual-editor .h2,
-    .edit-post-visual-editor h2,
-    .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+    h2, .h2 {
       font-size: 3rem; } }
 
-h3, .h3, .editor-styles-wrapper .h3,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-.editor-writing-flow .h3,
-.editor-writing-flow h3,
-.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-.edit-post-visual-editor .h3,
-.edit-post-visual-editor h3,
-.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+h3, .h3 {
   font-size: calc(1.3rem + 0.6vw); }
   @media (min-width: 1200px) {
-    h3, .h3, .editor-styles-wrapper .h3,
-    .editor-styles-wrapper h3,
-    .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-    .editor-writing-flow .h3,
-    .editor-writing-flow h3,
-    .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-    .edit-post-visual-editor .h3,
-    .edit-post-visual-editor h3,
-    .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    h3, .h3 {
       font-size: 1.75rem; } }
 
-h4, .h4, .editor-styles-wrapper .h4,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-.editor-writing-flow .h4,
-.editor-writing-flow h4,
-.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-.edit-post-visual-editor .h4,
-.edit-post-visual-editor h4,
-.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
+h4, .h4 {
   font-size: calc(1.275rem + 0.3vw); }
   @media (min-width: 1200px) {
-    h4, .h4, .editor-styles-wrapper .h4,
-    .editor-styles-wrapper h4,
-    .editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-    .editor-writing-flow .h4,
-    .editor-writing-flow h4,
-    .editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-    .edit-post-visual-editor .h4,
-    .edit-post-visual-editor h4,
-    .edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
+    h4, .h4 {
       font-size: 1.5rem; } }
 
-h5, .h5, .editor-styles-wrapper .h5,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
-.editor-writing-flow .h5,
-.editor-writing-flow h5,
-.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
-.edit-post-visual-editor .h5,
-.edit-post-visual-editor h5,
-.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+h5, .h5 {
   font-size: 1.25rem; }
 
-h6, .h6, .editor-styles-wrapper .h6,
-.editor-styles-wrapper h6,
-.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
-.editor-writing-flow .h6,
-.editor-writing-flow h6,
-.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
-.edit-post-visual-editor .h6,
-.edit-post-visual-editor h6,
-.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+h6, .h6 {
   font-size: 1rem; }
 
 p {
@@ -19920,14 +20032,10 @@ b,
 strong {
   font-weight: bolder; }
 
-small, .small, .editor-styles-wrapper .small,
-.editor-writing-flow .small,
-.edit-post-visual-editor .small {
+small, .small {
   font-size: 80%; }
 
-mark, .mark, .editor-styles-wrapper .mark,
-.editor-writing-flow .mark,
-.edit-post-visual-editor .mark {
+mark, .mark {
   padding: 0.2em;
   background-color: #fcf8e3; }
 
@@ -25608,7 +25716,7 @@ textarea.form-control-lg {
   margin-right: 3rem !important;
   margin-left: 3rem !important; }
 
-.mx-auto, .aligncenter {
+.mx-auto {
   margin-right: auto !important;
   margin-left: auto !important; }
 
@@ -26130,7 +26238,7 @@ textarea.form-control-lg {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
+.text-decoration-none {
   text-decoration: none !important; }
 
 .text-decoration-underline {
@@ -28353,10 +28461,7 @@ a.skip-link {
       color: $navbar-dark-active-color;
     }*/ }
 
-.navbar h1, .navbar .h1,
-.navbar .editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .navbar h1.block-editor-block-list__block, .navbar .editor-styles-wrapper .block-editor-block-list__block.h1, .editor-styles-wrapper .navbar .block-editor-block-list__block.h1,
-.navbar .editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .navbar h1.block-editor-block-list__block, .navbar .editor-writing-flow .block-editor-block-list__block.h1, .editor-writing-flow .navbar .block-editor-block-list__block.h1,
-.navbar .edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .navbar h1.block-editor-block-list__block, .navbar .edit-post-visual-editor .block-editor-block-list__block.h1, .edit-post-visual-editor .navbar .block-editor-block-list__block.h1 {
+.navbar h1, .navbar .h1 {
   font-weight: 300 !important; }
 
 .woocommerce-input-wrapper {
@@ -32933,7 +33038,7 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\f63f"; }
 
-.sr-only, .screen-reader-text {
+.sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -33040,24 +33145,142 @@ readers do not read off random characters that represent icons */
 /*!
  * Bootstrap v4_silent.3.1 (https://getbootstrap.com) START
  */
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, .editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, .wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, .editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, .editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 300 !important;
   line-height: 1.2;
   color: inherit; }
 
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+  font-size: 4.5rem; }
+
+.editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+  font-size: 3rem; }
+
+.editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+  font-size: 1.75rem; }
+
+.wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
   font-size: 1.5rem; }
+
+.editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+  font-size: 1.25rem; }
+
+.editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+  font-size: 1rem; }
 
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
-.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
+.editor-styles-wrapper .small,
+.editor-writing-flow .small,
+.edit-post-visual-editor .small {
+  font-size: 80%;
+  font-weight: 300 !important; }
+
+.editor-styles-wrapper .mark,
+.editor-writing-flow .mark,
+.edit-post-visual-editor .mark {
+  padding: 0.2em;
+  background-color: #fcf8e3; }
 
 #single-wrapper {
   width: 100%;
@@ -35478,10 +35701,26 @@ a.tag-cloud-link {
     background-color: #171922;
     border-color: #171922; }
 
+.navbar-collapse img {
+  border-radius: 50% !important; }
+
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.navbar-collapse img {
+  width: 25% !important; }
 
 
 #wrapper-footer .socialmenuclass .fa,
@@ -35536,6 +35775,9 @@ a.tag-cloud-link {
 .btn.secondary-neumorph {
   margin-bottom: 1.5rem !important; }
 
+.navbar-collapse img {
+  margin-right: 3rem !important; }
+
 .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
 .addrightsidebar .widget-area,
 .addrightsidebar .card-deck .card {
@@ -35573,11 +35815,21 @@ a.tag-cloud-link {
   padding: 3rem !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse img {
+  padding-top: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-bottom: 3rem !important; }
+
+
+.navbar-collapse .row,
+.aligncenter {
   margin-right: auto !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse .row,
+.aligncenter {
   margin-left: auto !important; }
 
 @media (min-width: 1200px) {
@@ -35641,6 +35893,43 @@ a.tag-cloud-link {
   a:not(.wp-block-search__button):not(#nf-field-4):not(
   #nf-field-25) {
     text-decoration: underline; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    orphans: 3;
+    widows: 3; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    page-break-after: avoid; }
   @page {
     size: a3; }
   body {
@@ -40395,7 +40684,7 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\f63f"; }
 
-.sr-only, .screen-reader-text {
+.sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -40502,55 +40791,7 @@ hr {
 hr:not([size]) {
   height: 1px; }
 
-h1, .h1, .editor-styles-wrapper .h1,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-.editor-writing-flow .h1,
-.editor-writing-flow h1,
-.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-.edit-post-visual-editor .h1,
-.edit-post-visual-editor h1,
-.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, h2, .h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-.editor-writing-flow .h2,
-.editor-writing-flow h2,
-.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-.edit-post-visual-editor .h2,
-.edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, h3, .h3, .editor-styles-wrapper .h3,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-.editor-writing-flow .h3,
-.editor-writing-flow h3,
-.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-.edit-post-visual-editor .h3,
-.edit-post-visual-editor h3,
-.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, h4, .h4, .editor-styles-wrapper .h4,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-.editor-writing-flow .h4,
-.editor-writing-flow h4,
-.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-.edit-post-visual-editor .h4,
-.edit-post-visual-editor h4,
-.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, h5, .h5, .editor-styles-wrapper .h5,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
-.editor-writing-flow .h5,
-.editor-writing-flow h5,
-.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
-.edit-post-visual-editor .h5,
-.edit-post-visual-editor h5,
-.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, h6, .h6, .editor-styles-wrapper .h6,
-.editor-styles-wrapper h6,
-.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
-.editor-writing-flow .h6,
-.editor-writing-flow h6,
-.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
-.edit-post-visual-editor .h6,
-.edit-post-visual-editor h6,
-.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: inherit;
@@ -40558,114 +40799,34 @@ h1, .h1, .editor-styles-wrapper .h1,
   line-height: 1.2;
   color: inherit; }
 
-h1, .h1, .editor-styles-wrapper .h1,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-.editor-writing-flow .h1,
-.editor-writing-flow h1,
-.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-.edit-post-visual-editor .h1,
-.edit-post-visual-editor h1,
-.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+h1, .h1 {
   font-size: calc(1.575rem + 3.9vw); }
   @media (min-width: 1200px) {
-    h1, .h1, .editor-styles-wrapper .h1,
-    .editor-styles-wrapper h1,
-    .editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
-    .editor-writing-flow .h1,
-    .editor-writing-flow h1,
-    .editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
-    .edit-post-visual-editor .h1,
-    .edit-post-visual-editor h1,
-    .edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+    h1, .h1 {
       font-size: 4.5rem; } }
 
-h2, .h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-.editor-writing-flow .h2,
-.editor-writing-flow h2,
-.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-.edit-post-visual-editor .h2,
-.edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+h2, .h2 {
   font-size: calc(1.425rem + 2.1vw); }
   @media (min-width: 1200px) {
-    h2, .h2, .editor-styles-wrapper .h2,
-    .editor-styles-wrapper h2,
-    .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
-    .editor-writing-flow .h2,
-    .editor-writing-flow h2,
-    .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
-    .edit-post-visual-editor .h2,
-    .edit-post-visual-editor h2,
-    .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+    h2, .h2 {
       font-size: 3rem; } }
 
-h3, .h3, .editor-styles-wrapper .h3,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-.editor-writing-flow .h3,
-.editor-writing-flow h3,
-.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-.edit-post-visual-editor .h3,
-.edit-post-visual-editor h3,
-.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+h3, .h3 {
   font-size: calc(1.3rem + 0.6vw); }
   @media (min-width: 1200px) {
-    h3, .h3, .editor-styles-wrapper .h3,
-    .editor-styles-wrapper h3,
-    .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
-    .editor-writing-flow .h3,
-    .editor-writing-flow h3,
-    .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
-    .edit-post-visual-editor .h3,
-    .edit-post-visual-editor h3,
-    .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    h3, .h3 {
       font-size: 1.75rem; } }
 
-h4, .h4, .editor-styles-wrapper .h4,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-.editor-writing-flow .h4,
-.editor-writing-flow h4,
-.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-.edit-post-visual-editor .h4,
-.edit-post-visual-editor h4,
-.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
+h4, .h4 {
   font-size: calc(1.275rem + 0.3vw); }
   @media (min-width: 1200px) {
-    h4, .h4, .editor-styles-wrapper .h4,
-    .editor-styles-wrapper h4,
-    .editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
-    .editor-writing-flow .h4,
-    .editor-writing-flow h4,
-    .editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
-    .edit-post-visual-editor .h4,
-    .edit-post-visual-editor h4,
-    .edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
+    h4, .h4 {
       font-size: 1.5rem; } }
 
-h5, .h5, .editor-styles-wrapper .h5,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
-.editor-writing-flow .h5,
-.editor-writing-flow h5,
-.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
-.edit-post-visual-editor .h5,
-.edit-post-visual-editor h5,
-.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+h5, .h5 {
   font-size: 1.25rem; }
 
-h6, .h6, .editor-styles-wrapper .h6,
-.editor-styles-wrapper h6,
-.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
-.editor-writing-flow .h6,
-.editor-writing-flow h6,
-.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
-.edit-post-visual-editor .h6,
-.edit-post-visual-editor h6,
-.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+h6, .h6 {
   font-size: 1rem; }
 
 p {
@@ -40716,14 +40877,10 @@ b,
 strong {
   font-weight: bolder; }
 
-small, .small, .editor-styles-wrapper .small,
-.editor-writing-flow .small,
-.edit-post-visual-editor .small {
+small, .small {
   font-size: 80%; }
 
-mark, .mark, .editor-styles-wrapper .mark,
-.editor-writing-flow .mark,
-.edit-post-visual-editor .mark {
+mark, .mark {
   padding: 0.2em;
   background-color: #fcf8e3; }
 
@@ -46404,7 +46561,7 @@ textarea.form-control-lg {
   margin-right: 3rem !important;
   margin-left: 3rem !important; }
 
-.mx-auto, .aligncenter {
+.mx-auto {
   margin-right: auto !important;
   margin-left: auto !important; }
 
@@ -46926,7 +47083,7 @@ textarea.form-control-lg {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-decoration-none, #wrapper-footer .col-md-4:nth-child(2) a:hover {
+.text-decoration-none {
   text-decoration: none !important; }
 
 .text-decoration-underline {
@@ -49398,6 +49555,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           -ms-flex-pack: center;
               justify-content: center; }
       .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
+        font-size: calc(1.475rem + 2.7vw);
         color: #FBFBFD; }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
           color: #C8689A;
@@ -49424,6 +49582,9 @@ input.wp-block-search__input, input:not(.components-text-control__input),
 
 #wrapper-footer .container-fluid, #wrapper-footer .container-sm, #wrapper-footer .container-md, #wrapper-footer .container-lg, #wrapper-footer .container-xl {
   padding: 0 !important; }
+
+#wrapper-footer .col-md-4:nth-child(2) a:hover {
+  text-decoration: none; }
 
 #wrapper-footer .socialmenuclass .nav-link {
   padding: 0 0.5em;
@@ -49571,24 +49732,142 @@ a.tag-cloud-link {
 /*!
  * Bootstrap v4_silent.3.1 (https://getbootstrap.com) START
  */
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1, .editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3, .wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4, .editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5, .editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 300 !important;
   line-height: 1.2;
   color: inherit; }
 
-.wp-block-search__label {
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h1.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h1,
+.editor-writing-flow .h1,
+.editor-writing-flow h1,
+.editor-writing-flow h1.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h1,
+.edit-post-visual-editor .h1,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h1.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h1 {
+  font-size: 4.5rem; }
+
+.editor-styles-wrapper .h2,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+.editor-writing-flow .h2,
+.editor-writing-flow h2,
+.editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+.edit-post-visual-editor .h2,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
+  font-size: 3rem; }
+
+.editor-styles-wrapper .h3,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+.editor-writing-flow .h3,
+.editor-writing-flow h3,
+.editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+.edit-post-visual-editor .h3,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+  font-size: 1.75rem; }
+
+.wp-block-search__label, .editor-styles-wrapper .h4,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h4.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h4,
+.editor-writing-flow .h4,
+.editor-writing-flow h4,
+.editor-writing-flow h4.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h4,
+.edit-post-visual-editor .h4,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h4.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h4 {
   font-size: 1.5rem; }
+
+.editor-styles-wrapper .h5,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h5.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h5,
+.editor-writing-flow .h5,
+.editor-writing-flow h5,
+.editor-writing-flow h5.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h5,
+.edit-post-visual-editor .h5,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h5.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h5 {
+  font-size: 1.25rem; }
+
+.editor-styles-wrapper .h6,
+.editor-styles-wrapper h6,
+.editor-styles-wrapper h6.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h6,
+.editor-writing-flow .h6,
+.editor-writing-flow h6,
+.editor-writing-flow h6.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h6,
+.edit-post-visual-editor .h6,
+.edit-post-visual-editor h6,
+.edit-post-visual-editor h6.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h6 {
+  font-size: 1rem; }
 
 #wrapper-footer .col-md-4:nth-child(2) {
   font-size: 1.25rem;
   font-weight: 300; }
 
-.navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
+.editor-styles-wrapper .small,
+.editor-writing-flow .small,
+.edit-post-visual-editor .small {
+  font-size: 80%;
+  font-weight: 300 !important; }
+
+.editor-styles-wrapper .mark,
+.editor-writing-flow .mark,
+.edit-post-visual-editor .mark {
+  padding: 0.2em;
+  background-color: #fcf8e3; }
 
 #single-wrapper {
   width: 100%;
@@ -52009,10 +52288,26 @@ a.tag-cloud-link {
     background-color: #171922;
     border-color: #171922; }
 
+.navbar-collapse img {
+  border-radius: 50% !important; }
+
 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.navbar-collapse img {
+  width: 25% !important; }
 
 
 #wrapper-footer .socialmenuclass .fa,
@@ -52067,6 +52362,9 @@ a.tag-cloud-link {
 .btn.secondary-neumorph {
   margin-bottom: 1.5rem !important; }
 
+.navbar-collapse img {
+  margin-right: 3rem !important; }
+
 .addrightsidebar #right-sidebar, .addrightsidebar form#searchform,
 .addrightsidebar .widget-area,
 .addrightsidebar .card-deck .card {
@@ -52104,11 +52402,21 @@ a.tag-cloud-link {
   padding: 3rem !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse img {
+  padding-top: 3rem !important; }
+
+
+.navbar-collapse img {
+  padding-bottom: 3rem !important; }
+
+
+.navbar-collapse .row,
+.aligncenter {
   margin-right: auto !important; }
 
 
-.navbar-collapse .row {
+.navbar-collapse .row,
+.aligncenter {
   margin-left: auto !important; }
 
 @media (min-width: 1200px) {
@@ -52172,6 +52480,43 @@ a.tag-cloud-link {
   a:not(.wp-block-search__button):not(#nf-field-4):not(
   #nf-field-25) {
     text-decoration: underline; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    orphans: 3;
+    widows: 3; }
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper h2.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h2,
+  .editor-writing-flow .h2,
+  .editor-writing-flow h2,
+  .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
+  .edit-post-visual-editor .h2,
+  .edit-post-visual-editor h2,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
+  .editor-writing-flow .h3,
+  .editor-writing-flow h3,
+  .editor-writing-flow h3.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h3,
+  .edit-post-visual-editor .h3,
+  .edit-post-visual-editor h3,
+  .edit-post-visual-editor h3.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h3 {
+    page-break-after: avoid; }
   @page {
     size: a3; }
   body {
