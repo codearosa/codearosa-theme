@@ -38,20 +38,31 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
 .navbar-collapse {
 
+    img {
+        
+        @extend %rounded-circle;
+        @extend %w-25;
+        @extend %py-5;
+        @extend %mr-5;
+    }
+
     .row {
 
         height: 100vh;
         width: 50%;
-        @extend .mx-auto;
+        @extend %mx-auto;
+        @extend %row;
 
         //style the contact part
 
+       
         .col-sm-12:not(:nth-child(2)) {
-
+            
+            
             .cr-contact {
                 height: 100%;
-                @extend .d-flex;
-                @extend .p-5;
+                @extend %d-flex;
+                @extend %p-5;
                 color: $secondary;
                 justify-content: center;
 
@@ -61,7 +72,7 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
                     .widget_text {
                         color: $secondary;
-                        @extend .text-left;
+                        @extend %text-left;
                         display: inline-table;
                         margin-top: auto;
                         margin-bottom: auto;
@@ -77,9 +88,9 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
             .menu-primar-container {
                 height: 100%;
-                @extend .d-flex;
-                @extend .text-right;
-                @extend .p-5;
+                @extend %d-flex;
+                @extend %text-right;
+                @extend %p-5;
 
                 ul {
                     justify-content: center;
@@ -87,7 +98,7 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
                     li a {
 
-                        @extend .display-4;
+                        font-size: calc(1.475rem + 2.7vw);
                         color: $secondary;
 
                         &:hover {

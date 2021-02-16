@@ -19,37 +19,37 @@
     .h1,
     h1,
     h1.block-editor-block-list__block {
-      @extend h1;
+      @extend %h1;
     }
 
     .h2,
     h2,
     h2.block-editor-block-list__block  {
-      @extend h2;
+      @extend %h2;
     }
 
     .h3,
     h3,
     h3.block-editor-block-list__block  {
-      @extend h3;
+      @extend %h3;
     }
 
     .h4,
     h4,
     h4.block-editor-block-list__block  {
-      @extend h4;
+      @extend %h4;
     }
 
     .h5,
     h5,
     h5.block-editor-block-list__block  {
-      @extend h5;
+      @extend %h5;
     }
 
     .h6,
     h6,
     h6.block-editor-block-list__block  {
-      @extend h6;
+      @extend %h6;
     }
 
 
@@ -71,11 +71,11 @@
     // Emphasis
     //
     .small {
-      @extend small;
+      @extend %small;
     }
 
     .mark {
-      @extend mark;
+      @extend %mark;
     }
 
     //
@@ -146,7 +146,7 @@ input.components-text-control__input {
 }
 
 
-@import "assets/bootstrap4"; // <------- Loads Bootstrap4
+@import "assets/bootstrap5.0.0-beta"; // <------- Loads Bootstrap4
 @import "../src/sass/understrap/understrap/understrap"; // <------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
 @import "../src/sass/understrap/understrap/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
 
