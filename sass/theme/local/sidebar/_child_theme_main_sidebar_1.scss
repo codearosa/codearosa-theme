@@ -1,0 +1,23 @@
+//main sidebar
+.addrightsidebar {
+    #right-sidebar {
+        @extend %p-3;
+        @extend %mb-5;
+        @extend %secondary-neumorph;
+        max-width: 100% !important;
+    }
+
+    //margins
+    form#searchform,
+    .widget-area,
+    .card-deck .card {
+        @extend %mb-5;
+    }
+
+
+    .card-deck .card {
+        width: 100%;
+        flex: unset;
+        margin: 0 !important;
+    }
+}
