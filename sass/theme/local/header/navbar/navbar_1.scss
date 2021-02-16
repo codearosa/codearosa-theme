@@ -53,6 +53,10 @@ $navbar-transition: top $transition-toggler ease-in-out;
         @extend %mx-auto;
         @extend %row;
 
+        @include media-breakpoint-down(md) { 
+            width: 100%;
+         }
+
         //style the contact part
 
        
@@ -98,8 +102,12 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
                     li a {
 
-                        font-size: calc(1.475rem + 2.7vw);
-                        color: $secondary;
+                        @extend %display-4;
+                        color: $secondary !important;
+
+                            @include media-breakpoint-down(md) { 
+                                font-size: 2.5em !important;
+                            }
 
                         &:hover {
                             color: $primary;
