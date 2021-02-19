@@ -102,12 +102,13 @@ $navbar-transition: top $transition-toggler ease-in-out;
 
                     li a {
 
+                        @include media-breakpoint-down(md) { 
+                                font-size: 2em !important;
+                            }
+
                         @extend %display-4;
                         color: $secondary !important;
-
-                            @include media-breakpoint-down(md) { 
-                                font-size: 2.5em !important;
-                            }
+                    
 
                         &:hover {
                             color: $primary;

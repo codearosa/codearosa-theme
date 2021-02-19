@@ -15296,7 +15296,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
         color: #FBFBFD !important; }
         @media (max-width: 767.98px) {
           .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
-            font-size: 2.5em !important; } }
+            font-size: 2em !important; } }
         .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
           color: #C8689A;
           -webkit-transition: color 0.8s ease-in;
