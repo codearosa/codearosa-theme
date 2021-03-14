@@ -35,7 +35,7 @@ add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
 /*-------INCLUDES Folder Custom-------*/
 $codearosa_custom_functions_includes = array(
   //enqueue and enable Styles and functions
-  '/php/functions/0_enable_and_enqueue/0001_enqueue_bootstrap_slider.php',
+  //'/php/functions/0_enable_and_enqueue/0001_enqueue_bootstrap_slider.php',
   '/php/functions/0_enable_and_enqueue/0002_enable_blogroll.php',
   '/php/functions/0_enable_and_enqueue/0003_enable_font_preload.php',
 
