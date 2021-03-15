@@ -1,8 +1,6 @@
 /*add this file to sass imports*/
 @import "local_child_theme_variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
-//@import "child_theme_localfont"; // <--------- Localfont
-@import "child_theme_localfont_variable"; // <--------- Localfont variable
-
+@import "child_theme_localfont"; // <--------- Localfont
 
 @import "../sass/assets/font-awesome"; // <------- Loads Fontawesome
 @import "../sass/assets/bootstrap5.0.0-beta"; // <------- Loads bootstrap5.0.0-beta
