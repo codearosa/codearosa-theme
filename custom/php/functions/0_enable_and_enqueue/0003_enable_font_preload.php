@@ -17,10 +17,5 @@ add_action( 'wp_head', function () {
 <link rel="preload" href="<?php echo $fonts_dir_variableFont . 'Raleway-VariableFont_wght.ttf' ?>" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="<?php echo $fonts_dir_variableFont . 'Raleway-Italic-VariableFont_wght.ttf' ?>" as="font" type="font/ttf" crossorigin="anonymous">
 
-//fontawesome
-<link rel="preload" href="<?php echo $fonts_dir_fontawesome . 'fa-brands-400.woff2' ?>" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="<?php echo $fonts_dir_fontawesome . 'fa-regular-400.woff2' ?>" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="<?php echo $fonts_dir_fontawesome . 'fa-solid-900.woff2' ?>" as="font" type="font/woff2" crossorigin="anonymous">
-
 
 <?php } );
