@@ -2393,6 +2393,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 100;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-100.eot");
   /* IE9 Compat Modes */
@@ -2403,6 +2404,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 100;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-100italic.eot");
   /* IE9 Compat Modes */
@@ -2413,6 +2415,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 200;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-200.eot");
   /* IE9 Compat Modes */
@@ -2423,6 +2426,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 200;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-200italic.eot");
   /* IE9 Compat Modes */
@@ -2433,6 +2437,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 300;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-300.eot");
   /* IE9 Compat Modes */
@@ -2443,6 +2448,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 300;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-300italic.eot");
   /* IE9 Compat Modes */
@@ -2453,6 +2459,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-regular.eot");
   /* IE9 Compat Modes */
@@ -2463,6 +2470,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 400;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-italic.eot");
   /* IE9 Compat Modes */
@@ -2473,6 +2481,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 500;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-500.eot");
   /* IE9 Compat Modes */
@@ -2483,6 +2492,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 500;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-500italic.eot");
   /* IE9 Compat Modes */
@@ -2493,6 +2503,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 600;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-600.eot");
   /* IE9 Compat Modes */
@@ -2503,6 +2514,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 600;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-600italic.eot");
   /* IE9 Compat Modes */
@@ -2513,6 +2525,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-700.eot");
   /* IE9 Compat Modes */
@@ -2523,6 +2536,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 700;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-700italic.eot");
   /* IE9 Compat Modes */
@@ -2533,6 +2547,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 800;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-800.eot");
   /* IE9 Compat Modes */
@@ -2543,6 +2558,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 800;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-800italic.eot");
   /* IE9 Compat Modes */
@@ -2553,6 +2569,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
+  font-display: swap;
   font-weight: 900;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-900.eot");
   /* IE9 Compat Modes */
@@ -2563,6 +2580,7 @@ a.tag-cloud-link {
 @font-face {
   font-family: 'Raleway';
   font-style: italic;
+  font-display: swap;
   font-weight: 900;
   src: url("../custom/localfont/childtheme_fonts/raleway-v12-latin-900italic.eot");
   /* IE9 Compat Modes */
