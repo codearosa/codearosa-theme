@@ -16511,6 +16511,16 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   padding: 0 0.5em;
   line-height: 0; }
 
+#single-wrapper .entry-header {
+  position: relative; }
+  #single-wrapper .entry-header img {
+    -webkit-filter: blur(2px) brightness(1.2);
+            filter: blur(2px) brightness(1.2); }
+  #single-wrapper .entry-header .jumbotron-fluid {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
 /* Import bootstrap-sass so that we have access to all of its selectors */
 .home .card.post .card-body {
   padding: 0;
@@ -49650,6 +49660,16 @@ input.wp-block-search__input, input:not(.components-text-control__input),
 #wrapper-footer .socialmenuclass .nav-link {
   padding: 0 0.5em;
   line-height: 0; }
+
+#single-wrapper .entry-header {
+  position: relative; }
+  #single-wrapper .entry-header img {
+    -webkit-filter: blur(2px) brightness(1.2);
+            filter: blur(2px) brightness(1.2); }
+  #single-wrapper .entry-header .jumbotron-fluid {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 /* Import bootstrap-sass so that we have access to all of its selectors */
 .home .card.post .card-body {
