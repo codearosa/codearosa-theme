@@ -1,0 +1,21 @@
+#single-wrapper {
+    @extend %container;
+
+    .entry-header {
+
+        position: relative;
+
+        img {
+
+            filter: blur(2px) brightness(1.2);
+        }
+            
+
+        .jumbotron-fluid {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
