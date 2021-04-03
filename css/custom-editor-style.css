@@ -2573,6 +2573,9 @@ a.tag-cloud-link {
   white-space: nowrap;
   border: 0; }
 
+#single-wrapper .single_2 .nav-links .nav-previous, #single-wrapper .single_2 .nav-links .nav-next {
+  width: 50% !important; }
+
 
 #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
@@ -2650,9 +2653,17 @@ a.tag-cloud-link {
   padding-bottom: 1rem !important; }
 
 
+#single-wrapper .single_2 .nav-links {
+  padding-top: 1.5rem !important; }
+
+
 #wrapper-footer,
 .btn.secondary-neumorph {
   padding-right: 1.5rem !important; }
+
+
+#single-wrapper .single_2 .nav-links {
+  padding-bottom: 1.5rem !important; }
 
 
 #wrapper-footer,
@@ -16430,15 +16441,18 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   padding: 0 0.5em;
   line-height: 0; }
 
-#single-wrapper .entry-header {
+#single-wrapper .single_2 .entry-header {
   position: relative; }
-  #single-wrapper .entry-header img {
+  #single-wrapper .single_2 .entry-header img {
     -webkit-filter: blur(2px) brightness(1.2);
             filter: blur(2px) brightness(1.2); }
-  #single-wrapper .entry-header .jumbotron-fluid {
+  #single-wrapper .single_2 .entry-header .jumbotron-fluid {
     position: absolute;
     top: 0;
     left: 0; }
+
+#single-wrapper .single_2 .nav-links .nav-next a {
+  float: right; }
 
 /* Import bootstrap-sass so that we have access to all of its selectors */
 .home .card.post .card-body {
@@ -19139,6 +19153,9 @@ a.tag-cloud-link {
   white-space: nowrap;
   border: 0; }
 
+#single-wrapper .single_2 .nav-links .nav-previous, #single-wrapper .single_2 .nav-links .nav-next {
+  width: 50% !important; }
+
 
 #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
@@ -19216,9 +19233,17 @@ a.tag-cloud-link {
   padding-bottom: 1rem !important; }
 
 
+#single-wrapper .single_2 .nav-links {
+  padding-top: 1.5rem !important; }
+
+
 #wrapper-footer,
 .btn.secondary-neumorph {
   padding-right: 1.5rem !important; }
+
+
+#single-wrapper .single_2 .nav-links {
+  padding-bottom: 1.5rem !important; }
 
 
 #wrapper-footer,
@@ -35617,6 +35642,9 @@ a.tag-cloud-link {
   white-space: nowrap;
   border: 0; }
 
+#single-wrapper .single_2 .nav-links .nav-previous, #single-wrapper .single_2 .nav-links .nav-next {
+  width: 50% !important; }
+
 
 #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
@@ -35694,9 +35722,17 @@ a.tag-cloud-link {
   padding-bottom: 1rem !important; }
 
 
+#single-wrapper .single_2 .nav-links {
+  padding-top: 1.5rem !important; }
+
+
 #wrapper-footer,
 .btn.secondary-neumorph {
   padding-right: 1.5rem !important; }
+
+
+#single-wrapper .single_2 .nav-links {
+  padding-bottom: 1.5rem !important; }
 
 
 #wrapper-footer,
@@ -49452,15 +49488,18 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   padding: 0 0.5em;
   line-height: 0; }
 
-#single-wrapper .entry-header {
+#single-wrapper .single_2 .entry-header {
   position: relative; }
-  #single-wrapper .entry-header img {
+  #single-wrapper .single_2 .entry-header img {
     -webkit-filter: blur(2px) brightness(1.2);
             filter: blur(2px) brightness(1.2); }
-  #single-wrapper .entry-header .jumbotron-fluid {
+  #single-wrapper .single_2 .entry-header .jumbotron-fluid {
     position: absolute;
     top: 0;
     left: 0; }
+
+#single-wrapper .single_2 .nav-links .nav-next a {
+  float: right; }
 
 /* Import bootstrap-sass so that we have access to all of its selectors */
 .home .card.post .card-body {
@@ -52161,6 +52200,9 @@ a.tag-cloud-link {
   white-space: nowrap;
   border: 0; }
 
+#single-wrapper .single_2 .nav-links .nav-previous, #single-wrapper .single_2 .nav-links .nav-next {
+  width: 50% !important; }
+
 
 #wrapper-footer .socialmenuclass .fa,
 #wrapper-footer .socialmenuclass .fas,
@@ -52238,9 +52280,17 @@ a.tag-cloud-link {
   padding-bottom: 1rem !important; }
 
 
+#single-wrapper .single_2 .nav-links {
+  padding-top: 1.5rem !important; }
+
+
 #wrapper-footer,
 .btn.secondary-neumorph {
   padding-right: 1.5rem !important; }
+
+
+#single-wrapper .single_2 .nav-links {
+  padding-bottom: 1.5rem !important; }
 
 
 #wrapper-footer,
