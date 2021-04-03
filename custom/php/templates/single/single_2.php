@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<div class="row">
+<div class="row single_2">
 
 	<header class="entry-header mb-3">
 
