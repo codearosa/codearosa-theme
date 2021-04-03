@@ -1,0 +1,16 @@
+.brand_and_logo_main_2 {
+
+    text-align:center;
+
+    .navbar-brand {
+        font-weight: bold;
+        color: $dark;
+        z-index: $zindex-tooltip;
+        transition: all $transition-toggler;
+
+        &[aria-expanded="true"] {
+            color: $secondary;
+        }
+
+}
+}
