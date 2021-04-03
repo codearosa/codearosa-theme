@@ -16,11 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<?php the_content(); ?>
 
-		<div class="entry-meta border border-primary my-3">
-
-			<?php codearosa_posted_on(); ?>
-
-		</div><!-- .entry-meta -->
+		<!-- .entry-meta -->
 
 		<?php
 		wp_link_pages(
