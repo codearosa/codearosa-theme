@@ -20346,6 +20346,17 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .navbar-brand[aria-expanded="true"] {
     color: #FBFBFD; }
 
+.brand_and_logo_main_2 {
+  text-align: center; }
+  .brand_and_logo_main_2 .navbar-brand {
+    font-weight: bold;
+    color: #2D3142;
+    z-index: 1070;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s; }
+    .brand_and_logo_main_2 .navbar-brand[aria-expanded="true"] {
+      color: #FBFBFD; }
+
 .navbar-collapse.collapse {
   display: block !important;
   background-color: #2D3142;
