@@ -1,6 +1,11 @@
-.mmu-footer-main-2 {
+/*Footer with 3 Columns*/
+.mmu-footer-main-3 {
+
+   @extend %container;
+   
    #wrapper-footer {
       @extend %px-4;
+      
 
       .container-fluid {
          padding: 0 !important;

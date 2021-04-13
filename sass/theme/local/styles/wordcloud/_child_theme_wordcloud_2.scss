@@ -1,0 +1,14 @@
+//Schlagwörter
+.mmu-wordcloud-2,
+.wp-block-tag-cloud,
+.tagcloud {
+
+    a {
+        @extend %btn;
+        @extend %btn-outline-dark;
+        font-size: small !important;
+        padding: 0em 1em;
+        margin: 0.3em 0.5em;
+
+    }
+}
