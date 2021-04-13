@@ -16,7 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 
-<div class="wrapper mmu-footer-main-2" id="wrapper-footer">
+<div class="wrapper mmu-footer-main-3" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 

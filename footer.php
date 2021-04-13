@@ -10,5 +10,5 @@
 
 ?>
 
-	<?php get_template_part( 'custom/php/templates/footer/footer_main_2'); ?>
+	<?php get_template_part( 'custom/php/templates/footer/footer_main_3'); ?>
 
