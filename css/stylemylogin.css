@@ -24,23 +24,23 @@
   font-size: 1.25rem;
   font-weight: 300; }
 
-#single-wrapper {
+.mmu-footer-main-3, #single-wrapper {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 1140px; } }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
@@ -2344,7 +2344,7 @@ a.tag-cloud-link {
     size: a3; }
   body {
     min-width: 992px !important; }
-  #single-wrapper {
+  .mmu-footer-main-3, #single-wrapper {
     min-width: 992px !important; }
   a.tag-cloud-link {
     border: 1px solid #000; } }
@@ -15460,6 +15460,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   padding: 0 0.5em;
   line-height: 0; }
 
+/*Footer with 3 Columns*/
 .mmu-footer-main-3 #wrapper-footer .container-fluid, .mmu-footer-main-3 #wrapper-footer .container-sm, .mmu-footer-main-3 #wrapper-footer .container-md, .mmu-footer-main-3 #wrapper-footer .container-lg, .mmu-footer-main-3 #wrapper-footer .container-xl {
   padding: 0 !important; }
 
@@ -15626,23 +15627,23 @@ a.tag-cloud-link {
   font-size: 1.25rem;
   font-weight: 300; }
 
-#single-wrapper {
+.mmu-footer-main-3, #single-wrapper {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    #single-wrapper {
+    .mmu-footer-main-3, #single-wrapper {
       max-width: 1140px; } }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
@@ -17940,7 +17941,7 @@ a.tag-cloud-link {
     size: a3; }
   body {
     min-width: 992px !important; }
-  #single-wrapper {
+  .mmu-footer-main-3, #single-wrapper {
     min-width: 992px !important; }
   a.tag-cloud-link {
     border: 1px solid #000; } }
