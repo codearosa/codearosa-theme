@@ -9,7 +9,7 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'Primary', 'ea_codearosa_child' ),
 		'slug'  => 'primary',
-		'color'	=> '#C8689A',
+		'color'	=> '#d46332 ',
 	),
 	array(
 		'name'  => __( 'Secondary', 'ea_codearosa_child' ),
