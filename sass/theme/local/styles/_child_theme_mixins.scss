@@ -74,3 +74,16 @@ $color in $theme-colors {
     background: $color;
   }
 }
+
+//Themecolors
+@each $name,
+$color in $theme-colors {
+
+  %has-primary-background-color,
+
+  %has-#{$name}-background-color,
+  .has-#{$name}-background-color {
+    background-color: $color;
+  }
+
+}

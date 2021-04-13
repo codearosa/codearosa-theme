@@ -16334,6 +16334,38 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
 
+
+.has-primary-background-color {
+  background-color: #C8689A; }
+
+
+.has-secondary-background-color {
+  background-color: #FBFBFD; }
+
+
+.has-success-background-color {
+  background-color: #2D3142; }
+
+
+.has-info-background-color {
+  background-color: #B2B4BA; }
+
+
+.has-warning-background-color {
+  background-color: #2D3142; }
+
+
+.has-danger-background-color {
+  background-color: #2D3142; }
+
+
+.has-light-background-color {
+  background-color: #FBFBFD; }
+
+
+.has-dark-background-color {
+  background-color: #2D3142; }
+
 /* used header design in melaniemueller.design
 * Style for 
 *header_main_4.php
@@ -49422,6 +49454,38 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   -webkit-box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
           box-shadow: inset 5px 5px 12px #181a24, inset -5px -5px 12px #424860 !important;
   background: #2D3142; }
+
+
+.has-primary-background-color {
+  background-color: #C8689A; }
+
+
+.has-secondary-background-color {
+  background-color: #FBFBFD; }
+
+
+.has-success-background-color {
+  background-color: #2D3142; }
+
+
+.has-info-background-color {
+  background-color: #B2B4BA; }
+
+
+.has-warning-background-color {
+  background-color: #2D3142; }
+
+
+.has-danger-background-color {
+  background-color: #2D3142; }
+
+
+.has-light-background-color {
+  background-color: #FBFBFD; }
+
+
+.has-dark-background-color {
+  background-color: #2D3142; }
 
 /* used header design in melaniemueller.design
 * Style for 
