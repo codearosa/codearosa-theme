@@ -3,6 +3,10 @@
 
    @extend %container;
    
+   h2 {
+      @extend %h3;
+   }
+
    #wrapper-footer {
       @extend %px-4;
       

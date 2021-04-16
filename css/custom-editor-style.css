@@ -26,7 +26,7 @@
 .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
 .edit-post-visual-editor .h2,
 .edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -87,7 +87,7 @@
 .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
   font-size: 3rem; }
 
-.editor-styles-wrapper .h3,
+.mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -2761,7 +2761,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -2780,7 +2780,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -16661,7 +16661,7 @@ input.wp-block-search__input {
 .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
 .edit-post-visual-editor .h2,
 .edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -16722,7 +16722,7 @@ input.wp-block-search__input {
 .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
   font-size: 3rem; }
 
-.editor-styles-wrapper .h3,
+.mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -19390,7 +19390,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -19409,7 +19409,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -19783,7 +19783,7 @@ body {
 .mmu-wordcloud-2 a,
 .wp-block-tag-cloud a,
 .tagcloud a {
-  font-size: small !important;
+  font-size: x-small !important;
   padding: 0em 1em;
   margin: 0.3em 0.5em; }
 
@@ -33175,7 +33175,7 @@ readers do not read off random characters that represent icons */
 .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
 .edit-post-visual-editor .h2,
 .edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -33236,7 +33236,7 @@ readers do not read off random characters that represent icons */
 .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
   font-size: 3rem; }
 
-.editor-styles-wrapper .h3,
+.mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -35904,7 +35904,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -35923,7 +35923,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -49782,7 +49782,7 @@ input.wp-block-search__input {
 .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
 .edit-post-visual-editor .h2,
 .edit-post-visual-editor h2,
-.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+.edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -49843,7 +49843,7 @@ input.wp-block-search__input {
 .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2 {
   font-size: 3rem; }
 
-.editor-styles-wrapper .h3,
+.mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
 .editor-styles-wrapper h3,
 .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
 .editor-writing-flow .h3,
@@ -52511,7 +52511,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -52530,7 +52530,7 @@ fieldset:disabled .tagcloud a,
   .editor-writing-flow h2.block-editor-block-list__block, .editor-writing-flow .block-editor-block-list__block.h2,
   .edit-post-visual-editor .h2,
   .edit-post-visual-editor h2,
-  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .editor-styles-wrapper .h3,
+  .edit-post-visual-editor h2.block-editor-block-list__block, .edit-post-visual-editor .block-editor-block-list__block.h2, .mmu-footer-main-3 h2, .mmu-footer-main-3 .h2, .editor-styles-wrapper .h3,
   .editor-styles-wrapper h3,
   .editor-styles-wrapper h3.block-editor-block-list__block, .editor-styles-wrapper .block-editor-block-list__block.h3,
   .editor-writing-flow .h3,
@@ -52899,7 +52899,7 @@ body {
 .mmu-wordcloud-2 a,
 .wp-block-tag-cloud a,
 .tagcloud a {
-  font-size: small !important;
+  font-size: x-small !important;
   padding: 0em 1em;
   margin: 0.3em 0.5em; }
 
