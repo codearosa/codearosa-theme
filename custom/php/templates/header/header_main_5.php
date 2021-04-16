@@ -10,7 +10,7 @@
  */
 
 ?>
-<header id="masthead" class="site-header sticky-top header_main_5">
+<header id="masthead" class="site-header sticky-top header_main_5 mmu-header-main-5">
 		<div class="container-fluid mx-auto m-0 p-0"><?php dynamic_sidebar( 'topbar' ); ?></div>
 
 
