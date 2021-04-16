@@ -8,7 +8,7 @@
  */
 
 ?>
-<header id="masthead" class="site-header sticky-top">
+<header id="masthead" class="site-header sticky-top mmu-header-main-4">
 		<div class="container-fluid mx-auto m-0 p-0"><?php dynamic_sidebar( 'topbar' ); ?></div>
 
 			<nav class="navbar navbar-expand-xxl" role="navigation">
