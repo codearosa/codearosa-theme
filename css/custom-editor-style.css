@@ -16404,7 +16404,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
 
 
 .has-primary-background-color {
-  background-color: #C8689A; }
+  background-color: #d46332; }
 
 
 .has-secondary-background-color {
@@ -16441,7 +16441,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .mmu-header-main-1 #masthead {
     background-color: #FBFBFD; }
   .mmu-header-main-1 #masthead a {
-    color: #C8689A !important; }
+    color: #d46332 !important; }
   .mmu-header-main-1 .collapsing {
     display: none; }
   .mmu-header-main-1 .collapse.show {
@@ -16498,7 +16498,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .mmu-header-main-2 button.navbar-toggler {
     z-index: 1070; }
   .mmu-header-main-2 a.nav-link {
-    color: #C8689A !important;
+    color: #d46332 !important;
     text-transform: uppercase; }
 
 .mmu-header-main-3 {
@@ -16530,7 +16530,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .mmu-header-main-3 button.navbar-toggler {
     z-index: 1070; }
   .mmu-header-main-3 a.nav-link {
-    color: #C8689A !important;
+    color: #d46332 !important;
     text-transform: uppercase; }
 
 /* used header design in melaniemueller.design
@@ -16660,11 +16660,11 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
             font-size: 2em !important; } }
         .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
-          color: #C8689A;
+          color: #d46332;
           -webkit-transition: color 0.8s ease-in;
           transition: color 0.8s ease-in; }
         .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:active {
-          color: #C8689A; }
+          color: #d46332; }
 
 .mmu-header-main-4 .navbar {
   background-image: none; }
@@ -16693,7 +16693,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
       width: 100%;
       height: 0.1875em;
       border-radius: 0.5rem;
-      background-color: #C8689A;
+      background-color: #d46332;
       margin-top: 10%; }
     .mmu-header-main-5 .navbar-toggler:focus {
       outline: none; }
@@ -49898,7 +49898,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
 
 
 .has-primary-background-color {
-  background-color: #C8689A; }
+  background-color: #d46332; }
 
 
 .has-secondary-background-color {
@@ -49935,7 +49935,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .mmu-header-main-1 #masthead {
     background-color: #FBFBFD; }
   .mmu-header-main-1 #masthead a {
-    color: #C8689A !important; }
+    color: #d46332 !important; }
   .mmu-header-main-1 .collapsing {
     display: none; }
   .mmu-header-main-1 .collapse.show {
@@ -49992,7 +49992,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .mmu-header-main-2 button.navbar-toggler {
     z-index: 1070; }
   .mmu-header-main-2 a.nav-link {
-    color: #C8689A !important;
+    color: #d46332 !important;
     text-transform: uppercase; }
 
 .mmu-header-main-3 {
@@ -50024,7 +50024,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
   .mmu-header-main-3 button.navbar-toggler {
     z-index: 1070; }
   .mmu-header-main-3 a.nav-link {
-    color: #C8689A !important;
+    color: #d46332 !important;
     text-transform: uppercase; }
 
 /* used header design in melaniemueller.design
@@ -50154,11 +50154,11 @@ input.wp-block-search__input, input:not(.components-text-control__input),
           .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a {
             font-size: 2em !important; } }
         .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:hover {
-          color: #C8689A;
+          color: #d46332;
           -webkit-transition: color 0.8s ease-in;
           transition: color 0.8s ease-in; }
         .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container ul li a:active {
-          color: #C8689A; }
+          color: #d46332; }
 
 .mmu-header-main-4 .navbar {
   background-image: none; }
@@ -50187,7 +50187,7 @@ input.wp-block-search__input, input:not(.components-text-control__input),
       width: 100%;
       height: 0.1875em;
       border-radius: 0.5rem;
-      background-color: #C8689A;
+      background-color: #d46332;
       margin-top: 10%; }
     .mmu-header-main-5 .navbar-toggler:focus {
       outline: none; }
