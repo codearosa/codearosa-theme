@@ -17,7 +17,7 @@
 
 			<nav class="navbar navbar-expand-md" role="navigation">
 
-						<div class="mmu-scrollcheck animate__fadeIn"><?php get_template_part( 'custom/php/templates/brand/logo/brand_and_logo_main_1' ); ?></div>
+						<div class="mmu-scrollcheck animate__fadeIn"><?php get_template_part( 'custom/php/templates/brand/logo/brand_and_logo_main_3' ); ?></div>
 
 						<?php get_template_part( 'custom/php/templates/toggler/toggler_main_1' ); ?>
 						
