@@ -20803,8 +20803,8 @@ input.wp-block-search__input, input:not(.components-text-control__input),
       left: 0;
       padding-top: 3em;
       background-color: #FBFBFD;
-      -webkit-transition: top 0.8s ease-in-out;
-      transition: top 0.8s ease-in-out;
+      -webkit-transition: top calc(0.8s + 0.5s) ease-in-out;
+      transition: top calc(0.8s + 0.5s) ease-in-out;
       opacity: 0; }
       .mmu-header-main-5 .navbar-collapse .menu-hauptmenu-container {
         height: 100%; }
@@ -20816,8 +20816,8 @@ input.wp-block-search__input, input:not(.components-text-control__input),
       all: unset; }
     .mmu-header-main-5 .navbar-collapse.show {
       background-color: #FBFBFD;
-      -webkit-transition: top 0.8s ease-in-out;
-      transition: top 0.8s ease-in-out;
+      -webkit-transition: top calc(0.8s + 0.5s) ease-in-out;
+      transition: top calc(0.8s + 0.5s) ease-in-out;
       opacity: 1; } }
 
 .addrightsidebar #right-sidebar {
