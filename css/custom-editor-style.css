@@ -1834,7 +1834,7 @@ fieldset:disabled .tagcloud a,
 .tagcloud fieldset:disabled a {
   pointer-events: none; }
 
-.wp-block-search__button, #nf-field-4,
+.comment-respond #submit, .wp-block-search__button, #nf-field-4,
 #nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
 .is-style-fill .has-primary-background-color {
   color: #FBFBFD;
@@ -1842,32 +1842,33 @@ fieldset:disabled .tagcloud a,
   border-color: #C8689A;
   -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .wp-block-search__button:hover, #nf-field-4:hover,
+  .comment-respond #submit:hover, .wp-block-search__button:hover, #nf-field-4:hover,
   #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:hover,
   .is-style-fill .has-primary-background-color:hover {
     color: #FBFBFD;
     background-color: #be4c87;
     border-color: #b94481; }
-  .wp-block-search__button:focus, #nf-field-4:focus,
+  .comment-respond #submit:focus, .wp-block-search__button:focus, #nf-field-4:focus,
   #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:focus,
-  .is-style-fill .has-primary-background-color:focus, .focus.wp-block-search__button, .focus#nf-field-4,
+  .is-style-fill .has-primary-background-color:focus, .comment-respond .focus#submit, .focus.wp-block-search__button, .focus#nf-field-4,
   .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input), .is-style-fill .focus.rich-text.wp-block-button__link.has-primary-background-color,
   .is-style-fill .focus.has-primary-background-color {
     -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5);
             box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5); }
-  .disabled.wp-block-search__button, .disabled#nf-field-4,
+  .comment-respond .disabled#submit, .disabled.wp-block-search__button, .disabled#nf-field-4,
   .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .is-style-fill .disabled.rich-text.wp-block-button__link.has-primary-background-color,
-  .is-style-fill .disabled.has-primary-background-color, .wp-block-search__button:disabled, #nf-field-4:disabled,
+  .is-style-fill .disabled.has-primary-background-color, .comment-respond #submit:disabled, .wp-block-search__button:disabled, #nf-field-4:disabled,
   #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:disabled,
   .is-style-fill .has-primary-background-color:disabled {
     color: #FBFBFD;
     background-color: #C8689A;
     border-color: #C8689A; }
-  .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
+  .comment-respond #submit:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
   #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input),
-  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .comment-respond #submit:not(:disabled):not(.disabled).active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
   #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active,
+  .comment-respond .show > .dropdown-toggle#submit,
   .show > .dropdown-toggle.wp-block-search__button,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
@@ -1876,11 +1877,12 @@ fieldset:disabled .tagcloud a,
     color: #FBFBFD;
     background-color: #b94481;
     border-color: #b0407a; }
-    .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
+    .comment-respond #submit:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
     #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input),
-    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .comment-respond #submit:not(:disabled):not(.disabled).active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
     #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active:focus,
+    .comment-respond .show > .dropdown-toggle#submit:focus,
     .show > .dropdown-toggle.wp-block-search__button:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
@@ -2702,7 +2704,7 @@ fieldset:disabled .tagcloud a,
 .addrightsidebar #right-sidebar, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
-
+.comment-respond .form-check,
 .btn.secondary-neumorph {
   padding-top: 1rem !important; }
 
@@ -16237,7 +16239,23 @@ textarea.form-control-lg {
   transition: 1s transform ease-in;
   transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
-input.wp-block-search__input, input:not(.components-text-control__input),
+.comment-respond .form-control, .comment-respond .wpcf7 input[type=text], .wpcf7 .comment-respond input[type=text],
+.comment-respond .wpcf7 input[type=search], .wpcf7 .comment-respond input[type=search],
+.comment-respond .wpcf7 input[type=url], .wpcf7 .comment-respond input[type=url],
+.comment-respond .wpcf7 input[type=tel], .wpcf7 .comment-respond input[type=tel],
+.comment-respond .wpcf7 input[type=number], .wpcf7 .comment-respond input[type=number],
+.comment-respond .wpcf7 input[type=range], .wpcf7 .comment-respond input[type=range],
+.comment-respond .wpcf7 input[type=date], .wpcf7 .comment-respond input[type=date],
+.comment-respond .wpcf7 input[type=month], .wpcf7 .comment-respond input[type=month],
+.comment-respond .wpcf7 input[type=week], .wpcf7 .comment-respond input[type=week],
+.comment-respond .wpcf7 input[type=time], .wpcf7 .comment-respond input[type=time],
+.comment-respond .wpcf7 input[type=datetime], .wpcf7 .comment-respond input[type=datetime],
+.comment-respond .wpcf7 input[type=datetime-local], .wpcf7 .comment-respond input[type=datetime-local],
+.comment-respond .wpcf7 input[type=color], .wpcf7 .comment-respond input[type=color],
+.comment-respond .wpcf7 input[type=email], .wpcf7 .comment-respond input[type=email],
+.comment-respond .wpcf7 input[type=file], .wpcf7 .comment-respond input[type=file], .comment-respond .wpcf7 input[type=submit], .wpcf7 .comment-respond input[type=submit],
+.comment-respond .wpcf7 select, .wpcf7 .comment-respond select,
+.comment-respond .wpcf7 textarea, .wpcf7 .comment-respond textarea, .comment-respond .wpcf7 .wpcf7-validation-errors, .wpcf7 .comment-respond .wpcf7-validation-errors, input.wp-block-search__input, input:not(.components-text-control__input):not(.btn-secondary#submit):not(#comment),
 .secondary-neumorph-active {
   border-color: transparent !important;
   background: "secondary" !important;
@@ -18785,7 +18803,7 @@ fieldset:disabled .tagcloud a,
 .tagcloud fieldset:disabled a {
   pointer-events: none; }
 
-.wp-block-search__button, #nf-field-4,
+.comment-respond #submit, .wp-block-search__button, #nf-field-4,
 #nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
 .is-style-fill .has-primary-background-color {
   color: #FBFBFD;
@@ -18793,32 +18811,33 @@ fieldset:disabled .tagcloud a,
   border-color: #C8689A;
   -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .wp-block-search__button:hover, #nf-field-4:hover,
+  .comment-respond #submit:hover, .wp-block-search__button:hover, #nf-field-4:hover,
   #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:hover,
   .is-style-fill .has-primary-background-color:hover {
     color: #FBFBFD;
     background-color: #be4c87;
     border-color: #b94481; }
-  .wp-block-search__button:focus, #nf-field-4:focus,
+  .comment-respond #submit:focus, .wp-block-search__button:focus, #nf-field-4:focus,
   #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:focus,
-  .is-style-fill .has-primary-background-color:focus, .focus.wp-block-search__button, .focus#nf-field-4,
+  .is-style-fill .has-primary-background-color:focus, .comment-respond .focus#submit, .focus.wp-block-search__button, .focus#nf-field-4,
   .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input), .is-style-fill .focus.rich-text.wp-block-button__link.has-primary-background-color,
   .is-style-fill .focus.has-primary-background-color {
     -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5);
             box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5); }
-  .disabled.wp-block-search__button, .disabled#nf-field-4,
+  .comment-respond .disabled#submit, .disabled.wp-block-search__button, .disabled#nf-field-4,
   .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .is-style-fill .disabled.rich-text.wp-block-button__link.has-primary-background-color,
-  .is-style-fill .disabled.has-primary-background-color, .wp-block-search__button:disabled, #nf-field-4:disabled,
+  .is-style-fill .disabled.has-primary-background-color, .comment-respond #submit:disabled, .wp-block-search__button:disabled, #nf-field-4:disabled,
   #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:disabled,
   .is-style-fill .has-primary-background-color:disabled {
     color: #FBFBFD;
     background-color: #C8689A;
     border-color: #C8689A; }
-  .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
+  .comment-respond #submit:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
   #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input),
-  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .comment-respond #submit:not(:disabled):not(.disabled).active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
   #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active,
+  .comment-respond .show > .dropdown-toggle#submit,
   .show > .dropdown-toggle.wp-block-search__button,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
@@ -18827,11 +18846,12 @@ fieldset:disabled .tagcloud a,
     color: #FBFBFD;
     background-color: #b94481;
     border-color: #b0407a; }
-    .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
+    .comment-respond #submit:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
     #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input),
-    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .comment-respond #submit:not(:disabled):not(.disabled).active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
     #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active:focus,
+    .comment-respond .show > .dropdown-toggle#submit:focus,
     .show > .dropdown-toggle.wp-block-search__button:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
@@ -19647,7 +19667,7 @@ fieldset:disabled .tagcloud a,
 .addrightsidebar #right-sidebar, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
-
+.comment-respond .form-check,
 .btn.secondary-neumorph {
   padding-top: 1rem !important; }
 
@@ -35378,7 +35398,7 @@ fieldset:disabled .tagcloud a,
 .tagcloud fieldset:disabled a {
   pointer-events: none; }
 
-.wp-block-search__button, #nf-field-4,
+.comment-respond #submit, .wp-block-search__button, #nf-field-4,
 #nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
 .is-style-fill .has-primary-background-color {
   color: #FBFBFD;
@@ -35386,32 +35406,33 @@ fieldset:disabled .tagcloud a,
   border-color: #C8689A;
   -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .wp-block-search__button:hover, #nf-field-4:hover,
+  .comment-respond #submit:hover, .wp-block-search__button:hover, #nf-field-4:hover,
   #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:hover,
   .is-style-fill .has-primary-background-color:hover {
     color: #FBFBFD;
     background-color: #be4c87;
     border-color: #b94481; }
-  .wp-block-search__button:focus, #nf-field-4:focus,
+  .comment-respond #submit:focus, .wp-block-search__button:focus, #nf-field-4:focus,
   #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:focus,
-  .is-style-fill .has-primary-background-color:focus, .focus.wp-block-search__button, .focus#nf-field-4,
+  .is-style-fill .has-primary-background-color:focus, .comment-respond .focus#submit, .focus.wp-block-search__button, .focus#nf-field-4,
   .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input), .is-style-fill .focus.rich-text.wp-block-button__link.has-primary-background-color,
   .is-style-fill .focus.has-primary-background-color {
     -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5);
             box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5); }
-  .disabled.wp-block-search__button, .disabled#nf-field-4,
+  .comment-respond .disabled#submit, .disabled.wp-block-search__button, .disabled#nf-field-4,
   .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .is-style-fill .disabled.rich-text.wp-block-button__link.has-primary-background-color,
-  .is-style-fill .disabled.has-primary-background-color, .wp-block-search__button:disabled, #nf-field-4:disabled,
+  .is-style-fill .disabled.has-primary-background-color, .comment-respond #submit:disabled, .wp-block-search__button:disabled, #nf-field-4:disabled,
   #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:disabled,
   .is-style-fill .has-primary-background-color:disabled {
     color: #FBFBFD;
     background-color: #C8689A;
     border-color: #C8689A; }
-  .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
+  .comment-respond #submit:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
   #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input),
-  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .comment-respond #submit:not(:disabled):not(.disabled).active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
   #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active,
+  .comment-respond .show > .dropdown-toggle#submit,
   .show > .dropdown-toggle.wp-block-search__button,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
@@ -35420,11 +35441,12 @@ fieldset:disabled .tagcloud a,
     color: #FBFBFD;
     background-color: #b94481;
     border-color: #b0407a; }
-    .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
+    .comment-respond #submit:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
     #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input),
-    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .comment-respond #submit:not(:disabled):not(.disabled).active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
     #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active:focus,
+    .comment-respond .show > .dropdown-toggle#submit:focus,
     .show > .dropdown-toggle.wp-block-search__button:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
@@ -36240,7 +36262,7 @@ fieldset:disabled .tagcloud a,
 .addrightsidebar #right-sidebar, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
-
+.comment-respond .form-check,
 .btn.secondary-neumorph {
   padding-top: 1rem !important; }
 
@@ -49753,7 +49775,23 @@ textarea.form-control-lg {
   transition: 1s transform ease-in;
   transition: 1s transform ease-in, 1s -webkit-transform ease-in; }
 
-input.wp-block-search__input, input:not(.components-text-control__input),
+.comment-respond .form-control, .comment-respond .wpcf7 input[type=text], .wpcf7 .comment-respond input[type=text],
+.comment-respond .wpcf7 input[type=search], .wpcf7 .comment-respond input[type=search],
+.comment-respond .wpcf7 input[type=url], .wpcf7 .comment-respond input[type=url],
+.comment-respond .wpcf7 input[type=tel], .wpcf7 .comment-respond input[type=tel],
+.comment-respond .wpcf7 input[type=number], .wpcf7 .comment-respond input[type=number],
+.comment-respond .wpcf7 input[type=range], .wpcf7 .comment-respond input[type=range],
+.comment-respond .wpcf7 input[type=date], .wpcf7 .comment-respond input[type=date],
+.comment-respond .wpcf7 input[type=month], .wpcf7 .comment-respond input[type=month],
+.comment-respond .wpcf7 input[type=week], .wpcf7 .comment-respond input[type=week],
+.comment-respond .wpcf7 input[type=time], .wpcf7 .comment-respond input[type=time],
+.comment-respond .wpcf7 input[type=datetime], .wpcf7 .comment-respond input[type=datetime],
+.comment-respond .wpcf7 input[type=datetime-local], .wpcf7 .comment-respond input[type=datetime-local],
+.comment-respond .wpcf7 input[type=color], .wpcf7 .comment-respond input[type=color],
+.comment-respond .wpcf7 input[type=email], .wpcf7 .comment-respond input[type=email],
+.comment-respond .wpcf7 input[type=file], .wpcf7 .comment-respond input[type=file], .comment-respond .wpcf7 input[type=submit], .wpcf7 .comment-respond input[type=submit],
+.comment-respond .wpcf7 select, .wpcf7 .comment-respond select,
+.comment-respond .wpcf7 textarea, .wpcf7 .comment-respond textarea, .comment-respond .wpcf7 .wpcf7-validation-errors, .wpcf7 .comment-respond .wpcf7-validation-errors, input.wp-block-search__input, input:not(.components-text-control__input):not(.btn-secondary#submit):not(#comment),
 .secondary-neumorph-active {
   border-color: transparent !important;
   background: "secondary" !important;
@@ -52301,7 +52339,7 @@ fieldset:disabled .tagcloud a,
 .tagcloud fieldset:disabled a {
   pointer-events: none; }
 
-.wp-block-search__button, #nf-field-4,
+.comment-respond #submit, .wp-block-search__button, #nf-field-4,
 #nf-field-25, input[type=button]:not(.components-text-control__input):not(.browser input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
 .is-style-fill .has-primary-background-color {
   color: #FBFBFD;
@@ -52309,32 +52347,33 @@ fieldset:disabled .tagcloud a,
   border-color: #C8689A;
   -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
-  .wp-block-search__button:hover, #nf-field-4:hover,
+  .comment-respond #submit:hover, .wp-block-search__button:hover, #nf-field-4:hover,
   #nf-field-25:hover, input:hover[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:hover,
   .is-style-fill .has-primary-background-color:hover {
     color: #FBFBFD;
     background-color: #be4c87;
     border-color: #b94481; }
-  .wp-block-search__button:focus, #nf-field-4:focus,
+  .comment-respond #submit:focus, .wp-block-search__button:focus, #nf-field-4:focus,
   #nf-field-25:focus, input:focus[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:focus,
-  .is-style-fill .has-primary-background-color:focus, .focus.wp-block-search__button, .focus#nf-field-4,
+  .is-style-fill .has-primary-background-color:focus, .comment-respond .focus#submit, .focus.wp-block-search__button, .focus#nf-field-4,
   .focus#nf-field-25, input.focus[type=button]:not(.components-text-control__input), .is-style-fill .focus.rich-text.wp-block-button__link.has-primary-background-color,
   .is-style-fill .focus.has-primary-background-color {
     -webkit-box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5);
             box-shadow: inset 0 1px 0 rgba(251, 251, 253, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(200, 104, 154, 0.5); }
-  .disabled.wp-block-search__button, .disabled#nf-field-4,
+  .comment-respond .disabled#submit, .disabled.wp-block-search__button, .disabled#nf-field-4,
   .disabled#nf-field-25, input.disabled[type=button]:not(.components-text-control__input), .is-style-fill .disabled.rich-text.wp-block-button__link.has-primary-background-color,
-  .is-style-fill .disabled.has-primary-background-color, .wp-block-search__button:disabled, #nf-field-4:disabled,
+  .is-style-fill .disabled.has-primary-background-color, .comment-respond #submit:disabled, .wp-block-search__button:disabled, #nf-field-4:disabled,
   #nf-field-25:disabled, input:disabled[type=button]:not(.components-text-control__input), .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color:disabled,
   .is-style-fill .has-primary-background-color:disabled {
     color: #FBFBFD;
     background-color: #C8689A;
     border-color: #C8689A; }
-  .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
+  .comment-respond #submit:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled):active, #nf-field-4:not(:disabled):not(.disabled):active,
   #nf-field-25:not(:disabled):not(.disabled):active, input:not(:disabled):not(.disabled):active[type=button]:not(.components-text-control__input),
-  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
+  .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active, .comment-respond #submit:not(:disabled):not(.disabled).active, .wp-block-search__button:not(:disabled):not(.disabled).active, #nf-field-4:not(:disabled):not(.disabled).active,
   #nf-field-25:not(:disabled):not(.disabled).active, input:not(:disabled):not(.disabled).active[type=button]:not(.components-text-control__input),
   .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active,
+  .comment-respond .show > .dropdown-toggle#submit,
   .show > .dropdown-toggle.wp-block-search__button,
   .show > .dropdown-toggle#nf-field-4,
   .show > .dropdown-toggle#nf-field-25,
@@ -52343,11 +52382,12 @@ fieldset:disabled .tagcloud a,
     color: #FBFBFD;
     background-color: #b94481;
     border-color: #b0407a; }
-    .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
+    .comment-respond #submit:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled):active:focus, #nf-field-4:not(:disabled):not(.disabled):active:focus,
     #nf-field-25:not(:disabled):not(.disabled):active:focus, input:not(:disabled):not(.disabled):active:focus[type=button]:not(.components-text-control__input),
-    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
+    .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled):active:focus, .comment-respond #submit:not(:disabled):not(.disabled).active:focus, .wp-block-search__button:not(:disabled):not(.disabled).active:focus, #nf-field-4:not(:disabled):not(.disabled).active:focus,
     #nf-field-25:not(:disabled):not(.disabled).active:focus, input:not(:disabled):not(.disabled).active:focus[type=button]:not(.components-text-control__input),
     .is-style-fill .has-primary-background-color:not(:disabled):not(.disabled).active:focus,
+    .comment-respond .show > .dropdown-toggle#submit:focus,
     .show > .dropdown-toggle.wp-block-search__button:focus,
     .show > .dropdown-toggle#nf-field-4:focus,
     .show > .dropdown-toggle#nf-field-25:focus,
@@ -53163,7 +53203,7 @@ fieldset:disabled .tagcloud a,
 .addrightsidebar #right-sidebar, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
-
+.comment-respond .form-check,
 .btn.secondary-neumorph {
   padding-top: 1rem !important; }
 
