@@ -2659,7 +2659,7 @@ fieldset:disabled .tagcloud a,
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
   margin: 0.5rem !important; }
 
-.neumorph-portfolio-card {
+.neumorph-portfolio-card, .card {
   margin: 1rem !important; }
 
 .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
@@ -2688,12 +2688,16 @@ fieldset:disabled .tagcloud a,
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-top: 1.5rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-bottom: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse img {
@@ -2711,17 +2715,21 @@ fieldset:disabled .tagcloud a,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
-.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card {
+.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
 .comment-respond .form-check,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-top: 1rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-bottom: 1rem !important; }
 
 
@@ -2732,7 +2740,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-right: 1.5rem !important; }
 
 
@@ -2743,7 +2753,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-left: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
@@ -16236,21 +16248,30 @@ textarea.form-control-lg {
 .addrightsidebar #right-sidebar, .home .card.post, .neumorph-portfolio-card,
 .secondary-neumorph,
 .mmu-archive-2 .mmu-archive-wrapper .post .card,
+.card,
+.neumorph-portfolio-card,
 .secondary-neumorph:visited,
 .mmu-archive-2 .mmu-archive-wrapper .post .card:visited,
+.card:visited,
+.neumorph-portfolio-card:visited,
 .secondary-neumorph:focus,
-.mmu-archive-2 .mmu-archive-wrapper .post .card:focus {
+.mmu-archive-2 .mmu-archive-wrapper .post .card:focus,
+.card:focus,
+.neumorph-portfolio-card:focus {
   border-color: transparent;
   outline: 0 none;
   background: "secondary" !important;
   -webkit-box-shadow: 5px 5px 12px #d9d9ec, -5px -5px 12px white !important;
           box-shadow: 5px 5px 12px #d9d9ec, -5px -5px 12px white !important; }
 
-.secondary-neumorph:hover:not(.btn), .mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(.btn),
+.secondary-neumorph:hover:not(.btn), .mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(.btn), .card:hover:not(.btn), .neumorph-portfolio-card:hover:not(.btn),
 .secondary-neumorph:hover:not(.wp-block-cover),
 .mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(.wp-block-cover),
+.card:hover:not(.wp-block-cover),
+.neumorph-portfolio-card:hover:not(.wp-block-cover),
 .secondary-neumorph:hover:not(#wp-submit),
-.mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(#wp-submit) {
+.card:hover:not(#wp-submit),
+.neumorph-portfolio-card:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important;
   -webkit-transition: 1s -webkit-transform ease-in;
@@ -19657,7 +19678,7 @@ fieldset:disabled .tagcloud a,
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
   margin: 0.5rem !important; }
 
-.neumorph-portfolio-card {
+.neumorph-portfolio-card, .card {
   margin: 1rem !important; }
 
 .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
@@ -19686,12 +19707,16 @@ fieldset:disabled .tagcloud a,
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-top: 1.5rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-bottom: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse img {
@@ -19709,17 +19734,21 @@ fieldset:disabled .tagcloud a,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
-.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card {
+.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
 .comment-respond .form-check,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-top: 1rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-bottom: 1rem !important; }
 
 
@@ -19730,7 +19759,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-right: 1.5rem !important; }
 
 
@@ -19741,7 +19772,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-left: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
@@ -19938,7 +19971,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-size: smaller; }
 
-.btn.secondary-neumorph, .mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.btn.secondary-neumorph, .mmu-archive-2 .mmu-archive-wrapper .post .btn.card, .btn.card, .btn.neumorph-portfolio-card {
   font-weight: 700;
   font-size: larger; }
 
@@ -36276,7 +36309,7 @@ fieldset:disabled .tagcloud a,
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
   margin: 0.5rem !important; }
 
-.neumorph-portfolio-card {
+.neumorph-portfolio-card, .card {
   margin: 1rem !important; }
 
 .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
@@ -36305,12 +36338,16 @@ fieldset:disabled .tagcloud a,
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-top: 1.5rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-bottom: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse img {
@@ -36328,17 +36365,21 @@ fieldset:disabled .tagcloud a,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
-.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card {
+.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
 .comment-respond .form-check,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-top: 1rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-bottom: 1rem !important; }
 
 
@@ -36349,7 +36390,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-right: 1.5rem !important; }
 
 
@@ -36360,7 +36403,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-left: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
@@ -49831,21 +49876,30 @@ textarea.form-control-lg {
 .addrightsidebar #right-sidebar, .home .card.post, .neumorph-portfolio-card,
 .secondary-neumorph,
 .mmu-archive-2 .mmu-archive-wrapper .post .card,
+.card,
+.neumorph-portfolio-card,
 .secondary-neumorph:visited,
 .mmu-archive-2 .mmu-archive-wrapper .post .card:visited,
+.card:visited,
+.neumorph-portfolio-card:visited,
 .secondary-neumorph:focus,
-.mmu-archive-2 .mmu-archive-wrapper .post .card:focus {
+.mmu-archive-2 .mmu-archive-wrapper .post .card:focus,
+.card:focus,
+.neumorph-portfolio-card:focus {
   border-color: transparent;
   outline: 0 none;
   background: "secondary" !important;
   -webkit-box-shadow: 5px 5px 12px #d9d9ec, -5px -5px 12px white !important;
           box-shadow: 5px 5px 12px #d9d9ec, -5px -5px 12px white !important; }
 
-.secondary-neumorph:hover:not(.btn), .mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(.btn),
+.secondary-neumorph:hover:not(.btn), .mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(.btn), .card:hover:not(.btn), .neumorph-portfolio-card:hover:not(.btn),
 .secondary-neumorph:hover:not(.wp-block-cover),
 .mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(.wp-block-cover),
+.card:hover:not(.wp-block-cover),
+.neumorph-portfolio-card:hover:not(.wp-block-cover),
 .secondary-neumorph:hover:not(#wp-submit),
-.mmu-archive-2 .mmu-archive-wrapper .post .card:hover:not(#wp-submit) {
+.card:hover:not(#wp-submit),
+.neumorph-portfolio-card:hover:not(#wp-submit) {
   -webkit-transform: translateX(0px) translateY(-20px) !important;
           transform: translateX(0px) translateY(-20px) !important;
   -webkit-transition: 1s -webkit-transform ease-in;
@@ -53252,7 +53306,7 @@ fieldset:disabled .tagcloud a,
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
   margin: 0.5rem !important; }
 
-.neumorph-portfolio-card {
+.neumorph-portfolio-card, .card {
   margin: 1rem !important; }
 
 .is-style-fill .rich-text.wp-block-button__link.has-primary-background-color,
@@ -53281,12 +53335,16 @@ fieldset:disabled .tagcloud a,
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-top: 1.5rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   margin-bottom: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse img {
@@ -53304,17 +53362,21 @@ fieldset:disabled .tagcloud a,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
-.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card {
+.addrightsidebar #right-sidebar, .mmu-archive-2 .mmu-archive-wrapper .post .card, .wp-block-code, .neumorph-portfolio-card, .card {
   padding: 1rem !important; }
 
 .comment-respond .form-check,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-top: 1rem !important; }
 
 
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-bottom: 1rem !important; }
 
 
@@ -53325,7 +53387,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-right: 1.5rem !important; }
 
 
@@ -53336,7 +53400,9 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer,
 .mmu-footer-main-3 #wrapper-footer,
 .btn.secondary-neumorph,
-.mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.mmu-archive-2 .mmu-archive-wrapper .post .btn.card,
+.btn.card,
+.btn.neumorph-portfolio-card {
   padding-left: 1.5rem !important; }
 
 .mmu-header-main-4 .navbar-collapse .row .col-sm-12:not(:nth-child(2)) .cr-contact, .mmu-header-main-4 .navbar-collapse .row .col-sm-12:nth-child(2) .menu-primar-container {
@@ -53533,7 +53599,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-size: smaller; }
 
-.btn.secondary-neumorph, .mmu-archive-2 .mmu-archive-wrapper .post .btn.card {
+.btn.secondary-neumorph, .mmu-archive-2 .mmu-archive-wrapper .post .btn.card, .btn.card, .btn.neumorph-portfolio-card {
   font-weight: 700;
   font-size: larger; }
 
