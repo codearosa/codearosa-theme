@@ -13,9 +13,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper" id="single-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<?php get_template_part( 'custom/php/templates/single/single_2', 'single' ); ?>
 

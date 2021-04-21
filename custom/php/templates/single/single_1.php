@@ -8,6 +8,9 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
+<div class="wrapper mmu-single-1" id="single-wrapper">
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 <div class="row">
 

@@ -9,7 +9,11 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<div class="row single_2">
+<div class="wrapper mmu-single-2" id="single-wrapper">
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+
+<div class="row single_2 mmu-single-2">
 
 	<header class="entry-header mb-3">
 

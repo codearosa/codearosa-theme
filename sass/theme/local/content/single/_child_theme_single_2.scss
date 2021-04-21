@@ -1,37 +1,40 @@
-#single-wrapper {
-    @extend %container;
-    .single_2 {
-        .entry-header {
-            position: relative;
+.mmu-single-2 {
+    
+        @extend %container;
 
-            img {
-                filter: blur(2px) brightness(1.2);
+        .single_2 {
+            .entry-header {
+                position: relative;
+
+                img {
+                    filter: blur(2px) brightness(1.2);
+                }
+
+                .jumbotron-fluid {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
             }
 
-            .jumbotron-fluid {
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-        }
+            .nav-links {
 
-         .nav-links {
+                @extend %py-4;
 
-            @extend %py-4;
-            
-            .nav-previous {
-                @extend %col;
-                @extend %w-50;
-            }
+                .nav-previous {
+                    @extend %col;
+                    @extend %w-50;
+                }
 
-            .nav-next {
-                @extend %col;
-                @extend %w-50;
+                .nav-next {
+                    @extend %col;
+                    @extend %w-50;
 
-                a {
-                    float: right;
+                    a {
+                        float: right;
+                    }
                 }
             }
         }
-    }
+    
 }
