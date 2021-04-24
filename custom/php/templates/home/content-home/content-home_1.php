@@ -15,7 +15,7 @@
 		if ( 'post' === get_post_type() ) :
 			?>
 
-				<div class="card-img-top entry-header"><?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?></div>
+				<div class="card-img-top entry-header"><?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?></div>
 
 				<div class="card-body">
       			<h5 class="card-title entry-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
