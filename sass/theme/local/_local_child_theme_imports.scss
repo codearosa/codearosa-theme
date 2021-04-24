@@ -35,7 +35,7 @@
 
 
 
-@import "content/child_theme_home"; // <--------- add class linkinbio to style this side
+//@import "content/child_theme_home"; // <--------- add class linkinbio to style this side
 
 @import "styles/child_theme_main_images";
 @import "content/child_theme_main_wordpress";
@@ -52,7 +52,10 @@
 @import "styles/cards/card_1";
 
 @import "styles/child_theme_main_animations";
-@import "preloader/childtheme_preloader_1";
+
+//@import "preloader/childtheme_preloader_1";
+@import "preloader/childtheme_preloader_2";
+
 
 //WORDCLOUD
 //@import "styles/wordcloud/child_theme_wordcloud_1";

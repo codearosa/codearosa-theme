@@ -23,7 +23,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php get_template_part( 'custom/php/template-parts/preloader'); ?>
+<?php get_template_part( 'custom/php/templates/preloader/preloader_2'); ?>
 
 <body <?php body_class(); ?>>
 

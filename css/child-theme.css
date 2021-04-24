@@ -2276,7 +2276,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-3 #wrapper-footer .socialmenuclass .fab {
   margin-bottom: 0 !important; }
 
-.home .card.post, .nf_neumorph {
+.nf_neumorph {
   margin: 0.25rem !important; }
 
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
@@ -2334,7 +2334,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer .col-md-4, .mmu-footer-main-3 #wrapper-footer .col-md-4 {
   padding-top: 0.25rem !important; }
 
-.home .card.post, #nf-field-4,
+#nf-field-4,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
@@ -4760,7 +4760,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-3 #wrapper-footer .socialmenuclass .fab {
   margin-bottom: 0 !important; }
 
-.home .card.post, .nf_neumorph {
+.nf_neumorph {
   margin: 0.25rem !important; }
 
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
@@ -4818,7 +4818,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer .col-md-4, .mmu-footer-main-3 #wrapper-footer .col-md-4 {
   padding-top: 0.25rem !important; }
 
-.home .card.post, #nf-field-4,
+#nf-field-4,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
@@ -7378,7 +7378,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-3 #wrapper-footer .socialmenuclass .fab {
   margin-bottom: 0 !important; }
 
-.home .card.post, .nf_neumorph {
+.nf_neumorph {
   margin: 0.25rem !important; }
 
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
@@ -7436,7 +7436,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer .col-md-4, .mmu-footer-main-3 #wrapper-footer .col-md-4 {
   padding-top: 0.25rem !important; }
 
-.home .card.post, #nf-field-4,
+#nf-field-4,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
@@ -20380,7 +20380,7 @@ textarea.form-control-lg {
           box-shadow: inset 5px 5px 12px #b94481, inset -5px -5px 12px #d68db3 !important;
   background: #C8689A; }
 
-.addrightsidebar #right-sidebar, .home .card.post, .neumorph-portfolio-card,
+.addrightsidebar #right-sidebar, .neumorph-portfolio-card,
 .secondary-neumorph,
 .mmu-archive-2 .mmu-archive-wrapper .post .card,
 .card,
@@ -21014,14 +21014,6 @@ textarea.form-control-lg {
       display: none; }
   .mmu-archive-2 .mmu-archive-wrapper .post .card img {
     border-radius: 0.5rem; }
-
-/* Import bootstrap-sass so that we have access to all of its selectors */
-.home .card.post .card-body {
-  padding: 0;
-  margin-top: 1em; }
-
-.home .card img {
-  border-radius: 0.5rem; }
 
 /*images background sizes*/
 .background-image-150px {
@@ -23416,7 +23408,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-3 #wrapper-footer .socialmenuclass .fab {
   margin-bottom: 0 !important; }
 
-.home .card.post, .nf_neumorph {
+.nf_neumorph {
   margin: 0.25rem !important; }
 
 .mmu-archive-2 .mmu-archive-wrapper .post .card {
@@ -23474,7 +23466,7 @@ fieldset:disabled .tagcloud a,
 .mmu-footer-main-2 #wrapper-footer .col-md-4, .mmu-footer-main-3 #wrapper-footer .col-md-4 {
   padding-top: 0.25rem !important; }
 
-.home .card.post, #nf-field-4,
+#nf-field-4,
 #nf-field-25, .nf_neumorph {
   padding: 0.5rem !important; }
 
@@ -23978,16 +23970,29 @@ body {
 a:hover {
   text-decoration: none; }
 
-.preloader {
+.mmu-preloader-2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: #2D3142;
+  background-color: #FBFBFD;
   left: 0;
   z-index: 9999999;
   top: -0;
   -webkit-animation: preloader 3s ease-in-out forwards;
           animation: preloader 3s ease-in-out forwards; }
+  .mmu-preloader-2 .falling-div {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 @-webkit-keyframes preloader {
   to {
