@@ -20950,6 +20950,12 @@ textarea.form-control-lg {
       -webkit-transition: top calc(0.8s + 0.5s) ease-in-out;
       transition: top calc(0.8s + 0.5s) ease-in-out;
       opacity: 1; } }
+  .mmu-header-main-5 .img-fluid {
+    max-width: 100%;
+    height: auto;
+    max-height: 2em;
+    width: auto;
+    padding: 0.3em; }
 
 .addrightsidebar #right-sidebar {
   max-width: 100% !important; }
