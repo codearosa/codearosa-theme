@@ -8,7 +8,7 @@
     left: 0;
     z-index: 9999999;
     top: -0;
-    animation: preloader 3s ease-in-out forwards;
+    
 
     .falling-div {
         width: 100%;
@@ -20,6 +20,10 @@
     }
 }
 
+.preloader.loaded {
+    animation: preloader 3s ease-in-out forwards;
+}
+
 
 
 @keyframes preloader {
@@ -27,4 +31,9 @@
         top: 150vh;
         display: none;
     }
+}
+
+//fallback
+.preloader.no-js {
+    display: none;
 }

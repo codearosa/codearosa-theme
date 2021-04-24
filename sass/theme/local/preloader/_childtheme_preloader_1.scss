@@ -8,14 +8,23 @@
     left: 0;
     z-index: 9999999;
     top: -0;
+}
+
+
+.preloader.loaded {
     animation: preloader 3s ease-in-out forwards;
 }
 
 
 
 @keyframes preloader {
-       to {
+    to {
         top: 150vh;
         display: none;
     }
+}
+
+//fallback
+.preloader.no-js {
+    display: none;
 }
