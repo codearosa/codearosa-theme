@@ -26,13 +26,16 @@
 //@import "content/archive/child_theme_archive_1";
 @import "content/archive/child_theme_archive_2";
 
+@import "content/home/child_theme_home_1";
+@import "content/home/child_theme_home_2";
+
 
 //@import "content/comments/child_theme_comments_1";
 @import "content/comments/child_theme_comments_2";
 
 
 
-@import "content/child_theme_home"; // <--------- add class linkinbio to style this side
+//@import "content/child_theme_home"; // <--------- add class linkinbio to style this side
 
 @import "styles/child_theme_main_images";
 @import "content/child_theme_main_wordpress";
@@ -46,9 +49,13 @@
 @import "styles/child_theme_inputs";
 @import "styles/buttons/child_theme_buttons_2";
 @import "styles/child_theme_main_type";
+@import "styles/cards/card_1";
 
 @import "styles/child_theme_main_animations";
-@import "preloader/childtheme_preloader_1";
+
+//@import "preloader/childtheme_preloader_1";
+@import "preloader/childtheme_preloader_2";
+
 
 //WORDCLOUD
 //@import "styles/wordcloud/child_theme_wordcloud_1";
