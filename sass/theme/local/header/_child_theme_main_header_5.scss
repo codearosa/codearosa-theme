@@ -2,15 +2,18 @@
 * Style for 
 *header_main_4.php
 */
-.mmu-header-main-5 {
 
-    backdrop-filter: blur(3px);
-
-    @import "toggler/child_theme_main_toggler_2";
+@import "toggler/child_theme_main_toggler_2";
     //@import "brand/logo/brand_and_logo_main_1";
     @import "brand/logo/brand_and_logo_main_3";
 
     @import "navbar/navbar_3";
+    
+.mmu-header-main-5 {
+
+    backdrop-filter: blur(3px);
+
+    
 
     .img-fluid {
     max-width: 100%;
@@ -20,5 +23,4 @@
     padding: 0.3em;
 
     }
-
 }
