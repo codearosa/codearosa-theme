@@ -5,7 +5,8 @@ $navbar-transition: top calc(#{$transition-toggler} + 0.5s) ease-in-out;
         float: right;
     }
 
-    .menu-hauptmenu-container {
+    .menu-hauptmenu-container,
+    .menu-hauptmenue-container {
         margin-left: auto;
         padding: 0 1em;
     }

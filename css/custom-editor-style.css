@@ -16803,7 +16803,8 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .navbar-collapse {
     float: right; }
-  .menu-hauptmenu-container {
+  .menu-hauptmenu-container,
+  .menu-hauptmenue-container {
     margin-left: auto;
     padding: 0 1em; } }
 
@@ -50484,7 +50485,8 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .navbar-collapse {
     float: right; }
-  .menu-hauptmenu-container {
+  .menu-hauptmenu-container,
+  .menu-hauptmenue-container {
     margin-left: auto;
     padding: 0 1em; } }
 
