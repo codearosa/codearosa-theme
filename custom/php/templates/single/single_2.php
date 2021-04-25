@@ -21,9 +21,9 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
 
-			<div class="jumbotron-fluid d-flex h-100">
+			<div class="jumbotron-fluid h-100">
 			
-				<div class="container align-self-center">
+				<div class="align-self-center">
 
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 									
