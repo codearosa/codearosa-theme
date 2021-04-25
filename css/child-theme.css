@@ -24001,6 +24001,8 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    .mmu-preloader-2 .falling-div .navbar-brand {
+      max-width: 7em; }
 
 .preloader.loaded {
   -webkit-animation: preloader 3s ease-in-out forwards;
