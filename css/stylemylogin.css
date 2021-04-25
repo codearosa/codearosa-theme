@@ -15892,7 +15892,8 @@ textarea.form-control-lg {
     position: relative; }
     .mmu-single-2 .single_2 .entry-header img {
       -webkit-filter: blur(2px) brightness(1.2) contrast(0.5);
-              filter: blur(2px) brightness(1.2) contrast(0.5); }
+              filter: blur(2px) brightness(1.2) contrast(0.5);
+      max-height: 450px; }
     .mmu-single-2 .single_2 .entry-header .jumbotron-fluid {
       position: absolute;
       display: -webkit-box;
