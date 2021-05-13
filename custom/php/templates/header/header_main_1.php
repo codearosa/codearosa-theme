@@ -8,7 +8,7 @@
  */
 
 ?>
-<header id="masthead" class="site-header">
+<header id="masthead" class="site-header mmu-header-main-1 mmu-header-main-2 mmu-header-main-3">
 		<div class="container-fluid mx-auto m-0 p-0"><?php dynamic_sidebar( 'topbar' ); ?></div>
 		<div id="dropdownsearch" class="collapse container mx-auto m-1 px-5 text-center"><?php get_search_form(); ?></div>
 

@@ -1,4 +1,4 @@
-input:not(.components-text-control__input) {
+input:not(.components-text-control__input, .btn-secondary#submit, #comment) {
     @extend %secondary-neumorph-active;
 }
 

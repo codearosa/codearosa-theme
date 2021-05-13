@@ -23,13 +23,13 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php get_template_part( 'custom/php/template-parts/preloader'); ?>
+<?php get_template_part( 'custom/php/templates/preloader/preloader_2'); ?>
 
 <body <?php body_class(); ?>>
 
 <div id="page" class="site">
 
 
-	<?php get_template_part( 'custom/php/templates/header/header_main_4'); ?>
+	<?php get_template_part( 'custom/php/templates/header/header_main_5'); ?>
 
 	<div id="content" class="site-content">

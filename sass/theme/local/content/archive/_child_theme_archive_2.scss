@@ -1,0 +1,46 @@
+// Give the styles to the archive page
+
+.mmu-archive-2 {
+    @extend %container;
+
+
+    .mmu-archive-wrapper {
+
+        .post {
+
+            .card {
+
+                @extend %p-3;
+                @extend .secondary-neumorph;
+                @extend %m-2;
+
+                border-radius: $border-radius;
+
+                .card-title {
+
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    max-width: 13em;
+
+                }
+
+                ul.post-categories {
+                    list-style: none;
+                    padding-left: 0;
+                    margin-bottom: 0;
+
+                    li:nth-child(2) {
+                        display: none;
+                    }
+                }
+
+
+                img {
+                    @extend %card-img-top;
+                    border-radius: $border-radius;
+                }
+            }
+        }
+    }
+}

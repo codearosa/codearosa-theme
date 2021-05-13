@@ -1,6 +1,6 @@
 // background color swipe in top bottom out
 
-.preloader {
+.mmu-preloader-1 {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -8,14 +8,23 @@
     left: 0;
     z-index: 9999999;
     top: -0;
+}
+
+
+.preloader.loaded {
     animation: preloader 3s ease-in-out forwards;
 }
 
 
 
 @keyframes preloader {
-       to {
+    to {
         top: 150vh;
         display: none;
     }
+}
+
+//fallback
+.preloader.no-js {
+    display: none;
 }

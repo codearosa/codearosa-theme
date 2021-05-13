@@ -8,6 +8,9 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
+<div class="wrapper mmu-single-1" id="single-wrapper">
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 <div class="row">
 
@@ -18,7 +21,7 @@ defined( 'ABSPATH' ) || exit;
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'custom/php/templates/single-content', 'single' ); ?>
+					<?php get_template_part( 'custom/php/templates/single_content/single-content_1', 'single' ); ?>
 
 					<?php understrap_post_nav(); ?>
 

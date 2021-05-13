@@ -1,0 +1,47 @@
+.mmu-single-2 {
+    @extend %container;
+
+    @include media-breakpoint-up(md) {
+        .single_2 {
+            .entry-header {
+                position: relative;
+
+                img {
+                    filter: blur(2px) brightness(1.2) contrast(0.5);
+                    max-height: 450px;
+                }
+
+                .jumbotron-fluid {
+                    position: absolute;
+                    display: flex;
+                    top: 0;
+                    left: 0;
+                    //container
+                    max-width: 100%;
+                    padding-right: var(--bs-gutter-x,15px);
+                    padding-left: var(--bs-gutter-x,15px);
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    .nav-links {
+        @extend %py-4;
+
+        .nav-previous {
+            @extend %col;
+            @extend %w-50;
+        }
+
+        .nav-next {
+            @extend %col;
+            @extend %w-50;
+
+            a {
+                float: right;
+            }
+        }
+    }
+}

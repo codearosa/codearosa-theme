@@ -12,7 +12,7 @@
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<div class="wrapper mmu-footer-main-1" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 

@@ -37,16 +37,7 @@ input.wp-block-search__input {
     @extend %h4;
 }
 
-//Schlagwörter
 
-a.tag-cloud-link {
-    @extend %badge;
-    @extend %badge-primary;
-    @extend %badge-pill;
-    @extend %ml-2;
-    @extend %p-2;
-    text-transform: uppercase;
-}
 
 //custom gutenberg styles
 
