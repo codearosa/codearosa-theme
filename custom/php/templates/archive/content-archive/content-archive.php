@@ -9,8 +9,9 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class('col-sm'); ?> id="post-<?php the_ID(); ?>">
 
+	<div class="card">
 		<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 		<header class="entry-header">
 
@@ -28,18 +29,19 @@ defined( 'ABSPATH' ) || exit;
 		</header><!-- .entry-header -->
 
 
-		<div class="entry-content">
+			<div class="entry-content">
 
-			<?php
-			wp_link_pages(
-				array(
-					'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-					'after'  => '</div>',
-				)
-			);
-			?>
+				<?php
+				wp_link_pages(
+					array(
+						'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
+						'after'  => '</div>',
+					)
+				);
+				?>
 
-		</div><!-- .entry-content -->
+			</div><!-- .entry-content -->
+	</div><!--.card -->
 
 
 </article><!-- #post-## -->

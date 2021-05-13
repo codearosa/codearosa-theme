@@ -1,0 +1,16 @@
+//*neumorph commments style*/
+
+.comment-respond {
+
+    #submit {
+        @extend %btn-primary;
+    }
+
+    .form-check {
+        @extend %pt-3;
+    }
+
+    .form-control {
+        @extend %secondary-neumorph-active;
+    }
+}

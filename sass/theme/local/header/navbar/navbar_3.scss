@@ -1,0 +1,50 @@
+$navbar-transition: top calc(#{$transition-toggler} + 0.5s) ease-in-out;
+
+@include media-breakpoint-up(md) {
+    .navbar-collapse {
+        float: right;
+    }
+
+    .menu-hauptmenu-container,
+    .menu-hauptmenue-container {
+        margin-left: auto;
+        padding: 0 1em;
+    }
+}
+@include media-breakpoint-down(md) { 
+.navbar-collapse {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 3em;
+    background-color: $secondary;
+    transition: $navbar-transition;
+    opacity: 0;
+
+    .menu-hauptmenu-container {
+        height: 100%;
+
+        .navbar-nav {
+            height: 100%;
+            padding: 2em;
+            font-size: larger;
+
+        }
+
+    }
+}
+
+    .navbar-collapse.collapsing {
+        all: unset;
+       
+        
+    }
+
+    .navbar-collapse.show {
+        background-color: $secondary;
+        transition: $navbar-transition;
+        opacity: 1;
+    }
+
+}

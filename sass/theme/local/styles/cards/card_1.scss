@@ -1,0 +1,6 @@
+.card,
+%card {
+    @extend %p-3;
+    @extend .secondary-neumorph;
+    @extend %m-3;
+}

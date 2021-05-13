@@ -16,7 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 
-<div class="wrapper" id="wrapper-footer">
+<div class="wrapper mmu-footer-main-2" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			
 			<div class="col-md-4">
 
-				<?php dynamic_sidebar( 'cr-footer-area' ); ?>	
+				<?php dynamic_sidebar( 'mmu-footer-widget-1' ); ?>	
 
 			</div>
 
