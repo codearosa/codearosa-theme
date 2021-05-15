@@ -6,4 +6,8 @@
     @import "toggler/child_theme_main_toggler_2";
     @import "brand/logo/brand_and_logo_main_1";
     @import "navbar/navbar_1";
+
+    .collapsing {
+        width: 100vw !important;
+    }
 }
