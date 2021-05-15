@@ -20860,6 +20860,9 @@ textarea.form-control-lg {
 .mmu-header-main-4 .logged-in header#masthead {
   padding-top: 1em; }
 
+.mmu-header-main-4 .collapsing {
+  width: 100vw !important; }
+
 /* used header design in melaniemueller.design
 * Style for 
 *header_main_5.php
