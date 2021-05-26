@@ -2,9 +2,8 @@
 @import "local_child_theme_variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
 @import "child_theme_localfont"; // <--------- Localfont
 
-@import "../sass/assets/font-awesome"; // <------- Loads Fontawesome
-@import "../sass/assets/bootstrap5.0.0-beta"; // <------- Loads bootstrap5.0.0-beta
-
+@import "../../../sass/assets/font-awesome.scss"; // <------- Loads Fontawesome
+@import "../../../sass/assets/bootstrap5.0.0-beta.scss"; // <------- Loads bootstrap5.0.0-beta
 
 @import "styles/child_theme_mixins"; // <--------- Add neumorph here
 
