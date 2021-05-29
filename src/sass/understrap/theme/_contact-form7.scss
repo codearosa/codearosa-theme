@@ -42,15 +42,15 @@
 
   // submit button, inherit .btn and .btn-outline-primary classes.
   input[type=submit] {
-    @extend .btn;
-    @extend .btn-outline-primary;
+    @extend %btn;
+    @extend %btn-outline-primary;
   }
 
   .wpcf7-form {
 
     // set paragraphs to behave like divs with class .form-group
     p {
-      @extend .form-group;
+      @extend %form-group;
     }
 
     // let labels be 100%

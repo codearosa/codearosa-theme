@@ -35,26 +35,29 @@ add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
 /*-------INCLUDES Folder Custom-------*/
 $codearosa_custom_functions_includes = array(
   //enqueue and enable Styles and functions
-  '/php/functions/0_enable_and_enqueue/0001_enqueue_bootstrap_slider.php',
+  //'/php/functions/0_enable_and_enqueue/0001_enqueue_bootstrap_slider.php',
   '/php/functions/0_enable_and_enqueue/0002_enable_blogroll.php',
+  '/php/functions/0_enable_and_enqueue/0003_enable_font_preload.php',
+  '/php/functions/0_enable_and_enqueue/0004_enable_preloader.php',
+
+
 
   //Gutenberg Editor
 	'/php/functions/0_gutenberg_editor/0001_enqueue_editor_styles.php',
   '/php/functions/0_gutenberg_editor/0002_enable_and _disable.php',
   '/php/functions/0_gutenberg_editor/0003_custom_font_sizes.php',
-  '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
-  '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
-  '/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
-  '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
   //'/php/functions/0_gutenberg_editor/0004_custom_color-picker.php',
   '/php/functions/0_gutenberg_editor/0005_custom_theme_color.php',
-
+  
   
   //Menus
   '/php/functions/1_menus/0001_social_menu.php',
 
   //WIDGETS
   '/php/functions/2_widgets/0001_topbar_widget_area.php',
+  '/php/functions/2_widgets/0002_contact_widget_area.php',
+  '/php/functions/2_widgets/0003_footer_widget_area.php',
+
 
   //CUSTOM WP Login
   '/php/functions/3_custom_wp_login/0001_custom_wp_login.php',
@@ -70,6 +73,10 @@ $codearosa_custom_functions_includes = array(
 
 // SHORTCODES
   '/php/functions/6_shortcodes/0001_recentpost_shortcode.php',
+  '/php/functions/6_shortcodes/0002_shortcode_primary_menu.php',
+  '/php/functions/6_shortcodes/0003_shortcode_right-sidebar.php',
+  '/php/functions/6_shortcodes/0004_shortcode_contact_widget.php',
+
 );
 
 foreach ( $codearosa_custom_functions_includes as $file ) {

@@ -1,0 +1,35 @@
+.mmu-footer-main-2 {
+  
+      @extend %px-4;
+
+      .container-fluid {
+         padding: 0 !important;
+      }
+
+      .col-md-4 {
+         @extend %pt-1;
+         display: flex;
+         align-content: center;
+         justify-content: center;
+         align-items: center;
+
+         .textwidget p {
+            margin: 0;
+         }
+}
+
+      .socialmenuclass {
+         .fa,
+         .fas,
+         .fab {
+            @extend %my-0;
+            @extend %text-primary;
+         }
+
+         .nav-link {
+            padding: 0 0.5em;
+            line-height: 0;
+         }
+      }
+   
+}

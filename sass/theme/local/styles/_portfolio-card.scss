@@ -8,21 +8,23 @@
 
 //give this class to a wordpress column
 .neumorph-portfolio-card {
-  @extend .card;
-  @extend .secondary-neumorph;
-  @extend .p-3;
-  @extend .p-xl-5;
-  @extend .m-3;
-  @extend .m-xl-5;
+  @extend %card;
+  @extend %secondary-neumorph;
+  @extend %p-3;
+  @extend %p-xl-5;
+  @extend %m-3;
+  @extend %m-xl-5;
   background-color: $secondary !important;
 }
 
+/*
 .card {
-  @extend .secondary-neumorph;
-  @extend .p-3;
-  @extend .p-xl-5;
-  @extend .m-3;
-  @extend .m-xl-5;
+  @extend %secondary-neumorph;
+  @extend %p-3;
+  @extend %p-xl-5;
+  @extend %m-3;
+  @extend %m-xl-5;
   background-color: $secondary !important;
   border-color: transparent !important;
 }
+*/

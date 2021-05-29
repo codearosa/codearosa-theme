@@ -19,22 +19,22 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'Success', 'ea_codearosa_child' ),
 		'slug'  => 'success',
-		'color' => '#2D3142',
+		'color' => '#00000',
 	),
 	array(
 		'name'	=> __( 'Info', 'ea_codearosa_child' ),
 		'slug'	=> 'info',
-		'color'	=> '#B2B4BA',
+		'color'	=> '#00000',
 	),
 	array(
 		'name'	=> __( 'Warning', 'ea_codearosa_child' ),
 		'slug'	=> 'warning',
-		'color'	=> '#2D3142',
+		'color'	=> '#00000',
 	),
 	array(
 		'name'	=> __( 'Danger', 'ea_codearosa_child' ),
 		'slug'	=> 'danger',
-		'color'	=> '#2D3142',
+		'color'	=> '#000000',
 	),
 	array(
 		'name'	=> __( 'Dark', 'ea_codearosa_child' ),
