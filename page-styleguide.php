@@ -32,15 +32,43 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'loop-templates/content', 'page' ); ?>
+					<?php get_template_part( 'custom\php\template-parts\content', 'empty' ); ?>
 
-					<?php locate_template( 'custom/php/templates/header/header_main_1.php', true); ?>
 
-					<?php locate_template( 'custom/php/templates/header/header_main_4.php', true); ?>
+					<h2 class="">Header</h2>
 
-					<?php locate_template( 'custom/php/templates/header/header_main_5.php', true); ?>
+					<div class="border border-primary">
+						<?php locate_template( 'custom/php/templates/header/header_main_1.php', true); ?>
+					</div>
+					
+					<div class="border border-primary">
+						<?php locate_template( 'custom/php/templates/header/header_main_4.php', true); ?>
+					</div>
 
-					<?php locate_template( 'custom/php/templates/header/header_main_1.php', true); ?>
+					
+					<div class="border border-primary">
+						<?php locate_template( 'custom/php/templates/header/header_main_5.php', true); ?>
+					</div>
+
+					
+					<h2 class="template">Footer</h2>
+					<div class="border border-primary">
+						<?php locate_template( 'custom/php/templates/footer/footer_main_1.php', true); ?>
+					</div>
+
+					
+					<div class="border border-primary">
+						<?php locate_template( 'custom/php/templates/footer/footer_main_2.php', true); ?>
+					</div>
+
+					
+					<div class="border border-primary">
+						<?php locate_template( 'custom/php/templates/footer/footer_main_3.php', true); ?>
+					</div>
+
+					
+
+					
 
 					<?php
 					// If comments are open or we have at least one comment, load up the comment template.

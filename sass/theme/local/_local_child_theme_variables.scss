@@ -9,6 +9,13 @@
 
 @import "../../../src/sass/bootstrap-5.0.0-beta1/functions";
 
+/*enable*/
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-shadows: true;
+$enable-responsive-font-sizes: true;
+$enable-negative-margins: true;
+
 //fontawesome
 $fa-font-path:        "../custom/localfont/fontawesome";
 
@@ -51,12 +58,7 @@ $body-color: $dark;
 /*border-style*/
 $border-radius: 0.5rem;
 
-/*enable*/
-$enable-gradients: false;
-$enable-transitions: true;
-$enable-shadows: true;
-$enable-responsive-font-sizes: true;
-$enable-negative-margins: true;
+
 
 
 /*

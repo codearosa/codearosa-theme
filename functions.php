@@ -86,3 +86,4 @@ foreach ( $codearosa_custom_functions_includes as $file ) {
 	}
 	require_once $filepath;
 }
+
