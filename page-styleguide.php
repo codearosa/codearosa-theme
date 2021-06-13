@@ -35,35 +35,46 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<?php get_template_part( 'custom\php\template-parts\content', 'empty' ); ?>
 
 
-					<h2 class="">Header</h2>
+					<h2 class="template my-4 text-center">Header</h2>
 
-					<div class="border border-primary">
+					<div class="border border-primary mb-3">
 						<?php locate_template( 'custom/php/templates/header/header_main_1.php', true); ?>
 					</div>
 					
-					<div class="border border-primary">
+					<div class="border border-primary mb-3">
 						<?php locate_template( 'custom/php/templates/header/header_main_4.php', true); ?>
 					</div>
 
 					
-					<div class="border border-primary">
+					<div class="border border-primary mb-3">
 						<?php locate_template( 'custom/php/templates/header/header_main_5.php', true); ?>
 					</div>
 
 					
-					<h2 class="template">Footer</h2>
-					<div class="border border-primary">
+					<h2 class="template my-4 text-center">Footer</h2>
+
+					<div class="border border-primary mb-3">
 						<?php locate_template( 'custom/php/templates/footer/footer_main_1.php', true); ?>
 					</div>
 
 					
-					<div class="border border-primary">
+					<div class="border border-primary mb-3">
 						<?php locate_template( 'custom/php/templates/footer/footer_main_2.php', true); ?>
 					</div>
 
 					
-					<div class="border border-primary">
+					<div class="border border-primary mb-3">
 						<?php locate_template( 'custom/php/templates/footer/footer_main_3.php', true); ?>
+					</div>
+
+					<h2 class="template my-4 text-center">Searchform</h2>
+					
+					<div class="border border-primary mb-3">
+						<?php locate_template( 'custom/php/templates/searchforms/searchform_main_1.php', true); ?>
+					</div>
+
+					<div class="border border-primary mb-3">
+						<?php locate_template( 'custom/php/templates/searchforms/searchform_main_2.php', true); ?>
 					</div>
 
 					
