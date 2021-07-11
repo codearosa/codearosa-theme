@@ -14,9 +14,12 @@ function add_cr_contact_via_shortcode($atts) {
         <?php dynamic_sidebar( 'cr-contact-area' ); ?>
 
       </div>
-    </div>
+    
       
-<?php endif; ?>
+    <?php endif; ?>
+
+  </div>
+
 <?php
 }
 add_shortcode('add-cr-contact', 'add_cr_contact_via_shortcode');
